@@ -176,3 +176,132 @@ Para la primera entrega (AV1) se trabajÃ³ en la estructura inicial del informe
       * [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       * [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 
+# Student Outcome
+ABET â€“ EAC - Student Outcome 5
+
+La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboraciÃ³n e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos. 
+
+<table>
+    <tr>
+        <th>CRITERIO ESPECIFICO</th>
+        <th>ACCIONES REALIZADAS</th>
+        <th>CONCLUSIONES</th>
+    </tr>
+    <tr>
+        <th> Trabaja en equipo para
+             proporcionar liderazgo en
+             forma conjunta</th>
+        <td>
+         <b>AarÃ³n Avila: AV1</b><br>
+        Durante el desarrollo del proyecto, trabajÃ© de manera autÃ³noma asumiendo un rol activo en la organizaciÃ³n de las actividades y la gestiÃ³n del proyecto, ejerciendo liderazgo en la planificaciÃ³n y ejecuciÃ³n de cada etapa. ParticipÃ© en la toma de decisiones relacionadas con la definiciÃ³n de la startup, la identificaciÃ³n de la problemÃ¡tica, la segmentaciÃ³n de usuarios y la elaboraciÃ³n de artefactos como User Personas, Empathy Maps, As-Is Scenario Mapping y Ubiquitous Language, demostrando capacidad para dirigir el proyecto de manera integral.<br><br>
+         <b>Eslander Celis: AV1</b><br>
+         Durante el desarrollo del proyecto, trabajÃ© en equipo aportando ideas y asumiendo un rol activo en la organizaciÃ³n de las actividades, contribuyendo al liderazgo compartido dentro del grupo. ParticipÃ© en la toma de decisiones relacionadas con la definiciÃ³n de la startup, la problemÃ¡tica, los segmentos objetivos y la estructuraciÃ³n de los User Stories, Product Backlog e Impact Map. AdemÃ¡s, mantuve una comunicaciÃ³n constante con mis compaÃ±eros, apoyando cuando era necesario y asegurando que todos estuviÃ©ramos alineados con los objetivos del proyecto.<br><br>
+         <b>Gabriel Mendoza Palacios: AV1</b><br>
+         Durante el desarrollo del proyecto, asumÃ­ un rol proactivo enfocado en el liderazgo compartido, coordinando la ejecuciÃ³n del anÃ¡lisis de requerimientos. ParticipÃ© activamente en la evaluaciÃ³n del mercado mediante el anÃ¡lisis competitivo, la estructuraciÃ³n de entrevistas y la consolidaciÃ³n del Needfinding de ColdTrack. PromovÃ­ el debate constructivo y el intercambio de ideas con mis compaÃ±eros para asegurar que nuestra propuesta tÃ©cnica estuviera perfectamente alineada con las necesidades logÃ­sticas de los usuarios.<br><br>
+         <b>Rodrigo Oblitas: AV1</b><br>
+         Durante el desarrollo del proyecto, asumÃ­ un rol activo en el trabajo en equipo, participando en la elaboraciÃ³n del Lean UX Process, incluyendo Problem Statement, Assumptions e Hypothesis, asÃ­ como en el desarrollo de la Landing Page. ContribuÃ­ en la toma de decisiones y en la organizaciÃ³n de las tareas, promoviendo la colaboraciÃ³n entre los integrantes y asegurando que el equipo avance de manera alineada hacia los objetivos establecidos.<br><br>
+         <b>Mathias Arechaga: AV1</b><br>
+         Durante el proyecto, participÃ© activamente en el desarrollo de artefactos de diseÃ±o centrados en el usuario, como User Personas, User Journey Mapping y prototipos de la aplicaciÃ³n. ColaborÃ© en la coordinaciÃ³n de tareas relacionadas con el diseÃ±o y la experiencia de usuario, aportando ideas y apoyando al equipo para mantener una organizaciÃ³n eficiente y un liderazgo compartido en el desarrollo del proyecto.<br>
+        </td>
+        <td>
+          <b>AV1</b><br>
+          El equipo logrÃ³ trabajar de manera conjunta, compartiendo responsabilidades y asumiendo un liderazgo distribuido que permitiÃ³ organizar mejor las actividades y tomar decisiones de forma eficiente. La participaciÃ³n activa de todos los integrantes facilitÃ³ la coordinaciÃ³n en el desarrollo de entregables como los User Stories, el Product Backlog y el Impact Map, generando un ambiente de confianza y compromiso. Esto contribuyÃ³ a mantener al equipo alineado y enfocado en los objetivos del proyecto. <br><br>
+        </td>
+    </tr>
+    <tr>
+        <th>Crea un entorno colaborativo e
+            inclusivo, establece metas,
+            planifica tareas y cumple
+            objetivos.</th>
+        <td>
+          <b>AarÃ³n Avila: AV1</b><br>
+         Durante el desarrollo del proyecto, mantuve un enfoque basado en la autoevaluaciÃ³n y la mejora continua, considerando diferentes perspectivas en la toma de decisiones y asegurando la coherencia del trabajo realizado. Esto me permitiÃ³ simular un entorno colaborativo mediante la revisiÃ³n constante de los avances, organizando las tareas de manera eficiente y garantizando el cumplimiento de los objetivos y entregables dentro de los plazos establecidos.<br><br>
+          <b>Eslander Celis: AV1</b><br>
+          ContribuÃ­ a crear un entorno colaborativo e inclusivo al respetar las ideas de cada integrante y fomentar la participaciÃ³n de todos. AyudÃ© a establecer metas claras y a planificar las tareas de manera organizada, distribuyendo responsabilidades de forma equitativa. Me asegurÃ© de cumplir con mis entregables en los tiempos acordados, lo que permitiÃ³ avanzar de manera constante y alcanzar los objetivos planteados como equipo.<br><br>
+         <b>Gabriel Mendoza Palacios: AV1</b><br>
+         FomentÃ© un ambiente de trabajo integrador al mantener una actitud receptiva frente a las propuestas del equipo y comunicarme de manera clara y constante. Me encarguÃ© de estructurar mis responsabilidades con orden, cumpliendo estrictamente con los plazos establecidos para el desarrollo de mis asignaciones. ColaborÃ© activamente en la planificaciÃ³n de nuestras metas a corto plazo, ayudando a resolver bloqueos tÃ©cnicos y asegurando que avanzÃ¡ramos en sintonÃ­a hacia el objetivo final del proyecto.<br><br>
+         <b>Rodrigo Oblitas: AV1</b><br>
+         ContribuÃ­ a mantener un entorno colaborativo al participar activamente en la planificaciÃ³n del Lean UX Process y el desarrollo de la Landing Page. OrganicÃ© mis tareas de manera eficiente, cumpliendo con los plazos establecidos y apoyando en la coordinaciÃ³n del equipo para asegurar el cumplimiento de los objetivos propuestos.<br><br>
+         <b>Mathias Arechaga: AV1</b><br>
+         ApoyÃ© en la creaciÃ³n de un entorno colaborativo mediante el desarrollo organizado de los entregables de diseÃ±o, como wireframes, mock-ups y prototipos. PlanifiquÃ© mis actividades de manera estructurada y cumplÃ­ con los tiempos establecidos, contribuyendo a que el equipo avance de forma constante y alineada con las metas del proyecto.<br>
+        </td>
+        <td>
+          <b>AV1:</b><br>
+          Se consolidÃ³ un entorno colaborativo e inclusivo donde se respetaron las ideas de cada integrante y se promoviÃ³ la participaciÃ³n equitativa. El equipo estableciÃ³ metas claras, planificÃ³ las tareas de manera organizada y cumpliÃ³ con los plazos establecidos, lo que permitiÃ³ avanzar de forma constante. Esta dinÃ¡mica de trabajo favoreciÃ³ la calidad de los resultados y asegurÃ³ el cumplimiento de los objetivos propuestos. <br><br>
+        </td>
+    </tr>
+</table>
+
+# Project: 
+# Capitulo I: Introduccion
+
+## 1.1. Startup Profile
+
+### 1.1.1. Descripcion de la Startup
+
+
+### 1.1.2. Perfiles de integrantes del equipo
+
+
+## 1.2. Solution Profile
+
+
+### 1.2.1. Antecedentes y problematica
+
+
+### 1.2.2. Lean UX Process
+
+
+#### 1.2.2.1. Lean UX Problem Statements
+
+
+
+#### 1.2.2.2. Lean UX Assumptions
+
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+
+
+#### 1.2.2.4. Lean UX Canvas
+
+
+
+## 1.3. Segmentos Objetivo
+
+
+# Capitulo II: Requirements Elicitation & Analysis
+
+## 2.1. Competidores
+
+### 2.1.1. Analisis competitivo
+
+
+### 2.1.2. Estrategias y tÃ¡cticas frente a competidores
+
+
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseno de entrevistas
+
+### 2.2.2. Registro de entrevistas
+
+### 2.2.3. Analisis de entrevistas
+
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+
+### 2.3.2. User Task Matrix
+
+### 2.3.3. User Journey Mapping
+
+
+### 2.3.4. Empathy Mapping
+
+
+## 2.4. Ubiquitous Language
+
+
