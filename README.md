@@ -1,4 +1,4 @@
-﻿<h1 align="center"> UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS </h1>
+<h1 align="center"> UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS </h1>
 
 <h2 align="center"> INGENIERIA DE SOFTWARE</h2>
 <h2 align="center"> CICLO 2026-1</h2>
@@ -10,7 +10,7 @@
 <br>
 <h3 align="center"> Aplicaciones Web </h3>
 <h3 align="center"> 1ASI0730-2610-10215 </h3>
-<h3 align="center"> Profesor del Curso: VelÃ¡squez NÃºÃ±ez, Ãngel Augusto </h3>
+<h3 align="center"> Profesor del Curso: Velásquez Núñez, Ángel Augusto </h3>
 <h3 align="center"> "INFORME DE TRABAJO FINAL"</h3>
 <h3 align="center"> Nombre de Startup: FreshGuard  </h3>
 <h3 align="center"> Nombre del Producto: ColdTrack  </h3>
@@ -22,7 +22,7 @@
 | Eslander Celis Berrospi   | U201911249 |
 | Gabriel Mendoza Palacios  | U202416908 |
 | Rodrigo Oblitas Alcalde   | U20221G185 |
-| AarÃ³n Avila Palacios      | U201823654 |
+| Aarón Avila Palacios      | U201823654 |
 | Mathias Arechaga Saavedra | U202320699 |
 
 
@@ -34,13 +34,13 @@
 <div style="page-break-before: always;"></div>
 
 # Registro de Versiones del Informe
-| VersiÃ³n | Fecha      | Autor(es)                 | DescripciÃ³n                                             |
+| Versión | Fecha      | Autor(es)                 | Descripción                                             |
 |---------|------------|---------------------------|---------------------------------------------------------|
-| 1.1     | 12/04/2026 | Eslander Celis Berrospi   | Desarrollo del capÃ­tulo I: IntroducciÃ³n                 |
-| 1.2     | 30/04/2026 | Gabriel Mendoza Palacios  | Desarrollo del capÃ­tulo II: Requirements Elicitation & Analysis   |
-| 1.3     | 18/04/2026 | Eslander Celis Berrospi   | Desarrollo del capÃ­tulo III: Requirements specification |
-| 1.4     | 19/04/2026 | Rodrigo Oblitas Alcalde   | Desarrollo del capÃ­tulo VI: Landing Page                |
-| 1.5     | 19/04/2026 | AarÃ³n Avila Palacios      | Desarrollo del capÃ­tulo V                               |
+| 1.1     | 12/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo I: Introducción                 |
+| 1.2     | 30/04/2026 | Gabriel Mendoza Palacios  | Desarrollo del capítulo II: Requirements Elicitation & Analysis   |
+| 1.3     | 18/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo III: Requirements specification |
+| 1.4     | 19/04/2026 | Rodrigo Oblitas Alcalde   | Desarrollo del capítulo VI: Landing Page                |
+| 1.5     | 19/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V                               |
 | 1.6     | 21/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capitulo IV: Wireframes                  |
 
 
@@ -48,15 +48,15 @@
 # Project Report Collaboration Insights
 
 #### Repositorio del informe del proyecto
-El informe del proyecto se encuentra alojado en el siguiente repositorio de la organizaciÃ³n de GitHub del equipo:
+El informe del proyecto se encuentra alojado en el siguiente repositorio de la organización de GitHub del equipo:
 
-- ðŸ”— Enlace de la organizaciÃ³n: https://github.com/1ASI0730-2610-10215
-- ðŸ”— Enlace de repositorios: https://github.com/orgs/1ASI0730-2610-10215/repositories
+- 🔗 Enlace de la organización: https://github.com/1ASI0730-2610-10215
+- 🔗 Enlace de repositorios: https://github.com/orgs/1ASI0730-2610-10215/repositories
 
-A continuaciÃ³n, se detallan las actividades realizadas en cada entrega, la participaciÃ³n de los miembros del equipo, y las evidencias correspondientes.
+A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
 
 ## AV1
-Para la primera entrega (AV1) se trabajÃ³ en la estructura inicial del informe, definiendo el Ã­ndice y distribuyendo las secciones entre los miembros.
+Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, definiendo el índice y distribuyendo las secciones entre los miembros.
 
 ![reporteTB1.png](./images/reporteTB1.png)
 
@@ -69,7 +69,7 @@ Para la primera entrega (AV1) se trabajÃ³ en la estructura inicial del informe
 
 * [Student Outcome](#student-outcome)
 
-* [Capitulo I: IntroducciÃ³n](#capitulo-i-introducciÃ³n)
+* [Capitulo I: Introducción](#capitulo-i-introducción)
 
   * [1.1. Startup Profile](#11-startup-profile)
 
@@ -177,9 +177,9 @@ Para la primera entrega (AV1) se trabajÃ³ en la estructura inicial del informe
       * [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 
 # Student Outcome
-ABET â€“ EAC - Student Outcome 5
+ABET – EAC - Student Outcome 5
 
-La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboraciÃ³n e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos. 
+La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos. 
 
 <table>
     <tr>
@@ -192,20 +192,20 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
              proporcionar liderazgo en
              forma conjunta</th>
         <td>
-         <b>AarÃ³n Avila: AV1</b><br>
-        Durante el desarrollo del proyecto, trabajÃ© de manera autÃ³noma asumiendo un rol activo en la organizaciÃ³n de las actividades y la gestiÃ³n del proyecto, ejerciendo liderazgo en la planificaciÃ³n y ejecuciÃ³n de cada etapa. ParticipÃ© en la toma de decisiones relacionadas con la definiciÃ³n de la startup, la identificaciÃ³n de la problemÃ¡tica, la segmentaciÃ³n de usuarios y la elaboraciÃ³n de artefactos como User Personas, Empathy Maps, As-Is Scenario Mapping y Ubiquitous Language, demostrando capacidad para dirigir el proyecto de manera integral.<br><br>
+         <b>Aarón Avila: AV1</b><br>
+        Durante el desarrollo del proyecto, trabajé de manera autónoma asumiendo un rol activo en la organización de las actividades y la gestión del proyecto, ejerciendo liderazgo en la planificación y ejecución de cada etapa. Participé en la toma de decisiones relacionadas con la definición de la startup, la identificación de la problemática, la segmentación de usuarios y la elaboración de artefactos como User Personas, Empathy Maps, As-Is Scenario Mapping y Ubiquitous Language, demostrando capacidad para dirigir el proyecto de manera integral.<br><br>
          <b>Eslander Celis: AV1</b><br>
-         Durante el desarrollo del proyecto, trabajÃ© en equipo aportando ideas y asumiendo un rol activo en la organizaciÃ³n de las actividades, contribuyendo al liderazgo compartido dentro del grupo. ParticipÃ© en la toma de decisiones relacionadas con la definiciÃ³n de la startup, la problemÃ¡tica, los segmentos objetivos y la estructuraciÃ³n de los User Stories, Product Backlog e Impact Map. AdemÃ¡s, mantuve una comunicaciÃ³n constante con mis compaÃ±eros, apoyando cuando era necesario y asegurando que todos estuviÃ©ramos alineados con los objetivos del proyecto.<br><br>
+         Durante el desarrollo del proyecto, trabajé en equipo aportando ideas y asumiendo un rol activo en la organización de las actividades, contribuyendo al liderazgo compartido dentro del grupo. Participé en la toma de decisiones relacionadas con la definición de la startup, la problemática, los segmentos objetivos y la estructuración de los User Stories, Product Backlog e Impact Map. Además, mantuve una comunicación constante con mis compañeros, apoyando cuando era necesario y asegurando que todos estuviéramos alineados con los objetivos del proyecto.<br><br>
          <b>Gabriel Mendoza Palacios: AV1</b><br>
-         Durante el desarrollo del proyecto, asumÃ­ un rol proactivo enfocado en el liderazgo compartido, coordinando la ejecuciÃ³n del anÃ¡lisis de requerimientos. ParticipÃ© activamente en la evaluaciÃ³n del mercado mediante el anÃ¡lisis competitivo, la estructuraciÃ³n de entrevistas y la consolidaciÃ³n del Needfinding de ColdTrack. PromovÃ­ el debate constructivo y el intercambio de ideas con mis compaÃ±eros para asegurar que nuestra propuesta tÃ©cnica estuviera perfectamente alineada con las necesidades logÃ­sticas de los usuarios.<br><br>
+         Durante el desarrollo del proyecto, asumí un rol proactivo enfocado en el liderazgo compartido, coordinando la ejecución del análisis de requerimientos. Participé activamente en la evaluación del mercado mediante el análisis competitivo, la estructuración de entrevistas y la consolidación del Needfinding de ColdTrack. Promoví el debate constructivo y el intercambio de ideas con mis compañeros para asegurar que nuestra propuesta técnica estuviera perfectamente alineada con las necesidades logísticas de los usuarios.<br><br>
          <b>Rodrigo Oblitas: AV1</b><br>
-         Durante el desarrollo del proyecto, asumÃ­ un rol activo en el trabajo en equipo, participando en la elaboraciÃ³n del Lean UX Process, incluyendo Problem Statement, Assumptions e Hypothesis, asÃ­ como en el desarrollo de la Landing Page. ContribuÃ­ en la toma de decisiones y en la organizaciÃ³n de las tareas, promoviendo la colaboraciÃ³n entre los integrantes y asegurando que el equipo avance de manera alineada hacia los objetivos establecidos.<br><br>
+         Durante el desarrollo del proyecto, asumí un rol activo en el trabajo en equipo, participando en la elaboración del Lean UX Process, incluyendo Problem Statement, Assumptions e Hypothesis, así como en el desarrollo de la Landing Page. Contribuí en la toma de decisiones y en la organización de las tareas, promoviendo la colaboración entre los integrantes y asegurando que el equipo avance de manera alineada hacia los objetivos establecidos.<br><br>
          <b>Mathias Arechaga: AV1</b><br>
-         Durante el proyecto, participÃ© activamente en el desarrollo de artefactos de diseÃ±o centrados en el usuario, como User Personas, User Journey Mapping y prototipos de la aplicaciÃ³n. ColaborÃ© en la coordinaciÃ³n de tareas relacionadas con el diseÃ±o y la experiencia de usuario, aportando ideas y apoyando al equipo para mantener una organizaciÃ³n eficiente y un liderazgo compartido en el desarrollo del proyecto.<br>
+         Durante el proyecto, participé activamente en el desarrollo de artefactos de diseño centrados en el usuario, como User Personas, User Journey Mapping y prototipos de la aplicación. Colaboré en la coordinación de tareas relacionadas con el diseño y la experiencia de usuario, aportando ideas y apoyando al equipo para mantener una organización eficiente y un liderazgo compartido en el desarrollo del proyecto.<br>
         </td>
         <td>
           <b>AV1</b><br>
-          El equipo logrÃ³ trabajar de manera conjunta, compartiendo responsabilidades y asumiendo un liderazgo distribuido que permitiÃ³ organizar mejor las actividades y tomar decisiones de forma eficiente. La participaciÃ³n activa de todos los integrantes facilitÃ³ la coordinaciÃ³n en el desarrollo de entregables como los User Stories, el Product Backlog y el Impact Map, generando un ambiente de confianza y compromiso. Esto contribuyÃ³ a mantener al equipo alineado y enfocado en los objetivos del proyecto. <br><br>
+          El equipo logró trabajar de manera conjunta, compartiendo responsabilidades y asumiendo un liderazgo distribuido que permitió organizar mejor las actividades y tomar decisiones de forma eficiente. La participación activa de todos los integrantes facilitó la coordinación en el desarrollo de entregables como los User Stories, el Product Backlog y el Impact Map, generando un ambiente de confianza y compromiso. Esto contribuyó a mantener al equipo alineado y enfocado en los objetivos del proyecto. <br><br>
         </td>
     </tr>
     <tr>
@@ -214,20 +214,20 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
             planifica tareas y cumple
             objetivos.</th>
         <td>
-          <b>AarÃ³n Avila: AV1</b><br>
-         Durante el desarrollo del proyecto, mantuve un enfoque basado en la autoevaluaciÃ³n y la mejora continua, considerando diferentes perspectivas en la toma de decisiones y asegurando la coherencia del trabajo realizado. Esto me permitiÃ³ simular un entorno colaborativo mediante la revisiÃ³n constante de los avances, organizando las tareas de manera eficiente y garantizando el cumplimiento de los objetivos y entregables dentro de los plazos establecidos.<br><br>
+          <b>Aarón Avila: AV1</b><br>
+         Durante el desarrollo del proyecto, mantuve un enfoque basado en la autoevaluación y la mejora continua, considerando diferentes perspectivas en la toma de decisiones y asegurando la coherencia del trabajo realizado. Esto me permitió simular un entorno colaborativo mediante la revisión constante de los avances, organizando las tareas de manera eficiente y garantizando el cumplimiento de los objetivos y entregables dentro de los plazos establecidos.<br><br>
           <b>Eslander Celis: AV1</b><br>
-          ContribuÃ­ a crear un entorno colaborativo e inclusivo al respetar las ideas de cada integrante y fomentar la participaciÃ³n de todos. AyudÃ© a establecer metas claras y a planificar las tareas de manera organizada, distribuyendo responsabilidades de forma equitativa. Me asegurÃ© de cumplir con mis entregables en los tiempos acordados, lo que permitiÃ³ avanzar de manera constante y alcanzar los objetivos planteados como equipo.<br><br>
+          Contribuí a crear un entorno colaborativo e inclusivo al respetar las ideas de cada integrante y fomentar la participación de todos. Ayudé a establecer metas claras y a planificar las tareas de manera organizada, distribuyendo responsabilidades de forma equitativa. Me aseguré de cumplir con mis entregables en los tiempos acordados, lo que permitió avanzar de manera constante y alcanzar los objetivos planteados como equipo.<br><br>
          <b>Gabriel Mendoza Palacios: AV1</b><br>
-         FomentÃ© un ambiente de trabajo integrador al mantener una actitud receptiva frente a las propuestas del equipo y comunicarme de manera clara y constante. Me encarguÃ© de estructurar mis responsabilidades con orden, cumpliendo estrictamente con los plazos establecidos para el desarrollo de mis asignaciones. ColaborÃ© activamente en la planificaciÃ³n de nuestras metas a corto plazo, ayudando a resolver bloqueos tÃ©cnicos y asegurando que avanzÃ¡ramos en sintonÃ­a hacia el objetivo final del proyecto.<br><br>
+         Fomenté un ambiente de trabajo integrador al mantener una actitud receptiva frente a las propuestas del equipo y comunicarme de manera clara y constante. Me encargué de estructurar mis responsabilidades con orden, cumpliendo estrictamente con los plazos establecidos para el desarrollo de mis asignaciones. Colaboré activamente en la planificación de nuestras metas a corto plazo, ayudando a resolver bloqueos técnicos y asegurando que avanzáramos en sintonía hacia el objetivo final del proyecto.<br><br>
          <b>Rodrigo Oblitas: AV1</b><br>
-         ContribuÃ­ a mantener un entorno colaborativo al participar activamente en la planificaciÃ³n del Lean UX Process y el desarrollo de la Landing Page. OrganicÃ© mis tareas de manera eficiente, cumpliendo con los plazos establecidos y apoyando en la coordinaciÃ³n del equipo para asegurar el cumplimiento de los objetivos propuestos.<br><br>
+         Contribuí a mantener un entorno colaborativo al participar activamente en la planificación del Lean UX Process y el desarrollo de la Landing Page. Organicé mis tareas de manera eficiente, cumpliendo con los plazos establecidos y apoyando en la coordinación del equipo para asegurar el cumplimiento de los objetivos propuestos.<br><br>
          <b>Mathias Arechaga: AV1</b><br>
-         ApoyÃ© en la creaciÃ³n de un entorno colaborativo mediante el desarrollo organizado de los entregables de diseÃ±o, como wireframes, mock-ups y prototipos. PlanifiquÃ© mis actividades de manera estructurada y cumplÃ­ con los tiempos establecidos, contribuyendo a que el equipo avance de forma constante y alineada con las metas del proyecto.<br>
+         Apoyé en la creación de un entorno colaborativo mediante el desarrollo organizado de los entregables de diseño, como wireframes, mock-ups y prototipos. Planifiqué mis actividades de manera estructurada y cumplí con los tiempos establecidos, contribuyendo a que el equipo avance de forma constante y alineada con las metas del proyecto.<br>
         </td>
         <td>
           <b>AV1:</b><br>
-          Se consolidÃ³ un entorno colaborativo e inclusivo donde se respetaron las ideas de cada integrante y se promoviÃ³ la participaciÃ³n equitativa. El equipo estableciÃ³ metas claras, planificÃ³ las tareas de manera organizada y cumpliÃ³ con los plazos establecidos, lo que permitiÃ³ avanzar de forma constante. Esta dinÃ¡mica de trabajo favoreciÃ³ la calidad de los resultados y asegurÃ³ el cumplimiento de los objetivos propuestos. <br><br>
+          Se consolidó un entorno colaborativo e inclusivo donde se respetaron las ideas de cada integrante y se promovió la participación equitativa. El equipo estableció metas claras, planificó las tareas de manera organizada y cumplió con los plazos establecidos, lo que permitió avanzar de forma constante. Esta dinámica de trabajo favoreció la calidad de los resultados y aseguró el cumplimiento de los objetivos propuestos. <br><br>
         </td>
     </tr>
 </table>
@@ -277,7 +277,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
 ### 2.1.1. Analisis competitivo
 
 
-### 2.1.2. Estrategias y tÃ¡cticas frente a competidores
+### 2.1.2. Estrategias y tácticas frente a competidores
 
 
 
@@ -318,7 +318,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
 
 
 
-# CapÃ­tulo IV: Product Design
+# Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
 
@@ -410,4 +410,48 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
 
 ### 4.8.1. Database Diagram
 
+
+# Capitulo V: Product Implementation, Validation & Deployment
+
+## 5.1. Software Configuration Management
+
+
+### 5.1.1. Software Development Environment Configuration.
+
+
+### 5.1.2. Source Code Management
+
+  
+### 5.1.3. Source Code Style Guide & Conventions
+
+      
+### 5.1.4. Software Deployment Configuration
+
+   
+## 5.2. Landing Page, Services & Applications Implementation 
+
+
+### 5.2.1. Sprint 1
+
+
+#### 5.2.1.1. Sprint Planning 1
+
+#### 5.2.1.2. Aspect Leaders and Collaborators
+
+#### 5.2.1.3. Sprint Backlog 1
+
+#### 5.2.1.4. Development Evidence for Sprint Review
+
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
