@@ -238,15 +238,168 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripcion de la Startup
+FreshGuard Technologies es una startup tecnológica enfocada en optimizar la calidad de los alimentos durante su transporte mediante el uso de tecnología de monitoreo en tiempo real. Su producto principal, ColdTrack, es una aplicación que se integra con sensores de temperatura y humedad instalados en las unidades de transporte, permitiendo a las empresas supervisar las condiciones de los productos desde los centros de distribución hasta su destino final. A través de esta solución, los usuarios pueden visualizar datos en tiempo real, recibir alertas ante variaciones críticas y acceder a un registro histórico de cada envío. De esta manera, FreshGuard Technologies busca reducir pérdidas, mejorar la eficiencia logística y garantizar que los alimentos lleguen en condiciones óptimas al consumidor.
 
+- **Nombre de la startup:** FreshGuard Technologies
+
+- **Producto:** ColdTrack
+
+- **Misión:**
+Nuestra misión es garantizar la calidad y seguridad de los alimentos durante su transporte mediante el uso de tecnología de monitoreo en tiempo real, permitiendo a las empresas tomar decisiones rápidas y efectivas para evitar pérdidas y asegurar condiciones óptimas.
+
+- **Visión:**
+Nuestra visión es convertirnos en la solución líder en monitoreo de condiciones de transporte de alimentos en Perú y Latinoamérica, destacando por nuestra innovación, confiabilidad y aporte a la seguridad alimentaria.
+
+- **Valores:**
+Responsabilidad, innovación y confiabilidad.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+   <td style="text-align: center" align="center">
+        <p align="center">
+         Eslander Celis Berrospi - U201911249 
+         <br>
+         <img src="images/foto_Eslander.jpg" alt="Foto Eslander" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+         Soy Eslander, estudiante de Ingeniería de Software. Me considero una persona responsable y comprometida con mis objetivos, con una gran disposición para aprender y mejorar de manera continua. Valoro mucho la ética y el trabajo en equipo, aportando siempre ideas y soluciones para alcanzar resultados de calidad. Me esfuerzo por mantener un enfoque ordenado en mis tareas y contribuir activamente al desarrollo colectivo. Tengo conocimientos en Python, C++ y HTML, lo que me permite desarrollar soluciones tecnológicas y fortalecer mis habilidades en programación. Estoy motivado a seguir aprendiendo y asumir nuevos retos que me ayuden a crecer tanto profesional como personalmente.
+        </td>
+       
+  </tr>
+  <tr>
+    <td style="text-align: center" align="center">
+        <p align="center">
+        Gabriel Mendoza Palacios - U202416908
+         <br>
+         <img src="images/foto_Gabriel.png" alt="Foto Gabriel" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+         Soy estudiante de Ingeniería de Software con interes en seguir desarrollando mis habilidades de manera constante. Suelo trabajar de forma ordenada y cumplir con mis responsabilidades, aportando en entornos colaborativos. Tengo conocimientos en C++ y Python, que utilizo para resolver problemas y entender mejor el desarrollo de software. Busco seguir aprendiendo a través de nuevos retos y experiencias que me permitan crecer tanto a nivel académico como profesional.
+        </td>
+       
+  </tr>
+  <tr>
+    <td style="text-align: center" align="center">
+        <p align="center">
+        Rodrigo Oblitas Alcalde - U20221G185
+         <br>
+         <img src="images/foto_Rodrigo.png" alt="Foto Rodrigo" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+         Soy Rodrigo Oblitas, estudiante de Ingeniería de Software en el 6to ciclo. Soy una persona apasionada por la programación y el desarrollo de soluciones tecnológicas innovadoras. Me destaco por mi capacidad para trabajar en equipo, donde contribuyo con mis ideas y habilidades para lograr objetivos comunes de manera eficiente. Además de mi dedicación académica, soy una persona disciplinada que disfruta del entrenamiento físico como parte de mi estilo de vida, lo que refleja mi compromiso con la excelencia en todas las áreas. Tengo conocimientos en programación y busco constantemente mejorar mis habilidades técnicas para enfrentar nuevos desafíos en el desarrollo de software.
+        </td>
+       
+  </tr>
+  <tr>
+    <td style="text-align: center" align="center">
+        <p align="center">
+        Aarón Avila Palacios - U201823654
+         <br>
+         <img src="images/foto_Aaron.png" alt="Foto Aaron" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+        Soy estudiante de Ingeniería de software y estoy cursando el quinto ciclo de la carrera. Tengo 23 años. Tengo conocimientos en programación orientada a objetos en lenguaje de programación C++, también en diseño de prototipos de aplicaciones, diseño gráfico, diseño e implementación de páginas web. Todas estas habilidades ayudan al desarrollo del proyecto, dado que son de vital importancia en este curso y en nuestra carrera. Soy capaz de desarrollar de manera eficaz cualquier tarea que se me asigne. 
+        </td>
+  
+  <tr>
+    <td style="text-align: center" align="center">
+        <p align="center">
+        Mathias Arechaga Saavedra - U202320699
+         <br>
+         <img src="images/foto_Mathias.jpg" alt="Foto Math" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+        Soy Mathias Arechaga, estudiante de Ingeniería de Software y actualmente cursando el quinto ciclo. Me considero una persona dedicada y orientada a crecer tanto en el ámbito académico como profesional. Me interesa el mundo de la programación porque me permite diseñar soluciones, afrontar retos y adquirir constantemente nuevos conocimientos tecnológicos. Cuento con manejo de HTML y conocimientos básicos de Python, lo que me facilita desarrollar proyectos simples mientras sigo perfeccionando mis competencias.
+        </td>
+  
+</table>
 
 ## 1.2. Solution Profile
+ColdTrack es una plataforma digital diseñada para monitorear en tiempo real las condiciones de temperatura y humedad durante el transporte de alimentos, asegurando que estos se mantengan dentro de los rangos adecuados desde los centros de distribución hasta su destino final. El sistema se integra con sensores instalados en las unidades de transporte, los cuales envían datos constantemente a la aplicación, permitiendo a los usuarios visualizar el estado de cada envío en todo momento.
 
+La plataforma genera alertas automáticas cuando se detectan variaciones que podrían comprometer la calidad del producto, facilitando una rápida toma de decisiones para evitar pérdidas. Además, los usuarios pueden acceder a un historial detallado de cada transporte, lo que permite analizar el desempeño logístico y garantizar un mayor control en la cadena de distribución.
+
+Con una interfaz intuitiva y fácil de usar, ColdTrack no solo mejora la supervisión del transporte de alimentos, sino que también incrementa la eficiencia operativa, reduce riesgos y asegura que los productos lleguen en condiciones óptimas al consumidor final.
 
 ### 1.2.1. Antecedentes y problematica
+
+#### 1. What / ¿QUÉ?
+
+##### ¿Cuál es el problema que se busca resolver?  
+El problema es la falta de control y monitoreo en tiempo real de la temperatura y humedad durante el transporte de alimentos, lo que puede generar deterioro en los productos.
+
+##### ¿Qué producto o servicio se propone?  
+Se propone una aplicación llamada ColdTrack que permite monitorear en tiempo real las condiciones ambientales mediante sensores.
+
+##### ¿Para qué se utiliza esta solución?  
+Se utiliza para garantizar que los alimentos se mantengan en condiciones óptimas durante su traslado.
+
+---
+
+#### 2. When / ¿CUÁNDO?
+
+##### ¿Cuándo ocurre el problema?  
+El problema ocurre durante el transporte de alimentos desde los centros de distribución hasta su destino final.
+
+##### ¿En qué momento del proceso es más crítico?  
+Es más crítico durante trayectos largos o cuando ocurren fallas en los sistemas de refrigeración sin ser detectadas oportunamente.
+
+---
+
+#### 3. Where / ¿DÓNDE?
+
+##### ¿Dónde surge el problema?  
+El problema surge en el proceso logístico de distribución de alimentos, específicamente en las unidades de transporte.
+
+##### ¿Dónde se utilizará la solución?  
+La solución será utilizada en camiones y sistemas de transporte que trasladan alimentos desde centros de distribución.
+
+---
+
+#### 4. Who / ¿QUIÉN?
+
+##### ¿Quiénes están involucrados en la situación?  
+Están involucradas empresas distribuidoras de alimentos, operadores logísticos, conductores y el equipo de desarrollo de la startup.
+
+##### ¿Quiénes son los usuarios del producto?  
+Los usuarios principales son las empresas de distribución, supervisores logísticos y personal encargado del control de calidad.
+
+---
+
+#### 5. Why / ¿POR QUÉ?
+
+##### ¿Por qué ocurre este problema?  
+Ocurre debido a la falta de herramientas tecnológicas que permitan monitorear en tiempo real las condiciones ambientales durante el transporte.
+
+##### ¿Por qué es importante resolverlo?  
+Porque impacta directamente en la calidad de los alimentos, genera pérdidas económicas y puede afectar la salud de los consumidores.
+
+---
+
+#### 6. How / ¿CÓMO?
+
+##### ¿Cómo se llevará a cabo la solución?  
+Se implementará una aplicación conectada a sensores que registran temperatura y humedad en tiempo real.
+
+##### ¿Cómo funcionará en la práctica?  
+Los sensores enviarán datos constantemente a la app, la cual permitirá visualizar condiciones, generar alertas y almacenar un historial de cada transporte.
+
+---
+
+#### 7. How Much / ¿CUÁNTO?
+
+##### ¿Cuánto impacta el problema?  
+El problema puede generar pérdidas frecuentes de productos debido a condiciones inadecuadas durante el transporte.
+
+##### ¿Cuánto costará implementar la solución?  
+Para el prototipo, el costo será bajo, pero en una implementación real implicará inversión en sensores, infraestructura tecnológica y mantenimiento.
 
 
 ### 1.2.2. Lean UX Process
