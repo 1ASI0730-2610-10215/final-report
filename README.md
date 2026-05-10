@@ -985,6 +985,9 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | TS-011 | Formulario contacto | Como developer, quiero guardar mensajes. | - Escenario 1: Guardado correcto<br>Dado que se envían datos válidos<br>Cuando se procesa la solicitud<br>Entonces se almacenan correctamente<br><br>- Escenario 2: Error<br>Dado que los datos son inválidos<br>Cuando se procesa<br>Entonces se rechaza | EP-006 |
 | TS-012 | Testimonios API | Como developer, quiero listar testimonios. | - Escenario 1: Datos disponibles<br>Dado que existen testimonios<br>Cuando se consulta la API<br>Entonces retorna la lista<br><br>- Escenario 2: Sin datos<br>Dado que no existen registros<br>Cuando se consulta<br>Entonces retorna lista vacía | EP-006 |
 
+<p align="center">
+  <img src="images/Landing_wireframe2.jpg" alt="Wireframe de la Landing Page de ColdTrack" width="85%"/>
+</p>
 
 
 
@@ -1128,33 +1131,86 @@ El sistema de etiquetado utiliza términos claros para evitar ambigüedades oper
 
 ### 4.3.1. Landing Page Wireframe
 
+<p align="center">
+  <img src="images/Landing_wireframe.jpg" alt="Wireframe de la Landing Page de ColdTrack" width="85%"/>
+</p>
 
 
+<p align="center">
+  <img src="images/Landing_wireframe3.jpg" alt="Wireframe de la Landing Page de ColdTrack" width="85%"/>
+</p>
 
 ### 4.3.2. Landing Page Mock-up
 
+**Sección Hero y Detalles del Dashboard:**
+Visualización principal de la propuesta de valor y estados de monitoreo activos.
 
+<p align="center">
+  <img src="images/Landing_mockup.jpg" alt="Hero Section ColdTrack" width="85%"/>
+</p>
+
+**Características y Funcionamiento:**
+Explicación de las capacidades técnicas y el flujo de implementación del sistema.
+
+<p align="center">
+  <img src="images/Landing_mockup2.jpg" alt="Características ColdTrack" width="85%"/>
+</p>
+
+**Beneficios y Footer:**
+Sección de impacto operativo y enlaces de navegación secundaria.
+
+<p align="center">
+  <img src="images/Landing_mockup3.jpg" alt="Beneficios ColdTrack" width="85%"/>
+</p>
+
+<p align="center">
+  <img src="images/Landing_mockup4.jpg" alt="Beneficios ColdTrack" width="85%"/>
+</p>
 
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
 
+<p align="center">
+  <img src="images/web_app_wireframes.jpg" alt="web-app-diag" width="85%"/>
+</p>
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-
+<p align="center">
+  <img src="images/web_wireflow_diag.jpg" alt="web-diag" width="85%"/>
+</p>
 
 ### 4.4.3. Web Applications Mock-ups
 
-
+<p align="center">
+  <img src="images/web_app_mockups.jpg" alt="web-app-mock" width="85%"/>
+</p>
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
+<p align="center">
+  <img src="images/user_goal1.jpg" alt="user-flow" width="85%"/>
+</p>
+
+<p align="center">
+  <img src="images/user_goal2.jpg" alt="user-flow" width="85%"/>
+</p>
+
+<p align="center">
+  <img src="images/user_goal3.jpg" alt="user-flow" width="85%"/>
+</p>
 
 ## 4.5. Web Applications Prototyping
 
+<p align="center">
+  <img src="images/prototype_ss.jpg" alt="prototype-ss" width="85%"/>
+</p>
+
+#### Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320699_upc_edu_pe/IQACBR9pDoCKSIpvd7NcFc3CAcul48K88RqMf49wIC2AbMA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ji22ya
 
 ## 4.6. Domain-Driven Software Architecture
+
 
 
 ### 4.6.1. Design-Level Event Storming
