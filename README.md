@@ -926,24 +926,142 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 
 ## 5.1. Software Configuration Management
 
+A continuación, se describe el proceso por el cual organizamos, gestionamos y controlamos los cambios de desarrollo de ColdTrack.
 
 ### 5.1.1. Software Development Environment Configuration.
 
+En esta sección se describen las herramientas utilizadas durante el desarrollo de la landing page de ColdTrack, producto digital de la startup FreshGuard Technologies. El objetivo de esta solución fue presentar de forma clara la propuesta de valor del sistema, mostrar sus principales funcionalidades y ofrecer una experiencia visual moderna, accesible y responsiva.
+
+Las herramientas empleadas en el proyecto se clasifican en el siguiente orden:
+
+- Product UX/UI Design
+- Software Development
+- Software Deployment
+
+**Product UX/UI Design**
+
+- Figma: utilizado como referencia visual para definir la estructura, distribución de secciones y estilo general de la landing page.
+
+**Software Development**
+
+- Visual Studio Code: editor de código utilizado para implementar el proyecto.
+- Git: sistema de control de versiones empleado para registrar y organizar los cambios.
+- GitHub: plataforma utilizada para alojar el repositorio remoto del proyecto.
+- HTML5: lenguaje de marcado usado para estructurar el contenido de la página.
+- CSS3: lenguaje de estilos utilizado para el diseño visual, la responsividad y las animaciones.
+- JavaScript: lenguaje usado para añadir interactividad en la navegación y animaciones visuales.
+- Navegador web moderno: entorno de validación para revisar visualización, comportamiento e interacción.
+
+**Software Deployment**
+
+- GitHub Pages: servicio de despliegue utilizado para publicar la landing page como sitio estático.
 
 ### 5.1.2. Source Code Management
 
+Para la gestión del código fuente se utilizó GitHub como plataforma central de versionamiento y almacenamiento del proyecto. El repositorio principal identificado para la landing page es el siguiente:
+
+Repositorio de la Landing Page: https://github.com/1ASI0730-2610-10215/Landing-Page
+
+El proyecto fue desarrollado mediante una estrategia de trabajo basada en ramas, permitiendo separar mejoras funcionales, optimizaciones visuales y correcciones específicas antes de su integración a la rama principal.
+
+**Modelo de ramificación**
+
+La estructura de ramas encontrada en el repositorio es la siguiente:
+
+- main: rama principal del proyecto, donde se consolida la versión estable.
+- features/dashboard-improvements: rama orientada a mejorar la apariencia y comportamiento del dashboard preview mostrado en la hero section.
+- features/seo-enhancements: rama dedicada a la incorporación de mejoras SEO y etiquetas Open Graph.
+- bugfix/accessibility-improvements: rama destinada a correcciones de accesibilidad, incluyendo estilos de foco y atributos ARIA.
+
+Este enfoque permitió mantener el desarrollo organizado y evidenciar una evolución progresiva del producto.
+
+**Estilo de commits**
+
+El historial del repositorio muestra el uso de mensajes de commit consistentes, alineados con una convención tipo Conventional Commits. Algunos ejemplos reales del proyecto son:
+
+- feat: initial project setup
+- feat: add hero section with title and CTA
+- feat: add responsive CSS styles
+- feat: add JavaScript interactivity
+- fix: improve mobile responsiveness and add mobile-specific styles
+- fix: add ARIA labels for accessibility
+
+Los prefijos observados se interpretan de la siguiente forma:
+
+- feat: incorporación de una nueva funcionalidad o mejora visible.
+- fix: corrección de errores o ajustes sobre funcionalidades existentes.
   
 ### 5.1.3. Source Code Style Guide & Conventions
 
+Para garantizar coherencia, mantenibilidad y escalabilidad del código, se establecen las siguientes normas de estilo:
+
+**HTML**
+
+- El archivo principal del proyecto es index.html.
+- Se utilizan etiquetas semánticas como header, nav, section y footer.
+- Las secciones de la página están organizadas de forma clara: encabezado, hero, características, cómo funciona, beneficios, CTA y footer.
+- Se añadieron metadatos como description, keywords, author y propiedades Open Graph.
+- Se incorporaron atributos de accesibilidad en elementos clave del documento.
+
+**CSS**
+
+- Los estilos están centralizados en el archivo css/styles.css.
+- Se emplean variables CSS en :root para colores, espaciados y transiciones.
+- Las clases siguen nombres semánticos con palabras separadas por guiones, por ejemplo: header-content, nav-menu, feature-card, shipment-card.
+- Se incluyen estilos responsivos para escritorio, tableta y móvil.
+- Se aplican efectos visuales como transiciones, hover states, sombras y focus styles.
+
+**JavaScript**
+
+- La lógica de interacción se implementa en js/script.js.
+- Se usa DOMContentLoaded para iniciar la carga de eventos una vez disponible el DOM.
+- Se utilizan nombres descriptivos en camelCase como navLinks, featureCards, shipmentCards y observerOptions.
+- La funcionalidad incluye smooth scrolling, animaciones de entrada y actualización visual del dashboard preview.
+
+**Vue.js**
+
+Reglas clave:
+
+- Nombres de componentes: PascalCase, por ejemplo, UserProfile.vue.
+- Props: definir tipos y valores por defecto.
       
 ### 5.1.4. Software Deployment Configuration
 
+La estrategia de despliegue adoptada para ColdTrack corresponde a la publicación de una landing page estática mediante GitHub Pages. Esta decisión fue adecuada debido a que el proyecto está compuesto únicamente por archivos HTML, CSS y JavaScript, sin dependencias de servidor, base de datos o procesamiento backend.
+
+**Despliegue de la Landing Page en GitHub Pages**
+
+GitHub Pages fue seleccionado como mecanismo de publicación por su integración directa con el repositorio, facilidad de configuración y compatibilidad con sitios estáticos. Esto permite que la landing page pueda ser publicada desde la rama principal del proyecto y visualizada mediante una URL pública.
+
+**Consideraciones previas al despliegue**
+
+Antes del despliegue, se consideraron los siguientes aspectos:
+
+- mantener una estructura de archivos estática y ordenada,
+- asegurar rutas relativas correctas entre HTML, CSS y JavaScript,
+- conservar en main la versión estable del proyecto,
+- validar el comportamiento responsivo y la correcta carga visual de la página.
+
+**Pasos de despliegue**
+
+1. Crear o actualizar el repositorio remoto en GitHub.
+2. Subir los archivos principales del proyecto: index.html, css/styles.css y js/script.js.
+3. Ingresar a la configuración del repositorio.
+4. Habilitar GitHub Pages.
+5. Seleccionar la rama main y la carpeta raíz como fuente de publicación.
+6. Esperar la generación de la URL pública del sitio.
+
+Repositorio: https://github.com/1ASI0730-2610-10215/Landing-Page
+
+URL desplegada: https://1asi0730-2610-10215.github.io/Landing-Page
    
 ## 5.2. Landing Page, Services & Applications Implementation 
 
+La presente implementación corresponde al desarrollo de la landing page de ColdTrack, enfocada en comunicar la propuesta de valor del producto: monitoreo en tiempo real para el transporte de alimentos. La solución fue construida como una página estática, moderna y responsiva, diseñada para presentar de forma clara las capacidades del sistema.
 
 ### 5.2.1. Sprint 1
 
+Dado que la evidencia disponible del proyecto se concentra en el repositorio, el historial de commits y la documentación técnica local, esta sección adapta el desarrollo realizado en un único sprint principal orientado a la implementación progresiva de la landing page.
 
 #### 5.2.1.1. Sprint Planning 1
 
