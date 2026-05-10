@@ -835,7 +835,53 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Resumen** | El entrevistado Fernando Perez, un transportista de 50 años que trabaja en la ruta Lima, explica que controla la temperatura de la carga revisando el termómetro y haciendo paradas para verificar su estado. Usa principalmente Google Maps y WhatsApp para su trabajo. Señala que los principales problemas son los cambios bruscos de temperatura, el tráfico y la falta de información inmediata ante fallas.|
 
 ### 2.2.3. Analisis de entrevistas
+## 1. Demografía de los Segmentos
+El proceso de validación se dividió en dos grupos de interés estratégicos para cubrir toda la cadena de suministro:
 
+* **Segmento 1 - Personal de Logística y Operaciones:** Profesionales encargados de la supervisión de calidad, abastecimiento y jefatura de operaciones. Perfiles con experiencia en gestión de flotas y control de estándares sanitarios.
+* **Segmento 2 - Personal de Transporte:** Conductores de carga pesada y refrigerada con experiencia en rutas interprovinciales y locales, responsables directos del manejo de la mercadería en tránsito.
+
+---
+
+## 2. Análisis Estadístico de Problemáticas
+Basado en las respuestas consolidadas de ambos segmentos, se identifican los siguientes indicadores críticos:
+
+| Indicador | Porcentaje de Impacto |
+| :--- | :--- |
+| **Inexistencia de monitoreo en tiempo real** | 100% |
+| **Dependencia de reportes manuales (Excel/WhatsApp)** | 100% |
+| **Pérdida de productos por fallas en cadena de frío** | 60% |
+| **Dificultad de conectividad en rutas críticas** | 40% |
+| **Apertura a la adopción de nuevas tecnologías** | 100% |
+
+---
+
+## 3. Síntesis de Hallazgos
+
+### A. Segmento Logístico: El Punto Ciego Operativo
+* **Visibilidad Limitada:** Existe una brecha de información desde que el camión sale del almacén hasta que llega al destino. La falta de datos en vivo impide una toma de decisiones proactiva.
+* **Riesgo de Error Humano:** El uso de termómetros digitales básicos y registros manuales aumenta la probabilidad de omitir variaciones térmicas críticas.
+* **Necesidad de Automatización:** Se requiere un sistema que centralice alertas para reducir la carga administrativa y el monitoreo constante.
+
+### B. Segmento Transporte: La Carga de Responsabilidad
+* **Inestabilidad Externa:** Factores como el clima y el tráfico afectan la temperatura, y los sistemas actuales de cabina no ofrecen precisión ni alertas preventivas.
+* **Seguridad y Simplicidad:** Los conductores necesitan una herramienta que no genere distracciones. Prefieren indicadores visuales (colores) y auditivos.
+* **Brecha de Comunicación:** Los incidentes suelen reportarse cuando el daño ya es irreversible debido a la falta de un canal directo y automatizado con la central.
+
+---
+
+## 4. Requerimientos de la Solución 
+
+1.  **Tablero de Control Centralizado:** Visualización en tiempo real de temperatura, humedad y ubicación GPS para el personal de oficina.
+2.  **Sistema de Alertas Inteligentes:** Notificaciones automáticas vía App y WhatsApp ante cualquier desviación de los parámetros establecidos.
+3.  **Interfaz de Conductor Simplificada:** Indicadores de estado mediante códigos de colores y alertas sonoras progresivas.
+4.  **Historial y Trazabilidad:** Generación automática de reportes de temperatura para auditorías de calidad y cumplimiento normativo.
+5.  **Sincronización Offline:** Capacidad de almacenar datos localmente durante la pérdida de señal y subirlos automáticamente al recuperar conexión.
+
+---
+
+## 5. Conclusión del Análisis
+Las entrevistas confirman que el mercado actual depende de métodos reactivos. **ColdTrack** se posiciona como una solución necesaria al transformar el monitoreo en un proceso preventivo, reduciendo directamente las pérdidas económicas por mercadería dañada y optimizando la comunicación entre el transporte y la gestión logística.
 
 ## 2.3. Needfinding
 
