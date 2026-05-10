@@ -1065,22 +1065,189 @@ Dado que la evidencia disponible del proyecto se concentra en el repositorio, el
 
 #### 5.2.1.1. Sprint Planning 1
 
+El equipo de desarrollo se reunió virtualmente para definir los objetivos, tareas y entregables del primer sprint, el cual tendrá una duración de una semana. El enfoque principal será el desarrollo y despliegue de la landing page del proyecto en GitHub Pages, asegurando que el producto inicial esté operativo y sirva como base sólida para las siguientes iteracciones.
+
+| Sprint                             | Sprint 1                                                                                                                                                                                     |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                    | Sprint Planning Background                                                                                                                                                                   |
+| Date                               | 2026/04/17                                                                                                                                                                                   |
+| Time                               | 19:28 PM                                                                                                                                                                                     |
+| Location                           | El desarrollo de la reunión se hizo virtualmente por medio de Discord                                                                                                                        |
+| Prepared By                        | Eslander Celis Berrospi                                                                                                                                                                      |
+| Attendees (to planning meeting)    | Eslander Celis Berrospi, Gabriel Mendoza Palacios, Rodrigo Oblitas Alcalde, Aarón Avila Palacios, Mathias Arechaga Saavedra	                                                               |
+| Sprint n – 1 Review Summary        | En este primer sprint se asignaron responsabilidades a cada integrante y se planteó los requerimientos para el desarrollo de la Landing Page.                                                |
+| Sprint n – 1 Retrospective Summary | En esta sección todos los integrantes mencionaron tener aciertos en partes del código y en otras partes poder mejorar sus habilidades realizando la Landing Page                             |
+|                                    |Sprint Goal & User Stories                                                                                                                                                                    |
+| Sprint 1 Goal                      | Desarrollar y desplegar la landing page funcional en Github Pages, garantizando que cumpla con los requisitos básicos de diseño, contenido y accesibilidad para servir como base de proyecto |
+| Sprint 1 Velocity                  | 8                                                                                                                                                                                            |
+| Sum of Story Points                | 8                                                                                                                                                                                            |
+
 #### 5.2.1.2. Aspect Leaders and Collaborators
+
+De acuerdo con la evidencia encontrada en el repositorio y en el `README.md` del proyecto, el desarrollo de esta landing page fue implementado principalmente por **Rodrigo Oblitas Alcalde**.
+
+| Team Member | Referencia | Landing Page |
+|------------|------------|--------------|
+| Rodrigo Oblitas Alcalde | Repositorio `1ASI0730-2610-10215/Landing-Page` | L |
+| Eslander Celis | Colaborador de accesibilidad y soporte documental | C |
+| Mathias Aréchaga | Colaborador en mejoras visuales del dashboard preview | C |
+| Aarón Avila | Colaborador en optimizaciones SEO y metadatos | C |
+| Mariano Vilela | Colaborador en secciones visuales y estilos responsivos | C |
+| Gabriel Mendoza | Colaborador en mejoras visuales complementarias e iconografía | C |
 
 #### 5.2.1.3. Sprint Backlog 1
 
+Tomando como referencia las User Stories definidas en el Product Backlog, las historias trabajadas durante el Sprint 1 para la landing page pueden resumirse de la siguiente manera:
+
+| User Story Id | User Story Title | Task Id | Task Description | Status |
+|---------------|------------------|---------|------------------|--------|
+| US-019 | Ver información de la app (Landing) | T01 | Configurar la estructura inicial del proyecto de landing page. | Done |
+| US-019 | Ver información de la app (Landing) | T02 | Implementar el header con navegación principal e identidad visual del producto. | Done |
+| US-019 | Ver información de la app (Landing) | T03 | Desarrollar la hero section con propuesta de valor y llamada a la acción. | Done |
+| US-023 | Ver funcionalidades del sistema | T04 | Implementar la sección de características principales del sistema. | Done |
+| US-023 | Ver funcionalidades del sistema | T05 | Desarrollar la sección explicativa sobre el funcionamiento de ColdTrack. | Done |
+| US-023 | Ver funcionalidades del sistema | T06 | Implementar la sección de beneficios operativos para los usuarios. | Done |
+| US-021 | Formulario de contacto | T07 | Incorporar el CTA final y el footer con información de contacto. | Done |
+| US-019 | Ver información de la app (Landing) | T08 | Desarrollar estilos responsivos para adaptar la landing page a distintos dispositivos. | Done |
+| US-019 | Ver información de la app (Landing) | T09 | Incorporar animaciones e interacciones mediante JavaScript. | Done |
+| US-023 | Ver funcionalidades del sistema | T10 | Mejorar la vista previa del dashboard para mostrar el valor del monitoreo. | Done |
+| US-019 | Ver información de la app (Landing) | T11 | Agregar meta tags y Open Graph para optimizar la presentación del sitio. | Done |
+| US-019 | Ver información de la app (Landing) | T12 | Realizar ajustes de accesibilidad y navegación por teclado. | Done |
+| US-020 | Ver testimonios | T13 | Incorporar una sección de testimonios para reforzar la confianza en la solución. | Done |
+| US-022 | Ver equipo de desarrollo | T14 | Incorporar una sección para presentar a los integrantes del equipo de desarrollo. | Done |
+
+Link del Trello: https://trello.com/invite/b/69e82f5d88b7df3fa977adbe/ATTId31bae723ab545af9d3a4c721a1b848443078604/sprint-1-freshguard-coldtrack
+
 #### 5.2.1.4. Development Evidence for Sprint Review
 
+El desarrollo del producto se realizó de forma incremental. A continuación, se presentan algunos de los commits más representativos del proceso:
+
+| Repository | Branch | Commit Id | Autor | Commit Message | Fecha |
+|------------|--------|-----------|-------|----------------|-------|
+| Landing-Page | `main` | `5ce9ead` | Rodrigo Oblitas | `feat: initial project setup` | 12/05/2025 |
+| Landing-Page | `main` | `0fd3953` | Rodrigo Oblitas | `feat: add basic HTML structure with header` | 13/05/2025 |
+| Landing-Page | `main` | `b0f9279` | Rodrigo Oblitas | `feat: add hero section with title and CTA` | 13/05/2025 |
+| Landing-Page | `main` | `be25150` | Mariano Vilela | `feat: add features section` | 14/05/2025 |
+| Landing-Page | `main` | `388e262` | Mathias Aréchaga | `feat: add CTA and footer sections` | 14/05/2025 |
+| Landing-Page | `main` | `5a9590e` | Mariano Vilela | `feat: add responsive CSS styles` | 15/05/2025 |
+| Landing-Page | `main` | `a9e7c80` | Eslander Celis | `feat: add JavaScript interactivity` | 15/05/2025 |
+| Landing-Page | `main` | `fea423b` | Gabriel Mendoza | `feat: add icons to feature cards` | 16/05/2025 |
+| Landing-Page | `features/dashboard-improvements` | `d72c4a6` | Mathias Aréchaga | `feat: improve dashboard styling` | 18/05/2025 |
+| Landing-Page | `features/seo-enhancements` | `df123a2` | Aarón Avila | `feat: add SEO meta tags` | 19/05/2025 |
+| Landing-Page | `bugfix/accessibility-improvements` | `0cd942e` | Eslander Celis | `fix: add ARIA labels for accessibility` | 20/05/2025 |
+
+Estas evidencias muestran una evolución progresiva desde la estructura base del sitio hasta una versión más completa, optimizada y accesible.
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
+La implementación final de ColdTrack quedó organizada en una sola página principal compuesta por secciones claramente diferenciadas:
+
+- **Header**: navegación principal con identidad visual del producto.
+  
+  ![Header](./images/header-landing.png)
+  
+- **Hero Section**: presentación de la propuesta de valor y botones de llamada a la acción.
+  
+  ![Hero Section](./images/hero-section-landing.png)
+  
+- **Dashboard Preview**: simulación visual de monitoreo en tiempo real mediante tarjetas de envíos activos.
+
+  ![Dashboard Preview](./images/dashboard-preview-landing.png)
+  
+- **Features Section**: exposición de las capacidades principales del sistema.
+
+  ![Features](./images/features-landing.png)
+  
+- **How It Works Section**: explicación resumida del flujo operativo del producto.
+
+   ![How It](./images/how-it-landing.png)
+  
+- **Benefits Section**: presentación de ventajas operativas para el usuario.
+
+   ![Benefits](./images/benifits-landing.png)
+  
+- **CTA Section**: sección final orientada a reforzar el interés en la solución.
+
+  ![CTA](./images/cta-landing.png)
+  
+- **Footer**: bloque final con navegación complementaria e información general.
+
+  ![Footer](./images/footer-landing.png)
+
+Desde el punto de vista técnico, la implementación se concentra en:
+
+- `index.html` como archivo estructural principal,
+- `css/styles.css` como archivo de estilos,
+- `js/script.js` como archivo de interactividad.
+
+Además, el proyecto incluye una estructura HTML semántica, aproximadamente **595 líneas de CSS** y aproximadamente **97 líneas de JavaScript**, con separación clara entre contenido, presentación y comportamiento.
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+Esta sección no aplica a la presente entrega, ya que el proyecto desarrollado corresponde únicamente a una landing page estática y no incorpora APIs, endpoints ni servicios backend documentados.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+La landing page fue preparada para su publicación mediante **GitHub Pages**, utilizando la rama `main` como base del despliegue.
 
+- Plataforma de despliegue: **GitHub Pages**
+- Rama de publicación: **main**
+- Tipo de aplicación: **sitio web estático**
+- Repositorio fuente: https://github.com/1ASI0730-2610-10215/Landing-Page
+- desplegue de la landing page: https://1asi0730-2610-10215.github.io/Landing-Page/
+
+pasos para el despliegue:
+
+1. **Creación del Repositorio en GitHub:** Iniciamos creando un repositorio dedicado en GitHub para nuestro proyecto de landing page.
+2. **Configuración de la Rama de despliegue:** Aseguramos que la rama principal del repositorio se llamara `gh-pages`, ya que GitHub Pages toma esta rama como base para el despliegue automático.
+3. **Generación del Enlace de GitHub Pages:** Navegamos a la sección "Pages" en la configuración del repositorio en GitHub. Configuramos la fuente de GitHub Pages para que tomara el contenido de la rama `gh-pages`.
+4. **Despliegue Automático:** GitHub Pages automáticamente detectó los cambios en la rama `gh-pages` y desplegó la landing page en la URL proporcionada por GitHub Pages.
+   
+![Despliegue-landing-page](./images/despliegue-landing.png)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+Durante el Sprint 1, el equipo de desarrollo en implementar todas las funcionalidades de la landing page y la realización del documento.
+
+#### Colaboración y Desarrollo de Actividades
+
+1. **Asignación de Tareas**:
+
+![evidencia-trello](./images/evidencia-trello.png)
+
+2. **Evidencia de commits**:
+
+Repositorio:
+
+**Documento**
+
+![commits-documento](./images/commits-documento.png)
+
+**Landing Page**
+
+![commits-sprint-1](./images/commits-sprint-1.png)
+
+3. **Evidencia de Nertwork**:
+
+Repositorio:
+
+**Documento**
+
+![network-documento](./images/network-documento.png)
+
+**Landing Page**
+
+![nerwortk-sprint-1](./images/network-sprint-1.png)
+
+4.**Contributions**
+
+Repositorios:
+
+**Documento**
+
+![contributors-documento](./images/contributors-documento.png)
+
+**Landing Page**
+
+![contribution-sprint-1](./images/contribution-sprint-1.png)
+
 
