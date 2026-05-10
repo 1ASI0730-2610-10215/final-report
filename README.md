@@ -493,7 +493,79 @@ Nuestro servicio esta disenado para ayudar a las empresas distribuidoras de alim
 
 
 ## 1.3. Segmentos Objetivo
+Para ColdTrack, se identifican dos segmentos objetivo principales que utilizan la aplicación para monitorear las condiciones de temperatura y humedad durante el transporte de alimentos.
 
+---
+
+### Segmento Objetivo 1: Personal de Logística y Operaciones
+
+Este segmento está compuesto por los trabajadores encargados de supervisar y gestionar el transporte de alimentos dentro de una empresa.
+
+**Aspectos Demográficos:**
+
+- Edad: 25 a 50 años  
+- Género: Todos los géneros  
+- Nivel educativo: Técnico o universitario  
+- Ocupación: Personal de logística, operaciones o control de calidad  
+
+**Aspectos Geográficos:**
+
+- Ubicación: Perú (principalmente zonas urbanas)  
+- Lugar de uso: Oficinas y centros de distribución  
+
+**Aspectos Psicográficos:**
+
+- Buscan tener control y visibilidad sobre los envíos.  
+- Valoran herramientas que les permitan tomar decisiones rápidas.  
+- Están interesados en mejorar la eficiencia del transporte.  
+
+**Necesidades:**
+
+- Monitorear temperatura y humedad en tiempo real.  
+- Recibir alertas ante fallas.  
+- Tener registro histórico de los envíos.  
+
+**Beneficios clave:**
+
+- Mejor control del proceso logístico.  
+- Reducción de pérdidas de productos.  
+- Mayor eficiencia en la operación.  
+
+---
+
+### Segmento Objetivo 2: Personal de Transporte
+
+Este segmento está compuesto por las personas encargadas de trasladar los alimentos durante las rutas de distribución.
+
+**Aspectos Demográficos:**
+
+- Edad: 25 a 55 años  
+- Género: Todos los géneros  
+- Nivel educativo: Secundaria completa o técnico  
+- Ocupación: Conductores o personal de transporte  
+
+**Aspectos Geográficos:**
+
+- Ubicación: Perú  
+- Lugar de uso: Durante el transporte (en ruta)  
+
+**Aspectos Psicográficos:**
+
+- Se enfocan en cumplir correctamente con la entrega.  
+- Prefieren herramientas simples y fáciles de usar.  
+- Valoran recibir información clara y directa.  
+
+**Necesidades:**
+
+- Recibir alertas sobre cambios en temperatura o humedad.  
+- Saber cuándo actuar ante un problema.  
+- Tener acceso rápido a la información del estado del envío.  
+
+**Beneficios clave:**
+
+- Respuesta rápida ante fallas.  
+- Mayor seguridad en el transporte.  
+- Facilidad de uso durante el trabajo.
 
 # Capitulo II: Requirements Elicitation & Analysis
 
