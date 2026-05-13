@@ -1807,6 +1807,23 @@ Durante el Sprint 2, el equipo se enfocó en el desarrollo del frontend de la ap
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+<p>
+Durante el Sprint 2, los analíticos de colaboración del repositorio ColdTrack-Front evidencian la participación de los integrantes del equipo sobre el código de la aplicación web ColdTrack. A lo largo del sprint se registran commits asociados a la configuración inicial del proyecto con Vue.js, así como a la implementación de los módulos de dashboard, autenticación, registro de envíos, gestión de sensores, alertas e historial. Esta actividad confirma que la construcción de la Web Application (Frontend) se realizó de forma incremental, alineada a los objetivos definidos en el Sprint 2 Goal.
+</p>
+
+<img src="./images/overview-sprint2.png" alt="overview-sprint2">
+
+<p>
+El Network Graph correspondiente al Sprint 2 muestra un uso activo del flujo de trabajo basado en GitFlow, con ramas de características (features como <code>feature/dashboard-module</code>, <code>feature/alerts</code>, <code>feature/sign-in-new-shipment</code>) creadas para la interfaz y componentes, que luego son fusionadas a la rama <code>develop</code> y posteriormente integradas tras el desarrollo. Este patrón de ramas indica que los integrantes coordinaron el trabajo de forma estructurada, alineados con las prácticas definidas para el proyecto (feature branches y consolidación en develop), reforzando la trazabilidad y la calidad del código entregado durante el sprint.
+</p>
+
+<img src="./images/network-sprint2.png" alt="network-graph-sprint2">
+
+<p>
+En conjunto, la evidencia recopilada en el repositorio demuestra que el equipo mantuvo una dinámica de trabajo constante conforme avanzaban las fechas de integración de los distintos módulos de la aplicación. La consolidación exitosa de las vistas y componentes sugiere un alto nivel de organización para preparar la Sprint Review. Estos analíticos y la correcta ejecución del GitFlow confirman que, durante el Sprint 2, los miembros del equipo participaron efectivamente en la implementación de la Web Application (Frontend) según el alcance establecido, cumpliendo con el principio de trabajo colaborativo.
+</p>
 
 
 # Conclusiones
