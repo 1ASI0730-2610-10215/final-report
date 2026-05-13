@@ -1812,4 +1812,200 @@ Repositorios:
 
 ![contribution-sprint-1](./images/contribution-sprint-1.png)
 
+### 5.2.2. Sprint 2
 
+Durante el Sprint 2, el equipo avanzó desde la landing page inicial hacia la integración del ecosistema ColdTrack, incorporando la Web Application desplegada, la conexión con una fake API pública y la actualización de la landing page para redirigir a los usuarios hacia la aplicación operativa. En esta entrega, las evidencias asignadas corresponden a la ejecución funcional de los principales flujos implementados y a la evidencia del despliegue de los productos desarrollados.
+
+#### 5.2.2.1. Sprint Planning 2. 
+El equipo de desarrollo se reunió virtualmente para definir los objetivos, tareas y entregables del segundo sprint, el cual tendrá una duración de una semana. El enfoque principal será el desarrollo del frontend de la aplicación, implementando las interfaces principales, navegación y componentes necesarios para la interacción del usuario con el sistema.
+
+| Sprint                             | Sprint 2                                                                                                                                                                                                |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                    | Sprint Planning Background                                                                                                                                                                              |
+| Date                               | 2026/05/01                                                                                                                                                                                              |
+| Time                               | 19:30 PM                                                                                                                                                                                                |
+| Location                           | El desarrollo de la reunión se hizo virtualmente por medio de Discord                                                                                                                                   |
+| Prepared By                        | Eslander Celis Berrospi                                                                                                                                                                                 |
+| Attendees (to planning meeting)    | Eslander Celis Berrospi, Gabriel Mendoza Palacios, Rodrigo Oblitas Alcalde, Aarón Avila Palacios                                                      |
+| Sprint n – 1 Review Summary        | En el sprint anterior se logró desarrollar y desplegar correctamente la Landing Page en GitHub Pages, cumpliendo con los requisitos básicos establecidos para el proyecto.                             |
+| Sprint n – 1 Retrospective Summary | En esta sección los integrantes identificaron mejoras en la organización del código, distribución de tareas y optimización del tiempo para el desarrollo de las interfaces del sistema.               |
+|                                    | Sprint Goal & User Stories                                                                                                                                                                             |
+| Sprint 2 Goal                      | Desarrollar el frontend funcional de la aplicación, implementando las principales vistas, componentes y navegación necesarias para permitir la interacción inicial de los usuarios con el sistema. |
+| Sprint 2 Velocity                  | 12                                                                                                                                                                                                      |
+| Sum of Story Points                | 12                                                                                                                                                                                                     |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo se enfocó en el desarrollo del frontend de la aplicación ColdTrack, implementando las principales vistas, componentes reutilizables y funcionalidades necesarias para la interacción inicial de los usuarios con el sistema. Asimismo, se trabajó en la organización de rutas, consumo de datos simulados y mejoras visuales orientadas a la experiencia del usuario.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| ColdTrack-Front | `main` | `ba713ca` | `chore: initialize clean Vue project` | Se inicializó el proyecto frontend utilizando Vue y se configuró la estructura base de desarrollo. | 12/05/2026 |
+| ColdTrack-Front | `feature/dashboard-module` | `8ecbb74` | `feat: add fake api and dashboard module` | Se implementó un módulo de dashboard y una API simulada para pruebas iniciales del sistema. | 12/05/2026 |
+| ColdTrack-Front | `feature/sign-in-new-shipment` | `517cd52` | `feat: add sign in and shipment registration views` | Se desarrollaron las vistas de inicio de sesión y registro de envíos para el sistema ColdTrack. | 12/05/2026 |
+| ColdTrack-Front | `feature/sign-up-sensors` | `3ed397f` | `feat: add account creation and sensors module` | Se añadieron funcionalidades de creación de cuentas y gestión de sensores IoT. | 12/05/2026 |
+| ColdTrack-Front | `feature/alerts` | `acd14fd` | `feat: add alerts module` | Se implementó el módulo de alertas para monitorear condiciones críticas de temperatura y humedad. | 12/05/2026 |
+| ColdTrack-Front | `develop/history-module` | `ff63f97` | `feat: add history view, i18n` | Se agregó la vista de historial y soporte de internacionalización para múltiples idiomas. | 13/05/2026 |
+| ColdTrack-Front | `develop` | `8491c05` | `merge: integrate sign-in-new-shipment branch into develop` | Se integró la rama de autenticación y registro de envíos dentro de la rama develop. | 13/05/2026 |
+| ColdTrack-Front | `develop` | `a37a975` | `feat: merge sign-up-sensors branch into develop` | Se realizó la integración del módulo de sensores y creación de cuentas en la rama develop. | 13/05/2026 |
+| ColdTrack-Front | `develop` | `44a026f` | `feat: merge alerts branch into develop` | Se integró el módulo de alertas y monitoreo en tiempo real dentro de develop. | 13/05/2026 |
+| ColdTrack-Front | `develop/history-module` | `6ca885a` | `merge: integrate history i18n shell` | Se integró la configuración de historial e internacionalización en la estructura principal del proyecto. | 13/05/2026 |
+| ColdTrack-Front | `main` | `c6971f6` | `chore: add index.html to the project` | Se añadió el archivo index.html principal para la configuración base de la aplicación frontend. | 13/05/2026 |
+| ColdTrack-Front | `main` | `04d29b7` | `chore: add project root configuration files` | Se agregaron archivos de configuración raíz necesarios para el entorno de desarrollo y compilación. | 13/05/2026 |
+| ColdTrack-Front | `main` | `a5daac9` | `chore: remove vscode settings` | Se eliminaron configuraciones específicas de VSCode para mantener un entorno más limpio y portable. | 13/05/2026 |
+| ColdTrack-Front | `main` | `f8ef8a9` | `chore: configure environment api endpoints` | Se configuraron endpoints de API y variables de entorno para conexión con servicios backend. | 13/05/2026 |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+La ejecución del Sprint 2 se centró en validar que la solución ColdTrack pueda ser utilizada como una aplicación web funcional para la gestión de envíos refrigerados. La aplicación implementada permite iniciar sesión, registrar usuarios, administrar envíos, consultar sensores, revisar alertas y visualizar historial de envíos completados. Además, la landing page fue actualizada para conectar sus call-to-action con la Web Application desplegada en Firebase.
+
+Las principales funcionalidades ejecutadas y validadas durante el Sprint 2 fueron las siguientes:
+
+- **Inicio de sesión**: la aplicación presenta una vista inicial de autenticación y permite ingresar con el usuario de demostración registrado en la fuente de datos. Este flujo restringe el acceso a las vistas internas hasta que exista una sesión activa.
+
+  ![Sprint 2 sign in evidence](./images/sprint-2-sign-in.png)
+
+- **Creación de cuenta**: la aplicación permite registrar nuevos usuarios mediante el formulario de creación de cuenta. Los datos ingresados se envían a la fake API configurada, permitiendo simular el almacenamiento de usuarios.
+
+  ![Sprint 2 sign up evidence](./images/sprint-2-sign-up.png)
+
+- **Dashboard de envíos**: luego de iniciar sesión, el usuario accede al dashboard principal, donde se visualizan métricas de envíos, alertas activas y una tabla con información operativa de los envíos registrados.
+
+  ![Sprint 2 dashboard evidence](./images/sprint-2-dashboard.png)
+
+- **Registro de nuevo envío**: la aplicación permite crear un nuevo envío ingresando destino, conductor asignado, descripción de carga, fecha de salida y llegada estimada. Esta funcionalidad permite alimentar la fuente de datos desde la interfaz web.
+
+  ![Sprint 2 new shipment evidence](./images/sprint-2-new-shipment.png)
+
+- **Gestión de sensores**: se implementó una vista para revisar sensores registrados, su estado de asignación, última lectura, temperatura, humedad y acción disponible. También se incorporó la opción de registrar nuevos sensores.
+
+  ![Sprint 2 sensors evidence](./images/sprint-2-sensors.png)
+
+- **Sistema de alertas**: la aplicación muestra alertas generadas por variaciones críticas o de advertencia, permitiendo filtrar por severidad y estado. Esta vista facilita el monitoreo de incidencias durante el transporte.
+
+  ![Sprint 2 alerts evidence](./images/sprint-2-alerts.png)
+
+- **Historial de envíos**: se incorporó una vista de historial para revisar envíos completados, temperatura promedio, humedad promedio y alertas generadas.
+
+  ![Sprint 2 history evidence](./images/sprint-2-history.png)
+
+- **Internacionalización de interfaz**: se validó el cambio de idioma entre inglés y español mediante el selector `EN | ES`, afectando textos fijos de navegación, formularios, títulos, etiquetas y footer.
+
+  ![Sprint 2 i18n evidence](./images/sprint-2-i18n.png)
+
+- **Integración Landing Page - Web Application**: la landing page fue actualizada para que sus botones de acción redirijan hacia la aplicación web desplegada, manteniendo continuidad entre la presentación comercial del producto y el uso de la plataforma.
+
+  ![Sprint 2 landing app link evidence](./images/sprint-2-landing-app-link.png)
+
+Desde el punto de vista técnico, la Web Application se implementó con JavaScript y Vue 3, utilizando Composition API, Vue Router, Vue I18n, PrimeVue y axios. La aplicación consume recursos desde una fake API expuesta públicamente, lo que permite validar el flujo de lectura y registro de información sin depender todavía de un backend propio.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se completó el despliegue de los principales productos de software del ecosistema ColdTrack: la landing page, la Web Application y la fake API utilizada como fuente de datos para la aplicación. Estos despliegues permiten validar públicamente la navegación entre productos, el consumo de datos y el funcionamiento de los flujos principales.
+
+**Landing Page Deployment**
+
+La landing page se mantiene desplegada mediante **GitHub Pages**, utilizando el repositorio de la organización como fuente del sitio estático. En el Sprint 2 se actualizó para enlazar sus call-to-action con la aplicación web desplegada.
+
+- Repositorio: https://github.com/1ASI0730-2610-10215/Landing-Page
+- URL desplegada: https://1asi0730-2610-10215.github.io/Landing-Page/
+- Rama de despliegue: `main`
+- Plataforma: GitHub Pages
+
+![Sprint 2 landing deployment evidence](./images/sprint-2-landing-deployment.png)
+
+**Web Application Deployment**
+
+La Web Application de ColdTrack fue desplegada mediante **Firebase Hosting**, permitiendo acceso público a la interfaz operativa de la plataforma. La aplicación contiene los módulos de autenticación, dashboard, registro de envíos, sensores, alertas, historial e internacionalización.
+
+- Repositorio: https://github.com/1ASI0730-2610-10215/ColdTrack-Front
+- URL desplegada principal: https://coldtrack-front-web.web.app/
+- URL alternativa: https://coldtrack-front-web.firebaseapp.com/
+- Plataforma: Firebase Hosting
+- Comando de construcción: `npm run build`
+- Carpeta pública de despliegue: `dist`
+- Configuración SPA: redirección de rutas hacia `index.html`
+
+![Sprint 2 Firebase deployment evidence](./images/sprint-2-firebase-deployment.png)
+
+**Fake API Deployment**
+
+Para simular la persistencia y consulta de datos, se configuró una fake API pública en **MockAPI.io**. Esta API funciona como reemplazo desplegado del `db.js` local durante las pruebas de producción, permitiendo consumir recursos como usuarios, envíos, conductores, sensores y alertas desde la Web Application.
+
+- URL base: https://6a0490212afe8349b4b6d716.mockapi.io/api/v1
+- Plataforma: MockAPI.io
+- Recursos esperados:
+  - `/users`
+  - `/shipments`
+  - `/drivers`
+  - `/sensors`
+  - `/alerts`
+
+![Sprint 2 MockAPI resources evidence](./images/sprint-2-mockapi-resources.png)
+
+**Configuración de entorno para despliegue**
+
+La Web Application utiliza variables de entorno para separar la configuración de desarrollo y producción:
+
+- `.env.development`: apunta al entorno local `http://localhost:3000`
+- `.env.production`: apunta al endpoint público de MockAPI.io
+
+De esta forma, el equipo puede ejecutar la aplicación localmente con JSON Server durante el desarrollo y compilarla para producción consumiendo la fake API desplegada.
+
+![Sprint 2 production environment evidence](./images/sprint-2-env-production.png)
+
+**Pasos de despliegue ejecutados**
+
+1. Se integraron los cambios de la aplicación en el repositorio `ColdTrack-Front` siguiendo GitFlow.
+2. Se configuraron variables de entorno para diferenciar desarrollo local y producción.
+3. Se ejecutó el build de producción con `npm run build`.
+4. Se configuró Firebase Hosting usando la carpeta `dist` como salida pública.
+5. Se habilitó el comportamiento de single-page application para redirigir rutas internas hacia `index.html`.
+6. Se desplegó la aplicación en Firebase Hosting.
+7. Se configuraron los recursos necesarios en MockAPI.io para simular el backend.
+8. Se actualizó la landing page para enlazar con la aplicación desplegada.
+9. Se validó el acceso público a la landing page y a la Web Application.
+
+Con estos despliegues, ColdTrack cuenta con una landing page pública, una Web Application accesible en la nube y una fake API disponible para validar los flujos principales desarrollados en el Sprint 2.
+
+# Conclusiones
+
+## Conclusiones y recomendaciones
+
+Como equipo, concluimos que ColdTrack responde a una problemática real dentro de la cadena de frío: la falta de visibilidad oportuna sobre las condiciones de temperatura y humedad durante el transporte de productos sensibles. A partir de los Problem Statements definidos en Lean UX, confirmamos que los usuarios vinculados a logística, control de calidad y transporte necesitan una herramienta centralizada que reduzca la dependencia de controles manuales, permita reaccionar ante incidencias y facilite la trazabilidad de cada envío.
+
+En relación con los assumptions planteados, validamos que los segmentos objetivo valoran especialmente la supervisión en tiempo real, el registro histórico de envíos y las alertas visibles ante condiciones fuera de rango. Si bien inicialmente asumimos que la principal necesidad era solo registrar datos de temperatura, el desarrollo del producto nos permitió observar que el valor percibido aumenta cuando el sistema también organiza conductores, sensores, estados de envío, historial y evidencias operativas en una sola interfaz. Esto refuerza la importancia de diseñar ColdTrack como una plataforma de gestión y no únicamente como un panel de lectura de sensores.
+
+Respecto a los Hypothesis Statements, consideramos que los avances del Sprint 2 respaldan la hipótesis de que una aplicación web con autenticación, dashboard, registro de envíos, gestión de sensores, alertas e historial puede mejorar el control operativo de la cadena de frío. Los criterios de éxito definidos en el proceso Lean UX se contrastaron mediante la implementación y validación funcional de los flujos principales: ingreso a la aplicación, creación de usuarios, consulta de información, registro de nuevos envíos, consumo de datos desde una fake API y despliegue público de la solución. Aunque todavía se requiere una validación más profunda con usuarios reales, la evidencia obtenida demuestra que el producto ya cuenta con una base funcional para futuras iteraciones.
+
+También concluimos que la integración entre landing page, Web Application y fake API fue clave para presentar una experiencia más completa del modelo de negocio digital. La landing page permite comunicar la propuesta de valor, mientras que la aplicación desplegada en Firebase evidencia el funcionamiento operativo de ColdTrack. Además, el uso de MockAPI.io como reemplazo temporal del `db.js` local permitió simular persistencia de datos y preparar el proyecto para una futura integración con servicios backend propios.
+
+Como recomendaciones para los siguientes pasos del roadmap, proponemos priorizar la conexión con sensores reales o simuladores más cercanos al contexto operativo, incorporar roles de usuario con permisos diferenciados, mejorar los reportes exportables para supervisores y ampliar las validaciones con empresas que gestionen productos refrigerados. También recomendamos fortalecer la documentación técnica del backend futuro, definir métricas de éxito medibles sobre reducción de incidencias y ampliar las pruebas de usabilidad para asegurar que la interfaz sea clara tanto para personal administrativo como para conductores o responsables de calidad.
+
+## Video About-The-Team
+
+El video About-The-Team debe presentar al equipo FreshGuard y resumir cómo nos organizamos para desarrollar ColdTrack durante los sprints. En este material se debe explicar brevemente la participación de cada integrante, las responsabilidades asumidas, la forma en que aplicamos GitFlow para coordinar el trabajo, las principales decisiones tomadas durante el desarrollo y las competencias colaborativas fortalecidas durante el proyecto.
+
+- URL del video: pendiente por agregar.
+- Duración total: pendiente por agregar.
+- Captura del video: pendiente por agregar en `images/about-the-team.png`.
+
+# Bibliografía
+
+Axios. (2026). *Axios documentation*. Recuperado el 13 de mayo de 2026, de https://axios-http.com/
+
+Firebase. (2026). *Firebase Hosting documentation*. Recuperado el 13 de mayo de 2026, de https://firebase.google.com/docs/hosting
+
+GitHub Docs. (2026). *GitHub Pages documentation*. Recuperado el 13 de mayo de 2026, de https://docs.github.com/en/pages
+
+Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3rd ed.). O'Reilly Media.
+
+MockAPI. (2026). *MockAPI documentation*. Recuperado el 13 de mayo de 2026, de https://mockapi.io/docs
+
+PrimeTek. (2026). *PrimeVue documentation*. Recuperado el 13 de mayo de 2026, de https://primevue.org/
+
+Vue.js. (2026). *Vue.js documentation*. Recuperado el 13 de mayo de 2026, de https://vuejs.org/
+
+Vue I18n. (2026). *Vue I18n documentation*. Recuperado el 13 de mayo de 2026, de https://vue-i18n.intlify.dev/
+
+Vite. (2026). *Vite documentation*. Recuperado el 13 de mayo de 2026, de https://vite.dev/
