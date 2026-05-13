@@ -192,20 +192,37 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
              proporcionar liderazgo en
              forma conjunta</th>
         <td>
-         <b>Aarón Avila: AV1</b><br>
-        Durante el desarrollo del proyecto, trabajé de manera autónoma asumiendo un rol activo en la organización de las actividades y la gestión del proyecto, ejerciendo liderazgo en la planificación y ejecución de cada etapa. Participé en la toma de decisiones relacionadas con la definición de la startup, la identificación de la problemática, la segmentación de usuarios y la elaboración de artefactos como User Personas, Empathy Maps, As-Is Scenario Mapping y Ubiquitous Language, demostrando capacidad para dirigir el proyecto de manera integral.<br><br>
-         <b>Eslander Celis: AV1</b><br>
-         Durante el desarrollo del proyecto, trabajé en equipo aportando ideas y asumiendo un rol activo en la organización de las actividades, contribuyendo al liderazgo compartido dentro del grupo. Participé en la toma de decisiones relacionadas con la definición de la startup, la problemática, los segmentos objetivos y la estructuración de los User Stories, Product Backlog e Impact Map. Además, mantuve una comunicación constante con mis compañeros, apoyando cuando era necesario y asegurando que todos estuviéramos alineados con los objetivos del proyecto.<br><br>
-         <b>Gabriel Mendoza Palacios: AV1</b><br>
-         Durante el desarrollo del proyecto, asumí un rol proactivo enfocado en el liderazgo compartido, coordinando la ejecución del análisis de requerimientos. Participé activamente en la evaluación del mercado mediante el análisis competitivo, la estructuración de entrevistas y la consolidación del Needfinding de ColdTrack. Promoví el debate constructivo y el intercambio de ideas con mis compañeros para asegurar que nuestra propuesta técnica estuviera perfectamente alineada con las necesidades logísticas de los usuarios.<br><br>
-         <b>Rodrigo Oblitas: AV1</b><br>
-         Durante el desarrollo del proyecto, asumí un rol activo en el trabajo en equipo, participando en la elaboración del Lean UX Process, incluyendo Problem Statement, Assumptions e Hypothesis, así como en el desarrollo de la Landing Page. Contribuí en la toma de decisiones y en la organización de las tareas, promoviendo la colaboración entre los integrantes y asegurando que el equipo avance de manera alineada hacia los objetivos establecidos.<br><br>
-         <b>Mathias Arechaga: AV1</b><br>
-         Durante el proyecto, participé activamente en el desarrollo de artefactos de diseño centrados en el usuario, como User Personas, User Journey Mapping y prototipos de la aplicación. Colaboré en la coordinación de tareas relacionadas con el diseño y la experiencia de usuario, aportando ideas y apoyando al equipo para mantener una organización eficiente y un liderazgo compartido en el desarrollo del proyecto.<br>
+         <b>Aarón Avila</b>
+         <ul>
+           <li><b>AV1:</b> Durante el desarrollo del proyecto, trabajé de manera autónoma asumiendo un rol activo en la organización de las actividades y la gestión del proyecto, ejerciendo liderazgo en la planificación y ejecución de cada etapa. Participé en la toma de decisiones relacionadas con la definición de la startup, la identificación de la problemática, la segmentación de usuarios y la elaboración de artefactos como User Personas, Empathy Maps, As-Is Scenario Mapping y Ubiquitous Language, demostrando capacidad para dirigir el proyecto de manera integral.</li>
+           <li><b>TB1:</b> Durante el Sprint 2 (TB1), ejercí liderazgo en la estructuración técnica del proyecto frontend y la configuración de variables de entorno. Coordiné con el equipo la adopción de Vue.js y apoyé en la toma de decisiones arquitectónicas, asegurando que el desarrollo de los módulos principales estuviera alineado con los requerimientos técnicos y de diseño.</li>
+         </ul>
+         <b>Eslander Celis</b>
+         <ul>
+           <li><b>AV1:</b> Durante el desarrollo del proyecto, trabajé en equipo aportando ideas y asumiendo un rol activo en la organización de las actividades, contribuyendo al liderazgo compartido dentro del grupo. Participé en la toma de decisiones relacionadas con la definición de la startup, la problemática, los segmentos objetivos y la estructuración de los User Stories, Product Backlog e Impact Map. Además, mantuve una comunicación constante con mis compañeros, apoyando cuando era necesario y asegurando que todos estuviéramos alineados con los objetivos del proyecto.</li>
+           <li><b>TB1:</b> En esta fase, asumí un rol activo organizando las tareas de desarrollo frontend. Promoví el liderazgo compartido guiando al equipo en la implementación del entorno de desarrollo y asegurando que las ramas de GitFlow se manejaran adecuadamente para la correcta integración continua de las vistas de la aplicación web.</li>
+         </ul>
+         <b>Gabriel Mendoza Palacios</b>
+         <ul>
+           <li><b>AV1:</b> Durante el desarrollo del proyecto, asumí un rol proactivo enfocado en el liderazgo compartido, coordinando la ejecución del análisis de requerimientos. Participé activamente en la evaluación del mercado mediante el análisis competitivo, la estructuración de entrevistas y la consolidación del Needfinding de ColdTrack. Promoví el debate constructivo y el intercambio de ideas con mis compañeros para asegurar que nuestra propuesta técnica estuviera perfectamente alineada con las necesidades logísticas de los usuarios.</li>
+           <li><b>TB1:</b> Durante el Sprint 2, lideré aspectos clave de la integración del diseño UI en los componentes de Vue.js. Mantuve una actitud proactiva, promoviendo sesiones de revisión de código (Pull Requests) para garantizar la calidad visual y técnica de las vistas antes de su integración a la rama principal.</li>
+         </ul>
+         <b>Rodrigo Oblitas</b>
+         <ul>
+           <li><b>AV1:</b> Durante el desarrollo del proyecto, asumí un rol activo en el trabajo en equipo, participando en la elaboración del Lean UX Process, incluyendo Problem Statement, Assumptions e Hypothesis, así como en el desarrollo de la Landing Page. Contribuí en la toma de decisiones y en la organización de las tareas, promoviendo la colaboración entre los integrantes y asegurando que el equipo avance de manera alineada hacia los objetivos establecidos.</li>
+           <li><b>TB1:</b> Mantuve mi compromiso con el trabajo colaborativo asumiendo el liderazgo en la implementación de la autenticación y la gestión de envíos. Facilité la comunicación entre los miembros del equipo para resolver bloqueos técnicos, asegurando un progreso constante hacia el cumplimiento del Sprint Goal de desarrollo frontend.</li>
+         </ul>
+         <b>Mathias Arechaga</b>
+         <ul>
+           <li><b>AV1:</b> Durante el proyecto, participé activamente en el desarrollo de artefactos de diseño centrados en el usuario, como User Personas, User Journey Mapping y prototipos de la aplicación. Colaboré en la coordinación de tareas relacionadas con el diseño y la experiencia de usuario, aportando ideas y apoyando al equipo para mantener una organización eficiente y un liderazgo compartido en el desarrollo del proyecto.</li>
+           <li><b>TB1:</b> Durante el desarrollo del Sprint 2, aporté liderazgo en el diseño e implementación del dashboard y los componentes interactivos. Coordiné la transformación de nuestros wireframes previos en interfaces funcionales, asegurando que el producto final cumpliera con la experiencia de usuario proyectada.</li>
+         </ul>
         </td>
         <td>
-          <b>AV1</b><br>
-          El equipo logró trabajar de manera conjunta, compartiendo responsabilidades y asumiendo un liderazgo distribuido que permitió organizar mejor las actividades y tomar decisiones de forma eficiente. La participación activa de todos los integrantes facilitó la coordinación en el desarrollo de entregables como los User Stories, el Product Backlog y el Impact Map, generando un ambiente de confianza y compromiso. Esto contribuyó a mantener al equipo alineado y enfocado en los objetivos del proyecto. <br><br>
+          <ul>
+            <li><b>AV1:</b> El equipo logró trabajar de manera conjunta, compartiendo responsabilidades y asumiendo un liderazgo distribuido que permitió organizar mejor las actividades y tomar decisiones de forma eficiente. La participación activa de todos los integrantes facilitó la coordinación en el desarrollo de entregables como los User Stories, el Product Backlog y el Impact Map, generando un ambiente de confianza y compromiso. Esto contribuyó a mantener al equipo alineado y enfocado en los objetivos del proyecto.</li>
+            <li><b>TB1:</b> Durante el Sprint 2, el equipo demostró madurez al aplicar un liderazgo técnico y organizativo conjunto. La implementación de la aplicación en Vue.js exigió una alta coordinación mediante GitFlow, donde cada integrante lideró el desarrollo de módulos específicos (dashboard, alertas, envíos) mientras se apoyaban mutuamente en las revisiones de código, logrando consolidar la Web Application con éxito.</li>
+          </ul>
         </td>
     </tr>
     <tr>
@@ -214,20 +231,37 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
             planifica tareas y cumple
             objetivos.</th>
         <td>
-          <b>Aarón Avila: AV1</b><br>
-         Durante el desarrollo del proyecto, mantuve un enfoque basado en la autoevaluación y la mejora continua, considerando diferentes perspectivas en la toma de decisiones y asegurando la coherencia del trabajo realizado. Esto me permitió simular un entorno colaborativo mediante la revisión constante de los avances, organizando las tareas de manera eficiente y garantizando el cumplimiento de los objetivos y entregables dentro de los plazos establecidos.<br><br>
-          <b>Eslander Celis: AV1</b><br>
-          Contribuí a crear un entorno colaborativo e inclusivo al respetar las ideas de cada integrante y fomentar la participación de todos. Ayudé a establecer metas claras y a planificar las tareas de manera organizada, distribuyendo responsabilidades de forma equitativa. Me aseguré de cumplir con mis entregables en los tiempos acordados, lo que permitió avanzar de manera constante y alcanzar los objetivos planteados como equipo.<br><br>
-         <b>Gabriel Mendoza Palacios: AV1</b><br>
-         Fomenté un ambiente de trabajo integrador al mantener una actitud receptiva frente a las propuestas del equipo y comunicarme de manera clara y constante. Me encargué de estructurar mis responsabilidades con orden, cumpliendo estrictamente con los plazos establecidos para el desarrollo de mis asignaciones. Colaboré activamente en la planificación de nuestras metas a corto plazo, ayudando a resolver bloqueos técnicos y asegurando que avanzáramos en sintonía hacia el objetivo final del proyecto.<br><br>
-         <b>Rodrigo Oblitas: AV1</b><br>
-         Contribuí a mantener un entorno colaborativo al participar activamente en la planificación del Lean UX Process y el desarrollo de la Landing Page. Organicé mis tareas de manera eficiente, cumpliendo con los plazos establecidos y apoyando en la coordinación del equipo para asegurar el cumplimiento de los objetivos propuestos.<br><br>
-         <b>Mathias Arechaga: AV1</b><br>
-         Apoyé en la creación de un entorno colaborativo mediante el desarrollo organizado de los entregables de diseño, como wireframes, mock-ups y prototipos. Planifiqué mis actividades de manera estructurada y cumplí con los tiempos establecidos, contribuyendo a que el equipo avance de forma constante y alineada con las metas del proyecto.<br>
+         <b>Aarón Avila</b>
+         <ul>
+           <li><b>AV1:</b> Durante el desarrollo del proyecto, mantuve un enfoque basado en la autoevaluación y la mejora continua, considerando diferentes perspectivas en la toma de decisiones y asegurando la coherencia del trabajo realizado. Esto me permitió simular un entorno colaborativo mediante la revisión constante de los avances, organizando las tareas de manera eficiente y garantizando el cumplimiento de los objetivos y entregables dentro de los plazos establecidos.</li>
+           <li><b>TB1:</b> Para el Sprint 2, ayudé a establecer metas de desarrollo claras, dividiendo los requerimientos en tareas manejables. Fomenté un entorno inclusivo al apoyar a mis compañeros con dudas sobre el nuevo stack tecnológico (Vue.js, Vite), asegurando que todos cumpliéramos con los entregables dentro de los tiempos estipulados para el despliegue.</li>
+         </ul>
+         <b>Eslander Celis</b>
+         <ul>
+           <li><b>AV1:</b> Contribuí a crear un entorno colaborativo e inclusivo al respetar las ideas de cada integrante y fomentar la participación de todos. Ayudé a establecer metas claras y a planificar las tareas de manera organizada, distribuyendo responsabilidades de forma equitativa. Me aseguré de cumplir con mis entregables en los tiempos acordados, lo que permitió avanzar de manera constante y alcanzar los objetivos planteados como equipo.</li>
+           <li><b>TB1:</b> Contribuí a la planificación ágil del Sprint 2 distribuyendo las historias de usuario de forma equitativa. Mantuve un ambiente colaborativo promoviendo reuniones breves de sincronización para identificar bloqueos a tiempo, lo que garantizó que todos lográramos completar nuestras tareas de programación en los plazos acordados.</li>
+         </ul>
+         <b>Gabriel Mendoza Palacios</b>
+         <ul>
+           <li><b>AV1:</b> Fomenté un ambiente de trabajo integrador al mantener una actitud receptiva frente a las propuestas del equipo y comunicarme de manera clara y constante. Me encargué de estructurar mis responsabilidades con orden, cumpliendo estrictamente con los plazos establecidos para el desarrollo de mis asignaciones. Colaboré activamente en la planificación de nuestras metas a corto plazo, ayudando a resolver bloqueos técnicos y asegurando que avanzáramos en sintonía hacia el objetivo final del proyecto.</li>
+           <li><b>TB1:</b> Durante esta fase, cumplí rigurosamente con mis objetivos de desarrollo de componentes visuales. Planifiqué mis commits y revisiones de forma estructurada, colaborando con los demás para integrar nuestras vistas sin generar conflictos en el repositorio, manteniendo siempre una comunicación respetuosa y resolutiva.</li>
+         </ul>
+         <b>Rodrigo Oblitas</b>
+         <ul>
+           <li><b>AV1:</b> Contribuí a mantener un entorno colaborativo al participar activamente en la planificación del Lean UX Process y el desarrollo de la Landing Page. Organicé mis tareas de manera eficiente, cumpliendo con los plazos establecidos y apoyando en la coordinación del equipo para asegurar el cumplimiento de los objetivos propuestos.</li>
+           <li><b>TB1:</b> Fomenté la colaboración activa asegurándome de que el trabajo en mis ramas de características (features) estuviera bien documentado y organizado. Cumplí con las metas de desarrollo asignadas y mantuve la disposición para ayudar a otros integrantes a conectar sus módulos, garantizando un avance uniforme del equipo.</li>
+         </ul>
+         <b>Mathias Arechaga</b>
+         <ul>
+           <li><b>AV1:</b> Apoyé en la creación de un entorno colaborativo mediante el desarrollo organizado de los entregables de diseño, como wireframes, mock-ups y prototipos. Planifiqué mis actividades de manera estructurada y cumplí con los tiempos establecidos, contribuyendo a que el equipo avance de forma constante y alineada con las metas del proyecto.</li>
+           <li><b>TB1:</b> Apoyé la colaboración del equipo cumpliendo puntualmente con mis tareas en la creación de las vistas interactivas. Al planificar mis actividades de desarrollo frontend en fases claras, logré no solo alcanzar mis metas individuales sino también facilitar el proceso de integración continua con el resto del equipo, fortaleciendo el cumplimiento del Sprint Goal.</li>
+         </ul>
         </td>
         <td>
-          <b>AV1:</b><br>
-          Se consolidó un entorno colaborativo e inclusivo donde se respetaron las ideas de cada integrante y se promovió la participación equitativa. El equipo estableció metas claras, planificó las tareas de manera organizada y cumplió con los plazos establecidos, lo que permitió avanzar de forma constante. Esta dinámica de trabajo favoreció la calidad de los resultados y aseguró el cumplimiento de los objetivos propuestos. <br><br>
+          <ul>
+            <li><b>AV1:</b> Se consolidó un entorno colaborativo e inclusivo donde se respetaron las ideas de cada integrante y se promovió la participación equitativa. El equipo estableció metas claras, planificó las tareas de manera organizada y cumplió con los plazos establecidos, lo que permitió avanzar de forma constante. Esta dinámica de trabajo favoreció la calidad de los resultados y aseguró el cumplimiento de los objetivos propuestos.</li>
+            <li><b>TB1:</b> El equipo logró mantener un entorno altamente colaborativo bajo la presión del desarrollo técnico del Sprint 2. Las metas fueron claramente divididas a través de un tablero de gestión ágil, permitiendo a cada integrante planificar y ejecutar tareas de programación específicas. El cumplimiento estricto de estos objetivos individuales se reflejó en la exitosa integración y despliegue final de la Web Application frontend.</li>
+          </ul>
         </td>
     </tr>
 </table>
