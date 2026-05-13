@@ -42,6 +42,7 @@
 | 1.4     | 19/04/2026 | Rodrigo Oblitas Alcalde   | Desarrollo del capítulo VI: Landing Page                |
 | 1.5     | 19/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V                               |
 | 1.6     | 21/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capitulo IV: Wireframes                  |
+| 2.1     | 13/05/2026 | Aarón Avila Palacios      | Desarrollo de las evidencias de ejecución y despliegue del Sprint 2, actualización del índice e incorporación de capturas del reporte. |
 
 
 
@@ -176,6 +177,24 @@ Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, 
       * [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       * [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 
+    * [5.2.2. Sprint 2](#522-sprint-2)
+
+      * [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      * [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      * [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+      * [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      * [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      * [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      * [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+
+* [Conclusiones](#conclusiones)
+
+  * [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+
+* [Bibliografía](#bibliografía)
+
+* [Anexos](#anexos)
+
 # Student Outcome
 ABET – EAC - Student Outcome 5
 
@@ -192,20 +211,37 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
              proporcionar liderazgo en
              forma conjunta</th>
         <td>
-         <b>Aarón Avila: AV1</b><br>
-        Durante el desarrollo del proyecto, trabajé de manera autónoma asumiendo un rol activo en la organización de las actividades y la gestión del proyecto, ejerciendo liderazgo en la planificación y ejecución de cada etapa. Participé en la toma de decisiones relacionadas con la definición de la startup, la identificación de la problemática, la segmentación de usuarios y la elaboración de artefactos como User Personas, Empathy Maps, As-Is Scenario Mapping y Ubiquitous Language, demostrando capacidad para dirigir el proyecto de manera integral.<br><br>
-         <b>Eslander Celis: AV1</b><br>
-         Durante el desarrollo del proyecto, trabajé en equipo aportando ideas y asumiendo un rol activo en la organización de las actividades, contribuyendo al liderazgo compartido dentro del grupo. Participé en la toma de decisiones relacionadas con la definición de la startup, la problemática, los segmentos objetivos y la estructuración de los User Stories, Product Backlog e Impact Map. Además, mantuve una comunicación constante con mis compañeros, apoyando cuando era necesario y asegurando que todos estuviéramos alineados con los objetivos del proyecto.<br><br>
-         <b>Gabriel Mendoza Palacios: AV1</b><br>
-         Durante el desarrollo del proyecto, asumí un rol proactivo enfocado en el liderazgo compartido, coordinando la ejecución del análisis de requerimientos. Participé activamente en la evaluación del mercado mediante el análisis competitivo, la estructuración de entrevistas y la consolidación del Needfinding de ColdTrack. Promoví el debate constructivo y el intercambio de ideas con mis compañeros para asegurar que nuestra propuesta técnica estuviera perfectamente alineada con las necesidades logísticas de los usuarios.<br><br>
-         <b>Rodrigo Oblitas: AV1</b><br>
-         Durante el desarrollo del proyecto, asumí un rol activo en el trabajo en equipo, participando en la elaboración del Lean UX Process, incluyendo Problem Statement, Assumptions e Hypothesis, así como en el desarrollo de la Landing Page. Contribuí en la toma de decisiones y en la organización de las tareas, promoviendo la colaboración entre los integrantes y asegurando que el equipo avance de manera alineada hacia los objetivos establecidos.<br><br>
-         <b>Mathias Arechaga: AV1</b><br>
-         Durante el proyecto, participé activamente en el desarrollo de artefactos de diseño centrados en el usuario, como User Personas, User Journey Mapping y prototipos de la aplicación. Colaboré en la coordinación de tareas relacionadas con el diseño y la experiencia de usuario, aportando ideas y apoyando al equipo para mantener una organización eficiente y un liderazgo compartido en el desarrollo del proyecto.<br>
+         <b>Aarón Avila</b>
+         <ul>
+           <li><b>AV1:</b> Durante el desarrollo del proyecto, trabajé de manera autónoma asumiendo un rol activo en la organización de las actividades y la gestión del proyecto, ejerciendo liderazgo en la planificación y ejecución de cada etapa. Participé en la toma de decisiones relacionadas con la definición de la startup, la identificación de la problemática, la segmentación de usuarios y la elaboración de artefactos como User Personas, Empathy Maps, As-Is Scenario Mapping y Ubiquitous Language, demostrando capacidad para dirigir el proyecto de manera integral.</li>
+           <li><b>TB1:</b> Durante el Sprint 2 (TB1), ejercí liderazgo en la estructuración técnica del proyecto frontend y la configuración de variables de entorno. Coordiné con el equipo la adopción de Vue.js y apoyé en la toma de decisiones arquitectónicas, asegurando que el desarrollo de los módulos principales estuviera alineado con los requerimientos técnicos y de diseño.</li>
+         </ul>
+         <b>Eslander Celis</b>
+         <ul>
+           <li><b>AV1:</b> Durante el desarrollo del proyecto, trabajé en equipo aportando ideas y asumiendo un rol activo en la organización de las actividades, contribuyendo al liderazgo compartido dentro del grupo. Participé en la toma de decisiones relacionadas con la definición de la startup, la problemática, los segmentos objetivos y la estructuración de los User Stories, Product Backlog e Impact Map. Además, mantuve una comunicación constante con mis compañeros, apoyando cuando era necesario y asegurando que todos estuviéramos alineados con los objetivos del proyecto.</li>
+           <li><b>TB1:</b> En esta fase, asumí un rol activo organizando las tareas de desarrollo frontend. Promoví el liderazgo compartido guiando al equipo en la implementación del entorno de desarrollo y asegurando que las ramas de GitFlow se manejaran adecuadamente para la correcta integración continua de las vistas de la aplicación web.</li>
+         </ul>
+         <b>Gabriel Mendoza Palacios</b>
+         <ul>
+           <li><b>AV1:</b> Durante el desarrollo del proyecto, asumí un rol proactivo enfocado en el liderazgo compartido, coordinando la ejecución del análisis de requerimientos. Participé activamente en la evaluación del mercado mediante el análisis competitivo, la estructuración de entrevistas y la consolidación del Needfinding de ColdTrack. Promoví el debate constructivo y el intercambio de ideas con mis compañeros para asegurar que nuestra propuesta técnica estuviera perfectamente alineada con las necesidades logísticas de los usuarios.</li>
+           <li><b>TB1:</b> Durante el Sprint 2, lideré aspectos clave de la integración del diseño UI en los componentes de Vue.js. Mantuve una actitud proactiva, promoviendo sesiones de revisión de código (Pull Requests) para garantizar la calidad visual y técnica de las vistas antes de su integración a la rama principal.</li>
+         </ul>
+         <b>Rodrigo Oblitas</b>
+         <ul>
+           <li><b>AV1:</b> Durante el desarrollo del proyecto, asumí un rol activo en el trabajo en equipo, participando en la elaboración del Lean UX Process, incluyendo Problem Statement, Assumptions e Hypothesis, así como en el desarrollo de la Landing Page. Contribuí en la toma de decisiones y en la organización de las tareas, promoviendo la colaboración entre los integrantes y asegurando que el equipo avance de manera alineada hacia los objetivos establecidos.</li>
+           <li><b>TB1:</b> Mantuve mi compromiso con el trabajo colaborativo asumiendo el liderazgo en la implementación de la autenticación y la gestión de envíos. Facilité la comunicación entre los miembros del equipo para resolver bloqueos técnicos, asegurando un progreso constante hacia el cumplimiento del Sprint Goal de desarrollo frontend.</li>
+         </ul>
+         <b>Mathias Arechaga</b>
+         <ul>
+           <li><b>AV1:</b> Durante el proyecto, participé activamente en el desarrollo de artefactos de diseño centrados en el usuario, como User Personas, User Journey Mapping y prototipos de la aplicación. Colaboré en la coordinación de tareas relacionadas con el diseño y la experiencia de usuario, aportando ideas y apoyando al equipo para mantener una organización eficiente y un liderazgo compartido en el desarrollo del proyecto.</li>
+           <li><b>TB1:</b> Durante el desarrollo del Sprint 2, aporté liderazgo en el diseño e implementación del dashboard y los componentes interactivos. Coordiné la transformación de nuestros wireframes previos en interfaces funcionales, asegurando que el producto final cumpliera con la experiencia de usuario proyectada.</li>
+         </ul>
         </td>
         <td>
-          <b>AV1</b><br>
-          El equipo logró trabajar de manera conjunta, compartiendo responsabilidades y asumiendo un liderazgo distribuido que permitió organizar mejor las actividades y tomar decisiones de forma eficiente. La participación activa de todos los integrantes facilitó la coordinación en el desarrollo de entregables como los User Stories, el Product Backlog y el Impact Map, generando un ambiente de confianza y compromiso. Esto contribuyó a mantener al equipo alineado y enfocado en los objetivos del proyecto. <br><br>
+          <ul>
+            <li><b>AV1:</b> El equipo logró trabajar de manera conjunta, compartiendo responsabilidades y asumiendo un liderazgo distribuido que permitió organizar mejor las actividades y tomar decisiones de forma eficiente. La participación activa de todos los integrantes facilitó la coordinación en el desarrollo de entregables como los User Stories, el Product Backlog y el Impact Map, generando un ambiente de confianza y compromiso. Esto contribuyó a mantener al equipo alineado y enfocado en los objetivos del proyecto.</li>
+            <li><b>TB1:</b> Durante el Sprint 2, el equipo demostró madurez al aplicar un liderazgo técnico y organizativo conjunto. La implementación de la aplicación en Vue.js exigió una alta coordinación mediante GitFlow, donde cada integrante lideró el desarrollo de módulos específicos (dashboard, alertas, envíos) mientras se apoyaban mutuamente en las revisiones de código, logrando consolidar la Web Application con éxito.</li>
+          </ul>
         </td>
     </tr>
     <tr>
@@ -214,20 +250,37 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
             planifica tareas y cumple
             objetivos.</th>
         <td>
-          <b>Aarón Avila: AV1</b><br>
-         Durante el desarrollo del proyecto, mantuve un enfoque basado en la autoevaluación y la mejora continua, considerando diferentes perspectivas en la toma de decisiones y asegurando la coherencia del trabajo realizado. Esto me permitió simular un entorno colaborativo mediante la revisión constante de los avances, organizando las tareas de manera eficiente y garantizando el cumplimiento de los objetivos y entregables dentro de los plazos establecidos.<br><br>
-          <b>Eslander Celis: AV1</b><br>
-          Contribuí a crear un entorno colaborativo e inclusivo al respetar las ideas de cada integrante y fomentar la participación de todos. Ayudé a establecer metas claras y a planificar las tareas de manera organizada, distribuyendo responsabilidades de forma equitativa. Me aseguré de cumplir con mis entregables en los tiempos acordados, lo que permitió avanzar de manera constante y alcanzar los objetivos planteados como equipo.<br><br>
-         <b>Gabriel Mendoza Palacios: AV1</b><br>
-         Fomenté un ambiente de trabajo integrador al mantener una actitud receptiva frente a las propuestas del equipo y comunicarme de manera clara y constante. Me encargué de estructurar mis responsabilidades con orden, cumpliendo estrictamente con los plazos establecidos para el desarrollo de mis asignaciones. Colaboré activamente en la planificación de nuestras metas a corto plazo, ayudando a resolver bloqueos técnicos y asegurando que avanzáramos en sintonía hacia el objetivo final del proyecto.<br><br>
-         <b>Rodrigo Oblitas: AV1</b><br>
-         Contribuí a mantener un entorno colaborativo al participar activamente en la planificación del Lean UX Process y el desarrollo de la Landing Page. Organicé mis tareas de manera eficiente, cumpliendo con los plazos establecidos y apoyando en la coordinación del equipo para asegurar el cumplimiento de los objetivos propuestos.<br><br>
-         <b>Mathias Arechaga: AV1</b><br>
-         Apoyé en la creación de un entorno colaborativo mediante el desarrollo organizado de los entregables de diseño, como wireframes, mock-ups y prototipos. Planifiqué mis actividades de manera estructurada y cumplí con los tiempos establecidos, contribuyendo a que el equipo avance de forma constante y alineada con las metas del proyecto.<br>
+         <b>Aarón Avila</b>
+         <ul>
+           <li><b>AV1:</b> Durante el desarrollo del proyecto, mantuve un enfoque basado en la autoevaluación y la mejora continua, considerando diferentes perspectivas en la toma de decisiones y asegurando la coherencia del trabajo realizado. Esto me permitió simular un entorno colaborativo mediante la revisión constante de los avances, organizando las tareas de manera eficiente y garantizando el cumplimiento de los objetivos y entregables dentro de los plazos establecidos.</li>
+           <li><b>TB1:</b> Para el Sprint 2, ayudé a establecer metas de desarrollo claras, dividiendo los requerimientos en tareas manejables. Fomenté un entorno inclusivo al apoyar a mis compañeros con dudas sobre el nuevo stack tecnológico (Vue.js, Vite), asegurando que todos cumpliéramos con los entregables dentro de los tiempos estipulados para el despliegue.</li>
+         </ul>
+         <b>Eslander Celis</b>
+         <ul>
+           <li><b>AV1:</b> Contribuí a crear un entorno colaborativo e inclusivo al respetar las ideas de cada integrante y fomentar la participación de todos. Ayudé a establecer metas claras y a planificar las tareas de manera organizada, distribuyendo responsabilidades de forma equitativa. Me aseguré de cumplir con mis entregables en los tiempos acordados, lo que permitió avanzar de manera constante y alcanzar los objetivos planteados como equipo.</li>
+           <li><b>TB1:</b> Contribuí a la planificación ágil del Sprint 2 distribuyendo las historias de usuario de forma equitativa. Mantuve un ambiente colaborativo promoviendo reuniones breves de sincronización para identificar bloqueos a tiempo, lo que garantizó que todos lográramos completar nuestras tareas de programación en los plazos acordados.</li>
+         </ul>
+         <b>Gabriel Mendoza Palacios</b>
+         <ul>
+           <li><b>AV1:</b> Fomenté un ambiente de trabajo integrador al mantener una actitud receptiva frente a las propuestas del equipo y comunicarme de manera clara y constante. Me encargué de estructurar mis responsabilidades con orden, cumpliendo estrictamente con los plazos establecidos para el desarrollo de mis asignaciones. Colaboré activamente en la planificación de nuestras metas a corto plazo, ayudando a resolver bloqueos técnicos y asegurando que avanzáramos en sintonía hacia el objetivo final del proyecto.</li>
+           <li><b>TB1:</b> Durante esta fase, cumplí rigurosamente con mis objetivos de desarrollo de componentes visuales. Planifiqué mis commits y revisiones de forma estructurada, colaborando con los demás para integrar nuestras vistas sin generar conflictos en el repositorio, manteniendo siempre una comunicación respetuosa y resolutiva.</li>
+         </ul>
+         <b>Rodrigo Oblitas</b>
+         <ul>
+           <li><b>AV1:</b> Contribuí a mantener un entorno colaborativo al participar activamente en la planificación del Lean UX Process y el desarrollo de la Landing Page. Organicé mis tareas de manera eficiente, cumpliendo con los plazos establecidos y apoyando en la coordinación del equipo para asegurar el cumplimiento de los objetivos propuestos.</li>
+           <li><b>TB1:</b> Fomenté la colaboración activa asegurándome de que el trabajo en mis ramas de características (features) estuviera bien documentado y organizado. Cumplí con las metas de desarrollo asignadas y mantuve la disposición para ayudar a otros integrantes a conectar sus módulos, garantizando un avance uniforme del equipo.</li>
+         </ul>
+         <b>Mathias Arechaga</b>
+         <ul>
+           <li><b>AV1:</b> Apoyé en la creación de un entorno colaborativo mediante el desarrollo organizado de los entregables de diseño, como wireframes, mock-ups y prototipos. Planifiqué mis actividades de manera estructurada y cumplí con los tiempos establecidos, contribuyendo a que el equipo avance de forma constante y alineada con las metas del proyecto.</li>
+           <li><b>TB1:</b> Apoyé la colaboración del equipo cumpliendo puntualmente con mis tareas en la creación de las vistas interactivas. Al planificar mis actividades de desarrollo frontend en fases claras, logré no solo alcanzar mis metas individuales sino también facilitar el proceso de integración continua con el resto del equipo, fortaleciendo el cumplimiento del Sprint Goal.</li>
+         </ul>
         </td>
         <td>
-          <b>AV1:</b><br>
-          Se consolidó un entorno colaborativo e inclusivo donde se respetaron las ideas de cada integrante y se promovió la participación equitativa. El equipo estableció metas claras, planificó las tareas de manera organizada y cumplió con los plazos establecidos, lo que permitió avanzar de forma constante. Esta dinámica de trabajo favoreció la calidad de los resultados y aseguró el cumplimiento de los objetivos propuestos. <br><br>
+          <ul>
+            <li><b>AV1:</b> Se consolidó un entorno colaborativo e inclusivo donde se respetaron las ideas de cada integrante y se promovió la participación equitativa. El equipo estableció metas claras, planificó las tareas de manera organizada y cumplió con los plazos establecidos, lo que permitió avanzar de forma constante. Esta dinámica de trabajo favoreció la calidad de los resultados y aseguró el cumplimiento de los objetivos propuestos.</li>
+            <li><b>TB1:</b> El equipo logró mantener un entorno altamente colaborativo bajo la presión del desarrollo técnico del Sprint 2. Las metas fueron claramente divididas a través de un tablero de gestión ágil, permitiendo a cada integrante planificar y ejecutar tareas de programación específicas. El cumplimiento estricto de estos objetivos individuales se reflejó en la exitosa integración y despliegue final de la Web Application frontend.</li>
+          </ul>
         </td>
     </tr>
 </table>
@@ -779,7 +832,7 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Profesión** | supervisora de control de calidad |
 | **Departamento** | Lima |
 | **Inicio del video** | 00:00 |
-| **Fin del video** | 03:55 |
+| **Fin del video** | 03:58 |
 | **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **Foto entrevista** | <img src="images/entrevista1-segmento1.png" alt=""  width="250" /> |
 | **Resumen** | Gianelly Vásquez, supervisora de control de calidad en transporte de alimentos refrigerados que vive en Jesús María, actualmente gestiona el monitoreo de temperatura de forma manual usando termómetros digitales, dataloggers básicos y registros en Excel, sin contar con un sistema integrado en tiempo real, lo que genera dependencia del conductor y riesgo de errores humanos; su principal problema es la falta de visibilidad durante el trayecto, ya que las fallas en la cadena de frío suelen detectarse tarde, ocasionando pérdidas de productos, especialmente en rutas largas, y dificultando una reacción oportuna ante emergencias; por ello, considera que la solución ideal debería ofrecer monitoreo en tiempo real, alertas automáticas ante variaciones de temperatura, ubicación del vehículo, historial de datos y una interfaz fácil de usar desde el celular, creyendo que una aplicación como ColdTrack podría mejorar el control, reducir pérdidas y optimizar la operación logística. |
@@ -790,8 +843,8 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Edad**                | 33                                                                 |
 | **Profesión**           | Encargado de area de abastecimiento                                |
 | **Departamento**        | Arequipa                                                           |
-| **Inicio del video**    | 00:00                                                              |
-| **Fin del video**       | 00:00                                                              |
+| **Inicio del video**    | 03:59                                                              |
+| **Fin del video**       | 09:21                                                              |
 | **Link del video**      | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                                                               |
 | **Foto entrevista**     | <img src="images/entrevista3_segmento3.png" alt=""  width="250" /> |
 | **Resumen** | Gianmarco Palacios, con 5 años de experiencia en logística, gestiona el monitoreo de temperatura y humedad mediante sensores y módulos integrados ("in-house"). Su principal problema es la pérdida de conectividad y la demora en el envío de información en ciertas rutas, lo que dificulta el control total de la cadena de frío. Aunque no ha tenido incidentes críticos recientemente, reporta pérdidas de productos 1 o 2 veces al mes debido a fallas en el sistema o envíos incorrectos. Está abierto a implementar nuevas soluciones tecnológicas siempre que sean eficaces y de baja complejidad de hardware. Considera indispensable que una plataforma ofrezca alertas en tiempo real multicanal (app y mensajería como WhatsApp) para permitir una reacción oportuna ante cualquier contingencia. |
@@ -802,8 +855,8 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Edad** | 26 |
 | **Profesión** | Jefe de operaciones de Logística |
 | **Departamento** | Lima |
-| **Inicio del video** | 00:00 |
-| **Fin del video** | 03:38 |
+| **Inicio del video** | 09:22 |
+| **Fin del video** | 15:11 |
 | **Link del video** | ---- |
 | **Foto entrevista** | <img src="images/entrevista-segmento1-carlos.png" alt=""  width="250" /> |
 | **Resumen** | Carlos Ramírez, jefe de operaciones de logística en la empresa Transportes Valle S.A.C., de 26 años y con base en Lima, actualmente enfrenta dificultades en la gestión de sus operaciones debido a la falta de monitoreo en tiempo real durante el transporte; esta limitación le impide tener visibilidad inmediata sobre el estado de las unidades y la trazabilidad de los procesos logísticos, generando dependencia de reportes manuales o comunicación directa con los conductores, lo que incrementa el riesgo de retrasos, errores y una toma de decisiones tardía ante incidencias en ruta; su principal problema radica en la ausencia de un sistema que le permita supervisar de manera continua y centralizada las operaciones, lo cual afecta la eficiencia y el control operativo; por ello, considera que una solución ideal debería incluir monitoreo en tiempo real, geolocalización de vehículos, alertas automáticas ante desviaciones o incidentes, y acceso a información desde dispositivos móviles, ya que una herramienta como ColdTrack podría optimizar la gestión logística, mejorar la capacidad de respuesta y fortalecer el control de las operaciones. |
@@ -816,8 +869,8 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Edad** | 30 |
 | **Profesión** | personal de transporte |
 | **Departamento** | Lima |
-| **Inicio del video** | 00:00 |
-| **Fin del video** | 05:28 |
+| **Inicio del video** | 15:12 |
+| **Fin del video** | 20:42 |
 | **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **Foto entrevista** | <img src="images/entrevista1-segmento2.png" alt=""  width="250" /> |
 | **Resumen** | Edri Abanto, conductor de transporte de carga refrigerada de 30 años con 5 años de experiencia, encargado de trasladar productos perecibles como lácteos, embutidos y carnes frescas que requieren una cadena de frío estricta, actualmente monitorea la temperatura mediante un sistema integrado en la cabina que le permite visualizar el estado general sin detenerse, pero que no proporciona datos precisos, ni alertas preventivas, ni información en tiempo real compartible con la central, lo que genera una dependencia de la observación manual y aumenta el riesgo de no detectar fallas a tiempo; su principal problema es la inestabilidad de la temperatura durante la ruta debido a factores externos como el clima o paradas prolongadas, así como la falta de alertas automáticas ante fallas progresivas del sistema de refrigeración, lo que ya ha ocasionado pérdidas de mercadería en el pasado por detección tardía de incidentes; además, enfrenta limitaciones de conectividad en ciertas zonas, lo que dificulta la comunicación y el monitoreo continuo; por ello, considera que la solución ideal debería ofrecer alertas sonoras progresivas, indicadores visuales claros mediante códigos de color, monitoreo en tiempo real y una interfaz intuitiva que no requiera interacción constante, creyendo que una aplicación como ColdTrack podría brindarle mayor seguridad operativa, facilitar la toma de decisiones durante la ruta y reducir significativamente el riesgo de pérdida de productos. |
@@ -828,8 +881,8 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Edad**                | 51                                                                 |
 | **Profesión**           | personal de transporte                                             |
 | **Departamento**        | Lima                                                               |
-| **Inicio del video**    | 00:00                                                              |
-| **Fin del video**       | 02:06                                                              |
+| **Inicio del video**    | 20:43                                                              |
+| **Fin del video**       | 22:53                                                              |
 | **Link del video**      | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                                                               |
 | **Foto entrevista**     | <img src="images/entrevista2_segmento2.png" alt=""  width="250" /> |
 | **Resumen** | El entrevistado Fernando Perez, un transportista de 50 años que trabaja en la ruta Lima, explica que controla la temperatura de la carga revisando el termómetro y haciendo paradas para verificar su estado. Usa principalmente Google Maps y WhatsApp para su trabajo. Señala que los principales problemas son los cambios bruscos de temperatura, el tráfico y la falta de información inmediata ante fallas.|
@@ -842,10 +895,10 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 ### 2.3.1. User Personas
 
 <h5 id="SegUser">Segmento #1: Personal de Logística y Operaciones </h5>
-<img src="./images/persona_user.jpg" alt="userpersona1" width="100%">
+<img src="./images/user-persona-v2.1.png" alt="userpersona1" width="100%">
 
 <h5 id="SegUser">Segmento #2: Personal de transporte </h5>
-<img src="./images/persona_user2.jpg" alt="userpersona2" width="100%">
+<img src="./images/user-persona-v2.2.png" alt="userpersona2" width="100%">
 
 ### 2.3.2. User Task Matrix
 
@@ -1001,65 +1054,57 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
  
 2. Segmento 2: Personal de Transporte.
  <img src="./images/tobetransportistas.png" alt="tobetransportistas" width="80%">
+
 ## 3.2. User Stories
+En esta sección, estructuraremos nuestro proceso de desarrollo y aseguraremos de cubrir los os necesarios para satisfacer las necesidades del usuario.
 
-### Epics
+A continuación, estableceremos las épicas, para luego detallarlas en historias de usuario. De este modo estableceremos los objetivos y funcionalidades.                                        
 
-## Epics
+| Epic/Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|---|---|---|---|---|
+| EP-001 | Registro y Gestión de Usuarios | Como personal de logística y operaciones y personal de transporte<br>Quiero registrarme, iniciar sesión y gestionar mi cuenta de forma segura<br>Para acceder a las funcionalidades de ColdTrack según mi rol. | N/A | N/A |
+| EP-002 | Gestión de Envíos | Como personal de logística y operaciones<br>Quiero crear, visualizar y gestionar envíos<br>Para mantener el control del transporte de alimentos desde el origen hasta el destino. | N/A | N/A |
+| EP-003 | Monitoreo en Tiempo Real | Como personal de logística y operaciones y personal de transporte<br>Quiero visualizar en tiempo real la temperatura y humedad de los envíos mediante sensores<br>Para asegurar condiciones óptimas durante el transporte. | N/A | N/A |
+| EP-004 | Sistema de Alertas | Como personal de logística y operaciones y personal de transporte<br>Quiero recibir alertas automáticas ante condiciones críticas de temperatura o humedad<br>Para tomar decisiones rápidas y evitar pérdidas de productos. | N/A | N/A |
+| EP-005 | Historial y Reportes | Como personal de logística y operaciones y personal de transporte<br>Quiero acceder al historial de envíos y generar reportes<br>Para analizar el desempeño logístico y mejorar la trazabilidad. | N/A | N/A |
+| EP-006 | Landing Page y Comunicación | Como visitante<br>Quiero acceder a información de la aplicación, conocer sus beneficios, contactar al equipo y visualizar testimonios<br>Para evaluar el uso de ColdTrack y resolver dudas. | N/A | N/A |
+| US-001 | Registro de usuario | Como personal de logística y operaciones y personal de transporte<br>Quiero registrarme seleccionando mi rol<br>Para acceder a las funcionalidades correspondientes de ColdTrack. | Escenario 1: Registro como personal de logística y operaciones<br><br>Dado que el personal de logística y operaciones accede al formulario de registro<br>Cuando completa todos los datos correctamente y selecciona el rol “Logística”<br>Entonces el sistema registra la cuenta exitosamente<br>Y permite acceder a funcionalidades de supervisión.<br><br>Escenario 2: Registro como personal de transporte<br><br>Dado que el personal de transporte accede al formulario de registro<br>Cuando completa todos los datos correctamente y selecciona el rol “Transporte”<br>Entonces el sistema registra la cuenta exitosamente<br>Y permite acceder a funcionalidades en ruta. | EP-001 |
+| US-002 | Inicio de sesión | Como personal de logística y operaciones y personal de transporte<br>Quiero iniciar sesión en el sistema<br>Para acceder de manera segura a mi cuenta y funcionalidades. | Escenario 1: Inicio exitoso<br><br>Dado que el personal de logística y operaciones o el personal de transporte se encuentra registrado en el sistema<br>Cuando ingresa sus credenciales correctamente<br>Entonces el sistema valida la información<br>Y permite el acceso al panel principal.<br><br>Escenario 2: Credenciales incorrectas<br><br>Dado que el personal de logística y operaciones o el personal de transporte ingresa datos inválidos<br>Cuando intenta iniciar sesión<br>Entonces el sistema muestra un mensaje de error<br>Y bloquea el acceso. | EP-001 |
+| US-003 | Recuperar contraseña | Como personal de logística y operaciones y personal de transporte<br>Quiero recuperar mi contraseña<br>Para restablecer el acceso a mi cuenta en caso de olvido. | Escenario 1: Recuperación exitosa<br><br>Dado que el personal de logística y operaciones o el personal de transporte olvidó su contraseña<br>Cuando ingresa el correo registrado<br>Entonces el sistema envía un enlace de recuperación<br>Y permite restablecer la contraseña.<br><br>Escenario 2: Correo inválido<br><br>Dado que el correo ingresado no está registrado<br>Cuando se solicita la recuperación de contraseña<br>Entonces el sistema muestra un mensaje de error. | EP-001 |
+| TS-001 | Crear usuario | Como sistema<br>Quiero registrar usuarios en la base de datos<br>Para permitir el acceso seguro a ColdTrack. | Escenario 1: Creación exitosa<br><br>Dado que el sistema recibe datos válidos de registro<br>Cuando procesa la solicitud<br>Entonces guarda la información del usuario en la base de datos<br>Y retorna una respuesta exitosa.<br><br>Escenario 2: Datos inválidos<br><br>Dado que faltan campos obligatorios en la solicitud<br>Cuando el sistema procesa la información<br>Entonces rechaza la operación<br>Y retorna un error. | EP-001 |
+| TS-002 | Autenticación | Como sistema<br>Quiero validar las credenciales de acceso<br>Para garantizar la seguridad de los usuarios registrados. | Escenario 1: Autenticación válida<br><br>Dado que las credenciales coinciden con un usuario registrado<br>Cuando se realiza la validación<br>Entonces el sistema genera un token de acceso válido.<br><br>Escenario 2: Autenticación inválida<br><br>Dado que las credenciales no coinciden<br>Cuando se intenta autenticar<br>Entonces el sistema retorna un error de acceso. | EP-001 |
+| US-004 | Crear envío | Como personal de logística y operaciones<br>Quiero registrar envíos<br>Para controlar el transporte de productos alimenticios. | Escenario 1: Registro exitoso<br><br>Dado que el personal de logística y operaciones completa todos los campos requeridos<br>Cuando registra el envío<br>Entonces el sistema guarda la información correctamente<br>Y el envío aparece en la lista de envíos activos.<br><br>Escenario 2: Datos incompletos<br><br>Dado que el personal de logística y operaciones deja campos obligatorios vacíos<br>Cuando intenta registrar el envío<br>Entonces el sistema muestra errores de validación<br>Y no permite el registro. | EP-002 |
+| US-005 | Ver envíos activos | Como personal de logística y operaciones y personal de transporte<br>Quiero visualizar los envíos activos<br>Para monitorear el estado actual del transporte. | Escenario 1: Lista disponible<br><br>Dado que el personal de logística y operaciones o el personal de transporte accede a la sección de envíos<br>Y existen envíos registrados<br>Cuando visualiza la información<br>Entonces el sistema muestra la lista completa de envíos activos.<br><br>Escenario 2: Lista vacía<br><br>Dado que el personal de logística y operaciones o el personal de transporte accede a la sección de envíos<br>Y no existen envíos registrados<br>Cuando visualiza la información<br>Entonces el sistema muestra un mensaje indicando que no hay registros. | EP-002 |
+| US-006 | Ver detalle del envío | Como personal de logística y operaciones y personal de transporte<br>Quiero visualizar el detalle de un envío<br>Para revisar temperatura, humedad y estado del transporte. | Escenario 1: Visualización correcta<br><br>Dado que el personal de logística y operaciones o el personal de transporte selecciona un envío<br>Cuando accede al detalle<br>Entonces el sistema muestra temperatura, humedad y estado del envío.<br><br>Escenario 2: Error de carga<br><br>Dado que ocurre un fallo en el sistema<br>Cuando se intenta visualizar el detalle del envío<br>Entonces el sistema muestra un mensaje de error. | EP-002 |
+| TS-003 | CRUD envíos | Como sistema<br>Quiero gestionar operaciones de envíos<br>Para mantener actualizada la información logística. | Escenario 1: Consulta exitosa<br><br>Dado que existen envíos registrados en la base de datos<br>Cuando el sistema realiza una consulta<br>Entonces retorna correctamente la lista de envíos.<br><br>Escenario 2: Error interno<br><br>Dado que ocurre un fallo en el servidor<br>Cuando el sistema realiza la consulta<br>Entonces retorna un error. | EP-002 |
+| US-007 | Asignar sensor a envío | Como personal de logística y operaciones<br>Quiero vincular sensores a los envíos<br>Para monitorear las condiciones del transporte en tiempo real. | Escenario 1: Asignación correcta<br><br>Dado que el personal de logística y operaciones selecciona un sensor válido<br>Cuando lo vincula a un envío<br>Entonces el sistema asocia correctamente el sensor.<br><br>Escenario 2: Sensor inválido<br><br>Dado que el sensor no existe o no está disponible<br>Cuando el personal de logística y operaciones intenta vincularlo<br>Entonces el sistema muestra un error. | EP-002 |
+| US-008 | Finalizar envío | Como personal de logística y operaciones<br>Quiero finalizar un envío<br>Para registrar el cierre del transporte y enviarlo al historial. | Escenario 1: Finalización exitosa<br><br>Dado que el envío ha concluido correctamente<br>Cuando el personal de logística y operaciones lo finaliza<br>Entonces el sistema cambia el estado a “Completado”<br>Y envía el registro al historial.<br><br>Escenario 2: Error en cierre<br><br>Dado que ocurre un fallo durante el proceso<br>Cuando el personal de logística y operaciones intenta finalizar el envío<br>Entonces el sistema no guarda los cambios. | EP-002 |
+| TS-004 | Asignación sensor | Como sistema<br>Quiero vincular sensores válidos a los envíos<br>Para permitir el monitoreo continuo de las condiciones del transporte. | Escenario 1: Asignación válida<br><br>Dado que el sensor existe en el sistema<br>Cuando se realiza la vinculación con un envío<br>Entonces el sistema asocia correctamente el sensor.<br><br>Escenario 2: Error<br><br>Dado que el sensor no es válido<br>Cuando el sistema intenta asignarlo<br>Entonces retorna un error. | EP-002 |
+| US-009 | Ver temperatura en tiempo real | Como personal de logística y operaciones y personal de transporte<br>Quiero visualizar la temperatura en tiempo real<br>Para asegurar que los productos se mantengan en condiciones óptimas. | Escenario 1: Datos en tiempo real<br><br>Dado que el sensor se encuentra activo<br>Cuando el personal de logística y operaciones o el personal de transporte accede al monitoreo<br>Entonces el sistema muestra la temperatura actualizada.<br><br>Escenario 2: Sin conexión<br><br>Dado que el sensor deja de enviar datos<br>Cuando se accede al monitoreo<br>Entonces el sistema muestra una advertencia de conexión. | EP-003 |
+| US-010 | Ver humedad en tiempo real | Como personal de logística y operaciones y personal de transporte<br>Quiero visualizar la humedad del envío<br>Para verificar las condiciones adecuadas de transporte. | Escenario 1: Visualización correcta<br><br>Dado que el sensor funciona correctamente<br>Cuando el personal de logística y operaciones o el personal de transporte accede al monitoreo<br>Entonces el sistema muestra el porcentaje de humedad actualizado.<br><br>Escenario 2: Error de sensor<br><br>Dado que el sensor no envía información<br>Cuando se accede al monitoreo<br>Entonces el sistema muestra una alerta de error. | EP-003 |
+| US-011 | Estado del envío | Como personal de logística y operaciones y personal de transporte<br>Quiero visualizar el estado general del envío<br>Para identificar posibles riesgos durante el transporte. | Escenario 1: Estado normal<br><br>Dado que las condiciones del envío están dentro del rango permitido<br>Cuando el sistema analiza los datos<br>Entonces muestra un estado óptimo.<br><br>Escenario 2: Estado crítico<br><br>Dado que los valores superan los límites establecidos<br>Cuando el sistema evalúa la información<br>Entonces muestra un estado de alerta. | EP-003 |
+| US-012 | Visualizar gráficos históricos | Como personal de logística y operaciones<br>Quiero visualizar gráficos históricos de monitoreo<br>Para analizar el comportamiento de temperatura y humedad. | Escenario 1: Datos disponibles<br><br>Dado que existen registros históricos de monitoreo<br>Cuando el personal de logística y operaciones accede a los gráficos<br>Entonces el sistema muestra la información visual.<br><br>Escenario 2: Sin datos<br><br>Dado que no existen registros históricos<br>Cuando se accede a la sección de gráficos<br>Entonces el sistema muestra un mensaje informativo. | EP-003 |
+| TS-005 | Integración IoT | Como sistema<br>Quiero recibir datos de sensores IoT<br>Para almacenar y procesar información de monitoreo. | Escenario 1: Recepción válida<br><br>Dado que el sensor IoT envía información correctamente<br>Cuando el sistema recibe los datos<br>Entonces los almacena en la base de datos.<br><br>Escenario 2: Datos inválidos<br><br>Dado que los datos recibidos están corruptos<br>Cuando el sistema procesa la información<br>Entonces descarta los datos inválidos. | EP-003 |
+| TS-006 | Tiempo real | Como sistema<br>Quiero utilizar WebSockets para actualizar información en tiempo real<br>Para mantener sincronizados los datos de monitoreo. | Escenario 1: Conexión activa<br><br>Dado que existe una conexión WebSocket establecida<br>Cuando llegan nuevos datos de monitoreo<br>Entonces el sistema actualiza la información en tiempo real.<br><br>Escenario 2: Desconexión<br><br>Dado que la conexión se pierde<br>Cuando el sistema detecta la desconexión<br>Entonces intenta reconectarse automáticamente. | EP-003 |
+| US-013 | Alertas de temperatura | Como personal de logística y operaciones y personal de transporte<br>Quiero recibir alertas automáticas<br>Para actuar rápidamente ante cambios críticos de temperatura. | Escenario 1: Alerta generada<br><br>Dado que el sistema detecta que la temperatura supera los límites establecidos<br>Cuando analiza los datos recibidos por los sensores<br>Entonces genera una alerta<br>Y notifica al personal de logística y operaciones y al personal de transporte.<br><br>Escenario 2: Condición normal<br><br>Dado que las condiciones del envío se mantienen dentro del rango permitido<br>Cuando el sistema monitorea los sensores<br>Entonces no se genera ninguna alerta. | EP-004 |
+| US-014 | Notificación al conductor | Como personal de transporte<br>Quiero recibir notificaciones inmediatas<br>Para responder rápidamente ante incidencias durante la ruta. | Escenario 1: Recepción correcta<br><br>Dado que se genera una alerta crítica<br>Cuando el sistema envía la notificación<br>Entonces el personal de transporte la recibe en su dispositivo.<br><br>Escenario 2: Sin conexión<br><br>Dado que el dispositivo del personal de transporte no tiene conexión<br>Cuando se genera una alerta<br>Entonces el sistema almacena la notificación y la envía posteriormente. | EP-004 |
+| US-015 |  Ver historial de alertas | Como personal de logística y operaciones y personal de transporte<br>Quiero visualizar alertas pasadas<br>Para revisar incidencias registradas anteriormente. | Escenario 1: Registros disponibles<br><br>Dado que existen alertas registradas<br>Cuando el personal de logística y operaciones o el personal de transporte accede al historial<br>Entonces el sistema muestra la lista de alertas.<br><br>Escenario 2: Sin registros<br><br>Dado que no existen alertas registradas<br>Cuando se accede al historial<br>Entonces el sistema muestra un mensaje vacío. | EP-004 |
+| TS-007 | Motor alertas | Como sistema<br>Quiero detectar anomalías automáticamente<br>Para generar alertas cuando los valores estén fuera de rango. | Escenario 1: Detección de error<br><br>Dado que un valor se encuentra fuera del rango permitido<br>Cuando el sistema analiza los datos de monitoreo<br>Entonces genera una alerta automáticamente.<br><br>Escenario 2: Sin anomalías<br><br>Dado que los valores son correctos<br>Cuando el sistema analiza la información<br>Entonces no ejecuta ninguna acción. | EP-004 |
+| TS-008 | Notificaciones | Como sistema<br>Quiero enviar notificaciones automáticas<br>Para informar incidencias a los usuarios correspondientes. | Escenario 1: Envío exitoso<br><br>Dado que existe una alerta generada<br>Cuando el sistema envía la notificación<br>Entonces el destinatario la recibe correctamente.<br><br>Escenario 2: Error de envío<br><br>Dado que ocurre un fallo en el envío<br>Cuando el sistema intenta enviar la notificación<br>Entonces reintenta automáticamente el proceso. | EP-004 |
+| US-016 | Ver historial de envíos | Como personal de logística y operaciones y personal de transporte<br>Quiero revisar el historial de envíos<br>Para consultar información de transportes anteriores. | Escenario 1: Historial disponible<br><br>Dado que existen registros históricos de envíos<br>Cuando el personal de logística y operaciones o el personal de transporte accede al historial<br>Entonces el sistema muestra la lista de envíos.<br><br>Escenario 2: Sin historial<br><br>Dado que no existen registros históricos<br>Cuando se accede al historial<br>Entonces el sistema muestra un mensaje informativo. | EP-005 |
+| US-017 | Descargar reporte | Como personal de logística y operaciones<br>Quiero exportar reportes de envíos<br>Para analizar información logística y compartir resultados. | Escenario 1: Descarga exitosa<br><br>Dado que existen datos disponibles en el sistema<br>Cuando el personal de logística y operaciones solicita un reporte<br>Entonces el sistema genera un archivo descargable correctamente.<br><br>Escenario 2: Error<br><br>Dado que ocurre un fallo durante la generación del reporte<br>Cuando se solicita la descarga<br>Entonces el sistema muestra un mensaje de error. | EP-005 |
+| US-018 | Filtrar historial | Como personal de logística y operaciones y personal de transporte<br>Quiero filtrar registros del historial<br>Para encontrar información específica rápidamente. | Escenario 1: Filtro aplicado<br><br>Dado que el personal de logística y operaciones o el personal de transporte selecciona criterios de búsqueda<br>Cuando aplica el filtro<br>Entonces el sistema muestra resultados filtrados.<br><br>Escenario 2: Sin coincidencias<br><br>Dado que no existen registros que coincidan con los filtros<br>Cuando se aplica la búsqueda<br>Entonces el sistema muestra un mensaje informativo. | EP-005 |
+| TS-009 | Guardar historial | Como sistema<br>Quiero persistir datos históricos<br>Para almacenar información de envíos finalizados. | Escenario 1: Guardado correcto<br><br>Dado que existen datos válidos de un envío finalizado<br>Cuando el sistema almacena la información<br>Entonces guarda correctamente el historial.<br><br>Escenario 2: Error<br><br>Dado que ocurre un fallo durante el almacenamiento<br>Cuando el sistema intenta guardar la información<br>Entonces registra el error correspondiente. | EP-005 |
+| TS-010 | Exportar PDF | Como sistema<br>Quiero generar reportes en PDF<br>Para permitir la descarga y análisis de información logística. | Escenario 1: Generación exitosa<br><br>Dado que existen datos disponibles para exportar<br>Cuando el sistema genera el reporte PDF<br>Entonces crea correctamente el archivo descargable.<br><br>Escenario 2: Error<br><br>Dado que ocurre un fallo en la generación del documento<br>Cuando el sistema intenta exportar el PDF<br>Entonces muestra un mensaje de error. | EP-005 |
+| US-019 | Ver información de la app (Landing) | Como visitante<br>Quiero conocer información sobre ColdTrack<br>Para entender el propósito y beneficios de la aplicación. | Escenario 1: Información visible<br><br>Dado que el visitante accede a la landing page<br>Cuando navega por la plataforma<br>Entonces visualiza información clara sobre ColdTrack.<br><br>Escenario 2: Comprensión<br><br>Dado que el visitante revisa el contenido de la página<br>Cuando analiza la información mostrada<br>Entonces comprende los beneficios del sistema. | EP-006 |
+| US-020 | Ver testimonios | Como visitante<br>Quiero visualizar testimonios de usuarios<br>Para conocer experiencias relacionadas con ColdTrack. | Escenario 1: Visualización<br><br>Dado que existen testimonios registrados<br>Cuando el visitante accede a la sección correspondiente<br>Entonces el sistema muestra los testimonios disponibles.<br><br>Escenario 2: Navegación<br><br>Dado que existen múltiples testimonios<br>Cuando el visitante interactúa con la sección<br>Entonces puede desplazarse entre ellos correctamente. | EP-006 |
+| US-021 | Formulario de contacto | Como visitante<br>Quiero comunicarme con el equipo de ColdTrack<br>Para resolver dudas o solicitar información adicional. | Escenario 1: Envío correcto<br><br>Dado que el visitante completa el formulario de contacto<br>Cuando envía el mensaje<br>Entonces el sistema registra correctamente la información.<br><br>Escenario 2: Error<br><br>Dado que faltan campos obligatorios en el formulario<br>Cuando el visitante intenta enviarlo<br>Entonces el sistema muestra errores de validación. | EP-006 |
+| US-022 | Ver equipo de desarrollo | Como visitante<br>Quiero visualizar a los integrantes del equipo<br>Para generar confianza y credibilidad en el proyecto. | Escenario 1: Visualización<br><br>Dado que el visitante accede a la sección del equipo<br>Cuando la página carga correctamente<br>Entonces el sistema muestra a los integrantes del proyecto.<br><br>Escenario 2: Error<br><br>Dado que ocurre un fallo durante la carga<br>Cuando el visitante accede a la sección<br>Entonces el sistema muestra un mensaje alternativo. | EP-006 |
+| US-023 | Ver funcionalidades del sistema | Como visitante<br>Quiero conocer las funcionalidades principales del sistema<br>Para comprender el valor de ColdTrack. | Escenario 1: Visualización<br><br>Dado que el visitante accede a la sección de funcionalidades<br>Cuando navega por la página<br>Entonces el sistema muestra las principales características de ColdTrack.<br><br>Escenario 2: Comprensión<br><br>Dado que el visitante revisa la información disponible<br>Cuando analiza las funcionalidades mostradas<br>Entonces comprende el valor de la aplicación. | EP-006 |
+| TS-011 | Formulario contacto | Como sistema<br>Quiero almacenar mensajes enviados desde el formulario de contacto<br>Para gestionar consultas de usuarios interesados. | Escenario 1: Guardado correcto<br><br>Dado que el sistema recibe datos válidos desde el formulario<br>Cuando procesa la solicitud<br>Entonces almacena correctamente el mensaje.<br><br>Escenario 2: Error<br><br>Dado que los datos enviados son inválidos<br>Cuando el sistema procesa la información<br>Entonces rechaza la solicitud. | EP-006 |
+| TS-012 | Testimonios API | Como sistema<br>Quiero listar testimonios mediante una API<br>Para mostrar experiencias de usuarios en la landing page. | Escenario 1: Datos disponibles<br><br>Dado que existen testimonios registrados en la base de datos<br>Cuando el sistema consulta la API<br>Entonces retorna correctamente la lista de testimonios.<br><br>Escenario 2: Sin datos<br><br>Dado que no existen testimonios registrados<br>Cuando el sistema consulta la API<br>Entonces retorna una lista vacía. | EP-006 |
 
-| Epic ID | Nombre del Epic | Descripción |
-|--------|----------------|------------|
-| EP-001 | Registro y Gestión de Usuarios | Como usuario (personal de logística o transporte), quiero registrarme, iniciar sesión y gestionar mi cuenta de forma segura, para acceder a ColdTrack y utilizar sus funcionalidades según mi rol. |
-| EP-002 | Gestión de Envíos | Como personal de logística, quiero crear, visualizar y gestionar envíos, para tener control completo sobre el transporte de alimentos desde su origen hasta su destino. |
-| EP-003 | Monitoreo en Tiempo Real | Como usuario, quiero visualizar en tiempo real la temperatura y humedad de los envíos mediante sensores, para asegurar que los productos se mantengan en condiciones óptimas durante el transporte. |
-| EP-004 | Sistema de Alertas | Como usuario, quiero recibir alertas automáticas ante condiciones críticas de temperatura o humedad, para tomar decisiones rápidas y evitar pérdidas de productos. |
-| EP-005 | Historial y Reportes | Como usuario, quiero acceder al historial de envíos y generar reportes, para analizar el desempeño logístico y mejorar la trazabilidad del transporte. |
-| EP-006 | Landing Page y Comunicación | Como visitante o usuario, quiero acceder a información de la aplicación, conocer sus beneficios, ver testimonios, contactar al equipo y revisar quiénes están detrás del proyecto, para evaluar el uso de ColdTrack y resolver dudas. |
 
-
-### User Stories + Technical Stories
-
-| ID | Título | Descripción | Criterios de Aceptación | Epic |
-|----|--------|-------------|--------------------------|------|
-| US-001 | Registro de usuario | Como usuario, quiero registrarme seleccionando mi rol para acceder al sistema. | - Escenario 1: Registro como personal de logística<br>Dado que un usuario accede al formulario de registro<br>Cuando completa todos los datos correctamente y selecciona el rol “Logística”<br>Entonces el sistema registra su cuenta exitosamente<br>Y le permite acceder a funcionalidades de supervisión<br><br>- Escenario 2: Registro como personal de transporte<br>Dado que un usuario accede al formulario de registro<br>Cuando completa todos los datos correctamente y selecciona el rol “Transporte”<br>Entonces el sistema registra su cuenta exitosamente<br>Y le permite acceder a funcionalidades en ruta | EP-001 |
-| US-002 | Inicio de sesión | Como usuario, quiero iniciar sesión para acceder a mi cuenta. | - Escenario 1: Inicio exitoso<br>Dado que el usuario está registrado en el sistema<br>Cuando ingresa sus credenciales correctamente<br>Entonces el sistema valida la información<br>Y permite el acceso al panel principal<br><br>- Escenario 2: Credenciales incorrectas<br>Dado que el usuario ingresa datos inválidos<br>Cuando intenta iniciar sesión<br>Entonces el sistema muestra un mensaje de error<br>Y bloquea el acceso | EP-001 |
-| US-003 | Recuperar contraseña | Como usuario, quiero recuperar mi contraseña. | - Escenario 1: Recuperación exitosa<br>Dado que el usuario olvidó su contraseña<br>Cuando ingresa su correo registrado<br>Entonces el sistema envía un enlace de recuperación<br>Y le permite restablecer su contraseña<br><br>- Escenario 2: Correo inválido<br>Dado que el correo no está registrado<br>Cuando intenta recuperar su contraseña<br>Entonces el sistema muestra un mensaje de error | EP-001 |
-| TS-001 | Crear usuario | Como developer, quiero registrar usuarios en BD. | - Escenario 1: Creación exitosa<br>Dado que se reciben datos válidos<br>Cuando se procesa la solicitud de registro<br>Entonces el sistema guarda el usuario en la base de datos<br>Y retorna una respuesta exitosa<br><br>- Escenario 2: Datos inválidos<br>Dado que faltan campos obligatorios<br>Cuando se procesa la solicitud<br>Entonces el sistema rechaza la operación<br>Y retorna un error | EP-001 |
-| TS-002 | Autenticación | Como developer, quiero validar login. | - Escenario 1: Autenticación válida<br>Dado que las credenciales coinciden con un usuario registrado<br>Cuando se realiza la validación<br>Entonces el sistema genera un token de acceso válido<br><br>- Escenario 2: Autenticación inválida<br>Dado que las credenciales no coinciden<br>Cuando se intenta autenticar<br>Entonces el sistema retorna un error de acceso | EP-001 |
-| US-004 | Crear envío | Como personal de logística, quiero registrar un envío. | - Escenario 1: Registro exitoso<br>Dado que el usuario completa todos los campos requeridos<br>Cuando registra el envío<br>Entonces el sistema guarda la información correctamente<br>Y el envío aparece en la lista de envíos activos<br><br>- Escenario 2: Datos incompletos<br>Dado que faltan campos obligatorios<br>Cuando intenta registrar el envío<br>Entonces el sistema muestra errores de validación<br>Y no permite el registro | EP-002 |
-| US-005 | Ver envíos | Como usuario, quiero visualizar envíos activos. | - Escenario 1: Lista disponible<br>Dado que existen envíos registrados<br>Cuando accede a la sección de envíos<br>Entonces el sistema muestra la lista completa de envíos activos<br><br>- Escenario 2: Lista vacía<br>Dado que no existen envíos registrados<br>Cuando accede a la sección<br>Entonces el sistema muestra un mensaje indicando que no hay registros | EP-002 |
-| US-006 | Ver detalle | Como usuario, quiero ver detalles del envío. | - Escenario 1: Visualización correcta<br>Dado que el usuario selecciona un envío<br>Cuando accede al detalle<br>Entonces el sistema muestra temperatura, humedad y estado del envío<br><br>- Escenario 2: Error de carga<br>Dado que ocurre un fallo en el sistema<br>Cuando intenta visualizar el detalle<br>Entonces el sistema muestra un mensaje de error | EP-002 |
-| TS-003 | CRUD envíos | Como developer, quiero gestionar envíos. | - Escenario 1: Consulta exitosa<br>Dado que existen envíos en la base de datos<br>Cuando se realiza una consulta<br>Entonces el sistema retorna la lista correctamente<br><br>- Escenario 2: Error interno<br>Dado que ocurre un fallo en el servidor<br>Cuando se realiza la consulta<br>Entonces el sistema retorna un error | EP-002 |
-| US-007 | Asignar sensor | Como logística, quiero vincular sensores. | - Escenario 1: Asignación correcta<br>Dado que el usuario selecciona un sensor válido<br>Cuando lo vincula al envío<br>Entonces el sistema asocia correctamente el sensor<br><br>- Escenario 2: Sensor inválido<br>Dado que el sensor no existe o no está disponible<br>Cuando intenta vincularlo<br>Entonces el sistema muestra un error | EP-002 |
-| US-008 | Finalizar envío | Como logística, quiero cerrar un envío. | - Escenario 1: Finalización exitosa<br>Dado que el envío ha terminado<br>Cuando el usuario lo finaliza<br>Entonces el sistema cambia su estado a completado<br>Y lo envía al historial<br><br>- Escenario 2: Error en cierre<br>Dado que ocurre un fallo<br>Cuando intenta finalizar el envío<br>Entonces el sistema no guarda los cambios | EP-002 |
-| TS-004 | Asignación sensor | Como developer, quiero vincular sensores. | - Escenario 1: Asignación válida<br>Dado que el sensor existe<br>Cuando se realiza la vinculación<br>Entonces el sistema lo asocia correctamente al envío<br><br>- Escenario 2: Error<br>Dado que el sensor no es válido<br>Cuando se intenta asignar<br>Entonces el sistema retorna error | EP-002 |
-| US-009 | Ver temperatura | Como usuario, quiero visualizar temperatura. | - Escenario 1: Datos en tiempo real<br>Dado que el sensor está activo<br>Cuando el usuario accede al monitoreo<br>Entonces el sistema muestra la temperatura actualizada<br><br>- Escenario 2: Sin conexión<br>Dado que el sensor no envía datos<br>Cuando accede al monitoreo<br>Entonces el sistema muestra una advertencia | EP-003 |
-| US-010 | Ver humedad | Como usuario, quiero visualizar humedad. | - Escenario 1: Visualización correcta<br>Dado que el sensor está funcionando correctamente<br>Cuando el usuario accede al monitoreo<br>Entonces el sistema muestra el porcentaje de humedad actualizado<br><br>- Escenario 2: Error de sensor<br>Dado que el sensor no envía datos<br>Cuando accede al monitoreo<br>Entonces el sistema muestra una alerta de error | EP-003 |
-| US-011 | Estado del envío | Como usuario, quiero ver estado general. | - Escenario 1: Estado normal<br>Dado que las condiciones están dentro del rango<br>Cuando el sistema evalúa los datos<br>Entonces muestra un estado óptimo<br><br>- Escenario 2: Estado crítico<br>Dado que los valores están fuera de rango<br>Cuando el sistema evalúa los datos<br>Entonces muestra un estado de alerta | EP-003 |
-| US-012 | Gráficos | Como usuario, quiero ver gráficos históricos. | - Escenario 1: Datos disponibles<br>Dado que existen registros<br>Cuando accede a los gráficos<br>Entonces el sistema muestra la información visual<br><br>- Escenario 2: Sin datos<br>Dado que no existen registros<br>Cuando accede<br>Entonces el sistema muestra un mensaje informativo | EP-003 |
-| TS-005 | Integración IoT | Como developer, quiero recibir datos. | - Escenario 1: Recepción válida<br>Dado que el sensor envía datos correctamente<br>Cuando el sistema los recibe<br>Entonces los almacena en la base de datos<br><br>- Escenario 2: Datos inválidos<br>Dado que los datos están corruptos<br>Cuando se reciben<br>Entonces el sistema los descarta | EP-003 |
-| TS-006 | Tiempo real | Como developer, quiero usar WebSockets. | - Escenario 1: Conexión activa<br>Dado que la conexión está establecida<br>Cuando llegan nuevos datos<br>Entonces el sistema actualiza la información en tiempo real<br><br>- Escenario 2: Desconexión<br>Dado que se pierde la conexión<br>Cuando el sistema lo detecta<br>Entonces intenta reconectar automáticamente | EP-003 |
-| US-013 | Alertas temperatura | Como usuario, quiero recibir alertas. | - Escenario 1: Alerta generada<br>Dado que la temperatura supera los límites establecidos<br>Cuando el sistema detecta la anomalía<br>Entonces genera una alerta<br>Y notifica al usuario<br><br>- Escenario 2: Condición normal<br>Dado que los valores están dentro del rango<br>Cuando se monitorea el envío<br>Entonces no se genera ninguna alerta | EP-004 |
-| US-014 | Notificación conductor | Como transporte, quiero alertas inmediatas. | - Escenario 1: Recepción correcta<br>Dado que se genera una alerta<br>Cuando el sistema envía la notificación<br>Entonces el conductor la recibe en su dispositivo<br><br>- Escenario 2: Sin conexión<br>Dado que el dispositivo no tiene conexión<br>Cuando se genera la alerta<br>Entonces el sistema la almacena y la envía posteriormente | EP-004 |
-| US-015 | Historial alertas | Como usuario, quiero ver alertas pasadas. | - Escenario 1: Registros disponibles<br>Dado que existen alertas registradas<br>Cuando accede al historial<br>Entonces el sistema muestra la lista<br><br>- Escenario 2: Sin registros<br>Dado que no existen alertas<br>Cuando accede<br>Entonces el sistema muestra un mensaje vacío | EP-004 |
-| TS-007 | Motor alertas | Como developer, quiero detectar anomalías. | - Escenario 1: Detección de error<br>Dado que un valor está fuera del rango permitido<br>Cuando el sistema analiza los datos<br>Entonces genera una alerta<br><br>- Escenario 2: Sin anomalías<br>Dado que los valores son correctos<br>Cuando se analizan<br>Entonces no se ejecuta ninguna acción | EP-004 |
-| TS-008 | Notificaciones | Como developer, quiero enviar alertas. | - Escenario 1: Envío exitoso<br>Dado que existe una alerta<br>Cuando se envía la notificación<br>Entonces el usuario la recibe correctamente<br><br>- Escenario 2: Error de envío<br>Dado que ocurre un fallo<br>Cuando se intenta enviar<br>Entonces el sistema reintenta el envío | EP-004 |
-| US-016 | Ver historial | Como usuario, quiero revisar historial. | - Escenario 1: Historial disponible<br>Dado que existen registros<br>Cuando accede al historial<br>Entonces el sistema muestra los envíos<br><br>- Escenario 2: Sin historial<br>Dado que no existen registros<br>Cuando accede<br>Entonces el sistema muestra un mensaje | EP-005 |
-| US-017 | Descargar reporte | Como logística, quiero exportar reportes. | - Escenario 1: Descarga exitosa<br>Dado que existen datos<br>Cuando solicita el reporte<br>Entonces el sistema genera un archivo descargable<br><br>- Escenario 2: Error<br>Dado que ocurre un fallo<br>Cuando solicita el reporte<br>Entonces el sistema muestra un error | EP-005 |
-| US-018 | Filtrar historial | Como usuario, quiero filtrar datos. | - Escenario 1: Filtro aplicado<br>Dado que el usuario selecciona criterios<br>Cuando aplica el filtro<br>Entonces el sistema muestra resultados filtrados<br><br>- Escenario 2: Sin coincidencias<br>Dado que no hay resultados<br>Cuando aplica el filtro<br>Entonces el sistema muestra mensaje | EP-005 |
-| TS-009 | Guardar historial | Como developer, quiero persistir datos. | - Escenario 1: Guardado correcto<br>Dado que existen datos válidos<br>Cuando se almacenan<br>Entonces se guardan correctamente<br><br>- Escenario 2: Error<br>Dado que ocurre un fallo<br>Cuando se intenta guardar<br>Entonces se registra el error | EP-005 |
-| TS-010 | Exportar PDF | Como developer, quiero generar reportes. | - Escenario 1: Generación exitosa<br>Dado que existen datos<br>Cuando se genera el PDF<br>Entonces se crea correctamente<br><br>- Escenario 2: Error<br>Dado que ocurre un fallo<br>Cuando se genera<br>Entonces muestra error | EP-005 |
-| US-019 | Ver información | Como usuario, quiero conocer la app. | - Escenario 1: Información visible<br>Dado que el usuario accede a la landing page<br>Cuando navega por la página<br>Entonces visualiza información clara sobre la aplicación<br><br>- Escenario 2: Comprensión<br>Dado que revisa el contenido<br>Cuando analiza la información<br>Entonces entiende los beneficios del sistema | EP-006 |
-| US-020 | Testimonios | Como usuario, quiero ver opiniones. | - Escenario 1: Visualización<br>Dado que existen testimonios<br>Cuando accede a la sección<br>Entonces el sistema los muestra<br><br>- Escenario 2: Navegación<br>Dado que hay múltiples testimonios<br>Cuando interactúa<br>Entonces puede cambiar entre ellos | EP-006 |
-| US-021 | Contacto | Como usuario, quiero comunicarme. | - Escenario 1: Envío correcto<br>Dado que completa el formulario<br>Cuando envía el mensaje<br>Entonces el sistema lo registra<br><br>- Escenario 2: Error<br>Dado que faltan campos<br>Cuando envía<br>Entonces el sistema muestra errores | EP-006 |
-| US-022 | Ver equipo | Como usuario, quiero ver equipo. | - Escenario 1: Visualización<br>Dado que accede a la sección<br>Cuando carga la página<br>Entonces ve los integrantes del equipo<br><br>- Escenario 2: Error<br>Dado que ocurre un fallo<br>Cuando carga<br>Entonces muestra mensaje alternativo | EP-006 |
-| US-023 | Ver funcionalidades | Como usuario, quiero ver beneficios. | - Escenario 1: Visualización<br>Dado que accede a la sección<br>Cuando navega<br>Entonces ve las funcionalidades principales<br><br>- Escenario 2: Comprensión<br>Dado que revisa el contenido<br>Cuando analiza la información<br>Entonces entiende el valor del sistema | EP-006 |
-| TS-011 | Formulario contacto | Como developer, quiero guardar mensajes. | - Escenario 1: Guardado correcto<br>Dado que se envían datos válidos<br>Cuando se procesa la solicitud<br>Entonces se almacenan correctamente<br><br>- Escenario 2: Error<br>Dado que los datos son inválidos<br>Cuando se procesa<br>Entonces se rechaza | EP-006 |
-| TS-012 | Testimonios API | Como developer, quiero listar testimonios. | - Escenario 1: Datos disponibles<br>Dado que existen testimonios<br>Cuando se consulta la API<br>Entonces retorna la lista<br><br>- Escenario 2: Sin datos<br>Dado que no existen registros<br>Cuando se consulta<br>Entonces retorna lista vacía | EP-006 |
-
-<p align="center">
-  <img src="images/Landing_wireframe2.jpg" alt="Wireframe de la Landing Page de ColdTrack" width="85%"/>
-</p>
 
 
 
@@ -1600,7 +1645,7 @@ El equipo de desarrollo se reunió virtualmente para definir los objetivos, tare
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-De acuerdo con la evidencia encontrada en el repositorio y en el `README.md` del proyecto, el desarrollo de esta landing page fue implementado principalmente por **Rodrigo Oblitas Alcalde**.
+
 
 | Team Member | Referencia | Landing Page |
 |------------|------------|--------------|
@@ -1766,4 +1811,270 @@ Repositorios:
 
 ![contribution-sprint-1](./images/contribution-sprint-1.png)
 
+### 5.2.2. Sprint 2
 
+Durante el Sprint 2, el equipo avanzó desde la landing page inicial hacia la integración del ecosistema ColdTrack, incorporando la Web Application desplegada, la conexión con una fake API pública y la actualización de la landing page para redirigir a los usuarios hacia la aplicación operativa. En esta entrega, las evidencias asignadas corresponden a la ejecución funcional de los principales flujos implementados y a la evidencia del despliegue de los productos desarrollados.
+
+#### 5.2.2.1. Sprint Planning 2. 
+El equipo de desarrollo se reunió virtualmente para definir los objetivos, tareas y entregables del segundo sprint, el cual tendrá una duración de una semana. El enfoque principal será el desarrollo del frontend de la aplicación, implementando las interfaces principales, navegación y componentes necesarios para la interacción del usuario con el sistema.
+
+| Sprint                             | Sprint 2                                                                                                                                                                                                |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                    | Sprint Planning Background                                                                                                                                                                              |
+| Date                               | 2026/05/01                                                                                                                                                                                              |
+| Time                               | 19:30 PM                                                                                                                                                                                                |
+| Location                           | El desarrollo de la reunión se hizo virtualmente por medio de Discord                                                                                                                                   |
+| Prepared By                        | Eslander Celis Berrospi                                                                                                                                                                                 |
+| Attendees (to planning meeting)    | Eslander Celis Berrospi, Gabriel Mendoza Palacios, Rodrigo Oblitas Alcalde, Aarón Avila Palacios                                                      |
+| Sprint n – 1 Review Summary        | En el sprint anterior se logró desarrollar y desplegar correctamente la Landing Page en GitHub Pages, cumpliendo con los requisitos básicos establecidos para el proyecto.                             |
+| Sprint n – 1 Retrospective Summary | En esta sección los integrantes identificaron mejoras en la organización del código, distribución de tareas y optimización del tiempo para el desarrollo de las interfaces del sistema.               |
+|                                    | Sprint Goal & User Stories                                                                                                                                                                             |
+| Sprint 2 Goal                      | Desarrollar el frontend funcional de la aplicación, implementando las principales vistas, componentes y navegación necesarias para permitir la interacción inicial de los usuarios con el sistema. |
+| Sprint 2 Velocity                  | 12                                                                                                                                                                                                      |
+| Sum of Story Points                | 12                                                                                                                                                                                                     |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 2, el equipo organizó el trabajo tomando como principales aspectos la implementación del frontend de ColdTrack, la integración con datos simulados, la construcción de los módulos funcionales principales y la preparación del despliegue de la Web Application. Para asegurar una mejor coordinación, se definieron líderes por aspecto y colaboradores de apoyo según el alcance de las tareas desarrolladas.
+
+En esta matriz, `L` representa al líder del aspecto y `C` representa a los colaboradores que participaron en la implementación, revisión o integración de dicho aspecto.
+
+| Team Member | GitHub Username | Frontend Setup & Routing | Authentication | Shipments Management | Dashboard & Fake API | Sensors Module | Alerts Module | History & i18n | Deployment & Integration |
+|-------------|-----------------|--------------------------|----------------|----------------------|----------------------|----------------|---------------|----------------|--------------------------|
+| Avila Palacios, Aarón | u201823654 | C | L | C | L | C | L | L | C |
+| Oblitas Alcalde, Rodrigo | rodri-ob | L | C | L | C | L | C | C | L |
+| Celis Berrospi, Eslander | Eslander-Celis | C | C | L | C | C | C | L | C |
+| Mendoza Palacios, Gabriel | GabrielMendoza18 | C | C | C | L | C | C | C | C |
+| Arechaga Saavedra, Mathias | mathiasarechaga62 | C | C | C | C | C | L | C | C |
+
+La asignación de liderazgo se relaciona con la organización del Sprint Backlog 2: Aarón lideró los aspectos vinculados con autenticación, dashboard, alertas, historial e internacionalización, mientras que Rodrigo lideró la configuración base, la gestión de envíos, sensores y despliegue. Además, Eslander asumió liderazgo en actividades de gestión de envíos e historial, Gabriel en la integración con la fake API y soporte de datos del dashboard, y Mathias en la definición visual de alertas. Todos los integrantes también colaboraron en la revisión, documentación, pruebas funcionales e integración de los módulos.
+
+#### 5.2.2.3. Sprint Backlog 2
+
+El Sprint Backlog 2 se construyó a partir de las User Stories priorizadas en el Product Backlog para la primera versión funcional de la Web Application. El objetivo principal fue habilitar los flujos iniciales de ColdTrack: registro e inicio de sesión, visualización de envíos activos, creación de envíos, monitoreo de temperatura y humedad, gestión de sensores, generación de alertas e historial de eventos.
+
+El tablero de trabajo utilizado para organizar las tareas del Sprint 2 permitió distribuir las actividades por módulo, dar seguimiento al avance y preparar la integración final del frontend desplegado.
+
+- Board URL: pendiente por agregar.
+- Board screenshot: pendiente por agregar en `images/sprint-2-board.png`.
+
+| Sprint # | User Story Id | User Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|----------|---------------|------------------|---------|------------|------------------|--------------------|-------------|--------|
+| Sprint 2 | US-001 | Registro de usuario | T01 | Implementar vista de registro | Desarrollar la interfaz de creación de cuenta con campos básicos, validación visual y navegación hacia el flujo de acceso. | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-001 | Registro de usuario | T02 | Integrar registro con datos simulados | Conectar la vista de registro con la estructura de datos simulada para validar el flujo inicial de creación de usuario. | 2 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-002 | Inicio de sesión | T03 | Implementar vista de inicio de sesión | Construir la pantalla de sign in con formulario, estados visuales y redirección hacia el dashboard principal. | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-002 | Inicio de sesión | T04 | Configurar navegación protegida | Definir rutas principales de la aplicación y controlar el acceso inicial a las vistas operativas. | 2 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-004 | Crear envío | T05 | Crear formulario de nuevo envío | Implementar el formulario para registrar un envío con datos de origen, destino, producto, conductor y condiciones requeridas. | 4 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-004 | Crear envío | T06 | Registrar envío en fake API | Conectar el formulario de nuevo envío con el recurso simulado para almacenar y consultar información durante la ejecución. | 3 | Gabriel Mendoza Palacios | Done |
+| Sprint 2 | US-005 | Ver envíos activos | T07 | Construir listado de envíos activos | Desarrollar la vista de envíos activos mostrando identificador, estado, temperatura, humedad y datos principales de cada envío. | 3 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-006 | Ver detalle del envío | T08 | Implementar detalle de envío | Agregar una vista de detalle para revisar información operativa y condiciones asociadas a un envío seleccionado. | 3 | Eslander Celis Berrospi | Done |
+| Sprint 2 | US-007 | Asignar sensor a envío | T09 | Implementar módulo de sensores | Crear la interfaz para visualizar sensores disponibles y asociarlos a envíos registrados. | 4 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-009 | Ver temperatura en tiempo real | T10 | Mostrar temperatura en dashboard | Presentar datos de temperatura en tarjetas de monitoreo para facilitar la supervisión rápida de la cadena de frío. | 3 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-010 | Ver humedad en tiempo real | T11 | Mostrar humedad en dashboard | Incorporar lectura de humedad dentro del dashboard y relacionarla con cada envío activo. | 3 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-013 | Alertas de temperatura | T12 | Implementar módulo de alertas | Desarrollar una vista de alertas para identificar variaciones críticas de temperatura y humedad. | 4 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-014 | Notificación al conductor | T13 | Definir estados visuales de alerta | Agregar indicadores visuales para comunicar condiciones normales, advertencias o incidencias durante el transporte. | 2 | Mathias Arechaga Saavedra | Done |
+| Sprint 2 | US-015 | Ver historial de alertas | T14 | Crear historial de alertas | Implementar consulta de eventos anteriores para revisar incidencias registradas durante los envíos. | 3 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-016 | Ver historial de envíos | T15 | Crear vista de historial de envíos | Desarrollar la pantalla de historial para consultar envíos finalizados o previamente registrados. | 3 | Eslander Celis Berrospi | Done |
+| Sprint 2 | US-018 | Filtrar historial | T16 | Agregar soporte de búsqueda y filtro | Incorporar filtros básicos para consultar información histórica por estado, envío o criterio operativo. | 2 | Gabriel Mendoza Palacios | Done |
+| Sprint 2 | US-019 | Ver información de la app (Landing) | T17 | Actualizar enlace hacia Web Application | Modificar la landing page para redirigir a los usuarios hacia la aplicación web desplegada. | 2 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | Task adicional | Configuración de despliegue | T18 | Configurar variables y endpoints | Definir endpoints de entorno y preparar la aplicación para consumir la fake API pública durante el despliegue. | 2 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | Task adicional | Integración del frontend | T19 | Integrar ramas feature en develop | Fusionar los módulos desarrollados en ramas de característica y validar que la aplicación funcione como una experiencia unificada. | 3 | Aarón Avila Palacios | Done |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo se enfocó en el desarrollo del frontend de la aplicación ColdTrack, implementando las principales vistas, componentes reutilizables y funcionalidades necesarias para la interacción inicial de los usuarios con el sistema. Asimismo, se trabajó en la organización de rutas, consumo de datos simulados y mejoras visuales orientadas a la experiencia del usuario.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| ColdTrack-Front | `main` | `ba713ca` | `chore: initialize clean Vue project` | Se inicializó el proyecto frontend utilizando Vue y se configuró la estructura base de desarrollo. | 12/05/2026 |
+| ColdTrack-Front | `feature/dashboard-module` | `8ecbb74` | `feat: add fake api and dashboard module` | Se implementó un módulo de dashboard y una API simulada para pruebas iniciales del sistema. | 12/05/2026 |
+| ColdTrack-Front | `feature/sign-in-new-shipment` | `517cd52` | `feat: add sign in and shipment registration views` | Se desarrollaron las vistas de inicio de sesión y registro de envíos para el sistema ColdTrack. | 12/05/2026 |
+| ColdTrack-Front | `feature/sign-up-sensors` | `3ed397f` | `feat: add account creation and sensors module` | Se añadieron funcionalidades de creación de cuentas y gestión de sensores IoT. | 12/05/2026 |
+| ColdTrack-Front | `feature/alerts` | `acd14fd` | `feat: add alerts module` | Se implementó el módulo de alertas para monitorear condiciones críticas de temperatura y humedad. | 12/05/2026 |
+| ColdTrack-Front | `develop/history-module` | `ff63f97` | `feat: add history view, i18n` | Se agregó la vista de historial y soporte de internacionalización para múltiples idiomas. | 13/05/2026 |
+| ColdTrack-Front | `develop` | `8491c05` | `merge: integrate sign-in-new-shipment branch into develop` | Se integró la rama de autenticación y registro de envíos dentro de la rama develop. | 13/05/2026 |
+| ColdTrack-Front | `develop` | `a37a975` | `feat: merge sign-up-sensors branch into develop` | Se realizó la integración del módulo de sensores y creación de cuentas en la rama develop. | 13/05/2026 |
+| ColdTrack-Front | `develop` | `44a026f` | `feat: merge alerts branch into develop` | Se integró el módulo de alertas y monitoreo en tiempo real dentro de develop. | 13/05/2026 |
+| ColdTrack-Front | `develop/history-module` | `6ca885a` | `merge: integrate history i18n shell` | Se integró la configuración de historial e internacionalización en la estructura principal del proyecto. | 13/05/2026 |
+| ColdTrack-Front | `main` | `c6971f6` | `chore: add index.html to the project` | Se añadió el archivo index.html principal para la configuración base de la aplicación frontend. | 13/05/2026 |
+| ColdTrack-Front | `main` | `04d29b7` | `chore: add project root configuration files` | Se agregaron archivos de configuración raíz necesarios para el entorno de desarrollo y compilación. | 13/05/2026 |
+| ColdTrack-Front | `main` | `a5daac9` | `chore: remove vscode settings` | Se eliminaron configuraciones específicas de VSCode para mantener un entorno más limpio y portable. | 13/05/2026 |
+| ColdTrack-Front | `main` | `f8ef8a9` | `chore: configure environment api endpoints` | Se configuraron endpoints de API y variables de entorno para conexión con servicios backend. | 13/05/2026 |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+La ejecución del Sprint 2 se centró en validar que la solución ColdTrack pueda ser utilizada como una aplicación web funcional para la gestión de envíos refrigerados. La aplicación implementada permite iniciar sesión, registrar usuarios, administrar envíos, consultar sensores, revisar alertas y visualizar historial de envíos completados. Además, la landing page fue actualizada para conectar sus call-to-action con la Web Application desplegada en Firebase.
+
+Las principales funcionalidades ejecutadas y validadas durante el Sprint 2 fueron las siguientes:
+
+- **Inicio de sesión**: la aplicación presenta una vista inicial de autenticación y permite ingresar con el usuario de demostración registrado en la fuente de datos. Este flujo restringe el acceso a las vistas internas hasta que exista una sesión activa.
+
+  ![Sprint 2 sign in evidence](./images/sprint-2-sign-in.png)
+
+- **Creación de cuenta**: la aplicación permite registrar nuevos usuarios mediante el formulario de creación de cuenta. Los datos ingresados se envían a la fake API configurada, permitiendo simular el almacenamiento de usuarios.
+
+  ![Sprint 2 sign up evidence](./images/sprint-2-sign-up.png)
+
+- **Dashboard de envíos**: luego de iniciar sesión, el usuario accede al dashboard principal, donde se visualizan métricas de envíos, alertas activas y una tabla con información operativa de los envíos registrados.
+
+  ![Sprint 2 dashboard evidence](./images/sprint-2-dashboard.png)
+
+- **Registro de nuevo envío**: la aplicación permite crear un nuevo envío ingresando destino, conductor asignado, descripción de carga, fecha de salida y llegada estimada. Esta funcionalidad permite alimentar la fuente de datos desde la interfaz web.
+
+  ![Sprint 2 new shipment evidence](./images/sprint-2-new-shipment.png)
+
+- **Gestión de sensores**: se implementó una vista para revisar sensores registrados, su estado de asignación, última lectura, temperatura, humedad y acción disponible. También se incorporó la opción de registrar nuevos sensores.
+
+  ![Sprint 2 sensors evidence](./images/sprint-2-sensors.png)
+
+- **Sistema de alertas**: la aplicación muestra alertas generadas por variaciones críticas o de advertencia, permitiendo filtrar por severidad y estado. Esta vista facilita el monitoreo de incidencias durante el transporte.
+
+  ![Sprint 2 alerts evidence](./images/sprint-2-alerts.png)
+
+- **Historial de envíos**: se incorporó una vista de historial para revisar envíos completados, temperatura promedio, humedad promedio y alertas generadas.
+
+  ![Sprint 2 history evidence](./images/sprint-2-history.png)
+
+- **Internacionalización de interfaz**: se validó el cambio de idioma entre inglés y español mediante el selector `EN | ES`, afectando textos fijos de navegación, formularios, títulos, etiquetas y footer.
+
+  ![Sprint 2 i18n evidence](./images/sprint-2-i18n.png)
+
+- **Integración Landing Page - Web Application**: la landing page fue actualizada para que sus botones de acción redirijan hacia la aplicación web desplegada, manteniendo continuidad entre la presentación comercial del producto y el uso de la plataforma.
+
+  ![Sprint 2 landing app link evidence](./images/sprint-2-landing-app-link.png)
+
+Desde el punto de vista técnico, la Web Application se implementó con JavaScript y Vue 3, utilizando Composition API, Vue Router, Vue I18n, PrimeVue y axios. La aplicación consume recursos desde una fake API expuesta públicamente, lo que permite validar el flujo de lectura y registro de información sin depender todavía de un backend propio.
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo se enfocó en el desarrollo técnico y visual del frontend y backend del proyecto, empleando Vue y Javascript para la creación de interfaces dinámicas, componentes reutilizables y funcionalidades interactivas que mejoran la experiencia de usuario dentro de la aplicación web.
+
+Asimismo, se preparó y configuró el repositorio destinado al desarrollo de la lógica del backend y a la implementación de servicios y endpoints REST, los cuales permitirán la comunicación e integración de los distintos módulos del sistema en los próximos sprints.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se completó el despliegue de los principales productos de software del ecosistema ColdTrack: la landing page, la Web Application y la fake API utilizada como fuente de datos para la aplicación. Estos despliegues permiten validar públicamente la navegación entre productos, el consumo de datos y el funcionamiento de los flujos principales.
+
+**Landing Page Deployment**
+
+La landing page se mantiene desplegada mediante **GitHub Pages**, utilizando el repositorio de la organización como fuente del sitio estático. En el Sprint 2 se actualizó para enlazar sus call-to-action con la aplicación web desplegada.
+
+- Repositorio: https://github.com/1ASI0730-2610-10215/Landing-Page
+- URL desplegada: https://1asi0730-2610-10215.github.io/Landing-Page/
+- Rama de despliegue: `main`
+- Plataforma: GitHub Pages
+
+![Sprint 2 landing deployment evidence](./images/sprint-2-landing-deployment.png)
+
+**Web Application Deployment**
+
+La Web Application de ColdTrack fue desplegada mediante **Firebase Hosting**, permitiendo acceso público a la interfaz operativa de la plataforma. La aplicación contiene los módulos de autenticación, dashboard, registro de envíos, sensores, alertas, historial e internacionalización.
+
+- Repositorio: https://github.com/1ASI0730-2610-10215/ColdTrack-Front
+- URL desplegada principal: https://coldtrack-front-web.web.app/
+- URL alternativa: https://coldtrack-front-web.firebaseapp.com/
+- Plataforma: Firebase Hosting
+- Comando de construcción: `npm run build`
+- Carpeta pública de despliegue: `dist`
+- Configuración SPA: redirección de rutas hacia `index.html`
+
+![Sprint 2 Firebase deployment evidence](./images/sprint-2-firebase-deployment.png)
+
+**Fake API Deployment**
+
+Para simular la persistencia y consulta de datos, se configuró una fake API pública en **MockAPI.io**. Esta API funciona como reemplazo desplegado del `db.js` local durante las pruebas de producción, permitiendo consumir recursos como usuarios, envíos, conductores, sensores y alertas desde la Web Application.
+
+- URL base: https://6a0490212afe8349b4b6d716.mockapi.io/api/v1
+- Plataforma: MockAPI.io
+- Recursos esperados:
+  - `/users`
+  - `/shipments`
+  - `/drivers`
+  - `/sensors`
+  - `/alerts`
+
+![Sprint 2 MockAPI resources evidence](./images/sprint-2-mockapi-resources.png)
+
+**Configuración de entorno para despliegue**
+
+La Web Application utiliza variables de entorno para separar la configuración de desarrollo y producción:
+
+- `.env.development`: apunta al entorno local `http://localhost:3000`
+- `.env.production`: apunta al endpoint público de MockAPI.io
+
+De esta forma, el equipo puede ejecutar la aplicación localmente con JSON Server durante el desarrollo y compilarla para producción consumiendo la fake API desplegada.
+
+![Sprint 2 production environment evidence](./images/sprint-2-env-production.png)
+
+**Pasos de despliegue ejecutados**
+
+1. Se integraron los cambios de la aplicación en el repositorio `ColdTrack-Front` siguiendo GitFlow.
+2. Se configuraron variables de entorno para diferenciar desarrollo local y producción.
+3. Se ejecutó el build de producción con `npm run build`.
+4. Se configuró Firebase Hosting usando la carpeta `dist` como salida pública.
+5. Se habilitó el comportamiento de single-page application para redirigir rutas internas hacia `index.html`.
+6. Se desplegó la aplicación en Firebase Hosting.
+7. Se configuraron los recursos necesarios en MockAPI.io para simular el backend.
+8. Se actualizó la landing page para enlazar con la aplicación desplegada.
+9. Se validó el acceso público a la landing page y a la Web Application.
+
+Con estos despliegues, ColdTrack cuenta con una landing page pública, una Web Application accesible en la nube y una fake API disponible para validar los flujos principales desarrollados en el Sprint 2.
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+<p>
+Durante el Sprint 2, los analíticos de colaboración del repositorio ColdTrack-Front evidencian la participación de los integrantes del equipo sobre el código de la aplicación web ColdTrack. A lo largo del sprint se registran commits asociados a la configuración inicial del proyecto con Vue.js, así como a la implementación de los módulos de dashboard, autenticación, registro de envíos, gestión de sensores, alertas e historial. Esta actividad confirma que la construcción de la Web Application (Frontend) se realizó de forma incremental, alineada a los objetivos definidos en el Sprint 2 Goal.
+</p>
+
+<img src="./images/overview-sprint2.png" alt="overview-sprint2">
+
+<p>
+El Network Graph correspondiente al Sprint 2 muestra un uso activo del flujo de trabajo basado en GitFlow, con ramas de características (features como <code>feature/dashboard-module</code>, <code>feature/alerts</code>, <code>feature/sign-in-new-shipment</code>) creadas para la interfaz y componentes, que luego son fusionadas a la rama <code>develop</code> y posteriormente integradas tras el desarrollo. Este patrón de ramas indica que los integrantes coordinaron el trabajo de forma estructurada, alineados con las prácticas definidas para el proyecto (feature branches y consolidación en develop), reforzando la trazabilidad y la calidad del código entregado durante el sprint.
+</p>
+
+<img src="./images/network-sprint2.png" alt="network-graph-sprint2">
+
+<p>
+En conjunto, la evidencia recopilada en el repositorio demuestra que el equipo mantuvo una dinámica de trabajo constante conforme avanzaban las fechas de integración de los distintos módulos de la aplicación. La consolidación exitosa de las vistas y componentes sugiere un alto nivel de organización para preparar la Sprint Review. Estos analíticos y la correcta ejecución del GitFlow confirman que, durante el Sprint 2, los miembros del equipo participaron efectivamente en la implementación de la Web Application (Frontend) según el alcance establecido, cumpliendo con el principio de trabajo colaborativo.
+</p>
+
+
+# Conclusiones
+
+## Conclusiones y recomendaciones
+
+Como equipo, concluimos que ColdTrack responde a una problemática real dentro de la cadena de frío: la falta de visibilidad oportuna sobre las condiciones de temperatura y humedad durante el transporte de productos sensibles. A partir de los Problem Statements definidos en Lean UX, confirmamos que los usuarios vinculados a logística, control de calidad y transporte necesitan una herramienta centralizada que reduzca la dependencia de controles manuales, permita reaccionar ante incidencias y facilite la trazabilidad de cada envío.
+
+En relación con los assumptions planteados, validamos que los segmentos objetivo valoran especialmente la supervisión en tiempo real, el registro histórico de envíos y las alertas visibles ante condiciones fuera de rango. Si bien inicialmente asumimos que la principal necesidad era solo registrar datos de temperatura, el desarrollo del producto nos permitió observar que el valor percibido aumenta cuando el sistema también organiza conductores, sensores, estados de envío, historial y evidencias operativas en una sola interfaz. Esto refuerza la importancia de diseñar ColdTrack como una plataforma de gestión y no únicamente como un panel de lectura de sensores.
+
+Respecto a los Hypothesis Statements, consideramos que los avances del Sprint 2 respaldan la hipótesis de que una aplicación web con autenticación, dashboard, registro de envíos, gestión de sensores, alertas e historial puede mejorar el control operativo de la cadena de frío. Los criterios de éxito definidos en el proceso Lean UX se contrastaron mediante la implementación y validación funcional de los flujos principales: ingreso a la aplicación, creación de usuarios, consulta de información, registro de nuevos envíos, consumo de datos desde una fake API y despliegue público de la solución. Aunque todavía se requiere una validación más profunda con usuarios reales, la evidencia obtenida demuestra que el producto ya cuenta con una base funcional para futuras iteraciones.
+
+También concluimos que la integración entre landing page, Web Application y fake API fue clave para presentar una experiencia más completa del modelo de negocio digital. La landing page permite comunicar la propuesta de valor, mientras que la aplicación desplegada en Firebase evidencia el funcionamiento operativo de ColdTrack. Además, el uso de MockAPI.io como reemplazo temporal del `db.js` local permitió simular persistencia de datos y preparar el proyecto para una futura integración con servicios backend propios.
+
+Como recomendaciones para los siguientes pasos del roadmap, proponemos priorizar la conexión con sensores reales o simuladores más cercanos al contexto operativo, incorporar roles de usuario con permisos diferenciados, mejorar los reportes exportables para supervisores y ampliar las validaciones con empresas que gestionen productos refrigerados. También recomendamos fortalecer la documentación técnica del backend futuro, definir métricas de éxito medibles sobre reducción de incidencias y ampliar las pruebas de usabilidad para asegurar que la interfaz sea clara tanto para personal administrativo como para conductores o responsables de calidad.
+
+# Bibliografía
+
+Axios. (2026). *Axios documentation*. Recuperado el 13 de mayo de 2026, de https://axios-http.com/
+
+Firebase. (2026). *Firebase Hosting documentation*. Recuperado el 13 de mayo de 2026, de https://firebase.google.com/docs/hosting
+
+GitHub Docs. (2026). *GitHub Pages documentation*. Recuperado el 13 de mayo de 2026, de https://docs.github.com/en/pages
+
+Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3rd ed.). O'Reilly Media.
+
+MockAPI. (2026). *MockAPI documentation*. Recuperado el 13 de mayo de 2026, de https://mockapi.io/docs
+
+PrimeTek. (2026). *PrimeVue documentation*. Recuperado el 13 de mayo de 2026, de https://primevue.org/
+
+Vue.js. (2026). *Vue.js documentation*. Recuperado el 13 de mayo de 2026, de https://vuejs.org/
+
+Vue I18n. (2026). *Vue I18n documentation*. Recuperado el 13 de mayo de 2026, de https://vue-i18n.intlify.dev/
+
+Vite. (2026). *Vite documentation*. Recuperado el 13 de mayo de 2026, de https://vite.dev/
+
+# Anexos
+
+## Exposición grupal
+
+Video de exposición grupal del proyecto ColdTrack: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBzHTo9GCR1RpI0WITzlzTLAdLiHay8hkvnxDjYvTBgo5E?e=RgyzPP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
