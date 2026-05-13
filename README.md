@@ -1915,6 +1915,12 @@ Las principales funcionalidades ejecutadas y validadas durante el Sprint 2 fuero
 
 Desde el punto de vista técnico, la Web Application se implementó con JavaScript y Vue 3, utilizando Composition API, Vue Router, Vue I18n, PrimeVue y axios. La aplicación consume recursos desde una fake API expuesta públicamente, lo que permite validar el flujo de lectura y registro de información sin depender todavía de un backend propio.
 
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo se enfocó en el desarrollo técnico y visual del frontend y backend del proyecto, empleando Vue y Javascript para la creación de interfaces dinámicas, componentes reutilizables y funcionalidades interactivas que mejoran la experiencia de usuario dentro de la aplicación web.
+
+Asimismo, se preparó y configuró el repositorio destinado al desarrollo de la lógica del backend y a la implementación de servicios y endpoints REST, los cuales permitirán la comunicación e integración de los distintos módulos del sistema en los próximos sprints.
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 Durante el Sprint 2 se completó el despliegue de los principales productos de software del ecosistema ColdTrack: la landing page, la Web Application y la fake API utilizada como fuente de datos para la aplicación. Estos despliegues permiten validar públicamente la navegación entre productos, el consumo de datos y el funcionamiento de los flujos principales.
