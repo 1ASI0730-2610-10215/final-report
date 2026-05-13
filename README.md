@@ -1860,7 +1860,11 @@ Durante el Sprint 2, el equipo se enfocó en el desarrollo del frontend de la ap
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
+#### 5.2.2.6 Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 2, el equipo se enfocó en el desarrollo técnico y visual del frontend y backend del proyecto, empleando Vue y Javascript para la creación de interfaces dinámicas, componentes reutilizables y funcionalidades interactivas que mejoran la experiencia de usuario dentro de la aplicación web.
+
+Asimismo, se preparó y configuró el repositorio destinado al desarrollo de la lógica del backend y a la implementación de servicios y endpoints REST, los cuales permitirán la comunicación e integración de los distintos módulos del sistema en los próximos sprints.
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
