@@ -184,6 +184,7 @@ Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, 
       * [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
       * [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
       * [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      * [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       * [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       * [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 
@@ -1947,9 +1948,39 @@ Desde el punto de vista técnico, la Web Application se implementó con JavaScri
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 2, el equipo se enfocó en el desarrollo técnico y visual del frontend y backend del proyecto, empleando Vue y Javascript para la creación de interfaces dinámicas, componentes reutilizables y funcionalidades interactivas que mejoran la experiencia de usuario dentro de la aplicación web.
+Durante el Sprint 2, ColdTrack aún no incorporó un backend propio completamente implementado. Sin embargo, para validar la comunicación entre la Web Application y una fuente de datos externa, el equipo configuró una fake API pública mediante MockAPI.io. Esta API permitió simular servicios REST para los principales recursos del sistema y validar operaciones de lectura y registro desde el frontend desplegado.
 
-Asimismo, se preparó y configuró el repositorio destinado al desarrollo de la lógica del backend y a la implementación de servicios y endpoints REST, los cuales permitirán la comunicación e integración de los distintos módulos del sistema en los próximos sprints.
+La Web Application consume los servicios desde la siguiente URL base:
+
+- Base URL: https://6a0490212afe8349b4b6d716.mockapi.io/api/v1
+- Plataforma: MockAPI.io
+- Tipo de servicio: Fake REST API
+- Formato de intercambio: JSON
+
+Los recursos configurados para el Sprint 2 fueron los siguientes:
+
+| Resource | Endpoint | HTTP Methods Used | Purpose |
+|----------|----------|-------------------|---------|
+| Users | `/users` | `GET`, `POST` | Permite consultar usuarios de prueba y registrar nuevas cuentas desde la aplicación. |
+| Shipments | `/shipments` | `GET`, `POST` | Permite listar envíos activos y registrar nuevos envíos refrigerados. |
+| Drivers | `/drivers` | `GET` | Permite consultar conductores disponibles para asignarlos a los envíos. |
+| Sensors | `/sensors` | `GET`, `POST` | Permite visualizar sensores disponibles y registrar nuevos sensores IoT simulados. |
+| Alerts | `/alerts` | `GET` | Permite consultar alertas asociadas a variaciones de temperatura o humedad. |
+
+La documentación de estos servicios permitió conectar los módulos principales de la Web Application con datos simulados. El módulo de autenticación utiliza el recurso `users`, el dashboard y la vista de historial consumen información de `shipments`, la creación de envíos se apoya en `drivers`, la gestión de sensores utiliza `sensors` y la vista de alertas consulta el recurso `alerts`.
+
+![Sprint 2 MockAPI resources evidence](./images/sprint-2-mockapi-resources.png)
+
+Además, se configuraron variables de entorno para separar el consumo de datos entre desarrollo y producción. Durante el desarrollo local se utilizó una fuente local basada en `db.js` o JSON Server, mientras que en producción la aplicación consume la fake API pública de MockAPI.io.
+
+| Environment | API Source | Purpose |
+|-------------|------------|---------|
+| Development | `http://localhost:3000` | Pruebas locales con datos simulados. |
+| Production | `https://6a0490212afe8349b4b6d716.mockapi.io/api/v1` | Consumo público de datos desde la Web Application desplegada. |
+
+![Sprint 2 production environment evidence](./images/sprint-2-env-production.png)
+
+Esta documentación de servicios evidencia que, aunque el backend propio será desarrollado en una iteración posterior, el equipo ya validó la integración inicial entre frontend y servicios REST simulados. Esto permitió probar los flujos principales de ColdTrack, reducir riesgos técnicos y preparar la arquitectura para una futura migración hacia Web Services propios.
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
