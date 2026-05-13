@@ -42,6 +42,7 @@
 | 1.4     | 19/04/2026 | Rodrigo Oblitas Alcalde   | Desarrollo del capítulo VI: Landing Page                |
 | 1.5     | 19/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V                               |
 | 1.6     | 21/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capitulo IV: Wireframes                  |
+| 2.1     | 13/05/2026 | Aarón Avila Palacios      | Desarrollo de las evidencias de ejecución y despliegue del Sprint 2, actualización del índice e incorporación de capturas del reporte. |
 
 
 
@@ -186,6 +187,14 @@ Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, 
       * [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       * [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 
+* [Conclusiones](#conclusiones)
+
+  * [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+
+* [Bibliografía](#bibliografía)
+
+* [Anexos](#anexos)
+
 # Student Outcome
 ABET – EAC - Student Outcome 5
 
@@ -202,6 +211,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
              proporcionar liderazgo en
              forma conjunta</th>
         <td>
+         <b>Aarón Avila: TP1</b><br>
+        Durante la entrega TP1, asumí la responsabilidad de documentar las evidencias correspondientes al Sprint 2, especialmente las secciones de ejecución funcional y despliegue del software. Organicé la información de la Web Application, la landing page, la fake API y los entornos de despliegue para que el reporte refleje de manera clara el avance técnico alcanzado por el equipo. Además, coordiné la incorporación de capturas y referencias necesarias para sustentar el funcionamiento de ColdTrack ante la revisión del sprint.<br><br>
          <b>Aarón Avila: AV1</b><br>
         Durante el desarrollo del proyecto, trabajé de manera autónoma asumiendo un rol activo en la organización de las actividades y la gestión del proyecto, ejerciendo liderazgo en la planificación y ejecución de cada etapa. Participé en la toma de decisiones relacionadas con la definición de la startup, la identificación de la problemática, la segmentación de usuarios y la elaboración de artefactos como User Personas, Empathy Maps, As-Is Scenario Mapping y Ubiquitous Language, demostrando capacidad para dirigir el proyecto de manera integral.<br><br>
          <b>Eslander Celis: AV1</b><br>
@@ -224,6 +235,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
             planifica tareas y cumple
             objetivos.</th>
         <td>
+          <b>Aarón Avila: TP1</b><br>
+         Durante la entrega TP1, contribuí a mantener un flujo de trabajo colaborativo mediante el uso de GitFlow, separando los cambios en ramas feature, integrándolos primero en develop y preparando su actualización hacia main. Esta organización permitió que las evidencias del Sprint 2 se agreguen sin afectar el trabajo previo del equipo y facilitó que los integrantes puedan revisar los avances del reporte de forma ordenada. También aseguré que las capturas agregadas quedaran correctamente vinculadas dentro del README para cumplir con los objetivos de presentación.<br><br>
           <b>Aarón Avila: AV1</b><br>
          Durante el desarrollo del proyecto, mantuve un enfoque basado en la autoevaluación y la mejora continua, considerando diferentes perspectivas en la toma de decisiones y asegurando la coherencia del trabajo realizado. Esto me permitió simular un entorno colaborativo mediante la revisión constante de los avances, organizando las tareas de manera eficiente y garantizando el cumplimiento de los objetivos y entregables dentro de los plazos establecidos.<br><br>
           <b>Eslander Celis: AV1</b><br>
@@ -1860,9 +1873,116 @@ Durante el Sprint 2, el equipo se enfocó en el desarrollo del frontend de la ap
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
+La ejecución del Sprint 2 se centró en validar que la solución ColdTrack pueda ser utilizada como una aplicación web funcional para la gestión de envíos refrigerados. La aplicación implementada permite iniciar sesión, registrar usuarios, administrar envíos, consultar sensores, revisar alertas y visualizar historial de envíos completados. Además, la landing page fue actualizada para conectar sus call-to-action con la Web Application desplegada en Firebase.
 
+Las principales funcionalidades ejecutadas y validadas durante el Sprint 2 fueron las siguientes:
+
+- **Inicio de sesión**: la aplicación presenta una vista inicial de autenticación y permite ingresar con el usuario de demostración registrado en la fuente de datos. Este flujo restringe el acceso a las vistas internas hasta que exista una sesión activa.
+
+  ![Sprint 2 sign in evidence](./images/sprint-2-sign-in.png)
+
+- **Creación de cuenta**: la aplicación permite registrar nuevos usuarios mediante el formulario de creación de cuenta. Los datos ingresados se envían a la fake API configurada, permitiendo simular el almacenamiento de usuarios.
+
+  ![Sprint 2 sign up evidence](./images/sprint-2-sign-up.png)
+
+- **Dashboard de envíos**: luego de iniciar sesión, el usuario accede al dashboard principal, donde se visualizan métricas de envíos, alertas activas y una tabla con información operativa de los envíos registrados.
+
+  ![Sprint 2 dashboard evidence](./images/sprint-2-dashboard.png)
+
+- **Registro de nuevo envío**: la aplicación permite crear un nuevo envío ingresando destino, conductor asignado, descripción de carga, fecha de salida y llegada estimada. Esta funcionalidad permite alimentar la fuente de datos desde la interfaz web.
+
+  ![Sprint 2 new shipment evidence](./images/sprint-2-new-shipment.png)
+
+- **Gestión de sensores**: se implementó una vista para revisar sensores registrados, su estado de asignación, última lectura, temperatura, humedad y acción disponible. También se incorporó la opción de registrar nuevos sensores.
+
+  ![Sprint 2 sensors evidence](./images/sprint-2-sensors.png)
+
+- **Sistema de alertas**: la aplicación muestra alertas generadas por variaciones críticas o de advertencia, permitiendo filtrar por severidad y estado. Esta vista facilita el monitoreo de incidencias durante el transporte.
+
+  ![Sprint 2 alerts evidence](./images/sprint-2-alerts.png)
+
+- **Historial de envíos**: se incorporó una vista de historial para revisar envíos completados, temperatura promedio, humedad promedio y alertas generadas.
+
+  ![Sprint 2 history evidence](./images/sprint-2-history.png)
+
+- **Internacionalización de interfaz**: se validó el cambio de idioma entre inglés y español mediante el selector `EN | ES`, afectando textos fijos de navegación, formularios, títulos, etiquetas y footer.
+
+  ![Sprint 2 i18n evidence](./images/sprint-2-i18n.png)
+
+- **Integración Landing Page - Web Application**: la landing page fue actualizada para que sus botones de acción redirijan hacia la aplicación web desplegada, manteniendo continuidad entre la presentación comercial del producto y el uso de la plataforma.
+
+  ![Sprint 2 landing app link evidence](./images/sprint-2-landing-app-link.png)
+
+Desde el punto de vista técnico, la Web Application se implementó con JavaScript y Vue 3, utilizando Composition API, Vue Router, Vue I18n, PrimeVue y axios. La aplicación consume recursos desde una fake API expuesta públicamente, lo que permite validar el flujo de lectura y registro de información sin depender todavía de un backend propio.
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se completó el despliegue de los principales productos de software del ecosistema ColdTrack: la landing page, la Web Application y la fake API utilizada como fuente de datos para la aplicación. Estos despliegues permiten validar públicamente la navegación entre productos, el consumo de datos y el funcionamiento de los flujos principales.
+
+**Landing Page Deployment**
+
+La landing page se mantiene desplegada mediante **GitHub Pages**, utilizando el repositorio de la organización como fuente del sitio estático. En el Sprint 2 se actualizó para enlazar sus call-to-action con la aplicación web desplegada.
+
+- Repositorio: https://github.com/1ASI0730-2610-10215/Landing-Page
+- URL desplegada: https://1asi0730-2610-10215.github.io/Landing-Page/
+- Rama de despliegue: `main`
+- Plataforma: GitHub Pages
+
+![Sprint 2 landing deployment evidence](./images/sprint-2-landing-deployment.png)
+
+**Web Application Deployment**
+
+La Web Application de ColdTrack fue desplegada mediante **Firebase Hosting**, permitiendo acceso público a la interfaz operativa de la plataforma. La aplicación contiene los módulos de autenticación, dashboard, registro de envíos, sensores, alertas, historial e internacionalización.
+
+- Repositorio: https://github.com/1ASI0730-2610-10215/ColdTrack-Front
+- URL desplegada principal: https://coldtrack-front-web.web.app/
+- URL alternativa: https://coldtrack-front-web.firebaseapp.com/
+- Plataforma: Firebase Hosting
+- Comando de construcción: `npm run build`
+- Carpeta pública de despliegue: `dist`
+- Configuración SPA: redirección de rutas hacia `index.html`
+
+![Sprint 2 Firebase deployment evidence](./images/sprint-2-firebase-deployment.png)
+
+**Fake API Deployment**
+
+Para simular la persistencia y consulta de datos, se configuró una fake API pública en **MockAPI.io**. Esta API funciona como reemplazo desplegado del `db.js` local durante las pruebas de producción, permitiendo consumir recursos como usuarios, envíos, conductores, sensores y alertas desde la Web Application.
+
+- URL base: https://6a0490212afe8349b4b6d716.mockapi.io/api/v1
+- Plataforma: MockAPI.io
+- Recursos esperados:
+  - `/users`
+  - `/shipments`
+  - `/drivers`
+  - `/sensors`
+  - `/alerts`
+
+![Sprint 2 MockAPI resources evidence](./images/sprint-2-mockapi-resources.png)
+
+**Configuración de entorno para despliegue**
+
+La Web Application utiliza variables de entorno para separar la configuración de desarrollo y producción:
+
+- `.env.development`: apunta al entorno local `http://localhost:3000`
+- `.env.production`: apunta al endpoint público de MockAPI.io
+
+De esta forma, el equipo puede ejecutar la aplicación localmente con JSON Server durante el desarrollo y compilarla para producción consumiendo la fake API desplegada.
+
+![Sprint 2 production environment evidence](./images/sprint-2-env-production.png)
+
+**Pasos de despliegue ejecutados**
+
+1. Se integraron los cambios de la aplicación en el repositorio `ColdTrack-Front` siguiendo GitFlow.
+2. Se configuraron variables de entorno para diferenciar desarrollo local y producción.
+3. Se ejecutó el build de producción con `npm run build`.
+4. Se configuró Firebase Hosting usando la carpeta `dist` como salida pública.
+5. Se habilitó el comportamiento de single-page application para redirigir rutas internas hacia `index.html`.
+6. Se desplegó la aplicación en Firebase Hosting.
+7. Se configuraron los recursos necesarios en MockAPI.io para simular el backend.
+8. Se actualizó la landing page para enlazar con la aplicación desplegada.
+9. Se validó el acceso público a la landing page y a la Web Application.
+
+Con estos despliegues, ColdTrack cuenta con una landing page pública, una Web Application accesible en la nube y una fake API disponible para validar los flujos principales desarrollados en el Sprint 2.
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -1897,14 +2017,6 @@ También concluimos que la integración entre landing page, Web Application y fa
 
 Como recomendaciones para los siguientes pasos del roadmap, proponemos priorizar la conexión con sensores reales o simuladores más cercanos al contexto operativo, incorporar roles de usuario con permisos diferenciados, mejorar los reportes exportables para supervisores y ampliar las validaciones con empresas que gestionen productos refrigerados. También recomendamos fortalecer la documentación técnica del backend futuro, definir métricas de éxito medibles sobre reducción de incidencias y ampliar las pruebas de usabilidad para asegurar que la interfaz sea clara tanto para personal administrativo como para conductores o responsables de calidad.
 
-## Video About-The-Team
-
-El video About-The-Team debe presentar al equipo FreshGuard y resumir cómo nos organizamos para desarrollar ColdTrack durante los sprints. En este material se debe explicar brevemente la participación de cada integrante, las responsabilidades asumidas, la forma en que aplicamos GitFlow para coordinar el trabajo, las principales decisiones tomadas durante el desarrollo y las competencias colaborativas fortalecidas durante el proyecto.
-
-- URL del video: pendiente por agregar.
-- Duración total: pendiente por agregar.
-- Captura del video: pendiente por agregar en `images/about-the-team.png`.
-
 # Bibliografía
 
 Axios. (2026). *Axios documentation*. Recuperado el 13 de mayo de 2026, de https://axios-http.com/
@@ -1924,3 +2036,9 @@ Vue.js. (2026). *Vue.js documentation*. Recuperado el 13 de mayo de 2026, de htt
 Vue I18n. (2026). *Vue I18n documentation*. Recuperado el 13 de mayo de 2026, de https://vue-i18n.intlify.dev/
 
 Vite. (2026). *Vite documentation*. Recuperado el 13 de mayo de 2026, de https://vite.dev/
+
+# Anexos
+
+## Exposición grupal
+
+Video de exposición grupal del proyecto ColdTrack: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBzHTo9GCR1RpI0WITzlzTLAdLiHay8hkvnxDjYvTBgo5E?e=RgyzPP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
