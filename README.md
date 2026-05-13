@@ -176,6 +176,16 @@ Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, 
       * [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       * [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 
+    * [5.2.2. Sprint 2](#522-sprint-2)
+
+      * [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      * [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      * [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+      * [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      * [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      * [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      * [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+
 # Student Outcome
 ABET – EAC - Student Outcome 5
 
@@ -1592,7 +1602,7 @@ El equipo de desarrollo se reunió virtualmente para definir los objetivos, tare
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-De acuerdo con la evidencia encontrada en el repositorio y en el `README.md` del proyecto, el desarrollo de esta landing page fue implementado principalmente por **Rodrigo Oblitas Alcalde**.
+
 
 | Team Member | Referencia | Landing Page |
 |------------|------------|--------------|
@@ -1779,6 +1789,53 @@ El equipo de desarrollo se reunió virtualmente para definir los objetivos, tare
 | Sprint 2 Goal                      | Desarrollar el frontend funcional de la aplicación, implementando las principales vistas, componentes y navegación necesarias para permitir la interacción inicial de los usuarios con el sistema. |
 | Sprint 2 Velocity                  | 12                                                                                                                                                                                                      |
 | Sum of Story Points                | 12                                                                                                                                                                                                     |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 2, el equipo organizó el trabajo tomando como principales aspectos la implementación del frontend de ColdTrack, la integración con datos simulados, la construcción de los módulos funcionales principales y la preparación del despliegue de la Web Application. Para asegurar una mejor coordinación, se definieron líderes por aspecto y colaboradores de apoyo según el alcance de las tareas desarrolladas.
+
+En esta matriz, `L` representa al líder del aspecto y `C` representa a los colaboradores que participaron en la implementación, revisión o integración de dicho aspecto.
+
+| Team Member | GitHub Username | Frontend Setup & Routing | Authentication | Shipments Management | Dashboard & Fake API | Sensors Module | Alerts Module | History & i18n | Deployment & Integration |
+|-------------|-----------------|--------------------------|----------------|----------------------|----------------------|----------------|---------------|----------------|--------------------------|
+| Avila Palacios, Aarón | u201823654 | C | L | C | L | C | L | L | C |
+| Oblitas Alcalde, Rodrigo | rodri-ob | L | C | L | C | L | C | C | L |
+| Celis Berrospi, Eslander | Eslander-Celis | C | C | L | C | C | C | L | C |
+| Mendoza Palacios, Gabriel | GabrielMendoza18 | C | C | C | L | C | C | C | C |
+| Arechaga Saavedra, Mathias | mathiasarechaga62 | C | C | C | C | C | L | C | C |
+
+La asignación de liderazgo se relaciona con la organización del Sprint Backlog 2: Aarón lideró los aspectos vinculados con autenticación, dashboard, alertas, historial e internacionalización, mientras que Rodrigo lideró la configuración base, la gestión de envíos, sensores y despliegue. Además, Eslander asumió liderazgo en actividades de gestión de envíos e historial, Gabriel en la integración con la fake API y soporte de datos del dashboard, y Mathias en la definición visual de alertas. Todos los integrantes también colaboraron en la revisión, documentación, pruebas funcionales e integración de los módulos.
+
+#### 5.2.2.3. Sprint Backlog 2
+
+El Sprint Backlog 2 se construyó a partir de las User Stories priorizadas en el Product Backlog para la primera versión funcional de la Web Application. El objetivo principal fue habilitar los flujos iniciales de ColdTrack: registro e inicio de sesión, visualización de envíos activos, creación de envíos, monitoreo de temperatura y humedad, gestión de sensores, generación de alertas e historial de eventos.
+
+El tablero de trabajo utilizado para organizar las tareas del Sprint 2 permitió distribuir las actividades por módulo, dar seguimiento al avance y preparar la integración final del frontend desplegado.
+
+- Board URL: pendiente por agregar.
+- Board screenshot: pendiente por agregar en `images/sprint-2-board.png`.
+
+| Sprint # | User Story Id | User Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|----------|---------------|------------------|---------|------------|------------------|--------------------|-------------|--------|
+| Sprint 2 | US-001 | Registro de usuario | T01 | Implementar vista de registro | Desarrollar la interfaz de creación de cuenta con campos básicos, validación visual y navegación hacia el flujo de acceso. | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-001 | Registro de usuario | T02 | Integrar registro con datos simulados | Conectar la vista de registro con la estructura de datos simulada para validar el flujo inicial de creación de usuario. | 2 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-002 | Inicio de sesión | T03 | Implementar vista de inicio de sesión | Construir la pantalla de sign in con formulario, estados visuales y redirección hacia el dashboard principal. | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-002 | Inicio de sesión | T04 | Configurar navegación protegida | Definir rutas principales de la aplicación y controlar el acceso inicial a las vistas operativas. | 2 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-004 | Crear envío | T05 | Crear formulario de nuevo envío | Implementar el formulario para registrar un envío con datos de origen, destino, producto, conductor y condiciones requeridas. | 4 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-004 | Crear envío | T06 | Registrar envío en fake API | Conectar el formulario de nuevo envío con el recurso simulado para almacenar y consultar información durante la ejecución. | 3 | Gabriel Mendoza Palacios | Done |
+| Sprint 2 | US-005 | Ver envíos activos | T07 | Construir listado de envíos activos | Desarrollar la vista de envíos activos mostrando identificador, estado, temperatura, humedad y datos principales de cada envío. | 3 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-006 | Ver detalle del envío | T08 | Implementar detalle de envío | Agregar una vista de detalle para revisar información operativa y condiciones asociadas a un envío seleccionado. | 3 | Eslander Celis Berrospi | Done |
+| Sprint 2 | US-007 | Asignar sensor a envío | T09 | Implementar módulo de sensores | Crear la interfaz para visualizar sensores disponibles y asociarlos a envíos registrados. | 4 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-009 | Ver temperatura en tiempo real | T10 | Mostrar temperatura en dashboard | Presentar datos de temperatura en tarjetas de monitoreo para facilitar la supervisión rápida de la cadena de frío. | 3 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-010 | Ver humedad en tiempo real | T11 | Mostrar humedad en dashboard | Incorporar lectura de humedad dentro del dashboard y relacionarla con cada envío activo. | 3 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-013 | Alertas de temperatura | T12 | Implementar módulo de alertas | Desarrollar una vista de alertas para identificar variaciones críticas de temperatura y humedad. | 4 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-014 | Notificación al conductor | T13 | Definir estados visuales de alerta | Agregar indicadores visuales para comunicar condiciones normales, advertencias o incidencias durante el transporte. | 2 | Mathias Arechaga Saavedra | Done |
+| Sprint 2 | US-015 | Ver historial de alertas | T14 | Crear historial de alertas | Implementar consulta de eventos anteriores para revisar incidencias registradas durante los envíos. | 3 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-016 | Ver historial de envíos | T15 | Crear vista de historial de envíos | Desarrollar la pantalla de historial para consultar envíos finalizados o previamente registrados. | 3 | Eslander Celis Berrospi | Done |
+| Sprint 2 | US-018 | Filtrar historial | T16 | Agregar soporte de búsqueda y filtro | Incorporar filtros básicos para consultar información histórica por estado, envío o criterio operativo. | 2 | Gabriel Mendoza Palacios | Done |
+| Sprint 2 | US-019 | Ver información de la app (Landing) | T17 | Actualizar enlace hacia Web Application | Modificar la landing page para redirigir a los usuarios hacia la aplicación web desplegada. | 2 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | Task adicional | Configuración de despliegue | T18 | Configurar variables y endpoints | Definir endpoints de entorno y preparar la aplicación para consumir la fake API pública durante el despliegue. | 2 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | Task adicional | Integración del frontend | T19 | Integrar ramas feature en develop | Fusionar los módulos desarrollados en ramas de característica y validar que la aplicación funcione como una experiencia unificada. | 3 | Aarón Avila Palacios | Done |
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
