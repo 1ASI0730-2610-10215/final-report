@@ -2645,6 +2645,18 @@ Las entrevistas fueron planteadas como sesiones guiadas, donde cada participante
 | **Foto entrevista** | <img src="images/entrevista2-segmento1-claudio.png" alt=""  width="250" /> |
 | **Resumen** | Claudio Castillo participó en la entrevista de validación del primer segmento, guiada por Mariano Vilela. Durante la sesión revisó el Landing Page y la Web Application de ColdTrack, enfocándose en los flujos de monitoreo de envíos, revisión de alertas y consulta de información operativa. A partir de la interacción, comprendió que la propuesta busca mejorar el control de la cadena de frío durante el transporte de alimentos mediante información centralizada y alertas oportunas. Asimismo, valoró que la plataforma permita visualizar el estado del envío y posibles incidencias en un solo entorno, ya que esto podría reducir la dependencia de reportes manuales o llamadas constantes al conductor. Como oportunidad de mejora, se identificó que los mensajes de alerta deben ser directos y priorizar la acción que debe tomar el responsable logístico. |
 
+| **ENTREVISTA 3** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Madeleine del Carmen |
+| **Edad** | 42 |
+| **Profesión** | Personal de logistica |
+| **Departamento** | Lima |
+| **Inicio del video** | 0:00 |
+| **Fin del video** | 3:15 |
+| **Link del video** | https://drive.google.com/drive/folders/1rANjDqi1zW6pRqvGjqWI6h-k5BQxF-Vp?usp=sharing |
+| **Foto entrevista** | |
+| **Resumen** | Madeleine del Carmen, de 42 años y personal de logística en Lima, participó en la validación del Landing Page y la Web Application de ColdTrack. Durante la entrevista, resaltó que la propuesta de valor es clara y que el dashboard centralizado facilita enormemente la supervisión de la cadena de frío en tiempo real. Mencionó que, en su día a día, consolidar reportes manuales toma mucho tiempo y genera retrasos en la toma de decisiones, por lo que contar con un historial automatizado y alertas instantáneas les permitiría reaccionar proactivamente ante variaciones críticas de temperatura. Como oportunidad de mejora, sugirió que la plataforma permita exportar los reportes de incidentes de manera sencilla para compartirlos directamente con la gerencia o los clientes. |
+
 #### **Segundo Segmento - Personal de Transporte:** <br>
 
 | **ENTREVISTA 1** | |
