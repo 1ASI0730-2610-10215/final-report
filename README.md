@@ -2200,15 +2200,6 @@ Durante el Sprint 3 se ejecutó la solución integrada de ColdTrack utilizando l
 | Persistencia | MySQL en Filess.io | Los usuarios, envíos, sensores, lecturas y alertas permanecen disponibles entre sesiones. |
 | Seguridad | JWT Bearer | Los recursos protegidos requieren un token obtenido mediante el inicio de sesión. |
 
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
-
-Durante el Sprint 3, el equipo concentró sus esfuerzos en la construcción de la capa de backend del sistema, abarcando la implementación de la lógica de dominio, la configuración de persistencia de datos y la exposición de servicios a través de endpoints REST, sentando así las bases funcionales de los principales módulos de la aplicación. 
-En lo que respecta al módulo de gestión de identidad y acceso, se llevó a cabo la implementación del agregado UserAccount junto con sus reglas de negocio, el value object Email con validación de formato, y la configuración del repositorio de usuarios sobre MySQL. 
-Adicionalmente, se desarrolló el servicio de hashing y verificación segura de contraseñas, los casos de uso correspondientes al registro e inicio de sesión de usuarios con generación de token JWT, y los endpoints REST necesarios para exponer dichas funcionalidades, incluyendo la consulta del perfil del usuario autenticado. 
-En cuanto al módulo de gestión de envíos, se implementó el agregado Shipment con sus respectivas reglas de negocio, la capa de persistencia en MySQL, y los casos de uso para el registro y actualización de envíos refrigerados. Asimismo, 
-se desarrollaron los endpoints REST bajo los métodos POST, GET y PATCH para permitir el registro, consulta y actualización del estado de los envíos, apoyándose en el value object ShipmentStatus para modelar correctamente el ciclo de vida de cada envío. 
-Finalmente, en el módulo de monitoreo de temperatura, se implementaron los endpoints del controlador de alertas de temperatura, así como el servicio encargado de registrar y preservar el historial de alertas generadas por el sistema.
-
 ##### Scope and execution criteria
 
 La revisión se concentró en comprobar el flujo de negocio de extremo a extremo y no solamente la disponibilidad aislada de cada endpoint. Para considerar satisfactoria la ejecución se establecieron los siguientes criterios:
@@ -2371,6 +2362,14 @@ dotnet test cold-track-platform.sln
 En conjunto, estas evidencias demuestran que el incremento del Sprint 3 funciona como una solución integrada: la interfaz ejecuta los casos de uso, la API aplica las reglas de negocio y MySQL conserva el estado resultante. Las capturas complementan la demostración en vivo y permiten rastrear el resultado de cada escenario revisado.
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo concentró sus esfuerzos en la construcción de la capa de backend del sistema, abarcando la implementación de la lógica de dominio, la configuración de persistencia de datos y la exposición de servicios a través de endpoints REST, sentando así las bases funcionales de los principales módulos de la aplicación.
+En lo que respecta al módulo de gestión de identidad y acceso, se llevó a cabo la implementación del agregado UserAccount junto con sus reglas de negocio, el value object Email con validación de formato, y la configuración del repositorio de usuarios sobre MySQL.
+Adicionalmente, se desarrolló el servicio de hashing y verificación segura de contraseñas, los casos de uso correspondientes al registro e inicio de sesión de usuarios con generación de token JWT, y los endpoints REST necesarios para exponer dichas funcionalidades, incluyendo la consulta del perfil del usuario autenticado.
+En cuanto al módulo de gestión de envíos, se implementó el agregado Shipment con sus respectivas reglas de negocio, la capa de persistencia en MySQL, y los casos de uso para el registro y actualización de envíos refrigerados. Asimismo,
+se desarrollaron los endpoints REST bajo los métodos POST, GET y PATCH para permitir el registro, consulta y actualización del estado de los envíos, apoyándose en el value object ShipmentStatus para modelar correctamente el ciclo de vida de cada envío.
+Finalmente, en el módulo de monitoreo de temperatura, se implementaron los endpoints del controlador de alertas de temperatura, así como el servicio encargado de registrar y preservar el historial de alertas generadas por el sistema.
+
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
