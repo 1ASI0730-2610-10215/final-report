@@ -2104,12 +2104,43 @@ En conjunto, la evidencia recopilada en el repositorio demuestra que el equipo m
 ### 5.2.3. Sprint 3
 
 #### 5.2.3.1. Sprint Planning 3
+| Sprint                             | Sprint 3 |
+| ---------------------------------- | -------- |
+|                                    | Sprint Planning Background |
+| Date                               | 2026/06/01 |
+| Time                               | 19:30 PM |
+| Location                           | El desarrollo de la reunión se hizo virtualmente por medio de Discord |
+| Prepared By                        | Eslander Celis Berrospi |
+| Attendees (to planning meeting)    | Eslander Celis Berrospi, Gabriel Mendoza, Rodrigo Oblitas Alcalde, Aarón Avila Palacios |
+| Sprint n – 1 Review Summary        | En el Sprint 2 se desarrolló exitosamente el frontend de la aplicación, implementando las principales vistas, componentes y mecanismos de navegación necesarios para la interacción de los usuarios con el sistema. |
+| Sprint n – 1 Retrospective Summary | Durante la retrospectiva del Sprint 2, el equipo identificó oportunidades de mejora en la integración entre frontend y backend, la organización del código y la distribución de tareas para optimizar el desarrollo del proyecto. |
+|                                    | Sprint Goal & User Stories |
+| Sprint 3 Goal                      | Implementar nuevas historias de usuario relacionadas con el backend, iniciar el desarrollo de la API REST, configurar mecanismos de autenticación, establecer procedimientos para el reporte y monitoreo de servicios backend, y continuar con las tareas pendientes del frontend para lograr una integración progresiva del sistema. |
+| Sprint 3 Velocity                  | 14 |
+| Sum of Story Points                | 14 |
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
 #### 5.2.3.3. Sprint Backlog 3
 
 #### 5.2.3.4. Development Evidence for Sprint Review
+Durante el Sprint 3, el equipo se enfocó en el desarrollo del backend de ColdTrack siguiendo una arquitectura basada en Domain-Driven Design (DDD). Se implementaron los principales bounded contexts del sistema, incluyendo autenticación (IAM), gestión de envíos (Shipments), monitoreo de sensores y telemetría (Telemetry), alertas (Alerting), analítica (Analytics) y generación de reportes (Reporting). Además, se avanzó en la configuración de despliegue, documentación técnica y preparación de versiones funcionales de la plataforma.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| FreshGuard.ColdTrack.Platform | `feature/iam-authentication` | `00e489f6` | `feat(iam): add email and authentication security tests` | Se implementaron pruebas de seguridad para el módulo de autenticación y validación de usuarios. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/create-shipment` | `c59d4007` | `feat(shipments): add shipment domain errors` | Se desarrolló la lógica inicial para la creación de envíos y validaciones de dominio. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/get-shipments` | `0fb3b8d3` | `feat(shipments): implement shipment query service` | Se implementaron consultas y recuperación de información de envíos. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/update-shipment-status` | `cabbc1a8` | `feat(shipments): implement shipment command service` | Se desarrolló la funcionalidad para actualizar estados de los envíos. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/register-sensor` | `cb855649` | `feat(telemetry): add sensor repository contract` | Se implementó el registro y gestión de sensores dentro del sistema. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/record-telemetry` | `95cec308` | `feat(telemetry): implement telemetry command service` | Se desarrolló el registro de datos de telemetría provenientes de sensores. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/get-telemetry` | `ce9a191b` | `feat(telemetry): implement telemetry query services` | Se implementaron servicios de consulta para datos históricos de telemetría. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/alerting-api` | `e4ae8e61` | `feat(alerting): add alert lifecycle endpoints` | Se desarrollaron endpoints para la gestión completa del ciclo de vida de alertas. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/analytics-dashboard` | `0195d31c` | `feat(analytics): implement dashboard analytics queries` | Se implementaron consultas para métricas y paneles analíticos del sistema. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/generate-report` | `a575aa8a` | `feat(reporting): implement report generation service` | Se desarrolló el servicio encargado de generar reportes operativos. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/pdf-report` | `e5116149` | `feat(reporting): implement QuestPDF report generation` | Se implementó la generación de reportes en formato PDF mediante QuestPDF. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/fix-swagger-bearer-security` | `1c0a3aac` | `fix(api): apply bearer security to Swagger operations` | Se configuró la autenticación Bearer para las pruebas de endpoints desde Swagger. | 16/06/2026 |
+
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
