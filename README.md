@@ -2635,6 +2635,40 @@ Como recomendaciones para los siguientes pasos del roadmap, proponemos priorizar
 
 Finalmente, recomendamos ampliar las Validation Interviews con empresas que gestionen productos refrigerados y definir métricas verificables, como tiempo de detección de incidencias, porcentaje de envíos dentro del rango permitido, reducción de registros manuales y facilidad de uso percibida. Estos resultados deberán compararse con los criterios de éxito de Lean UX para priorizar el siguiente incremento y evitar que las decisiones del roadmap se basen únicamente en supuestos técnicos del equipo.
 
+## Video About-the-Team
+
+
+| Sección | Descripción | Inicio |
+|---------|-------------|--------|
+| Proceso colaborativo y desarrollo del proyecto | Se resume el proceso de trabajo del equipo durante el desarrollo de ColdTrack, mostrando reuniones, planificación de sprints, coordinación entre integrantes, desarrollo del frontend y backend, integración del sistema y despliegue final. | 00:00 |
+| Presentación de Eslander | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 4:14 |
+| Presentación de Rodrigo | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 05:15 |
+| Presentación de Mathias | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 06:31 |
+| Presentación de Aaron | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 07:25 |
+| Presentación de Gabriel | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 08:22 |
+
+
+#### Evidencia del video
+
+Screenshot del video:
+
+![About-the-Team](images/about-the-team.png)
+
+Microsoft Stream URL:  
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQDK3zANe96kTKttTEQVPc51AeFOEgs5dNd1qZa33zZqOjs?e=tx1J4F&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+
+
+
+YouTube URL:  
+https://youtu.be/ULdg35MGr-Q
+
+
+Timing / Duración:  
+9:57 minutos
+
+
 # Bibliografía
 
 Axios. (2026). *Axios documentation*. Recuperado el 13 de mayo de 2026, de https://axios-http.com/
