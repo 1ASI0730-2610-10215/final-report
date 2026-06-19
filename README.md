@@ -51,6 +51,7 @@
 | 2.1     | 13/05/2026 | Aarón Avila Palacios      | Desarrollo de las evidencias de ejecución y despliegue del Sprint 2, actualización del índice e incorporación de capturas del reporte. |
 | 3.1     | 19/06/2026 | Aarón Avila Palacios      | Corrección de la carátula, actualización del Student Outcome para AV2 e incorporación de conclusiones, recomendaciones y referencias bibliográficas de la entrega. |
 | 3.2     | 19/06/2026 | Aarón Avila Palacios      | Desarrollo de las evidencias de ejecución y despliegue del Sprint 3, documentación de los flujos integrados y preparación de la sección Video About-the-Product. |
+| 3.3     | 19/06/2026 | Aarón Avila Palacios      | Ampliación de las evidencias de ejecución y despliegue mediante escenarios verificables, arquitectura productiva, configuración reproducible y criterios de aceptación. |
 
 
 
@@ -2121,6 +2122,65 @@ Durante el Sprint 3 se ejecutó la solución integrada de ColdTrack utilizando l
 | Persistencia | MySQL en Filess.io | Los usuarios, envíos, sensores, lecturas y alertas permanecen disponibles entre sesiones. |
 | Seguridad | JWT Bearer | Los recursos protegidos requieren un token obtenido mediante el inicio de sesión. |
 
+##### Scope and execution criteria
+
+La revisión se concentró en comprobar el flujo de negocio de extremo a extremo y no solamente la disponibilidad aislada de cada endpoint. Para considerar satisfactoria la ejecución se establecieron los siguientes criterios:
+
+1. La Web Application debe cargar desde Firebase Hosting y comunicarse con la URL productiva del backend.
+2. El usuario debe poder autenticarse y utilizar el token JWT para acceder a recursos protegidos.
+3. Los envíos, sensores y lecturas deben persistir en MySQL y permanecer disponibles en consultas posteriores.
+4. Una lectura fuera de los umbrales de 2 °C a 8 °C o por encima de 60 % de humedad debe reflejarse como una alerta operativa.
+5. El cambio de estado de un envío debe respetar el ciclo de vida soportado por la API.
+6. Los envíos completados deben aparecer en el historial y poder incluirse en un reporte PDF.
+
+El siguiente diagrama resume la secuencia ejecutada durante la Sprint Review:
+
+```mermaid
+sequenceDiagram
+    actor U as Usuario
+    participant W as Web Application
+    participant A as ASP.NET Core API
+    participant D as MySQL
+    U->>W: Inicia sesión
+    W->>A: POST /api/v1/authentication/sign-in
+    A->>D: Valida credenciales
+    D-->>A: Usuario registrado
+    A-->>W: JWT y datos del usuario
+    U->>W: Registra o consulta un envío
+    W->>A: Solicitud REST + Bearer token
+    A->>D: Persiste o consulta información
+    D-->>A: Resultado de la operación
+    A-->>W: Respuesta JSON
+    U->>W: Registra una lectura del sensor
+    W->>A: POST /api/v1/telemetry
+    A->>D: Guarda lectura y evalúa umbrales
+    A-->>W: Sensor, envío y alertas actualizados
+```
+
+##### API operations included in the review
+
+| Módulo | Método y ruta | Propósito verificado |
+|---|---|---|
+| Authentication | `POST /api/v1/authentication/sign-up` | Registrar una cuenta de ColdTrack. |
+| Authentication | `POST /api/v1/authentication/sign-in` | Autenticar al usuario y emitir un JWT. |
+| Users | `GET /api/v1/users/me` | Recuperar el usuario identificado por el token. |
+| Shipments | `POST /api/v1/shipments` | Registrar un envío refrigerado. |
+| Shipments | `GET /api/v1/shipments` | Listar envíos y aplicar el filtro opcional de estado. |
+| Shipments | `GET /api/v1/shipments/{shipmentId}` | Consultar el detalle técnico de un envío. |
+| Shipments | `PATCH /api/v1/shipments/{shipmentId}/status` | Actualizar el estado del ciclo de vida. |
+| Sensors | `GET /api/v1/sensors` y `POST /api/v1/sensors` | Consultar y registrar sensores. |
+| Sensors | `PATCH /api/v1/sensors/{sensorId}/assignment` | Asignar un sensor disponible a un envío. |
+| Telemetry | `POST /api/v1/telemetry` | Registrar una lectura de temperatura y humedad. |
+| Telemetry | `GET /api/v1/shipments/{shipmentId}/telemetry` | Consultar las lecturas asociadas a un envío. |
+| Alerts | `GET /api/v1/alerts` | Listar alertas por estado y severidad. |
+| Alerts | `PATCH /api/v1/alerts/{alertId}/acknowledgment` | Reconocer una alerta activa. |
+| Alerts | `PATCH /api/v1/alerts/{alertId}/resolution` | Resolver una alerta. |
+| Analytics | `GET /api/v1/analytics/dashboard` | Obtener indicadores consolidados del dashboard. |
+| Analytics | `GET /api/v1/analytics/shipment-history` | Consultar el historial de envíos completados. |
+| Reports | `POST /api/v1/reports` | Generar y registrar un reporte analítico. |
+| Reports | `GET /api/v1/reports/{reportId}/file` | Descargar el reporte generado en PDF. |
+| Health | `GET /health` | Comprobar que el proceso de la API está disponible. |
+
 La documentación interactiva de Swagger permitió revisar y ejecutar los endpoints implementados. Se verificaron las operaciones de alertas, analítica, autenticación, reportes, sensores, envíos, telemetría y consulta del usuario autenticado.
 
 <p align="center">
@@ -2191,11 +2251,64 @@ Finalmente, se completó un envío para comprobar su incorporación al historial
 
 <p align="center"><em>Figura 10. Reporte PDF generado por ColdTrack para el período seleccionado.</em></p>
 
+##### Integrated functional scenarios
+
+| ID | Escenario ejecutado | Evidencia esperada | Resultado |
+|---|---|---|---|
+| EX-01 | Autenticar una cuenta registrada | La API devuelve un JWT y las solicitudes protegidas incluyen `Authorization: Bearer` | Conforme |
+| EX-02 | Consultar el dashboard | Se muestran indicadores, envíos y alertas recuperados desde la API | Conforme |
+| EX-03 | Registrar un nuevo envío | El envío se guarda y queda disponible para consultas posteriores | Conforme |
+| EX-04 | Consultar el detalle del envío | Se muestran carga, conductor, fechas, condiciones, sensor y alertas relacionadas | Conforme |
+| EX-05 | Consultar y asignar sensores | La tabla muestra el sensor y el envío vinculado | Conforme |
+| EX-06 | Registrar telemetría fuera del rango | Se actualiza la última lectura y se genera una alerta asociada | Conforme |
+| EX-07 | Reconocer y resolver alertas | El estado de la alerta cambia y se conserva en MySQL | Conforme |
+| EX-08 | Completar un envío | El envío se incorpora al historial de completados | Conforme |
+| EX-09 | Exportar información | Se genera un archivo PDF con indicadores y detalle del período | Conforme |
+| EX-10 | Cambiar el idioma de la interfaz | Los textos fijos se presentan en inglés o español | Conforme |
+
+##### Technical verification commands
+
+Antes de publicar los incrementos se utilizaron las validaciones disponibles en cada repositorio:
+
+```bash
+# Web Application
+npm install
+npm run build
+
+# Web Services
+dotnet restore
+dotnet build cold-track-platform.sln
+dotnet test cold-track-platform.sln
+```
+
+En conjunto, estas evidencias demuestran que el incremento del Sprint 3 funciona como una solución integrada: la interfaz ejecuta los casos de uso, la API aplica las reglas de negocio y MySQL conserva el estado resultante. Las capturas complementan la demostración en vivo y permiten rastrear el resultado de cada escenario revisado.
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 El despliegue del Sprint 3 se organizó en tres servicios independientes: MySQL para la persistencia, Render para los Web Services y Firebase Hosting para la Web Application. Esta separación permite actualizar cada componente de manera controlada y mantener las credenciales de producción fuera de los repositorios.
+
+##### Deployed architecture
+
+```mermaid
+flowchart LR
+    U[Usuario] -->|HTTPS| F[Vue 3 Web Application<br/>Firebase Hosting]
+    F -->|REST + JSON + JWT| B[ASP.NET Core API<br/>Render Web Service]
+    B -->|EF Core + TLS| D[(MySQL 8<br/>Filess.io)]
+    B --> O[Swagger / OpenAPI]
+    B --> P[QuestPDF reports]
+```
+
+| Componente | Tecnología y plataforma | Dirección o configuración principal |
+|---|---|---|
+| Web Application | Vue 3.5, Vite y Firebase Hosting | https://coldtrack-front-web.web.app/ |
+| Web Application alternativa | Firebase Hosting | https://coldtrack-front-web.firebaseapp.com/ |
+| Web Services | ASP.NET Core sobre .NET 10 y Render | https://freshguard-coldtrack-platform.onrender.com |
+| Swagger UI | Swashbuckle en Render | https://freshguard-coldtrack-platform.onrender.com/swagger/index.html |
+| Health check | ASP.NET Core | https://freshguard-coldtrack-platform.onrender.com/health |
+| Persistencia | Entity Framework Core y MySQL 8.0.29 | Filess.io mediante conexión TLS |
+| Reportes | QuestPDF | Generación y descarga desde los endpoints de reportes |
 
 ##### Database deployment
 
@@ -2206,6 +2319,23 @@ La base de datos MySQL 8.0.29 fue aprovisionada en Filess.io mediante una instan
 </p>
 
 <p align="center"><em>Figura 11. Instancia MySQL de producción activa en Filess.io.</em></p>
+
+La configuración productiva de ASP.NET Core construye la cadena de conexión a partir de variables de entorno y exige `SslMode=Required`. De este modo, el repositorio conserva solamente los nombres de las variables y Render almacena sus valores sensibles.
+
+| Variable | Propósito |
+|---|---|
+| `DATABASE_HOST` | Host asignado por Filess.io. |
+| `DATABASE_PORT` | Puerto de la instancia MySQL. |
+| `DATABASE_NAME` | Esquema productivo de ColdTrack. |
+| `DATABASE_USER` | Usuario con permisos sobre el esquema. |
+| `DATABASE_PASSWORD` | Contraseña almacenada como secreto. |
+| `TokenSettings__Secret` | Clave utilizada para firmar los JWT. |
+| `TokenSettings__Issuer` | Emisor esperado por la validación del token. |
+| `TokenSettings__Audience` | Audiencia autorizada para consumir el token. |
+
+La API aplica las migraciones pendientes al iniciar mediante `Database.MigrateAsync()`. En el entorno preparado para la Sprint Review también se habilitó la carga controlada de datos de demostración, lo que permitió disponer de cuentas, envíos y sensores iniciales sin ejecutar scripts manuales sobre producción.
+
+La persistencia se comprobó registrando y consultando usuarios, envíos, sensores, lecturas, alertas y reportes. Los datos permanecieron disponibles después de recargar la Web Application y después de nuevos despliegues del frontend.
 
 ##### Web Services deployment
 
@@ -2220,6 +2350,34 @@ Los Web Services de FreshGuard.ColdTrack.Platform fueron desplegados en Render c
 
 <p align="center"><em>Figura 12. Web Service de ColdTrack ejecutándose en el entorno de producción de Render.</em></p>
 
+El backend utiliza un `Dockerfile` multi-stage. La primera etapa restaura y publica la solución con el SDK de .NET 10; la segunda ejecuta únicamente los artefactos publicados sobre la imagen de ASP.NET Core, reduciendo el contenido del contenedor final.
+
+```dockerfile
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+WORKDIR /src
+COPY . .
+RUN dotnet restore cold-track-platform.sln
+RUN dotnet publish FreshGuard.ColdTrack.Platform/FreshGuard.ColdTrack.Platform.csproj \
+    -c Release -o /app/publish /p:UseAppHost=false
+
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
+WORKDIR /app
+COPY --from=build /app/publish .
+EXPOSE 10000
+ENTRYPOINT ["sh", "-c", "dotnet FreshGuard.ColdTrack.Platform.dll --urls http://0.0.0.0:${PORT:-10000}"]
+```
+
+Proceso aplicado para publicar los Web Services:
+
+1. Las ramas funcionales del backend se integraron en `develop` y se validaron antes de llegar a `main`.
+2. Render se conectó al repositorio `FreshGuard.ColdTrack.Platform` y utilizó la rama estable para construir la imagen Docker.
+3. Se configuraron como variables protegidas la conexión MySQL y los parámetros de firma JWT.
+4. El proceso tomó el puerto dinámico `PORT` proporcionado por Render; en ausencia de este valor utiliza el puerto 10000.
+5. Al iniciar, Entity Framework Core aplicó las migraciones pendientes y preparó los datos de demostración configurados.
+6. Se verificaron `/health`, Swagger UI, autenticación y consultas protegidas desde la URL pública.
+
+Swagger permanece habilitado en producción para la revisión académica. La captura de Render confirma que el servicio inició en el entorno `Production` y quedó disponible en el dominio público. Debido al plan gratuito, una instancia inactiva puede suspenderse temporalmente y la primera solicitud puede tardar aproximadamente 50 segundos en reactivarla.
+
 ##### Web Application deployment
 
 La Web Application fue construida con Vite y desplegada en Firebase Hosting. La versión publicada utiliza la URL del backend de Render configurada para producción, lo cual permite ejecutar el flujo completo desde el navegador sin depender de la API simulada utilizada en incrementos anteriores.
@@ -2232,6 +2390,62 @@ La Web Application fue construida con Vite y desplegada en Firebase Hosting. La 
 </p>
 
 <p align="center"><em>Figura 13. Versión de la Web Application publicada en Firebase Hosting.</em></p>
+
+La configuración de Firebase publica el directorio generado por Vite y redirige cualquier ruta hacia `index.html`, condición necesaria para que Vue Router mantenga la navegación de la Single Page Application después de una recarga.
+
+```json
+{
+  "hosting": {
+    "public": "dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      { "source": "**", "destination": "/index.html" }
+    ]
+  }
+}
+```
+
+El entorno productivo del frontend separa la URL base de las rutas semánticas de cada recurso:
+
+```dotenv
+VITE_API_BASE_URL=https://freshguard-coldtrack-platform.onrender.com
+VITE_AUTHENTICATION_ENDPOINT_PATH=/api/v1/authentication
+VITE_SHIPMENTS_ENDPOINT_PATH=/api/v1/shipments
+VITE_SENSORS_ENDPOINT_PATH=/api/v1/sensors
+VITE_TELEMETRY_ENDPOINT_PATH=/api/v1/telemetry
+VITE_ALERTS_ENDPOINT_PATH=/api/v1/alerts
+VITE_ANALYTICS_ENDPOINT_PATH=/api/v1/analytics
+VITE_REPORTS_ENDPOINT_PATH=/api/v1/reports
+```
+
+Los comandos utilizados para construir y publicar la aplicación fueron:
+
+```bash
+npm install
+npm run build
+firebase deploy --only hosting
+```
+
+##### Release strategy and post-deployment verification
+
+Los tres repositorios mantuvieron el flujo `feature/* → develop → release/* → main`. Las ramas de característica aislaron cada incremento, `develop` concentró la integración y `main` representó la versión publicada. Cada release se identificó mediante un tag para conservar la relación entre código, evidencia y despliegue.
+
+La disponibilidad pública se volvió a comprobar el 19 de junio de 2026. Firebase Hosting respondió con estado HTTP `200`, el health check de Render devolvió `{"status":"Healthy"}` y Swagger UI respondió con estado HTTP `200` después de la reactivación de la instancia gratuita.
+
+| Verificación posterior al despliegue | Resultado observado |
+|---|---|
+| El contenedor de Render inicia con el puerto asignado | Conforme |
+| `GET /health` responde desde el dominio público | `200 OK` y estado `Healthy` |
+| Swagger UI expone los contratos de la API | `200 OK` |
+| El inicio de sesión emite un JWT utilizable | Conforme |
+| Los endpoints protegidos rechazan solicitudes sin credenciales válidas | Conforme |
+| Firebase Hosting entrega la Web Application | `200 OK` |
+| La recarga de rutas internas conserva la navegación SPA | Conforme |
+| El frontend consume la API de Render | Conforme |
+| MySQL conserva la información entre solicitudes | Conforme |
+| El reporte PDF se genera y descarga correctamente | Conforme |
+
+Como aspecto de seguridad pendiente, la política CORS del backend se encuentra configurada actualmente para aceptar cualquier origen durante la demostración. Para una siguiente versión productiva se recomienda restringirla a los dominios autorizados de Firebase y a los entornos locales de desarrollo.
 
 Las tres evidencias confirman que la solución fue desplegada de extremo a extremo: Firebase entrega la interfaz, Render procesa las solicitudes de negocio y Filess.io conserva la información en MySQL. Los secretos de conexión y autenticación se administran mediante variables de entorno y no forman parte de los archivos versionados.
 
@@ -2247,7 +2461,29 @@ Las tres evidencias confirman que la solución fue desplegada de extremo a extre
 
 ## 5.4. Video About-the-Product
 
-**Enlace del video:**
+Esta sección presentará el Video About-the-Product de ColdTrack. Su propósito será comunicar de manera breve el problema de la cadena de frío, los segmentos objetivo, la propuesta de valor y el funcionamiento del producto digital integrado. El contenido estará dirigido a responsables de logística, control de calidad, transportistas y organizaciones que necesitan supervisar productos sensibles durante su traslado.
+
+El video deberá mostrar el vínculo entre la propuesta comunicada en la Landing Page y las capacidades disponibles en la Web Application. El recorrido incluirá el inicio de sesión, dashboard, registro y seguimiento de envíos, gestión de sensores, telemetría, alertas, historial y exportación de reportes. También explicará que la solución utiliza Web Services desplegados y persistencia MySQL para conservar la información operativa.
+
+### Planned video structure
+
+| Bloque | Contenido esperado |
+|---|---|
+| Problem statement | Riesgo de pérdida de calidad por falta de visibilidad sobre temperatura y humedad. |
+| Target segments | Empresas distribuidoras, responsables de logística, control de calidad y transportistas. |
+| Value proposition | Monitoreo centralizado, alertas oportunas, trazabilidad e historial de envíos. |
+| Landing Page | Presentación de la startup, beneficios y acceso a la aplicación. |
+| Web Application | Demostración de envíos, sensores, lecturas, alertas, historial y reportes. |
+| Technology support | Integración entre Firebase, Render y MySQL en Filess.io. |
+| Closing message | Beneficio esperado para la toma de decisiones en la cadena de frío. |
+
+### Video evidence
+
+**Microsoft Stream o SharePoint URL:**
+
+**YouTube URL:**
+
+**Duración:**
 
 **Captura del video:**
 
