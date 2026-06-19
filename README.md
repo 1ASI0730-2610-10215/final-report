@@ -2121,6 +2121,20 @@ En conjunto, la evidencia recopilada en el repositorio demuestra que el equipo m
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
+Durante el Sprint 3, el equipo organizó el trabajo tomando como principales aspectos la implementación del backend de ColdTrack utilizando ASP.NET Core, la configuración de la persistencia con MySQL, la construcción de los servicios de dominio (IAM, Shipments, Telemetry, Alerting, Reporting) y la preparación del despliegue en Render y Filess.io. Para asegurar una mejor coordinación, se definieron líderes por aspecto y colaboradores de apoyo según el alcance de las tareas desarrolladas.
+
+En esta matriz, `L` representa al líder del aspecto y `C` representa a los colaboradores que participaron en la implementación, revisión o integración de dicho aspecto.
+
+| Team Member | GitHub Username | Backend Setup & DDD | IAM & Auth | Shipments API | Telemetry & Sensors | Alerting Engine | Analytics & Reports | DB & Deployment |
+|-------------|-----------------|---------------------|------------|---------------|---------------------|-----------------|---------------------|-----------------|
+| Avila Palacios, Aarón | AaronAvilap | C | C | C | C | L | C | C |
+| Oblitas Alcalde, Rodrigo | Darkdren | L | L | C | C | C | C | L |
+| Celis Berrospi, Eslander | Eslander-Celis | C | C | C | L | C | C | C |
+| Mendoza Palacios, Gabriel | Gabriel2349 | C | C | C | C | C | L | C |
+| Arechaga Saavedra, Mathias | MathZell | C | C | L | C | C | C | C |
+
+La asignación de liderazgo se relaciona con la organización del Sprint Backlog 3: Rodrigo lideró los aspectos vinculados con la configuración base del backend en ASP.NET Core, autenticación (IAM) y el despliegue de los Web Services y base de datos. Mathias asumió el liderazgo en la gestión de envíos (Shipments API), Eslander en la integración de sensores y soporte de datos de telemetría, Aarón en la definición de reglas de validación y políticas del motor de alertas, y Gabriel en los reportes analíticos. Todos los integrantes también colaboraron en la revisión, documentación, pruebas funcionales e integración de los módulos del backend.
+
 #### 5.2.3.3. Sprint Backlog 3
 
 El Sprint Backlog 3 se construyó a partir de las User Stories priorizadas en el Product Backlog para consolidar la integración del ecosistema ColdTrack. El objetivo principal fue reemplazar la fake API por un backend productivo desarrollado en ASP.NET Core, conectar la Web Application con Web Services persistentes en MySQL, implementar el motor de alertas, completar la gestión de reportes e integrar todos los módulos en un flujo de extremo a extremo.
@@ -2521,6 +2535,22 @@ Como aspecto de seguridad pendiente, la política CORS del backend se encuentra 
 Las tres evidencias confirman que la solución fue desplegada de extremo a extremo: Firebase entrega la interfaz, Render procesa las solicitudes de negocio y Filess.io conserva la información en MySQL. Los secretos de conexión y autenticación se administran mediante variables de entorno y no forman parte de los archivos versionados.
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+
+<p>
+Durante el Sprint 3, los analíticos de colaboración del repositorio FreshGuard.ColdTrack.Platform evidencian la participación de los integrantes del equipo sobre el código del backend de ColdTrack. A lo largo del sprint se registran commits asociados a la configuración inicial del proyecto con ASP.NET Core, así como a la implementación de los módulos de autenticación, gestión de envíos, telemetría, alertas, analítica y reportes. Esta actividad confirma que la construcción de los Web Services y la persistencia en MySQL se realizó de forma incremental, alineada a los objetivos definidos en el Sprint 3 Goal.
+</p>
+
+<img src="./images/overview-sprint3.png" alt="overview-sprint3">
+
+<p>
+El Network Graph correspondiente al Sprint 3 muestra un uso activo del flujo de trabajo basado en GitFlow, con ramas de características (features como <code>feature/iam-authentication</code>, <code>feature/create-shipment</code>, <code>feature/alerting-api</code>) creadas para los dominios y servicios, que luego son fusionadas a la rama <code>develop</code> y posteriormente integradas tras el desarrollo. Este patrón de ramas indica que los integrantes coordinaron el trabajo de forma estructurada, alineados con las prácticas definidas para el proyecto (feature branches y consolidación en develop), reforzando la trazabilidad y la calidad del código entregado durante el sprint.
+</p>
+
+<img src="./images/network-sprint3.png" alt="network-graph-sprint3">
+
+<p>
+En conjunto, la evidencia recopilada en el repositorio demuestra que el equipo mantuvo una dinámica de trabajo constante conforme avanzaban las fechas de integración de los distintos bounded contexts del backend. La consolidación exitosa de las APIs y servicios sugiere un alto nivel de organización para preparar la Sprint Review. Estos analíticos y la correcta ejecución del GitFlow confirman que, durante el Sprint 3, los miembros del equipo participaron efectivamente en la implementación de la aplicación backend según el alcance establecido, cumpliendo con el principio de trabajo colaborativo.
+</p>
 
 ## 5.3. Validation Interviews
 
