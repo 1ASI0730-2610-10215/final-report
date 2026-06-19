@@ -1,35 +1,39 @@
-<h1 align="center"> UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS </h1>
+<h1 align="center">Universidad Peruana de Ciencias Aplicadas</h1>
 
-<h2 align="center"> INGENIERIA DE SOFTWARE</h2>
-<h2 align="center"> CICLO 2026-1</h2>
+<h2 align="center">Carrera de Ingeniería de Software</h2>
 
 <div align="center">
    <img src="images/logo_UPC.png" alt="Logo de la UPC" />
 </div>
 
 <br>
-<h3 align="center"> Aplicaciones Web </h3>
-<h3 align="center"> 1ASI0730-2610-10215 </h3>
-<h3 align="center"> Profesor del Curso: Velásquez Núñez, Ángel Augusto </h3>
-<h3 align="center"> "INFORME DE TRABAJO FINAL"</h3>
-<h3 align="center"> Nombre de Startup: FreshGuard  </h3>
-<h3 align="center"> Nombre del Producto: ColdTrack  </h3>
+<h3 align="center">1ASI0730 - Aplicaciones Web</h3>
+<h3 align="center">NRC 10215</h3>
+<h3 align="center">Informe del Trabajo Final</h3>
+<h3 align="center">Docente</h3>
+<p align="center">Velásquez Núñez, Ángel Augusto</p>
+<h3 align="center">Equipo</h3>
+<p align="center">FreshGuard</p>
+<h3 align="center">Proyecto</h3>
+<p align="center">ColdTrack</p>
+<h3 align="center">Integrantes</h3>
 <div align="center">
 
 
-| **Member**                | **Code**   |
-|---------------------------|------------|
-| Eslander Celis Berrospi   | U201911249 |
-| Gabriel Mendoza Palacios  | U202416908 |
-| Rodrigo Oblitas Alcalde   | U20221G185 |
-| Aarón Avila Palacios      | U201823654 |
-| Mathias Arechaga Saavedra | U202320699 |
+| **Código** | **Apellidos y Nombres** |
+|------------|--------------------------|
+| U201911249 | Celis Berrospi, Eslander |
+| U202416908 | Mendoza Palacios, Gabriel |
+| U20221G185 | Oblitas Alcalde, Rodrigo |
+| U201823654 | Avila Palacios, Aarón |
+| U202320699 | Arechaga Saavedra, Mathias |
 
 
 
 </div>
 
-<h3 align="center"> ABRIL - 2026   </h3>
+<h3 align="center">Período 202610</h3>
+<h3 align="center">Junio 2026</h3>
 
 <div style="page-break-before: always;"></div>
 
@@ -43,6 +47,7 @@
 | 1.5     | 19/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V                               |
 | 1.6     | 21/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capitulo IV: Wireframes                  |
 | 2.1     | 13/05/2026 | Aarón Avila Palacios      | Desarrollo de las evidencias de ejecución y despliegue del Sprint 2, actualización del índice e incorporación de capturas del reporte. |
+| 3.1     | 19/06/2026 | Aarón Avila Palacios      | Corrección de la carátula, actualización del Student Outcome para AV2 e incorporación de conclusiones, recomendaciones y referencias bibliográficas de la entrega. |
 
 
 
@@ -235,6 +240,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
          <ul>
            <li><b>AV1:</b> Durante el desarrollo del proyecto, trabajé de manera autónoma asumiendo un rol activo en la organización de las actividades y la gestión del proyecto, ejerciendo liderazgo en la planificación y ejecución de cada etapa. Participé en la toma de decisiones relacionadas con la definición de la startup, la identificación de la problemática, la segmentación de usuarios y la elaboración de artefactos como User Personas, Empathy Maps, As-Is Scenario Mapping y Ubiquitous Language, demostrando capacidad para dirigir el proyecto de manera integral.</li>
            <li><b>TB1:</b> Durante el Sprint 2 (TB1), ejercí liderazgo en la estructuración técnica del proyecto frontend y la configuración de variables de entorno. Coordiné con el equipo la adopción de Vue.js y apoyé en la toma de decisiones arquitectónicas, asegurando que el desarrollo de los módulos principales estuviera alineado con los requerimientos técnicos y de diseño.</li>
+           <li><b>AV2:</b> Durante el Sprint 3 lideré la integración entre la Web Application y los Web Services de ColdTrack. Coordiné la sustitución de la API simulada por el backend desplegado, la validación de los flujos de autenticación, envíos, sensores, telemetría, alertas e historial, y la preparación de releases trazables mediante GitFlow. Este trabajo permitió al equipo consolidar una solución integrada y demostrable para la Sprint Review.</li>
          </ul>
          <b>Eslander Celis</b>
          <ul>
@@ -259,8 +265,9 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
         </td>
         <td>
           <ul>
-            <li><b>AV1:</b> El equipo logró trabajar de manera conjunta, compartiendo responsabilidades y asumiendo un liderazgo distribuido que permitió organizar mejor las actividades y tomar decisiones de forma eficiente. La participación activa de todos los integrantes facilitó la coordinación en el desarrollo de entregables como los User Stories, el Product Backlog y el Impact Map, generando un ambiente de confianza y compromiso. Esto contribuyó a mantener al equipo alineado y enfocado en los objetivos del proyecto.</li>
-            <li><b>TB1:</b> Durante el Sprint 2, el equipo demostró madurez al aplicar un liderazgo técnico y organizativo conjunto. La implementación de la aplicación en Vue.js exigió una alta coordinación mediante GitFlow, donde cada integrante lideró el desarrollo de módulos específicos (dashboard, alertas, envíos) mientras se apoyaban mutuamente en las revisiones de código, logrando consolidar la Web Application con éxito.</li>
+             <li><b>AV1:</b> El equipo logró trabajar de manera conjunta, compartiendo responsabilidades y asumiendo un liderazgo distribuido que permitió organizar mejor las actividades y tomar decisiones de forma eficiente. La participación activa de todos los integrantes facilitó la coordinación en el desarrollo de entregables como los User Stories, el Product Backlog y el Impact Map, generando un ambiente de confianza y compromiso. Esto contribuyó a mantener al equipo alineado y enfocado en los objetivos del proyecto.</li>
+             <li><b>TB1:</b> Durante el Sprint 2, el equipo demostró madurez al aplicar un liderazgo técnico y organizativo conjunto. La implementación de la aplicación en Vue.js exigió una alta coordinación mediante GitFlow, donde cada integrante lideró el desarrollo de módulos específicos (dashboard, alertas, envíos) mientras se apoyaban mutuamente en las revisiones de código, logrando consolidar la Web Application con éxito.</li>
+             <li><b>AV2:</b> En el Sprint 3, el liderazgo compartido permitió integrar frontend, backend y base de datos sin perder la separación entre bounded contexts. La coordinación de despliegues, pruebas de endpoints y releases facilitó que cada integrante aportara desde su responsabilidad técnica y que el equipo presentara una solución consistente, trazable y disponible públicamente.</li>
           </ul>
         </td>
     </tr>
@@ -274,6 +281,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
          <ul>
            <li><b>AV1:</b> Durante el desarrollo del proyecto, mantuve un enfoque basado en la autoevaluación y la mejora continua, considerando diferentes perspectivas en la toma de decisiones y asegurando la coherencia del trabajo realizado. Esto me permitió simular un entorno colaborativo mediante la revisión constante de los avances, organizando las tareas de manera eficiente y garantizando el cumplimiento de los objetivos y entregables dentro de los plazos establecidos.</li>
            <li><b>TB1:</b> Para el Sprint 2, ayudé a establecer metas de desarrollo claras, dividiendo los requerimientos en tareas manejables. Fomenté un entorno inclusivo al apoyar a mis compañeros con dudas sobre el nuevo stack tecnológico (Vue.js, Vite), asegurando que todos cumpliéramos con los entregables dentro de los tiempos estipulados para el despliegue.</li>
+           <li><b>AV2:</b> Organicé las correcciones y validaciones de la entrega en ramas funcionales creadas desde <code>develop</code>, documenté los pasos de integración y despliegue, y apoyé al equipo en el uso de Swagger, MySQL y los servicios publicados. La planificación por incrementos y la revisión previa a cada merge ayudaron a reducir conflictos y a cumplir las metas técnicas y documentales de AV2.</li>
          </ul>
          <b>Eslander Celis</b>
          <ul>
@@ -298,8 +306,9 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
         </td>
         <td>
           <ul>
-            <li><b>AV1:</b> Se consolidó un entorno colaborativo e inclusivo donde se respetaron las ideas de cada integrante y se promovió la participación equitativa. El equipo estableció metas claras, planificó las tareas de manera organizada y cumplió con los plazos establecidos, lo que permitió avanzar de forma constante. Esta dinámica de trabajo favoreció la calidad de los resultados y aseguró el cumplimiento de los objetivos propuestos.</li>
-            <li><b>TB1:</b> El equipo logró mantener un entorno altamente colaborativo bajo la presión del desarrollo técnico del Sprint 2. Las metas fueron claramente divididas a través de un tablero de gestión ágil, permitiendo a cada integrante planificar y ejecutar tareas de programación específicas. El cumplimiento estricto de estos objetivos individuales se reflejó en la exitosa integración y despliegue final de la Web Application frontend.</li>
+             <li><b>AV1:</b> Se consolidó un entorno colaborativo e inclusivo donde se respetaron las ideas de cada integrante y se promovió la participación equitativa. El equipo estableció metas claras, planificó las tareas de manera organizada y cumplió con los plazos establecidos, lo que permitió avanzar de forma constante. Esta dinámica de trabajo favoreció la calidad de los resultados y aseguró el cumplimiento de los objetivos propuestos.</li>
+             <li><b>TB1:</b> El equipo logró mantener un entorno altamente colaborativo bajo la presión del desarrollo técnico del Sprint 2. Las metas fueron claramente divididas a través de un tablero de gestión ágil, permitiendo a cada integrante planificar y ejecutar tareas de programación específicas. El cumplimiento estricto de estos objetivos individuales se reflejó en la exitosa integración y despliegue final de la Web Application frontend.</li>
+             <li><b>AV2:</b> El equipo mantuvo un entorno colaborativo al distribuir el trabajo entre bounded contexts y ramas de característica, establecer criterios comunes de integración y revisar los cambios antes de incorporarlos. La sincronización entre desarrollo, despliegue y documentación permitió cumplir los objetivos del Sprint 3 y dejó una base compartida para continuar las validaciones con usuarios.</li>
           </ul>
         </td>
     </tr>
@@ -2125,25 +2134,47 @@ Como equipo, concluimos que ColdTrack responde a una problemática real dentro d
 
 En relación con los assumptions planteados, validamos que los segmentos objetivo valoran especialmente la supervisión en tiempo real, el registro histórico de envíos y las alertas visibles ante condiciones fuera de rango. Si bien inicialmente asumimos que la principal necesidad era solo registrar datos de temperatura, el desarrollo del producto nos permitió observar que el valor percibido aumenta cuando el sistema también organiza conductores, sensores, estados de envío, historial y evidencias operativas en una sola interfaz. Esto refuerza la importancia de diseñar ColdTrack como una plataforma de gestión y no únicamente como un panel de lectura de sensores.
 
-Respecto a los Hypothesis Statements, consideramos que los avances del Sprint 2 respaldan la hipótesis de que una aplicación web con autenticación, dashboard, registro de envíos, gestión de sensores, alertas e historial puede mejorar el control operativo de la cadena de frío. Los criterios de éxito definidos en el proceso Lean UX se contrastaron mediante la implementación y validación funcional de los flujos principales: ingreso a la aplicación, creación de usuarios, consulta de información, registro de nuevos envíos, consumo de datos desde una fake API y despliegue público de la solución. Aunque todavía se requiere una validación más profunda con usuarios reales, la evidencia obtenida demuestra que el producto ya cuenta con una base funcional para futuras iteraciones.
+Respecto a los Hypothesis Statements, consideramos que los avances de los Sprints 2 y 3 respaldan la hipótesis de que una aplicación web con autenticación, dashboard, registro de envíos, gestión de sensores, telemetría, alertas e historial puede mejorar el control operativo de la cadena de frío. Los criterios de éxito definidos en el proceso Lean UX se contrastaron mediante la implementación y validación funcional de los flujos principales: ingreso a la aplicación, creación y seguimiento de envíos, consulta de sensores y lecturas, actualización de estados, generación de alertas y revisión del historial. Aunque todavía se requiere una validación más profunda con usuarios reales, la evidencia obtenida demuestra que el producto ya cuenta con una base funcional e integrada para futuras iteraciones.
 
-También concluimos que la integración entre landing page, Web Application y fake API fue clave para presentar una experiencia más completa del modelo de negocio digital. La landing page permite comunicar la propuesta de valor, mientras que la aplicación desplegada en Firebase evidencia el funcionamiento operativo de ColdTrack. Además, el uso de MockAPI.io como reemplazo temporal del `db.js` local permitió simular persistencia de datos y preparar el proyecto para una futura integración con servicios backend propios.
+También concluimos que la integración entre landing page, Web Application y Web Services fue clave para presentar una experiencia completa del modelo de negocio digital. La landing page comunica la propuesta de valor, mientras que la aplicación desplegada en Firebase evidencia el funcionamiento operativo de ColdTrack. En AV2 se reemplazó la dependencia principal de MockAPI por una API REST desarrollada con ASP.NET Core, protegida con autenticación JWT y desplegada en Render. La persistencia en MySQL permitió conservar usuarios, envíos, sensores, lecturas y alertas, con lo cual la solución dejó de depender de datos exclusivamente simulados y se aproximó a un escenario operativo real.
 
-Como recomendaciones para los siguientes pasos del roadmap, proponemos priorizar la conexión con sensores reales o simuladores más cercanos al contexto operativo, incorporar roles de usuario con permisos diferenciados, mejorar los reportes exportables para supervisores y ampliar las validaciones con empresas que gestionen productos refrigerados. También recomendamos fortalecer la documentación técnica del backend futuro, definir métricas de éxito medibles sobre reducción de incidencias y ampliar las pruebas de usabilidad para asegurar que la interfaz sea clara tanto para personal administrativo como para conductores o responsables de calidad.
+La integración alcanzada en el Sprint 3 también permitió comprobar que la separación del backend en bounded contexts facilita distribuir responsabilidades y evolucionar las capacidades de negocio sin concentrar toda la lógica en un solo módulo. El uso de Swagger/OpenAPI hizo posible verificar los contratos de los endpoints antes de conectarlos al frontend, mientras que GitFlow y los releases versionados aportaron trazabilidad sobre los incrementos incorporados. Como equipo, reconocemos que estas decisiones redujeron el riesgo de integración y facilitaron que todos los integrantes comprendieran y probaran el flujo completo del producto.
+
+Como recomendaciones para los siguientes pasos del roadmap, proponemos priorizar la conexión con sensores reales o simuladores más cercanos al contexto operativo, completar la autorización por roles, incorporar comunicación en tiempo real para telemetría y alertas, y mejorar los reportes exportables para supervisores. También recomendamos automatizar pruebas y despliegues mediante integración continua, incorporar observabilidad y copias de seguridad, y ejecutar pruebas de seguridad, rendimiento y resiliencia sobre el backend y la base de datos.
+
+Finalmente, recomendamos ampliar las Validation Interviews con empresas que gestionen productos refrigerados y definir métricas verificables, como tiempo de detección de incidencias, porcentaje de envíos dentro del rango permitido, reducción de registros manuales y facilidad de uso percibida. Estos resultados deberán compararse con los criterios de éxito de Lean UX para priorizar el siguiente incremento y evitar que las decisiones del roadmap se basen únicamente en supuestos técnicos del equipo.
 
 # Bibliografía
 
 Axios. (2026). *Axios documentation*. Recuperado el 13 de mayo de 2026, de https://axios-http.com/
 
+Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley.
+
 Firebase. (2026). *Firebase Hosting documentation*. Recuperado el 13 de mayo de 2026, de https://firebase.google.com/docs/hosting
+
+Filess.io. (2026). *Managed database hosting*. Recuperado el 19 de junio de 2026, de https://filess.io/
 
 GitHub Docs. (2026). *GitHub Pages documentation*. Recuperado el 13 de mayo de 2026, de https://docs.github.com/en/pages
 
+GitHub Docs. (2026). *Managing branches in your repository*. Recuperado el 19 de junio de 2026, de https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository
+
 Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3rd ed.). O'Reilly Media.
+
+Microsoft. (2026). *ASP.NET Core documentation*. Recuperado el 19 de junio de 2026, de https://learn.microsoft.com/aspnet/core/
+
+Microsoft. (2026). *Entity Framework Core documentation*. Recuperado el 19 de junio de 2026, de https://learn.microsoft.com/ef/core/
 
 MockAPI. (2026). *MockAPI documentation*. Recuperado el 13 de mayo de 2026, de https://mockapi.io/docs
 
+MySQL. (2026). *MySQL 8.0 reference manual*. Recuperado el 19 de junio de 2026, de https://dev.mysql.com/doc/refman/8.0/en/
+
+OpenAPI Initiative. (2026). *OpenAPI Specification*. Recuperado el 19 de junio de 2026, de https://spec.openapis.org/oas/latest.html
+
 PrimeTek. (2026). *PrimeVue documentation*. Recuperado el 13 de mayo de 2026, de https://primevue.org/
+
+Render. (2026). *Render documentation*. Recuperado el 19 de junio de 2026, de https://render.com/docs
+
+Trello. (2026). *Trello guide*. Recuperado el 19 de junio de 2026, de https://trello.com/guide
 
 Vue.js. (2026). *Vue.js documentation*. Recuperado el 13 de mayo de 2026, de https://vuejs.org/
 
