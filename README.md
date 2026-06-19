@@ -2528,6 +2528,22 @@ Las tres evidencias confirman que la solución fue desplegada de extremo a extre
 
 ### 5.3.2. Registro de Entrevistas
 
+#### **Primer Segmento - Personal de Logística y Operaciones:** <br>
+
+#### **Segundo Segmento - Personal de Transporte:** <br>
+
+| **ENTREVISTA 1** |                            |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Camila Vega |
+| **Edad** | 28 |
+| **Profesión** | personal de transporte |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00 |
+| **Fin del video** | 02:18 |
+| **Link del video** |[ Entrevista 4 ](https://1drv.ms/v/c/466c954577703c8e/IQD08OoosNeVTpXvfWKiGIz-ARMSa0vKfloaK4arRjvux34?e=laJkWr)  |
+| **Foto entrevista** | <img src="images/entrvista-usuario-2.png" alt=""  width="250" /> |
+| **Resumen** | Camila, conductora de 28 años, participó en la validación de la landing page y del servicio web de ColdTrack. Indicó que comprendió fácilmente el propósito de la aplicación y que la información de los envíos se encuentra organizada, permitiéndole consultar rápidamente su estado. También destacó que las alertas de temperatura y humedad son claras y fáciles de identificar. Finalmente, señaló que recibir notificaciones en tiempo real le ayudaría a detectar variaciones fuera de los rangos permitidos, reaccionar oportunamente y proteger la mercancía durante el transporte. |
+
 ### 5.3.3. Evaluaciones según heurísticas
 
 ## 5.4. Video About-the-Product
