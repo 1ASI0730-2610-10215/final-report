@@ -2104,24 +2104,55 @@ En conjunto, la evidencia recopilada en el repositorio demuestra que el equipo m
 ### 5.2.3. Sprint 3
 
 #### 5.2.3.1. Sprint Planning 3
-| Sprint                             | Sprint 3 |
-| ---------------------------------- | -------- |
-|                                    | Sprint Planning Background |
-| Date                               | 2026/06/01 |
-| Time                               | 19:30 PM |
-| Location                           | El desarrollo de la reunión se hizo virtualmente por medio de Discord |
-| Prepared By                        | Eslander Celis Berrospi |
-| Attendees (to planning meeting)    | Eslander Celis Berrospi, Gabriel Mendoza, Rodrigo Oblitas Alcalde, Aarón Avila Palacios |
-| Sprint n – 1 Review Summary        | En el Sprint 2 se desarrolló exitosamente el frontend de la aplicación, implementando las principales vistas, componentes y mecanismos de navegación necesarios para la interacción de los usuarios con el sistema. |
-| Sprint n – 1 Retrospective Summary | Durante la retrospectiva del Sprint 2, el equipo identificó oportunidades de mejora en la integración entre frontend y backend, la organización del código y la distribución de tareas para optimizar el desarrollo del proyecto. |
-|                                    | Sprint Goal & User Stories |
+| Sprint                             | Sprint 3                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                    | Sprint Planning Background                                                                                                                                                                                                                                                                                                            |
+| Date                               | 2026/06/01                                                                                                                                                                                                                                                                                                                            |
+| Time                               | 19:30 PM                                                                                                                                                                                                                                                                                                                              |
+| Location                           | El desarrollo de la reunión se hizo virtualmente por medio de Discord                                                                                                                                                                                                                                                                 |
+| Prepared By                        | Eslander Celis Berrospi                                                                                                                                                                                                                                                                                                               |
+| Attendees (to planning meeting)    | Eslander Celis Berrospi, Gabriel Mendoza, Rodrigo Oblitas Alcalde, Aarón Avila Palacios, Mathias Aréchaga Saavedra                                                                                                                                                                                                                    |
+| Sprint n – 1 Review Summary        | En el Sprint 2 se desarrolló exitosamente el frontend de la aplicación, implementando las principales vistas, componentes y mecanismos de navegación necesarios para la interacción de los usuarios con el sistema.                                                                                                                   |
+| Sprint n – 1 Retrospective Summary | Durante la retrospectiva del Sprint 2, el equipo identificó oportunidades de mejora en la integración entre frontend y backend, la organización del código y la distribución de tareas para optimizar el desarrollo del proyecto.                                                                                                     |
+|                                    | Sprint Goal & User Stories                                                                                                                                                                                                                                                                                                            |
 | Sprint 3 Goal                      | Implementar nuevas historias de usuario relacionadas con el backend, iniciar el desarrollo de la API REST, configurar mecanismos de autenticación, establecer procedimientos para el reporte y monitoreo de servicios backend, y continuar con las tareas pendientes del frontend para lograr una integración progresiva del sistema. |
-| Sprint 3 Velocity                  | 14 |
-| Sum of Story Points                | 14 |
+| Sprint 3 Velocity                  | 14                                                                                                                                                                                                                                                                                                                                    |
+| Sum of Story Points                | 14                                                                                                                                                                                                                                                                                                                                    |
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
 #### 5.2.3.3. Sprint Backlog 3
+
+El Sprint Backlog 3 se construyó a partir de las User Stories priorizadas en el Product Backlog para consolidar la integración del ecosistema ColdTrack. El objetivo principal fue reemplazar la fake API por un backend productivo desarrollado en ASP.NET Core, conectar la Web Application con Web Services persistentes en MySQL, implementar el motor de alertas, completar la gestión de reportes e integrar todos los módulos en un flujo de extremo a extremo.
+
+| User Story Id | User Story Title | Task Id | Task Description | Status |
+|---------------|------------------|---------|------------------|--------|
+| TS-001 | Crear usuario | T01 | Implementar modelo de usuario en ASP.NET Core con entidad User, ValueObjects de autenticación y repositorio para persistencia en MySQL. | Done |
+| TS-002 | Autenticación | T02 | Implementar endpoints `/api/v1/authentication/sign-up` y `/api/v1/authentication/sign-in` con validación y emisión de JWT. | Done |
+| TS-002 | Autenticación | T03 | Configurar JWT Bearer, políticas de autorización y middleware de autenticación para proteger endpoints sensibles. | Done |
+| TS-003 | CRUD envíos | T04 | Implementar modelo Shipment como Aggregate Root, ValueObjects (ShipmentId, Route, Status) y operaciones de lectura-escritura. | Done |
+| TS-003 | CRUD envíos | T05 | Implementar endpoints CRUD: `GET /shipments`, `POST /shipments`, `GET /shipments/{id}`, `PATCH /shipments/{id}/status`. | Done |
+| TS-004 | Asignación sensor | T06 | Implementar modelo de Sensor IoT con entidades Sensor, SensorId, SensorStatus y relación con Shipment. | Done |
+| TS-004 | Asignación sensor | T07 | Implementar endpoints de sensores: `GET /sensors`, `POST /sensors`, `PATCH /sensors/{id}/assignment` para vinculación. | Done |
+| TS-005 | Integración IoT | T08 | Implementar modelos de telemetría: TelemetryStream, TelemetryLog, Temperature y Humidity como ValueObjects con validación. | Done |
+| TS-005 | Integración IoT | T09 | Implementar endpoint `POST /api/v1/telemetry` para recibir y almacenar lecturas de sensores en MySQL. | Done |
+| TS-005 | Integración IoT | T10 | Implementar endpoint `GET /shipments/{shipmentId}/telemetry` para recuperar historial de lecturas. | Done |
+| TS-006 | Tiempo real | T11 | Documentar contrato REST y exponer Swagger/OpenAPI para validación del frontend. | Done |
+| TS-007 | Motor alertas | T12 | Implementar ThresholdPolicy como Domain Service para evaluar temperatura (2-8°C) y humedad (0-60%). | Done |
+| TS-008 | Notificaciones | T14 | Integrar motor de alertas con telemetría para evaluación automática de umbrales y creación de alertas. | Done |
+| TS-008 | Notificaciones | T15 | Implementar endpoints de gestión: `GET /alerts`, `PATCH /alerts/{id}/acknowledgment`, `PATCH /alerts/{id}/resolution`. | Done |
+| TS-009 | Guardar historial | T16 | Implementar modelo Report y HistoricalLog para consolidar envíos completados con métricas agregadas. | Done |
+| TS-009 | Guardar historial | T17 | Implementar endpoint `GET /api/v1/analytics/shipment-history` para listar envíos completados con filtros. | Done |
+| Task adicional | Swagger y documentación | T20 | Configurar Swashbuckle para publicar documentación OpenAPI en `/swagger/index.html`. | Done |
+| Task adicional | Health check y resiliencia | T21 | Implementar endpoint `GET /health` para verificar disponibilidad de API y dependencias (MySQL). | Done |
+| Task adicional | Configuración de despliegue | T22 | Crear Dockerfile multi-stage y definir variables de entorno para MySQL, JWT y URLs de API. | Done |
+| Task adicional | Despliegue en Render | T23 | Conectar repositorio backend a Render, compilar imagen Docker y publicar Web Services públicamente. | Done |
+| Task adicional | Base de datos MySQL | T24 | Provisionar instancia MySQL en Filess.io, crear esquema y configurar conexión con TLS. | Done |
+| Task adicional | Actualización del frontend | T25 | Reemplazar URLs de MockAPI por endpoints de Render en variables de entorno de la Web Application. | Done |
+| Task adicional | Integración completa | T26 | Validar flujo de extremo a extremo: autenticación, envíos, sensores, telemetría, alertas, historial y reportes. | Done |
+| Task adicional | Implementación de data de demostración | T27 | Crear seeding de datos iniciales (usuarios, envíos, sensores, lecturas) al iniciar aplicación en producción. | Done |
+
+Link del Trello: https://trello.com/b/IcxxPY0t/sprint-backlog-3-coldtrack
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 Durante el Sprint 3, el equipo se enfocó en el desarrollo del backend de ColdTrack siguiendo una arquitectura basada en Domain-Driven Design (DDD). Se implementaron los principales bounded contexts del sistema, incluyendo autenticación (IAM), gestión de envíos (Shipments), monitoreo de sensores y telemetría (Telemetry), alertas (Alerting), analítica (Analytics) y generación de reportes (Reporting). Además, se avanzó en la configuración de despliegue, documentación técnica y preparación de versiones funcionales de la plataforma.
@@ -2152,6 +2183,15 @@ Durante el Sprint 3 se ejecutó la solución integrada de ColdTrack utilizando l
 | Web Services | Render | La API ASP.NET Core responde mediante HTTPS y expone sus operaciones con Swagger/OpenAPI. |
 | Persistencia | MySQL en Filess.io | Los usuarios, envíos, sensores, lecturas y alertas permanecen disponibles entre sesiones. |
 | Seguridad | JWT Bearer | Los recursos protegidos requieren un token obtenido mediante el inicio de sesión. |
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 3, el equipo concentró sus esfuerzos en la construcción de la capa de backend del sistema, abarcando la implementación de la lógica de dominio, la configuración de persistencia de datos y la exposición de servicios a través de endpoints REST, sentando así las bases funcionales de los principales módulos de la aplicación. 
+En lo que respecta al módulo de gestión de identidad y acceso, se llevó a cabo la implementación del agregado UserAccount junto con sus reglas de negocio, el value object Email con validación de formato, y la configuración del repositorio de usuarios sobre MySQL. 
+Adicionalmente, se desarrolló el servicio de hashing y verificación segura de contraseñas, los casos de uso correspondientes al registro e inicio de sesión de usuarios con generación de token JWT, y los endpoints REST necesarios para exponer dichas funcionalidades, incluyendo la consulta del perfil del usuario autenticado. 
+En cuanto al módulo de gestión de envíos, se implementó el agregado Shipment con sus respectivas reglas de negocio, la capa de persistencia en MySQL, y los casos de uso para el registro y actualización de envíos refrigerados. Asimismo, 
+se desarrollaron los endpoints REST bajo los métodos POST, GET y PATCH para permitir el registro, consulta y actualización del estado de los envíos, apoyándose en el value object ShipmentStatus para modelar correctamente el ciclo de vida de cada envío. 
+Finalmente, en el módulo de monitoreo de temperatura, se implementaron los endpoints del controlador de alertas de temperatura, así como el servicio encargado de registrar y preservar el historial de alertas generadas por el sistema.
 
 ##### Scope and execution criteria
 
