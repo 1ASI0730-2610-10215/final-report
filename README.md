@@ -2474,19 +2474,20 @@ El video deberá mostrar el vínculo entre la propuesta comunicada en la Landing
 | Value proposition | Monitoreo centralizado, alertas oportunas, trazabilidad e historial de envíos. |
 | Landing Page | Presentación de la startup, beneficios y acceso a la aplicación. |
 | Web Application | Demostración de envíos, sensores, lecturas, alertas, historial y reportes. |
-| Technology support | Integración entre Firebase, Render y MySQL en Filess.io. |
-| Closing message | Beneficio esperado para la toma de decisiones en la cadena de frío. |
 
 ### Video evidence
 
 **Microsoft Stream o SharePoint URL:**
+https://1drv.ms/v/c/466c954577703c8e/IQDBRgrAHfY5SZuIpmjrplS_AfoB8JxUMlgs1fC9S-F4XKc?e=4ikZuD
 
 **YouTube URL:**
+https://youtu.be/uSd4PrDiAcs
 
 **Duración:**
+02:22 minutos
 
 **Captura del video:**
-
+![About-the-Product](./images/About-the-Product-Web.png)
 
 # Conclusiones
 
