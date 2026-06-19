@@ -50,6 +50,7 @@
 | 1.6     | 21/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capitulo IV: Wireframes                  |
 | 2.1     | 13/05/2026 | Aarón Avila Palacios      | Desarrollo de las evidencias de ejecución y despliegue del Sprint 2, actualización del índice e incorporación de capturas del reporte. |
 | 3.1     | 19/06/2026 | Aarón Avila Palacios      | Corrección de la carátula, actualización del Student Outcome para AV2 e incorporación de conclusiones, recomendaciones y referencias bibliográficas de la entrega. |
+| 3.2     | 19/06/2026 | Aarón Avila Palacios      | Desarrollo de las evidencias de ejecución y despliegue del Sprint 3, documentación de los flujos integrados y preparación de la sección Video About-the-Product. |
 
 
 
@@ -2111,9 +2112,128 @@ En conjunto, la evidencia recopilada en el repositorio demuestra que el equipo m
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
+Durante el Sprint 3 se ejecutó la solución integrada de ColdTrack utilizando la Web Application desplegada y los Web Services conectados a una base de datos MySQL persistente. Las pruebas funcionales se realizaron sobre los flujos principales de autenticación, gestión de envíos, asignación de sensores, registro de telemetría, generación de alertas, consulta del historial y exportación de reportes. Esta ejecución permitió comprobar que el frontend consume correctamente los contratos REST del backend y que los cambios se conservan en la base de datos remota.
+
+| Componente | Entorno de ejecución | Resultado observado |
+|---|---|---|
+| Web Application | Firebase Hosting | La interfaz se encuentra disponible públicamente y consume la API de producción. |
+| Web Services | Render | La API ASP.NET Core responde mediante HTTPS y expone sus operaciones con Swagger/OpenAPI. |
+| Persistencia | MySQL en Filess.io | Los usuarios, envíos, sensores, lecturas y alertas permanecen disponibles entre sesiones. |
+| Seguridad | JWT Bearer | Los recursos protegidos requieren un token obtenido mediante el inicio de sesión. |
+
+La documentación interactiva de Swagger permitió revisar y ejecutar los endpoints implementados. Se verificaron las operaciones de alertas, analítica, autenticación, reportes, sensores, envíos, telemetría y consulta del usuario autenticado.
+
+<p align="center">
+  <img src="images/sprint3-swagger-overview.png" alt="Swagger de ColdTrack con los recursos de alertas, analítica y autenticación" width="90%"/>
+</p>
+
+<p align="center"><em>Figura 1. Documentación Swagger desplegada para los Web Services de ColdTrack.</em></p>
+
+<p align="center">
+  <img src="images/sprint3-swagger-auth-reports-sensors.png" alt="Endpoints de autenticación, reportes y sensores en Swagger" width="90%"/>
+</p>
+
+<p align="center"><em>Figura 2. Operaciones de autenticación, generación de reportes y gestión de sensores.</em></p>
+
+<p align="center">
+  <img src="images/sprint3-swagger-shipments-telemetry.png" alt="Endpoints de envíos, telemetría y usuarios en Swagger" width="90%"/>
+</p>
+
+<p align="center"><em>Figura 3. Operaciones protegidas para envíos, telemetría y usuario autenticado.</em></p>
+
+En la Web Application se comprobó que el dashboard consolida los envíos y presenta las alertas activas. El flujo de registro permite crear un envío con destino, conductor, descripción de carga y fechas de salida y llegada estimada.
+
+<p align="center">
+  <img src="images/sprint3-dashboard.png" alt="Dashboard de envíos y alertas activas de ColdTrack" width="90%"/>
+</p>
+
+<p align="center"><em>Figura 4. Dashboard conectado a los indicadores y alertas del backend.</em></p>
+
+<p align="center">
+  <img src="images/sprint3-new-shipment.png" alt="Formulario para registrar un nuevo envío" width="75%"/>
+</p>
+
+<p align="center"><em>Figura 5. Formulario de creación de un envío refrigerado.</em></p>
+
+La gestión de sensores permitió consultar los dispositivos registrados, identificar su estado, asociarlos con envíos y registrar nuevas lecturas de temperatura y humedad. Las lecturas fuera de los límites configurados generaron alertas relacionadas con el envío correspondiente.
+
+<p align="center">
+  <img src="images/sprint3-sensors.png" alt="Gestión de sensores asignados a envíos" width="90%"/>
+</p>
+
+<p align="center"><em>Figura 6. Sensores registrados, asignación y acceso al registro de telemetría.</em></p>
+
+<p align="center">
+  <img src="images/sprint3-shipment-details.png" alt="Detalle de envío con sensor y alertas relacionadas" width="65%"/>
+</p>
+
+<p align="center"><em>Figura 7. Detalle integrado del envío, sensor asignado y alertas relacionadas.</em></p>
+
+El módulo de alertas mostró los eventos generados por temperatura o humedad fuera del rango permitido, incluyendo severidad, estado, valor registrado y límite. También se verificaron las acciones para reconocer y resolver una alerta.
+
+<p align="center">
+  <img src="images/sprint3-alerts.png" alt="Sistema de alertas con eventos activos y resueltos" width="90%"/>
+</p>
+
+<p align="center"><em>Figura 8. Alertas generadas a partir de las lecturas de telemetría.</em></p>
+
+Finalmente, se completó un envío para comprobar su incorporación al historial y se ejecutó la exportación de un reporte PDF. El documento generado incluyó los indicadores del período y el detalle del envío completado.
+
+<p align="center">
+  <img src="images/sprint3-history.png" alt="Historial de envíos completados" width="90%"/>
+</p>
+
+<p align="center"><em>Figura 9. Historial de envíos completados consultado desde la Web Application.</em></p>
+
+<p align="center">
+  <img src="images/sprint3-pdf-report.png" alt="Reporte PDF de desempeño de la cadena de frío" width="80%"/>
+</p>
+
+<p align="center"><em>Figura 10. Reporte PDF generado por ColdTrack para el período seleccionado.</em></p>
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+El despliegue del Sprint 3 se organizó en tres servicios independientes: MySQL para la persistencia, Render para los Web Services y Firebase Hosting para la Web Application. Esta separación permite actualizar cada componente de manera controlada y mantener las credenciales de producción fuera de los repositorios.
+
+##### Database deployment
+
+La base de datos MySQL 8.0.29 fue aprovisionada en Filess.io mediante una instancia compartida. La configuración remota utiliza un host y puerto asignados por el proveedor, mientras que el nombre de la base de datos y el usuario se gestionan como variables de entorno en el servicio backend. La contraseña no se publica en el informe ni en GitHub.
+
+<p align="center">
+  <img src="images/sprint3-filess-database.png" alt="Instancia MySQL activa en Filess.io" width="90%"/>
+</p>
+
+<p align="center"><em>Figura 11. Instancia MySQL de producción activa en Filess.io.</em></p>
+
+##### Web Services deployment
+
+Los Web Services de FreshGuard.ColdTrack.Platform fueron desplegados en Render como un Web Service basado en Docker y conectado al repositorio del backend. El servicio se ejecuta en el entorno Production, escucha en el puerto proporcionado por Render y publica la API mediante HTTPS. La evidencia del log confirma que la aplicación inició correctamente y que el servicio quedó disponible en su URL pública.
+
+- Backend URL: https://freshguard-coldtrack-platform.onrender.com
+- Swagger URL: https://freshguard-coldtrack-platform.onrender.com/swagger/index.html
+
+<p align="center">
+  <img src="images/sprint3-render-backend.png" alt="Backend ColdTrack desplegado y activo en Render" width="90%"/>
+</p>
+
+<p align="center"><em>Figura 12. Web Service de ColdTrack ejecutándose en el entorno de producción de Render.</em></p>
+
+##### Web Application deployment
+
+La Web Application fue construida con Vite y desplegada en Firebase Hosting. La versión publicada utiliza la URL del backend de Render configurada para producción, lo cual permite ejecutar el flujo completo desde el navegador sin depender de la API simulada utilizada en incrementos anteriores.
+
+- Production URL: https://coldtrack-front-web.web.app/
+- Alternative URL: https://coldtrack-front-web.firebaseapp.com/
+
+<p align="center">
+  <img src="images/sprint3-firebase-hosting.png" alt="Historial del despliegue frontend en Firebase Hosting" width="90%"/>
+</p>
+
+<p align="center"><em>Figura 13. Versión de la Web Application publicada en Firebase Hosting.</em></p>
+
+Las tres evidencias confirman que la solución fue desplegada de extremo a extremo: Firebase entrega la interfaz, Render procesa las solicitudes de negocio y Filess.io conserva la información en MySQL. Los secretos de conexión y autenticación se administran mediante variables de entorno y no forman parte de los archivos versionados.
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -2126,6 +2246,10 @@ En conjunto, la evidencia recopilada en el repositorio demuestra que el equipo m
 ### 5.3.3. Evaluaciones según heurísticas
 
 ## 5.4. Video About-the-Product
+
+**Enlace del video:**
+
+**Captura del video:**
 
 
 # Conclusiones
