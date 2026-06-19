@@ -1,14 +1,16 @@
-<h1 align="center">Universidad Peruana de Ciencias Aplicadas</h1>
-
-<h2 align="center">Carrera de Ingeniería de Software</h2>
-
 <div align="center">
    <img src="images/logo_UPC.png" alt="Logo de la UPC" />
 </div>
 
+<h1 align="center">Universidad Peruana de Ciencias Aplicadas</h1>
+
+<h2 align="center">Carrera de Ingeniería de Software</h2>
+
 <br>
-<h3 align="center">1ASI0730 - Aplicaciones Web</h3>
-<h3 align="center">NRC 10215</h3>
+<h3 align="center">1ASI0730</h3>
+<h3 align="center">Aplicaciones Web</h3>
+<h3 align="center">NRC</h3>
+<h3 align="center">10215</h3>
 <h3 align="center">Informe del Trabajo Final</h3>
 <h3 align="center">Docente</h3>
 <p align="center">Velásquez Núñez, Ángel Augusto</p>
