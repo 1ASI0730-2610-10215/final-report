@@ -250,6 +250,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
          <ul>
            <li><b>AV1:</b> Durante el desarrollo del proyecto, trabajé en equipo aportando ideas y asumiendo un rol activo en la organización de las actividades, contribuyendo al liderazgo compartido dentro del grupo. Participé en la toma de decisiones relacionadas con la definición de la startup, la problemática, los segmentos objetivos y la estructuración de los User Stories, Product Backlog e Impact Map. Además, mantuve una comunicación constante con mis compañeros, apoyando cuando era necesario y asegurando que todos estuviéramos alineados con los objetivos del proyecto.</li>
            <li><b>TB1:</b> En esta fase, asumí un rol activo organizando las tareas de desarrollo frontend. Promoví el liderazgo compartido guiando al equipo en la implementación del entorno de desarrollo y asegurando que las ramas de GitFlow se manejaran adecuadamente para la correcta integración continua de las vistas de la aplicación web.</li>
+           <li><b>AV2:</b> Durante el Sprint 3 participé en el desarrollo del backend del sistema, contribuyendo en la implementación de servicios REST y la integración con la base de datos. Colaboré con el equipo en la validación de endpoints y en la integración con el frontend, asegurando la correcta comunicación entre módulos y apoyando la toma de decisiones técnicas para mantener una arquitectura consistente.</li>
          </ul>
          <b>Gabriel Mendoza Palacios</b>
          <ul>
@@ -291,6 +292,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
          <ul>
            <li><b>AV1:</b> Contribuí a crear un entorno colaborativo e inclusivo al respetar las ideas de cada integrante y fomentar la participación de todos. Ayudé a establecer metas claras y a planificar las tareas de manera organizada, distribuyendo responsabilidades de forma equitativa. Me aseguré de cumplir con mis entregables en los tiempos acordados, lo que permitió avanzar de manera constante y alcanzar los objetivos planteados como equipo.</li>
            <li><b>TB1:</b> Contribuí a la planificación ágil del Sprint 2 distribuyendo las historias de usuario de forma equitativa. Mantuve un ambiente colaborativo promoviendo reuniones breves de sincronización para identificar bloqueos a tiempo, lo que garantizó que todos lográramos completar nuestras tareas de programación en los plazos acordados.</li>
+           <li><b>AV2:</b> Durante el Sprint 3 contribuí a la planificación y organización de tareas del backend, estableciendo acuerdos con el equipo para la distribución de módulos y objetivos del sprint. Mantuve una comunicación constante para resolver bloqueos, cumplir los plazos establecidos y asegurar la correcta integración de los servicios desarrollados, favoreciendo el cumplimiento de los objetivos del proyecto.</li>
          </ul>
          <b>Gabriel Mendoza Palacios</b>
          <ul>
