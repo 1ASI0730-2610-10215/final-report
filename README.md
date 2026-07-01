@@ -1402,29 +1402,59 @@ Finalmente, se presenta y explica la representación visual de la arquitectura u
 Esta estructura jerárquica nos permite comunicar de manera efectiva la solución a través de tres niveles de detalle: el Software Architecture Context Level Diagram, los Software Architecture Container Level Diagrams y los Software Architecture Component Diagrams.
 
 ### 4.6.1. Design-Level Event Storming
-La sesión se llevó a cabo de manera colaborativa utilizando la herramienta Lucidchart y se estructuró en las siguientes actividades clave: 
+La sesión de Design-Level EventStorming nos permitió transicionar desde los requerimientos de negocio hacia un diseño técnico estructurado y orientado al dominio. Como resultado del análisis colaborativo, identificamos cinco **Bounded Contexts (BC)** principales. Estos contextos no solo aíslan lógicamente las responsabilidades del sistema, sino que guían directamente la **Arquitectura DDD** que hemos implementado, donde cada Bounded Context se traduce en módulos independientes estructurados por capas.
 
-1. Refinamiento de Eventos de Dominio
-2. Identificación de Comandos y Actores
-3. Definición de Agregados (Aggregates)
-4. Delimitación de Bounded Contexts
-5. Integración de Sistemas Externos y Queries
+A continuación, se detalla el modelado técnico extraído para cada Bounded Context a partir de los diagramas generados:
+
+#### 1. Shipment Management
+Encargado de la logística central de la carga, vinculando los sensores físicos con los viajes registrados en el sistema.
+* **Comandos:** `Register Shipment`, `Assign Sensor`, `Finalize Shipment`.
+* **Agregados:** `Shipment`, `Sensor`.
+* **Eventos de Dominio:** `Shipment Registered`, `Sensor Assigned`, `Shipment Finalized`.
+* **Políticas:** `Validation Rules`.
 
 <p align="center">
   <img src="images/event_storming_1.png" alt="Design-Level Event Storming 1" width="100%"/>
 </p>
 
+#### 2. Real-Time IoT Monitoring
+Núcleo de la telemetría. Procesa la ingesta constante de datos ambientales emitidos desde el hardware en ruta.
+* **Comandos:** `Receive Telemetry`, `Update Environmental Data`.
+* **Agregados:** `Telemetry Data`, `Shipment Status`.
+* **Eventos de Dominio:** `Telemetry Received`, `Temperature Updated`, `Humidity Updated`.
+* **Sistemas Externos:** `Hardware IoT Sensors`, `WebSocket Server`.
+
 <p align="center">
   <img src="images/event_storming_2.png" alt="Design-Level Event Storming 2" width="100%"/>
 </p>
+
+#### 3. Alerting Engine
+Motor crítico que evalúa las anomalías climáticas detectadas por los sensores para emitir advertencias tempranas.
+* **Comandos:** `Evaluate Conditions`, `Trigger Alert`, `Send Notification`.
+* **Agregados:** `Alert`.
+* **Eventos de Dominio:** `Anomaly Detected`, `Alert Triggered`, `Driver Notified`.
+* **Políticas / Sistemas Externos:** `Threshold Policies`, `Push Notification Service / SMS API`.
 
 <p align="center">
   <img src="images/event_storming_3.png" alt="Design-Level Event Storming 3" width="100%"/>
 </p>
 
+#### 4. Analytics & Reporting
+Encargado del análisis estadístico post-viaje y la generación de reportes de calidad para la gerencia.
+* **Comandos:** `Filter History`, `Request Report`, `Generate PDF`.
+* **Agregados:** `Historical Log`, `Report`.
+* **Eventos de Dominio:** `History Filtered`, `Report Requested`, `PDF Generated`.
+* **Sistemas Externos:** `PDF Generator Engine`.
+
 <p align="center">
   <img src="images/event_storming_4.png" alt="Design-Level Event Storming 4" width="100%"/>
 </p>
+
+#### 5. Identity & Access
+Gestiona la seguridad, roles y credenciales de los distintos actores del sistema (Logística y Transportistas).
+* **Comandos:** `Register User`, `Authenticate Login`, `Request Password Reset`.
+* **Agregados:** `User Account`.
+* **Eventos de Dominio:** `User Registered`, `Login Successful`, `Recovery Link Sent`.
 
 <p align="center">
   <img src="images/event_storming_5.png" alt="Design-Level Event Storming 5" width="100%"/>
