@@ -290,6 +290,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
          <ul>
            <li><b>AV1:</b> Durante el proyecto, participé activamente en el desarrollo de artefactos de diseño centrados en el usuario, como User Personas, User Journey Mapping y prototipos de la aplicación. Colaboré en la coordinación de tareas relacionadas con el diseño y la experiencia de usuario, aportando ideas y apoyando al equipo para mantener una organización eficiente y un liderazgo compartido en el desarrollo del proyecto.</li>
            <li><b>TB1:</b> Durante el desarrollo del Sprint 2, aporté liderazgo en el diseño e implementación del dashboard y los componentes interactivos. Coordiné la transformación de nuestros wireframes previos en interfaces funcionales, asegurando que el producto final cumpliera con la experiencia de usuario proyectada.</li>
+           <li><b>AV2:</b> Durante el desarrollo del Sprint 3, Colaboré en el desarrollo del sprint backlog 3 y la implementación de los Services Documentation Evidence for Sprint Review.</li>
          </ul>
         </td>
         <td>
@@ -333,6 +334,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
          <ul>
            <li><b>AV1:</b> Apoyé en la creación de un entorno colaborativo mediante el desarrollo organizado de los entregables de diseño, como wireframes, mock-ups y prototipos. Planifiqué mis actividades de manera estructurada y cumplí con los tiempos establecidos, contribuyendo a que el equipo avance de forma constante y alineada con las metas del proyecto.</li>
            <li><b>TB1:</b> Apoyé la colaboración del equipo cumpliendo puntualmente con mis tareas en la creación de las vistas interactivas. Al planificar mis actividades de desarrollo frontend en fases claras, logré no solo alcanzar mis metas individuales sino también facilitar el proceso de integración continua con el resto del equipo, fortaleciendo el cumplimiento del Sprint Goal.</li>
+           <li><b>AV2:</b> Durante el sprint 3, realice mis objetivos de desarrollo del sprint backlog 3 y fomenté la activa colaboración en equipo.</li> 
          </ul>
         </td>
         <td>
@@ -1078,10 +1080,10 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 ### 2.3.1. User Personas
 
 <h5 id="SegUser">Segmento #1: Personal de Logística y Operaciones </h5>
-<img src="./images/user-persona-v2.1.png" alt="userpersona1" width="100%">
+<img src="./images/user_persona_vf1.png" alt="userpersona1" width="100%">
 
 <h5 id="SegUser">Segmento #2: Personal de transporte </h5>
-<img src="./images/user-persona-v2.2.png" alt="userpersona2" width="100%">
+<img src="./images/user_persona_vf2.png" alt="userpersona2" width="100%">
 
 ### 2.3.2. User Task Matrix
 
@@ -1118,6 +1120,15 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 
 **USER PERSONA: Andre Montes**
 ![Scenario Mapping 2](./images/Scenario-Mapping2.jpg)
+
+
+### 2.3.5. Big Picture EventStorming
+
+![Big Picture v1](./images/bigpicture1.png)
+![Big Picture v2](./images/bigpicture2.png)
+![Big Picture v3](./images/bigpicture3.png)
+![Big Picture EventStorming](./images/big_picture_event.png)
+
 
 ## 2.4. Ubiquitous Language
 
