@@ -1718,21 +1718,32 @@ Link del Trello: https://trello.com/invite/b/69e82f5d88b7df3fa977adbe/ATTId31bae
 
 El desarrollo del producto se realizó de forma incremental. A continuación, se presentan algunos de los commits más representativos del proceso:
 
-| Repository | Branch | Commit Id | Autor | Commit Message | Fecha |
-|------------|--------|-----------|-------|----------------|-------|
-| Landing-Page | `main` | `5ce9ead` | Rodrigo Oblitas | `feat: initial project setup` | 12/05/2025 |
-| Landing-Page | `main` | `0fd3953` | Rodrigo Oblitas | `feat: add basic HTML structure with header` | 13/05/2025 |
-| Landing-Page | `main` | `b0f9279` | Rodrigo Oblitas | `feat: add hero section with title and CTA` | 13/05/2025 |
-| Landing-Page | `main` | `be25150` | Mariano Vilela | `feat: add features section` | 14/05/2025 |
-| Landing-Page | `main` | `388e262` | Mathias Aréchaga | `feat: add CTA and footer sections` | 14/05/2025 |
-| Landing-Page | `main` | `5a9590e` | Mariano Vilela | `feat: add responsive CSS styles` | 15/05/2025 |
-| Landing-Page | `main` | `a9e7c80` | Eslander Celis | `feat: add JavaScript interactivity` | 15/05/2025 |
-| Landing-Page | `main` | `fea423b` | Gabriel Mendoza | `feat: add icons to feature cards` | 16/05/2025 |
-| Landing-Page | `features/dashboard-improvements` | `d72c4a6` | Mathias Aréchaga | `feat: improve dashboard styling` | 18/05/2025 |
-| Landing-Page | `features/seo-enhancements` | `df123a2` | Aarón Avila | `feat: add SEO meta tags` | 19/05/2025 |
-| Landing-Page | `bugfix/accessibility-improvements` | `0cd942e` | Eslander Celis | `fix: add ARIA labels for accessibility` | 20/05/2025 |
-
-Estas evidencias muestran una evolución progresiva desde la estructura base del sitio hasta una versión más completa, optimizada y accesible.
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| ColdTrack-Landing | `main` | `5ce9ead8` | `feat: initial project setup` | Se realizó la configuración inicial del proyecto y la estructura base del repositorio para comenzar el desarrollo de la landing page. | 12/05/2025 |
+| ColdTrack-Landing | `main` | `0fd39538` | `feat: add basic HTML structure with header` | Se implementó la estructura HTML inicial incluyendo el encabezado principal y navegación base. | 13/05/2025 |
+| ColdTrack-Landing | `main` | `b0f9279b` | `feat: add hero section with title and CTA` | Se añadió la sección principal de bienvenida con título descriptivo y botón de llamada a la acción. | 13/05/2025 |
+| ColdTrack-Landing | `main` | `be251506` | `feat: add features section` | Se desarrolló la sección de funcionalidades principales del sistema para comunicar el valor del producto. | 14/05/2025 |
+| ColdTrack-Landing | `main` | `9da665ca` | `feat: add how it works section` | Se implementó una sección explicativa del funcionamiento general de la plataforma. | 14/05/2025 |
+| ColdTrack-Landing | `main` | `d6e284ea` | `feat: add benefits section` | Se agregó la sección de beneficios destacando ventajas competitivas del producto. | 14/05/2025 |
+| ColdTrack-Landing | `main` | `388e262f` | `feat: add CTA and footer sections` | Se incorporaron secciones de llamada a la acción y pie de página con enlaces relevantes. | 14/05/2025 |
+| ColdTrack-Landing | `main` | `5a9590e7` | `feat: add responsive CSS styles` | Se añadieron estilos responsivos para adaptar la interfaz a distintos tamaños de pantalla. | 15/05/2025 |
+| ColdTrack-Landing | `main` | `4708704c` | `feat: link CSS and JavaScript files` | Se enlazaron archivos de estilos y scripts para estructurar mejor el proyecto frontend. | 15/05/2025 |
+| ColdTrack-Landing | `main` | `a9e7c80b` | `feat: add JavaScript interactivity` | Se implementó interactividad dinámica usando JavaScript para mejorar la experiencia del usuario. | 15/05/2025 |
+| ColdTrack-Landing | `main` | `6b2c0750` | `feat: add SVG icons to header and navigation links` | Se añadieron íconos SVG al encabezado y elementos de navegación para mejorar la estética visual. | 16/05/2025 |
+| ColdTrack-Landing | `main` | `eaaddd96` | `feat: add dashboard preview with shipment cards` | Se incorporó una vista previa del dashboard mostrando tarjetas de monitoreo de envíos. | 16/05/2025 |
+| ColdTrack-Landing | `main` | `fea423b9` | `feat: add icons to feature cards` | Se agregaron íconos visuales en las tarjetas de funcionalidades para mejorar la claridad visual. | 16/05/2025 |
+| ColdTrack-Landing | `main` | `391772c4` | `feat: add icons to benefits section` | Se mejoró la sección de beneficios añadiendo iconografía descriptiva. | 16/05/2025 |
+| ColdTrack-Landing | `main` | `648b6747` | `feat: expand footer with additional navigation links and sections` | Se amplió el footer incluyendo nuevas secciones y enlaces de navegación. | 17/05/2025 |
+| ColdTrack-Landing | `main` | `725c67d6` | `fix: improve mobile responsiveness and add mobile-specific styles` | Se corrigieron problemas de visualización móvil y se añadieron estilos específicos para celulares. | 17/05/2025 |
+| ColdTrack-Landing | `main` | `4bb124b2` | `feat: enhance button interactions with visual effects` | Se añadieron efectos visuales e interacciones a botones para mejorar la usabilidad. | 17/05/2025 |
+| ColdTrack-Landing | `main` | `df123a29` | `feat: add SEO meta tags` | Se incorporaron meta tags SEO para mejorar el posicionamiento en motores de búsqueda. | 19/05/2025 |
+| ColdTrack-Landing | `main` | `bcceae74` | `feat: add OpenGraph meta tags for social sharing` | Se agregaron etiquetas OpenGraph para optimizar la visualización al compartir en redes sociales. | 19/05/2025 |
+| ColdTrack-Landing | `bugfix/accessibility-improvements` | `0cd942ea` | `fix: add ARIA labels for accessibility` | Se añadieron etiquetas ARIA para mejorar la accesibilidad para lectores de pantalla. | 20/05/2025 |
+| ColdTrack-Landing | `bugfix/accessibility-improvements` | `39eb78fc` | `fix: add focus styles for keyboard navigation` | Se implementaron estilos de enfoque para facilitar navegación mediante teclado. | 20/05/2025 |
+| ColdTrack-Landing | `feature/link-app-company-i18n` | `06db9ba1` | `feat: add landing page internationalization` | Se añadió soporte multilenguaje mediante internacionalización (i18n). | 09/05/2026 |
+| ColdTrack-Landing | `feature/link-app-company-i18n` | `c204b7e8` | `fix: set english as default language` | Se configuró inglés como idioma por defecto del sitio. | 09/05/2026 |
+| ColdTrack-Landing | `feature/link-app-company-i18n` | `d302619c` | `feat: link app and add company sections` | Se añadieron enlaces a la aplicación y secciones relacionadas a la empresa. | 13/05/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -2786,37 +2797,63 @@ Finalmente, recomendamos ampliar las Validation Interviews con empresas que gest
 
 ## Video About-the-Team
 
+En esta sección se presenta el video **About-the-Team**, el cual resume el proceso de trabajo colaborativo desarrollado por el equipo durante la construcción del proyecto **ColdTrack**. A lo largo del video se muestran evidencias reales de sesiones de trabajo, reuniones de coordinación, planificación de sprints y desarrollo técnico de los distintos componentes del sistema.
+
+Durante el desarrollo del proyecto, el equipo trabajó de manera organizada aplicando metodologías ágiles, distribuyendo tareas entre frontend, backend, integración de componentes y validación final del producto. Se documentaron reuniones periódicas para la planificación, seguimiento y retrospectiva de cada sprint, permitiendo mantener una comunicación constante y un progreso sostenido.
+
+Entre los principales logros alcanzados por el equipo se encuentran:
+
+- Desarrollo completo de la **Landing Page** corporativa de ColdTrack.
+- Implementación del **frontend** del sistema con interfaces funcionales y responsivas.
+- Construcción del **backend** y conexión con servicios de almacenamiento de datos.
+- Integración de módulos de monitoreo para temperatura y humedad.
+- Desarrollo de dashboards para visualización de datos en tiempo real.
+- Implementación de funcionalidades de alertas y registro histórico.
+- Aplicación de principios de **usabilidad, accesibilidad, SEO e internacionalización (i18n)**.
+
+Asimismo, el video incluye el testimonio individual de cada integrante del equipo, donde explican las actividades realizadas, sus contribuciones al proyecto, los outcomes logrados y las competencias desarrolladas durante el ciclo académico. Esto evidencia no solo el desarrollo del producto, sino también el crecimiento técnico, colaborativo y profesional de cada miembro.
+
+Adicionalmente, este video fue incrustado en la sección **About the Team** del **Landing Page**, permitiendo su visualización directa desde la plataforma principal del proyecto.
+
+### Información del video
+
+**Nombre del archivo:**  
+`upc-pre-202610-1asi0730-coldtrack-aboutthe-team-sprint-3.mp4`
+
+**Formato:**  
+`.mp4`
+
+**Duración total:**  
+`00:09:57`
+
+### Pauta de secuencias del contenido
 
 | Sección | Descripción | Inicio |
 |---------|-------------|--------|
-| Proceso colaborativo y desarrollo del proyecto | Se resume el proceso de trabajo del equipo durante el desarrollo de ColdTrack, mostrando reuniones, planificación de sprints, coordinación entre integrantes, desarrollo del frontend y backend, integración del sistema y despliegue final. | 00:00 |
-| Presentación de Eslander | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 4:14 |
-| Presentación de Rodrigo | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 05:15 |
-| Presentación de Mathias | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 06:31 |
-| Presentación de Aaron | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 07:25 |
-| Presentación de Gabriel | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 08:22 |
+| Proceso colaborativo y desarrollo del proyecto | Se resume el proceso de trabajo del equipo durante el desarrollo de ColdTrack, mostrando reuniones, planificación de sprints, coordinación entre integrantes, desarrollo del frontend y backend, integración del sistema y despliegue final. | 00:00:00 |
+| Testimonio individual – Eslander Celis | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 00:04:14 |
+| Testimonio individual – Rodrigo Oblitas | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 00:05:15 |
+| Testimonio individual – Mathias Aréchaga | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 00:06:31 |
+| Testimonio individual – Aarón Ávila | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 00:07:25 |
+| Testimonio individual – Gabriel Mendoza | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 00:08:22 |
 
+### Evidencia del video
 
-#### Evidencia del video
+**Screenshot representativo del video:**
 
-Screenshot del video:
+![About-the-Team](./images/About-the-team.png)
 
-![About-the-Team](images/about-the-team.png)
+### Video publicado en Microsoft Stream
 
 Microsoft Stream URL:  
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQDK3zANe96kTKttTEQVPc51AeFOEgs5dNd1qZa33zZqOjs?e=tx1J4F&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-
-
+### Video publicado en YouTube
 
 YouTube URL:  
+
 https://youtu.be/ULdg35MGr-Q
-
-
-Timing / Duración:  
-9:57 minutos
-
 
 # Bibliografía
 
@@ -2858,6 +2895,30 @@ Vite. (2026). *Vite documentation*. Recuperado el 13 de mayo de 2026, de https:/
 
 # Anexos
 
-## Exposición grupal
+## Videos de Exposiciones
 
-Video de exposición grupal del proyecto ColdTrack: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBzHTo9GCR1RpI0WITzlzTLAdLiHay8hkvnxDjYvTBgo5E?e=RgyzPP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+En esta sección se incluyen los videos de las exposiciones realizadas durante las diferentes entregas del proyecto **ColdTrack**. Cada video evidencia el progreso del equipo en las distintas fases del desarrollo, mostrando la evolución del producto, las decisiones técnicas tomadas y los avances alcanzados en cada evaluación.
+
+### AV1 (Avance 1)
+
+Video correspondiente a la primera exposición del proyecto, donde se presentó la idea de negocio, problemática identificada, propuesta de solución y primeros avances en el diseño del sistema.
+
+Microsoft Stream URL:  
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQD2U2NEzg8xSLo8XOF1COuCAWLFyQgeSYzqyomeXHynISo?e=Iq89WY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+### TB1 (Trabajo Parcial / Trabajo Final Intermedio)
+
+Video correspondiente a la exposición intermedia del proyecto, donde se presentaron los avances en el desarrollo de la Landing Page, frontend del sistema y validaciones funcionales del producto.
+
+Microsoft Stream URL:  
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBzHTo9GCR1RpI0WITzlzTLAdLiHay8hkvnxDjYvTBgo5E?e=3ZaFCc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+### AV2 (Avance 2)
+
+Video correspondiente a la exposición del segundo avance, donde se evidenció principalmente el desarrollo del backend, integración de servicios, persistencia de datos y conexión entre frontend y backend.
+
+Microsoft Stream URL:  
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQDhwhrZnP6XTYKLr4AJchVxAe2WkJG6o9PUKwTbrZbFmC8?e=4rlZG5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
