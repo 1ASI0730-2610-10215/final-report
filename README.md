@@ -2206,12 +2206,6 @@ El despliegue del Sprint 3 se organizó en tres servicios independientes: MySQL 
 
 La arquitectura desplegada separa la interfaz web, los Web Services y la persistencia. Esta separación permite publicar cada componente de forma independiente y mantener las credenciales de producción fuera del repositorio.
 
-<p align="center">
-  <img src="images/sprint3-deployed-architecture.png" alt="Arquitectura desplegada de ColdTrack" width="90%"/>
-</p>
-
-<p align="center"><em>Figura. Arquitectura productiva con Firebase Hosting, Render, MySQL en Filess.io, Swagger/OpenAPI y generación de reportes.</em></p>
-
 | Componente | Tecnología y plataforma | Dirección o configuración principal |
 |---|---|---|
 | Web Application | Vue 3.5, Vite y Firebase Hosting | https://coldtrack-front-web.web.app/ |
