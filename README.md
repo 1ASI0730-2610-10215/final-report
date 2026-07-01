@@ -1409,8 +1409,42 @@ La sesión se llevó a cabo de manera colaborativa utilizando la herramienta Luc
 ### 4.6.3. Software Architecture Container Diagram
 
 <p align="center">
-  <img src="images/container_diagram.png" alt="Container Diagram" width="100%"/>
+  <img src="images/Software-Architecture-Context-Diagram.png" alt="Container Diagram" width="100%"/>
 </p>
+
+El **Software Architecture Container Diagram** de **ColdTrack** muestra la estructura interna del sistema, identificando los principales contenedores de software, los actores que interactúan con la plataforma y los servicios externos necesarios para su funcionamiento.
+
+En el centro de la arquitectura se encuentra **ColdTrack System**, el cual permite monitorear y gestionar la cadena de frío durante el transporte de productos perecibles. Este sistema procesa la telemetría proveniente de sensores IoT, almacena la información y facilita la supervisión en tiempo real.
+
+#### Actores principales
+
+ColdTrack interactúa con dos actores principales:
+
+- **Logística:** supervisa los envíos, consulta la telemetría y gestiona la operación general del transporte.
+- **Transporte:** monitorea las condiciones del cargamento durante la ruta y revisa alertas generadas por el sistema.
+
+#### Contenedores internos
+
+El sistema está compuesto por los siguientes contenedores:
+
+- **Landing Page (HTML, CSS, JavaScript):** componente frontend orientado a presentar la solución y captar potenciales clientes.
+- **Web Application (Vue.js):** interfaz principal utilizada por los usuarios para monitorear envíos y visualizar información relevante.
+- **API Application (Render):** backend encargado de procesar la lógica de negocio, gestionar alertas y coordinar la comunicación entre componentes.
+- **Database (MySQL):** contenedor de persistencia responsable de almacenar usuarios, envíos, telemetría y registros históricos.
+
+#### Sistemas externos
+
+ColdTrack se integra con servicios externos que complementan su funcionamiento:
+
+- **Sensors:** dispositivos IoT que recopilan datos de temperatura y humedad durante el transporte.
+- **Reports:** servicio encargado de generar reportes en formato PDF.
+- **Auth:** servicio de autenticación que valida credenciales y garantiza acceso seguro.
+
+#### Flujo de interacción
+
+El flujo principal inicia cuando los **sensores IoT** recopilan datos ambientales y envían la telemetría al **API Application**. Posteriormente, el backend procesa esta información, la almacena en la base de datos y la pone a disposición de la **Web Application**, donde puede ser visualizada por los usuarios.
+
+Adicionalmente, el sistema puede generar reportes históricos en PDF y utilizar servicios de autenticación para garantizar la seguridad de acceso a la plataforma. Este diagrama permite comprender cómo se organizan los componentes de ColdTrack y cómo fluye la información dentro del sistema.
 
 ### 4.6.3. Software Architecture Components Diagram
 
