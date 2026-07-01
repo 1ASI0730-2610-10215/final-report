@@ -119,8 +119,8 @@ Además, se actualizaron las secciones de Student Outcome, conclusiones, recomen
       * [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   * [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
 
-    * [Segmento Objetivo 1: Estudiantes Universitarios](#segmento-objetivo-1-estudiantes-universitarios)
-    * [Segmento Objetivo 2: Profesores Universitarios](#segmento-objetivo-2-profesores-universitarios)
+    * [Segmento Objetivo 1: Personal de Logística y Operaciones](#segmento-objetivo-1-Personal de Logística y Operaciones)
+    * [Segmento Objetivo 2: Personal de Transporte](#segmento-objetivo-2-Personal de Transporte)
 
 * [Capitulo II: Requirements Elicitation & Analysis](#capitulo-ii-requirements-elicitation--analysis)
 
@@ -140,6 +140,7 @@ Además, se actualizaron las secciones de Student Outcome, conclusiones, recomen
     * [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     * [2.3.4. Empathy Mapping](#234-empathy-mapping)
     * [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    * [2.3.6. Big Picture EventStorming](#236-big-picture-eventstorming)
   * [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
 * [Capitulo III: Requirements specification](#capitulo-iii-requirements-specification)
@@ -1122,7 +1123,7 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 ![Scenario Mapping 2](./images/Scenario-Mapping2.jpg)
 
 
-### 2.3.5. Big Picture EventStorming
+### 2.3.6. Big Picture EventStorming
 
 ![Big Picture v1](./images/bigpicture1.png)
 
