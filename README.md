@@ -1449,8 +1449,40 @@ Adicionalmente, el sistema puede generar reportes históricos en PDF y utilizar 
 ### 4.6.3. Software Architecture Components Diagram
 
 <p align="center">
-  <img src="images/components_diagram.png" alt="Context Diagram" width="100%"/>
+  <img src="images/c4_model_component.png" alt="Context Diagram" width="100%"/>
 </p>
+
+### Software Architecture Components Diagram — ColdTrack
+
+El Software Architecture Components Diagram de ColdTrack muestra la estructura interna del sistema, identificando los componentes que conforman el API Application, los sistemas externos con los que se integra y el flujo de información entre ellos.
+En el centro de la arquitectura se encuentra el ColdTrack System, cuyo backend procesa la telemetría proveniente de los sensores IoT, gestiona los envíos refrigerados, evalúa umbrales de temperatura y facilita la supervisión en tiempo real desde la Web Application.
+
+
+### El API Application está compuesto por los siguientes componentes:
+
+- **Telemetry Receiver (WebSocket):** recibe e ingesta en tiempo real los datos de temperatura y humedad enviados por los sensores IoT hacia el sistema.
+- **Auth Middleware (Middleware):** intercepta todas las peticiones entrantes, valida los tokens de seguridad y delega cada petición al componente correspondiente.
+- **Alert Engine (Domain Logic):** evalúa los umbrales de temperatura configurados y genera alertas automáticas cuando se detectan desvíos que pueden comprometer la calidad del producto transportado.
+- **Shipment Controller (REST Controller):** gestiona las rutas y el ciclo de vida de los envíos refrigerados, incluyendo su creación, actualización de estado y trazabilidad.
+- **Report Manager (Service):** orquesta la generación de reportes históricos de desempeño de la cadena de frío, consultando datos del repositorio y solicitando la producción del documento al servicio externo PDF Service.
+- **Data Repository (ORM):** abstrae el acceso a la base de datos MySQL, centralizando todas las operaciones de lectura y escritura del sistema.
+
+### ColdTrack se integra con los siguientes servicios externos:
+
+- **IoT Sensors:** dispositivos de hardware instalados en las unidades de transporte que recopilan y envían datos de temperatura y humedad en tiempo real al Telemetry Receiver.
+- **Auth Provider:** proveedor externo de autenticación que verifica los tokens de seguridad en coordinación con el Auth Middleware.
+- **Notification API:** servicio externo que recibe las alertas disparadas por el Alert Engine y las entrega como notificaciones in-app al personal correspondiente.
+- **PDF Service: generador** externo de documentos utilizado por el Report Manager para producir los reportes de cadena de frío en formato PDF.
+
+### Base de datos
+
+- **Database (MySQL):** contenedor de persistencia responsable de almacenar usuarios, envíos y telemetría de sensores. Recibe todas las operaciones mediante SQL Queries a través del Data Repository.
+
+### Flujo de interacción
+El flujo principal inicia cuando los sensores IoT recopilan datos ambientales y envían la telemetría al Telemetry Receiver. Este componente analiza los datos y los deriva al Alert Engine, que evalúa si existe algún desvío de temperatura. De detectarse una alerta, el sistema la dispara hacia la Notification API, que notifica al personal correspondiente.
+
+Paralelamente, toda la información procesada es persistida en la base de datos MySQL a través del Data Repository.
+La Web Application permite al personal de logística acceder al sistema mediante peticiones seguras validadas por el Auth Middleware, quien verifica los tokens con el Auth Provider externo y delega cada petición al Shipment Controller o al Report Manager según corresponda.
 
 ## 4.7. Software Object-Oriented Design
 
