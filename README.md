@@ -1046,34 +1046,43 @@ El Ubiquitous Language de ColdTrack consolida los términos compartidos entre ne
 
 ## 3.2. User Stories
 
-Esta sección organiza las épicas, User Stories y Technical Stories que guían el desarrollo de ColdTrack. El formato expresa el valor de usuario, los criterios de aceptación y la relación con cada épica del producto.
+Esta sección organiza las épicas, User Stories y Technical Stories que guían el desarrollo de ColdTrack. Las historias se formularon considerando los tres productos digitales desarrollados por el equipo: Landing Page, Web Application y Web Services. Cada historia mantiene trazabilidad con una épica y expresa criterios de aceptación verificables durante los Sprint Reviews.
 
 | Epic/Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |---|---|---|---|---|
 | EP-001 | Landing Page y adquisición | Como visitante interesado en soluciones de cadena de frío<br>Quiero conocer la propuesta de valor, beneficios, equipo y acceso a la aplicación<br>Para decidir si ColdTrack responde a mis necesidades operativas. | N/A | N/A |
-| EP-002 | Identidad y acceso | Como usuario de ColdTrack<br>Quiero registrarme, iniciar sesión y conservar una sesión segura<br>Para acceder a las funcionalidades según mi rol. | N/A | N/A |
-| EP-003 | Gestión de envíos refrigerados | Como personal de logística<br>Quiero registrar, consultar y actualizar envíos refrigerados<br>Para controlar el traslado de productos sensibles. | N/A | N/A |
-| EP-004 | Sensores y telemetría | Como personal de logística o transporte<br>Quiero asignar sensores y registrar lecturas de temperatura y humedad<br>Para monitorear condiciones ambientales durante la ruta. | N/A | N/A |
-| EP-005 | Alertas e incidencias | Como usuario responsable del envío<br>Quiero visualizar, reconocer y resolver alertas<br>Para actuar frente a variaciones críticas. | N/A | N/A |
-| EP-006 | Analítica, historial y reportes | Como personal de logística<br>Quiero revisar indicadores, historial y reportes PDF<br>Para evaluar el desempeño de la cadena de frío. | N/A | N/A |
-| US-001 | Visualizar propuesta de valor | Como visitante<br>Quiero entender el problema que resuelve ColdTrack<br>Para evaluar si la solución se ajusta a mi operación. | Escenario 1: Dado que ingreso a la landing page, cuando reviso la sección principal, entonces visualizo propuesta de valor y CTA.<br><br>Escenario 2: Dado que selecciono el CTA, cuando se ejecuta la acción, entonces soy redirigido a la Web Application. | EP-001 |
-| US-002 | Cambiar idioma de la interfaz | Como usuario o visitante<br>Quiero alternar entre inglés y español<br>Para comprender la información en mi idioma preferido. | Escenario 1: Dado que abro el producto por primera vez, cuando carga la interfaz, entonces los textos se muestran en inglés.<br><br>Escenario 2: Dado que selecciono ES, cuando el sistema aplica el cambio, entonces los textos fijos se actualizan a español. | EP-001 |
-| US-003 | Crear cuenta | Como usuario nuevo<br>Quiero registrar mis datos y rol<br>Para acceder al sistema ColdTrack. | Escenario 1: Dado que completo datos válidos, cuando envío el formulario, entonces el backend crea la cuenta.<br><br>Escenario 2: Dado que faltan campos o el correo ya existe, cuando se procesa la solicitud, entonces el sistema muestra un error claro. | EP-002 |
-| US-004 | Iniciar sesión | Como usuario registrado<br>Quiero autenticarme con correo y contraseña<br>Para acceder al dashboard. | Escenario 1: Dado que ingreso credenciales válidas, cuando inicio sesión, entonces recibo un JWT y accedo a vistas protegidas.<br><br>Escenario 2: Dado que ingreso credenciales inválidas, cuando intento acceder, entonces el sistema rechaza la operación. | EP-002 |
-| US-005 | Mantener sesión segura | Como usuario autenticado<br>Quiero que mis solicitudes incluyan el token<br>Para consumir endpoints protegidos sin repetir credenciales. | Escenario 1: Dado que existe sesión válida, cuando consulto recursos protegidos, entonces el cliente envía `Authorization: Bearer`.<br><br>Escenario 2: Dado que no existe token válido, cuando solicito una vista protegida, entonces el sistema redirige a sign in. | EP-002 |
-| US-006 | Registrar envío | Como personal de logística<br>Quiero crear un envío con destino, conductor, carga y fechas<br>Para iniciar el seguimiento operativo. | Escenario 1: Dado que completo campos requeridos, cuando registro el envío, entonces queda almacenado en MySQL.<br><br>Escenario 2: Dado que faltan datos, cuando intento guardar, entonces se muestran validaciones. | EP-003 |
-| US-007 | Listar envíos activos | Como usuario autenticado<br>Quiero consultar envíos registrados o en tránsito<br>Para identificar operaciones en curso. | Escenario 1: Dado que existen envíos activos, cuando abro el dashboard, entonces veo código, destino, estado y llegada estimada.<br><br>Escenario 2: Dado que no existen envíos, cuando consulto la lista, entonces se muestra un estado vacío. | EP-003 |
-| US-008 | Ver detalle del envío | Como usuario autenticado<br>Quiero revisar el detalle de un envío<br>Para conocer sensor asignado, alertas y condiciones registradas. | Escenario 1: Dado que selecciono View details, cuando el sistema consulta el backend, entonces se muestran datos del envío, sensor y alertas.<br><br>Escenario 2: Dado que el envío no existe o la API no responde, cuando se intenta cargar, entonces se informa el problema. | EP-003 |
-| US-009 | Actualizar estado de envío | Como personal de logística<br>Quiero cambiar el estado del envío<br>Para reflejar su avance hasta completarlo. | Escenario 1: Dado que el envío existe, cuando actualizo el estado, entonces el backend persiste el cambio.<br><br>Escenario 2: Dado que la transición no está permitida, cuando solicito el cambio, entonces se devuelve un error de dominio. | EP-003 |
-| US-010 | Consultar y registrar sensores | Como personal de logística<br>Quiero visualizar y registrar sensores<br>Para saber cuáles están asignados o disponibles. | Escenario 1: Dado que existen sensores, cuando abro Sensors, entonces veo código, modelo, estado, envío y última lectura.<br><br>Escenario 2: Dado que registro un sensor válido, cuando confirmo la operación, entonces queda disponible para asignación. | EP-004 |
-| US-011 | Asignar sensor a envío | Como personal de logística<br>Quiero vincular un sensor disponible a un envío<br>Para comenzar el monitoreo de la carga. | Escenario 1: Dado que el sensor está disponible y el envío existe, cuando asigno el sensor, entonces ambos quedan vinculados.<br><br>Escenario 2: Dado que el sensor ya está asignado, cuando intento vincularlo, entonces se rechaza la operación. | EP-004 |
-| US-012 | Registrar lectura de telemetría | Como usuario autorizado<br>Quiero registrar temperatura y humedad de un sensor<br>Para mantener actualizado el monitoreo del envío. | Escenario 1: Dado que el sensor está asignado, cuando registro temperatura y humedad, entonces la lectura se guarda.<br><br>Escenario 2: Dado que la lectura supera umbrales, cuando se procesa, entonces se genera una alerta asociada. | EP-004 |
-| US-013 | Visualizar y atender alertas | Como usuario autenticado<br>Quiero ver, reconocer y resolver alertas<br>Para priorizar incidentes de cadena de frío. | Escenario 1: Dado que existen alertas, cuando filtro por severidad o estado, entonces veo resultados coincidentes.<br><br>Escenario 2: Dado que una alerta fue revisada o atendida, cuando ejecuto acknowledgment o resolution, entonces cambia su estado. | EP-005 |
-| US-014 | Consultar historial y analítica | Como personal de logística<br>Quiero ver envíos completados e indicadores<br>Para revisar trazabilidad y desempeño. | Escenario 1: Dado que existen envíos completados, cuando abro History, entonces veo fechas, carga, métricas y alertas.<br><br>Escenario 2: Dado que consulto el dashboard, cuando la API responde, entonces se muestran indicadores consolidados. | EP-006 |
-| US-015 | Exportar reporte PDF | Como personal de logística<br>Quiero descargar un reporte PDF<br>Para compartir resultados de la cadena de frío. | Escenario 1: Dado que existe información del período, cuando presiono Export report, entonces se genera y descarga un PDF.<br><br>Escenario 2: Dado que no hay datos, cuando solicito el reporte, entonces se informa la falta de registros. | EP-006 |
-| TS-001 | Implementar API REST versionada | Como equipo técnico<br>Quiero exponer recursos bajo `/api/v1`<br>Para mantener contratos claros entre frontend y backend. | La API expone endpoints versionados, responde JSON y documenta contratos con Swagger/OpenAPI. | EP-002 |
-| TS-002 | Configurar persistencia MySQL | Como sistema<br>Quiero almacenar entidades en MySQL<br>Para conservar datos entre sesiones y despliegues. | EF Core aplica migraciones, usa TLS y conserva usuarios, envíos, sensores, telemetría, alertas y reportes. | EP-003 |
-| TS-003 | Integrar frontend con backend productivo | Como equipo técnico<br>Quiero reemplazar MockAPI por la API de Render<br>Para ejecutar el flujo completo con persistencia real. | Las variables de entorno de producción apuntan a Render y los servicios axios usan JWT. | EP-006 |
+| EP-002 | Identidad, acceso y sesión | Como usuario de ColdTrack<br>Quiero registrarme, iniciar sesión, cerrar sesión y mantener una sesión segura<br>Para acceder a las funcionalidades protegidas según mi rol. | N/A | N/A |
+| EP-003 | Gestión de envíos refrigerados | Como personal de logística<br>Quiero registrar, consultar, detallar y actualizar envíos refrigerados<br>Para controlar el ciclo operativo de productos sensibles. | N/A | N/A |
+| EP-004 | Sensores y telemetría | Como personal de logística o transporte<br>Quiero registrar sensores, asignarlos a envíos y registrar lecturas ambientales<br>Para monitorear la temperatura y humedad durante la ruta. | N/A | N/A |
+| EP-005 | Alertas e incidencias | Como usuario responsable del envío<br>Quiero visualizar, filtrar, reconocer y resolver alertas<br>Para actuar frente a variaciones críticas de la cadena de frío. | N/A | N/A |
+| EP-006 | Analítica, historial y reportes | Como personal de logística<br>Quiero revisar indicadores, historial y reportes PDF<br>Para evaluar el desempeño de las operaciones completadas. | N/A | N/A |
+| EP-007 | Plataforma, servicios y despliegue | Como equipo técnico<br>Quiero documentar, desplegar y operar la solución en entornos públicos<br>Para permitir validaciones reales de frontend, backend y base de datos. | N/A | N/A |
+| US-001 | Visualizar propuesta de valor | Como visitante<br>Quiero entender el problema que resuelve ColdTrack y sus beneficios<br>Para evaluar si la solución se ajusta a mi operación. | Escenario 1: Dado que ingreso a la Landing Page, cuando reviso la sección principal, entonces visualizo propuesta de valor, beneficios y CTA.<br><br>Escenario 2: Dado que selecciono un CTA, cuando se ejecuta la acción, entonces soy redirigido a la Web Application desplegada. | EP-001 |
+| US-002 | Navegar secciones informativas | Como visitante<br>Quiero recorrer características, funcionamiento, beneficios y documentación<br>Para comprender el alcance funcional de ColdTrack. | Escenario 1: Dado que uso la barra de navegación, cuando selecciono una sección, entonces el sitio desplaza hacia el contenido correspondiente.<br><br>Escenario 2: Dado que consulto documentación, cuando selecciono el enlace, entonces se abre el repositorio público asociado. | EP-001 |
+| US-003 | Consultar información de empresa y equipo | Como visitante<br>Quiero conocer a FreshGuard y a los integrantes del equipo<br>Para generar confianza sobre la solución presentada. | Escenario 1: Dado que reviso la sección About Us, cuando se carga el contenido, entonces visualizo información de la empresa.<br><br>Escenario 2: Dado que reviso el equipo, cuando se muestran los integrantes, entonces se identifican sus nombres y participación. | EP-001 |
+| US-004 | Cambiar idioma de interfaz | Como usuario o visitante<br>Quiero alternar entre inglés y español<br>Para comprender la información en mi idioma preferido. | Escenario 1: Dado que abro el producto por primera vez, cuando carga la interfaz, entonces los textos se muestran en inglés.<br><br>Escenario 2: Dado que selecciono ES o EN, cuando el sistema aplica el cambio, entonces los textos fijos se actualizan en la interfaz. | EP-001 |
+| US-005 | Crear cuenta | Como usuario nuevo<br>Quiero registrar mis datos, correo, contraseña y rol<br>Para acceder al sistema ColdTrack. | Escenario 1: Dado que completo datos válidos, cuando envío el formulario, entonces el backend crea la cuenta.<br><br>Escenario 2: Dado que faltan campos o el correo ya existe, cuando se procesa la solicitud, entonces el sistema muestra un error claro. | EP-002 |
+| US-006 | Iniciar sesión | Como usuario registrado<br>Quiero autenticarme con correo y contraseña<br>Para acceder al dashboard operativo. | Escenario 1: Dado que ingreso credenciales válidas, cuando inicio sesión, entonces recibo un JWT y accedo a vistas protegidas.<br><br>Escenario 2: Dado que ingreso credenciales inválidas, cuando intento acceder, entonces el sistema rechaza la operación. | EP-002 |
+| US-007 | Mantener sesión segura | Como usuario autenticado<br>Quiero que mis solicitudes incluyan automáticamente el token<br>Para consumir endpoints protegidos sin repetir credenciales. | Escenario 1: Dado que existe sesión válida, cuando consulto recursos protegidos, entonces el cliente envía `Authorization: Bearer`.<br><br>Escenario 2: Dado que no existe token válido, cuando solicito una vista protegida, entonces el sistema redirige a Sign In. | EP-002 |
+| US-008 | Cerrar sesión | Como usuario autenticado<br>Quiero cerrar mi sesión<br>Para proteger mi acceso cuando termino de usar la plataforma. | Escenario 1: Dado que selecciono Sign Out, cuando el sistema procesa la acción, entonces elimina la sesión local.<br><br>Escenario 2: Dado que intento volver a una vista protegida sin token, cuando navego, entonces se me redirige a Sign In. | EP-002 |
+| US-009 | Registrar envío | Como personal de logística<br>Quiero crear un envío con destino, conductor, carga y fechas<br>Para iniciar el seguimiento operativo. | Escenario 1: Dado que completo campos requeridos, cuando registro el envío, entonces queda almacenado en MySQL.<br><br>Escenario 2: Dado que faltan datos, cuando intento guardar, entonces se muestran validaciones. | EP-003 |
+| US-010 | Consultar dashboard de envíos | Como usuario autenticado<br>Quiero consultar indicadores, alertas activas y envíos en curso<br>Para identificar rápidamente el estado de la operación. | Escenario 1: Dado que existen envíos activos, cuando abro el dashboard, entonces veo código, destino, estado y llegada estimada.<br><br>Escenario 2: Dado que no existen envíos, cuando consulto la lista, entonces se muestra un estado vacío. | EP-003 |
+| US-011 | Ver detalle del envío | Como usuario autenticado<br>Quiero revisar el detalle de un envío<br>Para conocer sensor asignado, alertas relacionadas y condiciones registradas. | Escenario 1: Dado que selecciono View details, cuando el sistema consulta el backend, entonces se muestran datos del envío, sensor y alertas.<br><br>Escenario 2: Dado que el envío no existe o la API no responde, cuando se intenta cargar, entonces se informa el problema. | EP-003 |
+| US-012 | Actualizar estado de envío | Como personal de logística<br>Quiero cambiar el estado del envío<br>Para reflejar su avance hasta completarlo. | Escenario 1: Dado que el envío existe, cuando actualizo el estado, entonces el backend persiste el cambio.<br><br>Escenario 2: Dado que la transición no está permitida, cuando solicito el cambio, entonces se devuelve un error de dominio. | EP-003 |
+| US-013 | Consultar historial de envíos | Como personal de logística<br>Quiero revisar envíos completados<br>Para analizar trazabilidad, fechas y resultados de operación. | Escenario 1: Dado que existen envíos completados, cuando abro History, entonces veo fechas, carga, métricas y alertas.<br><br>Escenario 2: Dado que no existen envíos completados, cuando consulto el historial, entonces se muestra un estado vacío. | EP-006 |
+| US-014 | Registrar y consultar sensores | Como personal de logística<br>Quiero visualizar y registrar sensores<br>Para saber cuáles están asignados o disponibles. | Escenario 1: Dado que existen sensores, cuando abro Sensors, entonces veo código, modelo, estado, envío y última lectura.<br><br>Escenario 2: Dado que registro un sensor válido, cuando confirmo la operación, entonces queda disponible para asignación. | EP-004 |
+| US-015 | Asignar sensor a envío | Como personal de logística<br>Quiero vincular un sensor disponible a un envío<br>Para comenzar el monitoreo de la carga. | Escenario 1: Dado que el sensor está disponible y el envío existe, cuando asigno el sensor, entonces ambos quedan vinculados.<br><br>Escenario 2: Dado que el sensor ya está asignado, cuando intento vincularlo, entonces se rechaza la operación. | EP-004 |
+| US-016 | Registrar lectura de telemetría | Como usuario autorizado<br>Quiero registrar temperatura y humedad de un sensor<br>Para mantener actualizado el monitoreo del envío. | Escenario 1: Dado que el sensor está asignado, cuando registro temperatura y humedad, entonces la lectura se guarda.<br><br>Escenario 2: Dado que la lectura supera umbrales, cuando se procesa, entonces se genera una alerta asociada. | EP-004 |
+| US-017 | Consultar lecturas de telemetría | Como usuario autenticado<br>Quiero revisar lecturas asociadas a un envío<br>Para validar la evolución ambiental de la carga. | Escenario 1: Dado que existen lecturas, cuando consulto la telemetría de un envío, entonces se listan temperatura, humedad y fecha.<br><br>Escenario 2: Dado que el envío no tiene lecturas, cuando consulto la telemetría, entonces se muestra una respuesta vacía controlada. | EP-004 |
+| US-018 | Visualizar y filtrar alertas | Como usuario autenticado<br>Quiero ver alertas por severidad y estado<br>Para priorizar incidentes de cadena de frío. | Escenario 1: Dado que existen alertas, cuando filtro por severidad o estado, entonces veo resultados coincidentes.<br><br>Escenario 2: Dado que no existen coincidencias, cuando aplico filtros, entonces el sistema informa que no hay resultados. | EP-005 |
+| US-019 | Reconocer alerta | Como usuario responsable<br>Quiero marcar una alerta como revisada<br>Para indicar que el incidente ya fue atendido inicialmente. | Escenario 1: Dado que una alerta está activa, cuando ejecuto acknowledgment, entonces su estado cambia a reconocido.<br><br>Escenario 2: Dado que la alerta ya fue resuelta, cuando intento reconocerla, entonces el backend rechaza la operación inválida. | EP-005 |
+| US-020 | Resolver alerta | Como usuario responsable<br>Quiero resolver una alerta<br>Para cerrar el incidente luego de tomar acción. | Escenario 1: Dado que una alerta está activa o reconocida, cuando ejecuto resolution, entonces queda resuelta.<br><br>Escenario 2: Dado que la alerta no existe, cuando solicito resolverla, entonces se retorna un error controlado. | EP-005 |
+| US-021 | Consultar analítica del dashboard | Como personal de logística<br>Quiero ver indicadores consolidados<br>Para evaluar el estado general de operaciones, alertas y entregas. | Escenario 1: Dado que la API responde, cuando abro el dashboard, entonces se muestran totales de envíos, activos, completados y alertas.<br><br>Escenario 2: Dado que ocurre un error, cuando se consulta la analítica, entonces se muestra un mensaje de recuperación. | EP-006 |
+| US-022 | Generar reporte PDF | Como personal de logística<br>Quiero generar y descargar un reporte PDF<br>Para compartir resultados de la cadena de frío. | Escenario 1: Dado que existe información del período, cuando presiono Export report, entonces se genera y descarga un PDF.<br><br>Escenario 2: Dado que no hay datos, cuando solicito el reporte, entonces se informa la falta de registros. | EP-006 |
+| TS-001 | Implementar API REST versionada | Como equipo técnico<br>Quiero exponer recursos bajo `/api/v1`<br>Para mantener contratos claros entre frontend y backend. | La API expone endpoints versionados, responde JSON y documenta contratos con Swagger/OpenAPI. | EP-007 |
+| TS-002 | Configurar persistencia MySQL | Como equipo técnico<br>Quiero almacenar entidades en MySQL<br>Para conservar datos entre sesiones y despliegues. | EF Core aplica migraciones, usa TLS y conserva usuarios, envíos, sensores, telemetría, alertas y reportes. | EP-007 |
+| TS-003 | Integrar frontend con backend productivo | Como equipo técnico<br>Quiero reemplazar MockAPI por la API de Render<br>Para ejecutar el flujo completo con persistencia real. | Las variables de entorno de producción apuntan a Render y los servicios axios usan JWT. | EP-007 |
+| TS-004 | Documentar y desplegar servicios | Como equipo técnico<br>Quiero publicar Swagger, Firebase Hosting y Render<br>Para facilitar pruebas, exposición pública y revisión académica. | Swagger está disponible en producción, Firebase sirve la Web Application y Render expone la API conectada a MySQL. | EP-007 |
 
 ## 3.3. Impact Mapping
 <img src="./images/IMPACTMAPP.png" alt="tobetransportistas" width="90%">
@@ -1082,31 +1091,32 @@ Esta sección organiza las épicas, User Stories y Technical Stories que guían 
 
 | Prioridad | User Story ID | Título HU | Story Points |
 |----------|--------------|----------|-------------|
-| 1 | US-001 | Registro de usuario | 5 |
-| 2 | US-002 | Inicio de sesión | 5 |
-| 3 | US-004 | Crear envío | 8 |
-| 4 | US-007 | Asignar sensor a envío | 8 |
-| 5 | US-009 | Ver temperatura en tiempo real | 8 |
-| 6 | US-010 | Ver humedad en tiempo real | 8 |
-| 7 | US-013 | Alertas de temperatura | 8 |
-| 8 | US-014 | Notificación al conductor | 5 |
-| 9 | US-006 | Ver detalle del envío | 5 |
-| 10 | US-011 | Estado del envío | 5 |
-| 11 | US-005 | Ver envíos activos | 5 |
-| 12 | US-008 | Finalizar envío | 5 |
-| 13 | US-012 | Visualizar gráficos históricos | 8 |
-| 14 | US-015 | Ver historial de alertas | 5 |
-| 15 | US-016 | Ver historial de envíos | 5 |
-| 16 | US-018 | Filtrar historial | 5 |
-| 17 | US-003 | Recuperar contraseña | 3 |
-| 18 | US-017 | Descargar reporte | 8 |
-| 19 | US-019 | Ver información de la app (Landing) | 3 |
-| 20 | US-020 | Ver testimonios | 3 |
-| 21 | US-021 | Formulario de contacto | 3 |
-| 22 | US-022 | Ver equipo de desarrollo | 2 |
-| 23 | US-023 | Ver funcionalidades del sistema | 3 |
-
-
+| 1 | US-001 | Visualizar propuesta de valor | 3 |
+| 2 | US-002 | Navegar secciones informativas | 3 |
+| 3 | US-003 | Consultar información de empresa y equipo | 2 |
+| 4 | US-004 | Cambiar idioma de interfaz | 5 |
+| 5 | US-005 | Crear cuenta | 5 |
+| 6 | US-006 | Iniciar sesión | 5 |
+| 7 | US-007 | Mantener sesión segura | 5 |
+| 8 | US-008 | Cerrar sesión | 3 |
+| 9 | US-009 | Registrar envío | 8 |
+| 10 | US-010 | Consultar dashboard de envíos | 8 |
+| 11 | US-011 | Ver detalle del envío | 5 |
+| 12 | US-012 | Actualizar estado de envío | 5 |
+| 13 | US-013 | Consultar historial de envíos | 5 |
+| 14 | US-014 | Registrar y consultar sensores | 8 |
+| 15 | US-015 | Asignar sensor a envío | 8 |
+| 16 | US-016 | Registrar lectura de telemetría | 8 |
+| 17 | US-017 | Consultar lecturas de telemetría | 5 |
+| 18 | US-018 | Visualizar y filtrar alertas | 8 |
+| 19 | US-019 | Reconocer alerta | 5 |
+| 20 | US-020 | Resolver alerta | 5 |
+| 21 | US-021 | Consultar analítica del dashboard | 8 |
+| 22 | US-022 | Generar reporte PDF | 8 |
+| 23 | TS-001 | Implementar API REST versionada | 8 |
+| 24 | TS-002 | Configurar persistencia MySQL | 8 |
+| 25 | TS-003 | Integrar frontend con backend productivo | 8 |
+| 26 | TS-004 | Documentar y desplegar servicios | 5 |
 
 # Capítulo IV: Product Design
 
@@ -1540,18 +1550,19 @@ El equipo de desarrollo se reunió virtualmente para definir los objetivos, tare
 
 #### 5.2.1.3. Sprint Backlog 1
 
-El Sprint Backlog 1 se enfocó en construir la Landing Page como primer artefacto público de ColdTrack. Las tareas priorizaron comunicación de valor, estructura visual, accesibilidad, responsividad y preparación para despliegue.
+El Sprint Backlog 1 se enfocó en construir la Landing Page como primer artefacto público de ColdTrack. Las tareas priorizaron comunicación de valor, navegación informativa, presentación de empresa y equipo, accesibilidad, responsividad, soporte EN/ES y preparación para despliegue.
 
 | Sprint # | User Story Id | User Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---:|---|---|
-| Sprint 1 | US-001 | Visualizar propuesta de valor en la Landing Page | T01 | Configurar estructura base | Crear `index.html`, carpetas de estilos, scripts e imágenes. | 2 | Rodrigo Oblitas Alcalde | Done |
-| Sprint 1 | US-001 | Visualizar propuesta de valor en la Landing Page | T02 | Implementar header y hero | Agregar navegación, logo, propuesta de valor y CTA principal. | 3 | Rodrigo Oblitas Alcalde | Done |
-| Sprint 1 | US-001 | Visualizar propuesta de valor en la Landing Page | T03 | Desarrollar dashboard preview | Mostrar una vista simulada de monitoreo con envíos, temperatura y humedad. | 3 | Mathias Arechaga Saavedra | Done |
-| Sprint 1 | US-001 | Visualizar propuesta de valor en la Landing Page | T04 | Implementar secciones informativas | Agregar características, proceso de funcionamiento, beneficios y CTA final. | 4 | Gabriel Mendoza Palacios | Done |
-| Sprint 1 | US-001 | Visualizar propuesta de valor en la Landing Page | T05 | Incorporar equipo y empresa | Presentar información de FreshGuard y miembros del equipo. | 3 | Aarón Avila Palacios | Done |
-| Sprint 1 | US-002 | Cambiar idioma de la interfaz | T06 | Agregar selector EN/ES | Implementar cambio de idioma para textos fijos. | 3 | Aarón Avila Palacios | Done |
-| Sprint 1 | US-001 | Visualizar propuesta de valor en la Landing Page | T07 | Optimizar SEO y accesibilidad | Configurar metadatos, Open Graph, ARIA labels y foco visible. | 3 | Eslander Celis Berrospi | Done |
-| Sprint 1 | US-001 | Visualizar propuesta de valor en la Landing Page | T08 | Ajustar responsividad y desplegar | Validar escritorio/móvil y publicar en GitHub Pages. | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 1 | US-001 | Visualizar propuesta de valor | T01 | Configurar estructura base | Crear `index.html`, carpetas de estilos, scripts e imágenes para la Landing Page. | 2 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 1 | US-001 | Visualizar propuesta de valor | T02 | Implementar header y hero | Agregar navegación, logo, propuesta de valor, CTA principal y mensaje inicial. | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 1 | US-001 | Visualizar propuesta de valor | T03 | Desarrollar dashboard preview | Mostrar una vista simulada de monitoreo con envíos, temperatura, humedad y estado. | 3 | Mathias Arechaga Saavedra | Done |
+| Sprint 1 | US-002 | Navegar secciones informativas | T04 | Implementar secciones del sitio | Agregar características, proceso de funcionamiento, beneficios y CTA final. | 4 | Gabriel Mendoza Palacios | Done |
+| Sprint 1 | US-002 | Navegar secciones informativas | T05 | Enlazar documentación | Conectar la sección de documentación con el repositorio público de la Landing Page. | 2 | Eslander Celis Berrospi | Done |
+| Sprint 1 | US-003 | Consultar información de empresa y equipo | T06 | Incorporar empresa y equipo | Presentar información de FreshGuard y miembros del equipo. | 3 | Aarón Avila Palacios | Done |
+| Sprint 1 | US-004 | Cambiar idioma de interfaz | T07 | Agregar selector EN/ES | Implementar cambio de idioma para textos fijos de la Landing Page. | 3 | Aarón Avila Palacios | Done |
+| Sprint 1 | US-002 | Navegar secciones informativas | T08 | Optimizar SEO y accesibilidad | Configurar metadatos, Open Graph, ARIA labels, navegación por teclado y foco visible. | 3 | Eslander Celis Berrospi | Done |
+| Sprint 1 | TS-004 | Documentar y desplegar servicios | T09 | Ajustar responsividad y desplegar | Validar escritorio/móvil y publicar la Landing Page en GitHub Pages. | 3 | Rodrigo Oblitas Alcalde | Done |
 
 Link del Trello: https://trello.com/invite/b/69e82f5d88b7df3fa977adbe/ATTId31bae723ab545af9d3a4c721a1b848443078604/sprint-1-freshguard-coldtrack
 
@@ -1729,22 +1740,24 @@ La asignación de liderazgo se relaciona con la organización del Sprint Backlog
 
 #### 5.2.2.3. Sprint Backlog 2
 
-El Sprint Backlog 2 se enfocó en la construcción de la Web Application con Vue 3 y en la primera integración de datos mediante una fake API pública. En este incremento se priorizaron autenticación visual, navegación protegida, módulos operativos e internacionalización.
+El Sprint Backlog 2 se enfocó en la construcción de la Web Application con Vue 3 y en la primera integración de datos mediante una fake API pública. En este incremento se priorizaron autenticación visual, navegación protegida, módulos operativos, internacionalización, exportación inicial y despliegue en Firebase Hosting.
 
 | Sprint # | User Story Id | User Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---:|---|---|
-| Sprint 2 | US-003 | Crear cuenta | T01 | Implementar vista Sign Up | Crear formulario de registro con rol, validación visual y navegación hacia Sign In. | 3 | Rodrigo Oblitas Alcalde | Done |
-| Sprint 2 | US-004 | Iniciar sesión | T02 | Implementar vista Sign In | Crear formulario de acceso y redirección al dashboard. | 3 | Rodrigo Oblitas Alcalde | Done |
-| Sprint 2 | US-005 | Mantener sesión segura | T03 | Configurar rutas protegidas | Restringir vistas internas hasta contar con sesión activa. | 2 | Aarón Avila Palacios | Done |
-| Sprint 2 | US-006 | Registrar envío | T04 | Crear formulario New Shipment | Capturar destino, conductor, carga y fechas del envío. | 4 | Rodrigo Oblitas Alcalde | Done |
-| Sprint 2 | US-007 | Listar envíos activos | T05 | Construir dashboard | Mostrar tarjetas de indicadores, alertas activas y tabla de envíos. | 4 | Aarón Avila Palacios | Done |
-| Sprint 2 | US-010 | Consultar sensores | T06 | Implementar módulo Sensors | Mostrar sensores, estado, lectura y acciones disponibles. | 4 | Rodrigo Oblitas Alcalde | Done |
-| Sprint 2 | US-013 | Visualizar y atender alertas | T07 | Implementar módulo Alerts | Mostrar alertas por severidad y estado con filtros básicos. | 4 | Aarón Avila Palacios | Done |
-| Sprint 2 | US-014 | Consultar historial y analítica | T08 | Implementar módulo History | Consultar envíos completados y métricas principales. | 3 | Eslander Celis Berrospi | Done |
-| Sprint 2 | US-015 | Exportar reporte PDF | T09 | Preparar acción de exportación | Incorporar botones de exportación iniciales para futuras integraciones. | 2 | Aarón Avila Palacios | Done |
-| Sprint 2 | US-002 | Cambiar idioma de la interfaz | T10 | Implementar Vue I18n | Traducir navegación, títulos, formularios, tablas y footer. | 4 | Aarón Avila Palacios | Done |
-| Sprint 2 | TS-003 | Integrar frontend con backend productivo | T11 | Configurar MockAPI temporal | Usar `.env.development` y `.env.production` para consumir recursos simulados. | 3 | Gabriel Mendoza Palacios | Done |
-| Sprint 2 | Task adicional | Despliegue frontend | T12 | Publicar en Firebase Hosting | Compilar con Vite y desplegar la Web Application. | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-005 | Crear cuenta | T01 | Implementar vista Sign Up | Crear formulario de registro con rol, validación visual y navegación hacia Sign In. | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-006 | Iniciar sesión | T02 | Implementar vista Sign In | Crear formulario de acceso, credenciales demo y redirección al dashboard. | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-007 | Mantener sesión segura | T03 | Configurar rutas protegidas | Restringir vistas internas hasta contar con sesión activa. | 2 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-008 | Cerrar sesión | T04 | Agregar acción Sign Out | Limpiar sesión local y retornar a la vista de inicio de sesión. | 2 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-009 | Registrar envío | T05 | Crear formulario New Shipment | Capturar destino, conductor, carga, fecha de salida y llegada estimada. | 4 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-010 | Consultar dashboard de envíos | T06 | Construir dashboard | Mostrar tarjetas de indicadores, alertas activas y tabla de envíos. | 4 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-011 | Ver detalle del envío | T07 | Preparar acción View details | Incorporar acción en tabla para abrir detalle de envío en futuras integraciones. | 2 | Mathias Arechaga Saavedra | Done |
+| Sprint 2 | US-013 | Consultar historial de envíos | T08 | Implementar módulo History | Consultar envíos completados y métricas principales desde datos simulados. | 3 | Eslander Celis Berrospi | Done |
+| Sprint 2 | US-014 | Registrar y consultar sensores | T09 | Implementar módulo Sensors | Mostrar sensores, estado, lectura y acciones disponibles. | 4 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-018 | Visualizar y filtrar alertas | T10 | Implementar módulo Alerts | Mostrar alertas por severidad y estado con filtros básicos. | 4 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-022 | Generar reporte PDF | T11 | Preparar acción de exportación | Incorporar botones de exportación iniciales para futuras integraciones. | 2 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-004 | Cambiar idioma de interfaz | T12 | Implementar Vue I18n | Traducir navegación, títulos, formularios, tablas y footer. | 4 | Aarón Avila Palacios | Done |
+| Sprint 2 | TS-003 | Integrar frontend con backend productivo | T13 | Configurar MockAPI temporal | Usar `.env.development` y `.env.production` para consumir recursos simulados. | 3 | Gabriel Mendoza Palacios | Done |
+| Sprint 2 | TS-004 | Documentar y desplegar servicios | T14 | Publicar en Firebase Hosting | Compilar con Vite y desplegar la Web Application. | 3 | Rodrigo Oblitas Alcalde | Done |
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
@@ -1967,26 +1980,31 @@ La asignación de liderazgo se relaciona con la organización del Sprint Backlog
 
 #### 5.2.3.3. Sprint Backlog 3
 
-El Sprint Backlog 3 consolidó la integración del ecosistema ColdTrack: backend ASP.NET Core, persistencia MySQL, documentación Swagger, conexión del frontend con Render, despliegue productivo y reportes PDF.
+El Sprint Backlog 3 consolidó la integración del ecosistema ColdTrack: backend ASP.NET Core, persistencia MySQL, documentación Swagger, conexión del frontend con Render, despliegue productivo y reportes PDF. Las historias seleccionadas corresponden a los flujos de negocio que requerían persistencia real, seguridad JWT y comunicación completa entre Firebase Hosting, Render y Filess.io.
 
 | Sprint # | User Story Id | User Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---:|---|---|
-| Sprint 3 | US-003 | Crear cuenta | T01 | Implementar endpoints de autenticación | Crear sign-up, sign-in, validaciones y JWT. | 6 | Rodrigo Oblitas Alcalde | Done |
-| Sprint 3 | US-005 | Mantener sesión segura | T02 | Configurar JWT Bearer y Swagger | Proteger endpoints y permitir pruebas autorizadas desde Swagger. | 3 | Rodrigo Oblitas Alcalde | Done |
-| Sprint 3 | US-006 | Registrar envío | T03 | Implementar Shipments API | Crear agregado Shipment, persistencia y endpoint POST. | 5 | Mathias Arechaga Saavedra | Done |
-| Sprint 3 | US-007 | Listar envíos activos | T04 | Implementar consultas de envíos | Exponer GET con filtro opcional de estado. | 4 | Mathias Arechaga Saavedra | Done |
-| Sprint 3 | US-008 | Ver detalle del envío | T05 | Integrar detalle técnico en frontend | Consultar envío por identificador y relacionar sensor/alertas. | 4 | Aarón Avila Palacios | Done |
-| Sprint 3 | US-009 | Actualizar estado de envío | T06 | Implementar PATCH de estado | Actualizar ciclo de vida del envío y reflejarlo en historial. | 4 | Mathias Arechaga Saavedra | Done |
-| Sprint 3 | US-010 | Consultar sensores | T07 | Implementar Sensors API | Registrar y listar sensores con estado de asignación. | 4 | Eslander Celis Berrospi | Done |
-| Sprint 3 | US-011 | Asignar sensor a envío | T08 | Implementar asignación | Vincular sensor disponible con envío existente. | 3 | Eslander Celis Berrospi | Done |
-| Sprint 3 | US-012 | Registrar lectura de telemetría | T09 | Implementar Telemetry API | Registrar temperatura, humedad y fecha de lectura. | 5 | Eslander Celis Berrospi | Done |
-| Sprint 3 | US-013 | Visualizar y atender alertas | T10 | Implementar Alerting API | Listar, reconocer y resolver alertas por estado y severidad. | 5 | Aarón Avila Palacios | Done |
-| Sprint 3 | US-014 | Consultar historial y analítica | T11 | Implementar Analytics API | Consultar dashboard e historial de envíos completados. | 4 | Gabriel Mendoza Palacios | Done |
-| Sprint 3 | US-015 | Exportar reporte PDF | T12 | Implementar Reporting API | Generar y descargar PDF mediante QuestPDF. | 5 | Gabriel Mendoza Palacios | Done |
-| Sprint 3 | TS-002 | Configurar persistencia MySQL | T13 | Configurar Filess.io | Provisionar MySQL, variables de entorno y TLS. | 4 | Rodrigo Oblitas Alcalde | Done |
-| Sprint 3 | TS-001 | Implementar API REST versionada | T14 | Publicar Swagger/OpenAPI | Documentar endpoints en `/swagger/index.html`. | 3 | Rodrigo Oblitas Alcalde | Done |
-| Sprint 3 | TS-003 | Integrar frontend con backend productivo | T15 | Reemplazar MockAPI | Actualizar variables de entorno y servicios axios hacia Render. | 5 | Aarón Avila Palacios | Done |
-| Sprint 3 | Task adicional | Despliegue productivo | T16 | Desplegar API y frontend | Publicar backend en Render y frontend en Firebase Hosting. | 5 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 3 | US-005 | Crear cuenta | T01 | Implementar endpoints de autenticación | Crear sign-up, validaciones de correo, contraseña y persistencia de usuario. | 6 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 3 | US-006 | Iniciar sesión | T02 | Implementar emisión de JWT | Validar credenciales y retornar token con datos del usuario autenticado. | 5 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 3 | US-007 | Mantener sesión segura | T03 | Configurar JWT Bearer y Swagger | Proteger endpoints, agregar interceptores axios y permitir pruebas autorizadas desde Swagger. | 4 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 3 | US-009 | Registrar envío | T04 | Implementar Shipments API | Crear agregado Shipment, persistencia y endpoint POST. | 5 | Mathias Arechaga Saavedra | Done |
+| Sprint 3 | US-010 | Consultar dashboard de envíos | T05 | Integrar dashboard con backend | Exponer consultas de envíos, indicadores y alertas activas para el dashboard. | 5 | Aarón Avila Palacios | Done |
+| Sprint 3 | US-011 | Ver detalle del envío | T06 | Integrar detalle técnico en frontend | Consultar envío por identificador y relacionar sensor asignado y alertas asociadas. | 4 | Aarón Avila Palacios | Done |
+| Sprint 3 | US-012 | Actualizar estado de envío | T07 | Implementar PATCH de estado | Actualizar ciclo de vida del envío y reflejarlo en historial cuando corresponda. | 4 | Mathias Arechaga Saavedra | Done |
+| Sprint 3 | US-013 | Consultar historial de envíos | T08 | Implementar Shipment History | Consultar envíos completados desde Analytics API y mostrarlos en History. | 4 | Gabriel Mendoza Palacios | Done |
+| Sprint 3 | US-014 | Registrar y consultar sensores | T09 | Implementar Sensors API | Registrar y listar sensores con modelo, estado de asignación y última lectura. | 4 | Eslander Celis Berrospi | Done |
+| Sprint 3 | US-015 | Asignar sensor a envío | T10 | Implementar asignación | Vincular sensor disponible con envío existente y evitar asignaciones duplicadas. | 3 | Eslander Celis Berrospi | Done |
+| Sprint 3 | US-016 | Registrar lectura de telemetría | T11 | Implementar Telemetry API | Registrar temperatura, humedad y fecha de lectura. | 5 | Eslander Celis Berrospi | Done |
+| Sprint 3 | US-017 | Consultar lecturas de telemetría | T12 | Exponer historial de telemetría | Listar lecturas registradas para un envío específico. | 3 | Eslander Celis Berrospi | Done |
+| Sprint 3 | US-018 | Visualizar y filtrar alertas | T13 | Implementar Alerting API | Listar alertas por estado y severidad. | 4 | Aarón Avila Palacios | Done |
+| Sprint 3 | US-019 | Reconocer alerta | T14 | Implementar acknowledgment | Marcar alertas activas como reconocidas desde API y frontend. | 3 | Aarón Avila Palacios | Done |
+| Sprint 3 | US-020 | Resolver alerta | T15 | Implementar resolution | Cerrar alertas atendidas y actualizar su estado. | 3 | Aarón Avila Palacios | Done |
+| Sprint 3 | US-021 | Consultar analítica del dashboard | T16 | Implementar Analytics API | Consultar indicadores consolidados de envíos, alertas y desempeño. | 4 | Gabriel Mendoza Palacios | Done |
+| Sprint 3 | US-022 | Generar reporte PDF | T17 | Implementar Reporting API | Generar y descargar PDF mediante QuestPDF desde frontend y Swagger. | 5 | Gabriel Mendoza Palacios | Done |
+| Sprint 3 | TS-002 | Configurar persistencia MySQL | T18 | Configurar Filess.io | Provisionar MySQL, variables de entorno, TLS y migraciones EF Core. | 4 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 3 | TS-001 | Implementar API REST versionada | T19 | Publicar Swagger/OpenAPI | Documentar endpoints en `/swagger/index.html` y aplicar seguridad Bearer. | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 3 | TS-003 | Integrar frontend con backend productivo | T20 | Reemplazar MockAPI | Actualizar variables de entorno y servicios axios hacia Render. | 5 | Aarón Avila Palacios | Done |
+| Sprint 3 | TS-004 | Documentar y desplegar servicios | T21 | Desplegar API y frontend | Publicar backend en Render, frontend en Firebase Hosting y validar URLs públicas. | 5 | Rodrigo Oblitas Alcalde | Done |
 
 Link del Trello: https://trello.com/b/IcxxPY0t/sprint-backlog-3-coldtrack
 
