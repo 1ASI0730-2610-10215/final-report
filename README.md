@@ -1125,8 +1125,11 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 ### 2.3.5. Big Picture EventStorming
 
 ![Big Picture v1](./images/bigpicture1.png)
+
 ![Big Picture v2](./images/bigpicture2.png)
+
 ![Big Picture v3](./images/bigpicture3.png)
+
 ![Big Picture EventStorming](./images/big_picture_event.png)
 
 
@@ -2529,6 +2532,19 @@ En cuanto al módulo de gestión de envíos, se implementó el agregado Shipment
 se desarrollaron los endpoints REST bajo los métodos POST, GET y PATCH para permitir el registro, consulta y actualización del estado de los envíos, apoyándose en el value object ShipmentStatus para modelar correctamente el ciclo de vida de cada envío.
 Finalmente, en el módulo de monitoreo de temperatura, se implementaron los endpoints del controlador de alertas de temperatura, así como el servicio encargado de registrar y preservar el historial de alertas generadas por el sistema.
 
+La siguiente tabla recoge la documentación de los servicios web desarrollados durante el sprint, organizados por módulos funcionales del sistema.
+
+| Módulo | Endpoint base | Acciones disponibles | Métodos HTTP | Descripción |
+|---|---|---|---|---|
+| Plataforma | `/health` | Verificar estado del servidor | `GET` | Estado de salud de la plataforma |
+| Autenticación | `/api/v1/authentication` | Registrar cuenta, iniciar sesión | `POST /sign-up`<br>`POST /sign-in` | Registro y autenticación de usuarios ColdTrack |
+| Usuarios | `/api/v1/users` | Obtener perfil del usuario autenticado | `GET /me` | Gestión del perfil de usuario |
+| Envíos | `/api/v1/shipments` | Registrar envío, listar envíos, obtener por ID, actualizar estado | `POST`<br>`GET`<br>`GET /{shipmentId}`<br>`PATCH /{shipmentId}/status` | Gestión del ciclo de vida de envíos refrigerados |
+| Sensores | `/api/v1/sensors` | Registrar sensor, listar sensores, asignar a envío | `POST`<br>`GET`<br>`PATCH /{sensorId}/assignment` | Registro y asignación de sensores de monitoreo |
+| Telemetría | `/api/v1/telemetry` | Registrar lectura de sensor, consultar telemetría por envío | `POST`<br>`GET /shipments/{shipmentId}/telemetry` | Ingesta y consulta de datos de temperatura y humedad en tiempo real |
+| Alertas | `/api/v1/alerts` | Listar alertas, reconocer alerta, resolver alerta | `GET`<br>`PATCH /{alertId}/acknowledgment`<br>`PATCH /{alertId}/resolution` | Gestión de alertas por desvíos de temperatura o humedad |
+| Analítica | `/api/v1/analytics` | Obtener indicadores del dashboard, consultar historial de envíos | `GET /dashboard`<br>`GET /shipment-history` | Indicadores operativos consolidados y análisis histórico de envíos |
+| Reportes | `/api/v1/reports` | Generar reporte, listar reportes, descargar reporte como PDF | `POST`<br>`GET`<br>`GET /{reportId}/file` | Generación y descarga de reportes de desempeño de la cadena de frío |
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
