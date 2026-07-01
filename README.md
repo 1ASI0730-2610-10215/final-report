@@ -1516,6 +1516,12 @@ El objetivo es realizar una transición desde el entendimiento del negocio hacia
 Este enfoque permite delimitar los Bounded Contexts necesarios para separar responsabilidades críticas, como el monitoreo IoT en tiempo real, la gestión logística de los envíos y el motor automatizado de alertas tempranas. 
 A través de esta metodología, se han identificado los Aggregates, Events, Commands y Queries que garantizan la integridad de la lógica de negocio en cada etapa del transporte de carga refrigerada y la conservación de la cadena de frío.
 
+La arquitectura de ColdTrack responde directamente a los hallazgos definidos en el Lean UX Process y en las entrevistas de validación. Los usuarios necesitan visibilidad del estado de los envíos, alertas comprensibles, historial confiable y reportes que respalden decisiones de calidad. Por ello, el diseño arquitectónico no se limita a organizar componentes técnicos, sino que busca reflejar el lenguaje del negocio: envío, sensor, lectura, alerta, incidencia, conductor, supervisor, reporte y trazabilidad.
+
+Desde la perspectiva DDD, ColdTrack se divide en contextos que permiten evolucionar cada capacidad sin mezclar responsabilidades. Shipment Management se encarga de la planificación y ciclo de vida de los envíos; Telemetry Monitoring administra sensores y lecturas ambientales; Alerting evalúa condiciones fuera de rango y registra incidencias; Reporting consolida evidencias históricas; e Identity and Access protege el acceso de usuarios según su rol. Esta separación facilita que el sistema pueda crecer hacia integraciones con sensores reales, notificaciones en tiempo real y reportes más avanzados sin afectar toda la aplicación.
+
+También se consideraron decisiones arquitectónicas derivadas de la implementación del Sprint 3. La Web Application consume servicios REST publicados por el backend, el backend persiste información operativa en MySQL y los endpoints se documentan mediante Swagger/OpenAPI. Esta arquitectura permite que los flujos del frontend, como registro de envíos, consulta de sensores, revisión de alertas e historial, se conecten con servicios especializados y trazables.
+
 Finalmente, se presenta y explica la representación visual de la arquitectura utilizando el C4 Model. 
 Esta estructura jerárquica nos permite comunicar de manera efectiva la solución a través de tres niveles de detalle: el Software Architecture Context Level Diagram, los Software Architecture Container Level Diagrams y los Software Architecture Component Diagrams.
 
@@ -1527,6 +1533,12 @@ La sesión se llevó a cabo de manera colaborativa utilizando la herramienta Luc
 3. Definición de Agregados (Aggregates)
 4. Delimitación de Bounded Contexts
 5. Integración de Sistemas Externos y Queries
+
+El Design-Level Event Storming permitió analizar el comportamiento del dominio antes de definir componentes técnicos. A partir de los eventos del negocio se identificaron situaciones relevantes como el registro de un envío, la asignación de un sensor, la recepción de una lectura de telemetría, la detección de una condición fuera de rango, la generación de una alerta y la emisión de un reporte. Estos eventos sirvieron para comprender qué información debe conservarse y qué decisiones debe tomar el sistema en cada etapa.
+
+Los comandos representan acciones solicitadas por usuarios o sistemas externos, por ejemplo registrar un envío, iniciar monitoreo, guardar una lectura, reconocer una alerta o generar un reporte. Los aggregates agrupan reglas de consistencia, como evitar que una alerta exista sin un envío asociado o impedir que una lectura quede registrada sin referencia a un sensor. Las queries, por su parte, responden a necesidades de consulta rápida: ver envíos activos, revisar historial, consultar alertas por severidad y obtener evidencias para control de calidad.
+
+Como resultado, el equipo pudo relacionar los flujos de usuario diseñados en la Web Application con los servicios de dominio implementados posteriormente. Esto ayudó a mantener coherencia entre diseño, requerimientos, backend y validación del producto.
 
 <p align="center">
   <img src="images/event_storming_1.png" alt="Design-Level Event Storming 1" width="100%"/>
@@ -1550,17 +1562,29 @@ La sesión se llevó a cabo de manera colaborativa utilizando la herramienta Luc
 
 
 ### 4.6.2. Software Architecture Context Diagram
+El Context Diagram muestra a ColdTrack como una plataforma que conecta a los principales actores del negocio con los servicios digitales del producto. Los supervisores logísticos y responsables de calidad utilizan la aplicación para monitorear envíos, revisar alertas, consultar historial y generar reportes. Los conductores participan como usuarios operativos que necesitan recibir información clara sobre el estado del envío y posibles incidencias durante la ruta.
+
+En este nivel también se representa la relación con sistemas externos o componentes de soporte, como sensores de temperatura y humedad, servicios de despliegue, base de datos y mecanismos de autenticación. El objetivo del diagrama es mostrar el alcance general de la solución y explicar cómo ColdTrack aporta valor dentro del proceso de transporte refrigerado.
+
 <p align="center">
   <img src="images/context_diagram.png" alt="Context Diagram" width="100%"/>
 </p>
 
 ### 4.6.3. Software Architecture Container Diagram
+El Container Diagram detalla los principales contenedores que componen la solución. La Web Application funciona como interfaz principal para los usuarios, permitiendo consultar dashboards, registrar envíos, revisar sensores, visualizar alertas y acceder al historial. El Web API concentra los endpoints REST que exponen las capacidades del backend y orquesta la comunicación con los bounded contexts.
+
+La base de datos almacena usuarios, envíos, sensores, lecturas, alertas e información histórica requerida para reportes. Además, el despliegue separado entre frontend y backend permite que la interfaz pueda evolucionar de manera independiente de los servicios de negocio, siempre que se mantengan los contratos definidos por la API. Esta separación mejora la mantenibilidad y facilita futuras integraciones con sensores físicos o servicios de notificación.
 
 <p align="center">
   <img src="images/container_diagram.png" alt="Container Diagram" width="100%"/>
 </p>
 
-### 4.6.3. Software Architecture Components Diagram
+### 4.6.4. Software Architecture Components Diagram
+El Components Diagram describe la organización interna del backend de ColdTrack. Cada componente representa una capacidad del dominio o una responsabilidad técnica necesaria para ejecutar los casos de uso. Los controladores reciben solicitudes HTTP, los servicios de aplicación coordinan los casos de uso, los servicios de dominio contienen reglas de negocio y los repositorios administran la persistencia de los aggregates.
+
+Los componentes más relevantes son los asociados a Shipment Management, Telemetry Monitoring, Alerting, Reporting e Identity and Access. Esta estructura permite mantener una arquitectura modular, donde cada contexto tiene sus propias reglas y evita depender directamente de detalles internos de otros contextos. Por ejemplo, el módulo de alertas puede reaccionar ante lecturas de telemetría sin asumir la lógica completa del envío, mientras que reporting puede consolidar información histórica sin modificar la operación principal.
+
+Esta organización también facilita la trazabilidad entre diseño y construcción. Los flujos validados con usuarios, como consultar el estado de un envío o interpretar una alerta, se reflejan en servicios concretos del backend y en datos persistidos. Así, la arquitectura soporta tanto las necesidades funcionales del producto como los criterios de calidad identificados en las evaluaciones heurísticas: claridad, prevención de errores, historial confiable y acciones oportunas.
 
 <p align="center">
   <img src="images/components_diagram.png" alt="Context Diagram" width="100%"/>
@@ -1801,15 +1825,23 @@ URL desplegada: https://1asi0730-2610-10215.github.io/Landing-Page
    
 ## 5.2. Landing Page, Services & Applications Implementation 
 
-La presente implementación corresponde al desarrollo de la landing page de ColdTrack, enfocada en comunicar la propuesta de valor del producto: monitoreo en tiempo real para el transporte de alimentos. La solución fue construida como una página estática, moderna y responsiva, diseñada para presentar de forma clara las capacidades del sistema.
+La presente sección documenta la evolución progresiva de ColdTrack desde una primera presencia digital mediante landing page hasta una solución web integrada con servicios backend, persistencia de datos y despliegue público. El objetivo de esta parte del informe es evidenciar cómo el equipo transformó los hallazgos de análisis, diseño UX/UI y arquitectura en entregables funcionales organizados por sprints.
+
+Durante el desarrollo se trabajó en tres frentes principales. Primero, se implementó la landing page como punto de entrada comercial del producto, orientada a comunicar la propuesta de valor: monitoreo en tiempo real para el transporte de alimentos y productos sensibles. Luego, se construyó la Web Application, enfocada en permitir la interacción operativa con envíos, sensores, alertas e historial. Finalmente, se integraron Web Services desplegados, autenticación, persistencia en MySQL y reportes, permitiendo que la solución deje de depender únicamente de datos simulados.
+
+Cada sprint generó evidencias de planificación, desarrollo, ejecución, documentación de servicios, despliegue y colaboración del equipo. De esta manera, la sección permite observar no solo el resultado final del producto, sino también la forma en que se organizaron las tareas, se integraron los módulos y se validó el avance técnico de ColdTrack a lo largo del ciclo de implementación.
 
 ### 5.2.1. Sprint 1
 
-Dado que la evidencia disponible del proyecto se concentra en el repositorio, el historial de commits y la documentación técnica local, esta sección adapta el desarrollo realizado en un único sprint principal orientado a la implementación progresiva de la landing page.
+El Sprint 1 estuvo orientado a construir la primera versión visible de ColdTrack mediante una landing page funcional. Esta entrega permitió presentar la identidad del producto, explicar el problema de la cadena de frío, comunicar los beneficios de la solución y preparar un punto de contacto inicial para los usuarios interesados. En esta fase, el producto todavía no contaba con una aplicación operativa conectada a servicios, por lo que el énfasis estuvo en la comunicación visual, la estructura informativa y la publicación del sitio.
+
+La landing page fue importante porque conectó los resultados del análisis de negocio con una pieza concreta de comunicación. A través de sus secciones, el equipo pudo expresar la propuesta de valor de FreshGuard, mostrar las funcionalidades esperadas de ColdTrack y establecer una base visual que luego sería coherente con la Web Application. Además, esta entrega permitió practicar el flujo de versionamiento, colaboración y despliegue que se continuaría usando en los sprints posteriores.
 
 #### 5.2.1.1. Sprint Planning 1
 
-El equipo de desarrollo se reunió virtualmente para definir los objetivos, tareas y entregables del primer sprint, el cual tendrá una duración de una semana. El enfoque principal será el desarrollo y despliegue de la landing page del proyecto en GitHub Pages, asegurando que el producto inicial esté operativo y sirva como base sólida para las siguientes iteracciones.
+El equipo de desarrollo se reunió virtualmente para definir los objetivos, tareas y entregables del primer sprint, el cual tuvo una duración de una semana. El enfoque principal fue el desarrollo y despliegue de la landing page del proyecto en GitHub Pages, asegurando que el producto inicial esté operativo y sirva como base sólida para las siguientes iteraciones.
+
+Durante la planificación se priorizaron tareas relacionadas con la estructura HTML, el diseño responsivo, las secciones informativas, la identidad visual, la accesibilidad básica y la preparación del despliegue. También se distribuyeron responsabilidades entre los integrantes para asegurar que cada sección del sitio pudiera avanzar de manera coordinada y ser integrada en una versión estable.
 
 | Sprint                             | Sprint 1                                                                                                                                                                                     |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1828,6 +1860,7 @@ El equipo de desarrollo se reunió virtualmente para definir los objetivos, tare
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
+La organización del Sprint 1 se basó en la asignación de responsabilidades por aspecto. Rodrigo Oblitas asumió el liderazgo de la landing page, mientras que los demás integrantes colaboraron en mejoras visuales, contenido, accesibilidad, optimización y soporte documental. Esta distribución permitió que el trabajo no se concentre únicamente en la implementación técnica, sino también en la claridad del mensaje, la experiencia de navegación y la presentación profesional del producto.
 
 
 | Team Member | Referencia | Landing Page |
@@ -1864,7 +1897,9 @@ Link del Trello: https://trello.com/invite/b/69e82f5d88b7df3fa977adbe/ATTId31bae
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-El desarrollo del producto se realizó de forma incremental. A continuación, se presentan algunos de los commits más representativos del proceso:
+El desarrollo del producto se realizó de forma incremental, partiendo desde la configuración inicial del proyecto hasta la incorporación de secciones visuales, estilos responsivos, interacciones y mejoras de accesibilidad. Cada commit permitió registrar una mejora específica y conservar trazabilidad sobre la evolución de la landing page.
+
+Esta evidencia demuestra que el equipo trabajó mediante entregas pequeñas, revisables y alineadas con los objetivos del sprint. A continuación, se presentan algunos de los commits más representativos del proceso:
 
 | Repository | Branch | Commit Id | Autor | Commit Message | Fecha |
 |------------|--------|-----------|-------|----------------|-------|
@@ -1950,7 +1985,9 @@ pasos para el despliegue:
 ![Despliegue-landing-page](./images/despliegue-landing.png)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
-Durante el Sprint 1, el equipo de desarrollo en implementar todas las funcionalidades de la landing page y la realización del documento.
+Durante el Sprint 1, el equipo se enfocó en implementar las funcionalidades principales de la landing page y en mantener actualizada la documentación del informe. La colaboración se reflejó en la división de tareas, la revisión de avances y la integración progresiva de los cambios en el repositorio.
+
+El trabajo colaborativo permitió que la landing page no solo funcione como una página informativa, sino como una pieza inicial del ecosistema ColdTrack. El equipo coordinó la construcción de secciones, la revisión visual, la incorporación de contenido y la preparación de evidencias para la Sprint Review. Esto permitió consolidar una primera versión presentable y desplegable del producto.
 
 #### Colaboración y Desarrollo de Actividades
 
@@ -1998,8 +2035,12 @@ Repositorios:
 
 Durante el Sprint 2, el equipo avanzó desde la landing page inicial hacia la integración del ecosistema ColdTrack, incorporando la Web Application desplegada, la conexión con una fake API pública y la actualización de la landing page para redirigir a los usuarios hacia la aplicación operativa. En esta entrega, las evidencias asignadas corresponden a la ejecución funcional de los principales flujos implementados y a la evidencia del despliegue de los productos desarrollados.
 
+Este sprint representó un cambio importante en el alcance del producto, ya que ColdTrack dejó de ser únicamente una propuesta comunicada desde la landing page y pasó a contar con una aplicación web navegable. La Web Application permitió validar flujos esenciales para el negocio, como autenticación, registro de envíos, visualización de sensores, alertas e historial. Aunque los datos aún provenían de una fake API, esta integración fue suficiente para probar la experiencia operativa y preparar la arquitectura de consumo de servicios que se consolidaría en el Sprint 3.
+
 #### 5.2.2.1. Sprint Planning 2. 
-El equipo de desarrollo se reunió virtualmente para definir los objetivos, tareas y entregables del segundo sprint, el cual tendrá una duración de una semana. El enfoque principal será el desarrollo del frontend de la aplicación, implementando las interfaces principales, navegación y componentes necesarios para la interacción del usuario con el sistema.
+El equipo de desarrollo se reunió virtualmente para definir los objetivos, tareas y entregables del segundo sprint, el cual tuvo una duración de una semana. El enfoque principal fue el desarrollo del frontend de la aplicación, implementando las interfaces principales, navegación y componentes necesarios para la interacción del usuario con el sistema.
+
+Durante esta planificación se priorizaron las historias relacionadas con autenticación, registro de envíos, monitoreo desde dashboard, gestión de sensores, alertas e historial. También se acordó utilizar una fake API pública para simular operaciones de lectura y escritura, de modo que el equipo pudiera validar la experiencia de usuario sin esperar la implementación completa del backend. Esta decisión permitió avanzar de manera incremental y reducir riesgos de integración para el siguiente sprint.
 
 | Sprint                             | Sprint 2                                                                                                                                                                                                |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -2253,7 +2294,17 @@ En conjunto, la evidencia recopilada en el repositorio demuestra que el equipo m
 
 ### 5.2.3. Sprint 3
 
+El Sprint 3 tuvo como objetivo consolidar ColdTrack como una solución integrada de extremo a extremo. A diferencia del Sprint 2, donde la Web Application consumía datos simulados, en esta etapa se implementaron Web Services propios con ASP.NET Core, persistencia en MySQL, autenticación con JWT, documentación mediante Swagger/OpenAPI y despliegue del backend en Render. Esta evolución permitió conectar la interfaz web con servicios reales y conservar la información operativa del sistema.
+
+La prioridad del sprint fue integrar los bounded contexts definidos en la arquitectura: IAM para identidad y acceso, Shipments para gestión de envíos, Telemetry para sensores y lecturas, Alerting para incidencias, y Reporting/Analytics para historial y reportes. Con ello, el equipo pudo validar flujos más cercanos a un escenario productivo, como iniciar sesión, crear envíos, asociar sensores, registrar lecturas, generar alertas, consultar historial y descargar reportes.
+
+Además de la implementación técnica, el Sprint 3 fortaleció la trazabilidad del proyecto mediante evidencias de desarrollo, ejecución, servicios documentados, despliegue y colaboración. Esta etapa fue clave para demostrar que ColdTrack podía funcionar como un ecosistema compuesto por frontend, backend y base de datos, manteniendo una separación clara entre responsabilidades y una base preparada para futuras iteraciones.
+
 #### 5.2.3.1. Sprint Planning 3
+La planificación del Sprint 3 se enfocó en cerrar la brecha entre la Web Application desarrollada en el Sprint 2 y una solución backend funcional. Para ello, el equipo priorizó tareas relacionadas con autenticación, persistencia, servicios REST, despliegue, documentación de endpoints y validación de flujos integrados.
+
+En esta etapa se buscó asegurar que cada módulo técnico respondiera a una necesidad del negocio: gestión de envíos para trazabilidad logística, telemetría para monitoreo ambiental, alertas para reacción oportuna y reportes para control de calidad. La planificación también consideró la coordinación entre repositorios, variables de entorno, despliegue en servicios externos y verificación posterior de disponibilidad.
+
 | Sprint                             | Sprint 3                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                    | Sprint Planning Background                                                                                                                                                                                                                                                                                                            |
