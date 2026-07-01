@@ -1462,17 +1462,44 @@ Gestiona la seguridad, roles y credenciales de los distintos actores del sistema
 
 
 ### 4.6.2. Software Architecture Context Diagram
+
+El diagrama de contexto (Context Level) ilustra la visión general de más alto nivel de **ColdTrack**. Su objetivo principal es mostrar cómo nuestro sistema central interactúa con los usuarios (actores) y los sistemas externos necesarios para funcionar, sin entrar en detalles internos.
+
+**Actores Principales (Personas):**
+* **Personal de Logística:** Supervisa los envíos, monitorea las condiciones en tiempo real y analiza los reportes históricos.
+* **Personal de Transporte:** Traslada los alimentos físicos y necesita recibir alertas críticas inmediatas durante su ruta en caso de anomalías climáticas.
+
+**Sistema Principal (Software System):**
+* **ColdTrack System:** La plataforma central desarrollada por nosotros. Su responsabilidad es procesar la telemetría recibida, gestionar los estados de los envíos y disparar alertas automatizadas.
+
+**Sistemas Externos (External Systems):**
+* **Authentication Provider:** Servicio de terceros utilizado para validar credenciales y asegurar los inicios de sesión.
+* **Hardware IoT Sensors:** Dispositivos físicos instalados en los vehículos que proveen los datos en vivo de temperatura y humedad al sistema central.
+* **PDF Generator Service:** Motor externo utilizado para compilar los historiales de viaje y exportarlos en formato PDF.
+
 <p align="center">
   <img src="images/context_diagram.png" alt="Context Diagram" width="100%"/>
 </p>
 
 ### 4.6.3. Software Architecture Container Diagram
 
+Haciendo un "zoom in" al sistema ColdTrack, el diagrama de contenedores desglosa la solución en piezas ejecutables independientes que interactúan entre sí. Este nivel refleja las decisiones tecnológicas clave tomadas por el equipo.
+
+**Contenedores Internos (Containers):**
+* **Landing Page:** Aplicación web estática encargada de la información comercial y captación de clientes.
+* **Web Application (Vue.js):** La SPA (Single Page Application) donde la logística y los transportistas interactúan con la plataforma. Es la interfaz principal de gestión.
+* **API Application:** Backend central que contiene toda la lógica de negocio, reglas de dominio y motor de alertas. Es consumido directamente por la Web App y la Landing Page.
+* **Database (SQL Server):** El almacén persistente de todos los datos transaccionales.
+
+**Interacciones Clave:**
+* El **Personal de Logística** opera sobre la *Web Application* para gestión y sobre la *Landing Page* para información, mientras que el **Transportista** utiliza la *Web Application* para ver las alertas.
+* La *API Application* actúa como el gran orquestador: interactúa con la *Database* para persistencia, recibe la telemetría de los *Sensors*, utiliza *Auth* externa para validación y desencadena procesos hacia *Reports* y *Notif*.
+
 <p align="center">
   <img src="images/container_diagram.png" alt="Container Diagram" width="100%"/>
 </p>
 
-### 4.6.3. Software Architecture Components Diagram
+### 4.6.4. Software Architecture Components Diagram
 
 <p align="center">
   <img src="images/components_diagram.png" alt="Context Diagram" width="100%"/>
