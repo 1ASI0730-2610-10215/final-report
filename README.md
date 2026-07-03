@@ -280,6 +280,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
          <ul>
            <li><b>AV1:</b> Durante el desarrollo del proyecto, asumí un rol proactivo enfocado en el liderazgo compartido, coordinando la ejecución del análisis de requerimientos. Participé activamente en la evaluación del mercado mediante el análisis competitivo, la estructuración de entrevistas y la consolidación del Needfinding de ColdTrack. Promoví el debate constructivo y el intercambio de ideas con mis compañeros para asegurar que nuestra propuesta técnica estuviera perfectamente alineada con las necesidades logísticas de los usuarios.</li>
            <li><b>TB1:</b> Durante el Sprint 2, lideré aspectos clave de la integración del diseño UI en los componentes de Vue.js. Mantuve una actitud proactiva, promoviendo sesiones de revisión de código (Pull Requests) para garantizar la calidad visual y técnica de las vistas antes de su integración a la rama principal.</li>
+           <li><b>AV2:</b> En esta etapa del proyecto, asumí un rol técnico y colaborativo enfocado en el desarrollo del backend. Participé activamente en la implementación de uno de los Bounded Contexts (BC) fundamentales del sistema, encargándome del diseño y programación de sus respectivos endpoints. Promoví la comunicación constante con el resto del equipo de desarrollo para asegurar que la lógica de negocio estuviera correctamente desacoplada, cumpliendo con los estándares de arquitectura y garantizando una integración fluida de nuestras APIs.</li>
          </ul>
          <b>Rodrigo Oblitas</b>
          <ul>
@@ -324,6 +325,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
          <ul>
            <li><b>AV1:</b> Fomenté un ambiente de trabajo integrador al mantener una actitud receptiva frente a las propuestas del equipo y comunicarme de manera clara y constante. Me encargué de estructurar mis responsabilidades con orden, cumpliendo estrictamente con los plazos establecidos para el desarrollo de mis asignaciones. Colaboré activamente en la planificación de nuestras metas a corto plazo, ayudando a resolver bloqueos técnicos y asegurando que avanzáramos en sintonía hacia el objetivo final del proyecto.</li>
            <li><b>TB1:</b> Durante esta fase, cumplí rigurosamente con mis objetivos de desarrollo de componentes visuales. Planifiqué mis commits y revisiones de forma estructurada, colaborando con los demás para integrar nuestras vistas sin generar conflictos en el repositorio, manteniendo siempre una comunicación respetuosa y resolutiva.</li>
+           <li><b>AV2:</b> Durante el desarrollo del backend, me enfoqué en crear un entorno colaborativo e inclusivo, fomentando la participación activa y el intercambio de conocimientos entre todos los miembros del equipo. Para lograrlo, establecí metas claras y planifiqué las tareas necesarias para la implementación técnica de uno de los Bounded Contexts (BC) principales del sistema. Gracias a esta organización, logré desarrollar e integrar los endpoints correspondientes, cumpliendo con éxito los objetivos técnicos trazados para el sprint y asegurando que nuestra arquitectura backend mantuviera los estándares requeridos..</li>
          </ul>
          <b>Rodrigo Oblitas</b>
          <ul>
@@ -1021,7 +1023,7 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Fin del video** | 03:58 |
 | **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **Foto entrevista** | <img src="images/entrevista1-segmento1.png" alt=""  width="250" /> |
-| **Resumen** | Gianelly Vásquez, supervisora de control de calidad en transporte de alimentos refrigerados que vive en Jesús María, actualmente gestiona el monitoreo de temperatura de forma manual usando termómetros digitales, dataloggers básicos y registros en Excel, sin contar con un sistema integrado en tiempo real, lo que genera dependencia del conductor y riesgo de errores humanos; su principal problema es la falta de visibilidad durante el trayecto, ya que las fallas en la cadena de frío suelen detectarse tarde, ocasionando pérdidas de productos, especialmente en rutas largas, y dificultando una reacción oportuna ante emergencias; por ello, considera que la solución ideal debería ofrecer monitoreo en tiempo real, alertas automáticas ante variaciones de temperatura, ubicación del vehículo, historial de datos y una interfaz fácil de usar desde el celular, creyendo que una aplicación como ColdTrack podría mejorar el control, reducir pérdidas y optimizar la operación logística. |
+| **Resumen** | **Principales respuestas:** Expresó su frustración por la falta de visibilidad en ruta, dependiendo del conductor para el reporte. Señaló que las fallas se detectan tarde, causando mermas. Sugirió que la solución debe tener alertas automáticas y ubicación del vehículo en tiempo real.<br><br>**Características Objetivas:** Mujer, 27 años, vive en Lima. Trabaja gestionando calidad con procesos manuales (Excel, termómetros digitales).<br><br>**Características Subjetivas:** Orientada al detalle, busca eficiencia y reducir el riesgo de errores humanos. Su mayor frustración es la ceguera operativa.<br><br>**Personalidad e Influencias:** Analítica, proactiva, influenciada por marcas de gestión logística moderna y optimización de procesos (ej. SAP, Microsoft).<br><br>**Tecnología y Dispositivos:** Alta adopción tecnológica. Usa laptop (Windows/Chrome) en oficina y Smartphone (iOS/Android) para comunicación constante.<br><br>**Canales de interacción:** Principalmente WhatsApp, correo corporativo y llamadas. Estos datos fundamentan el arquetipo de "Logística" enfocado en el control y centralización de datos. |
 
 | **ENTREVISTA 2**        |                                                                    |
 |-------------------------|--------------------------------------------------------------------|
@@ -1033,7 +1035,7 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Fin del video**       | 09:21                                                              |
 | **Link del video**      | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                                                               |
 | **Foto entrevista**     | <img src="images/entrevista3_segmento3.png" alt=""  width="250" /> |
-| **Resumen** | Gianmarco Palacios, con 5 años de experiencia en logística, gestiona el monitoreo de temperatura y humedad mediante sensores y módulos integrados ("in-house"). Su principal problema es la pérdida de conectividad y la demora en el envío de información en ciertas rutas, lo que dificulta el control total de la cadena de frío. Aunque no ha tenido incidentes críticos recientemente, reporta pérdidas de productos 1 o 2 veces al mes debido a fallas en el sistema o envíos incorrectos. Está abierto a implementar nuevas soluciones tecnológicas siempre que sean eficaces y de baja complejidad de hardware. Considera indispensable que una plataforma ofrezca alertas en tiempo real multicanal (app y mensajería como WhatsApp) para permitir una reacción oportuna ante cualquier contingencia. |
+| **Resumen** | **Principales respuestas:** Indicó que pierde productos 1 o 2 veces al mes por fallas de conectividad en su sistema in-house. Recalcó que es indispensable recibir alertas multicanal (App y WhatsApp) para reaccionar a tiempo y evitar pérdidas.<br><br>**Características Objetivas:** Hombre, 33 años, radicado en Arequipa. 5 años de experiencia, lidiando con rutas interprovinciales y problemas de cobertura.<br><br>**Características Subjetivas:** Pragmático y enfocado en resultados. Su meta es una respuesta rápida a contingencias, y le frustra la pérdida económica por fallas de señal.<br><br>**Personalidad e Influencias:** Resolutivo, adaptable. Influenciado por marcas de hardware robusto e IoT.<br><br>**Tecnología y Dispositivos:** Usuario intermedio-avanzado. Utiliza PC de escritorio (Chrome) en almacén y Smartphone en campo.<br><br>**Canales de interacción:** WhatsApp es su canal primordial para reportes rápidos, seguido de llamadas. Estos datos justifican la necesidad de notificaciones push y alertas multicanal en el arquetipo gerencial. |
 
 | **ENTREVISTA 3** | |
 |------------------|----------------------------|
@@ -1045,7 +1047,7 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Fin del video** | 15:11 |
 | **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **Foto entrevista** | <img src="images/entrevista-segmento1-carlos.png" alt=""  width="250" /> |
-| **Resumen** | Carlos Ramírez, jefe de operaciones de logística en la empresa Transportes Valle S.A.C., de 26 años y con base en Lima, actualmente enfrenta dificultades en la gestión de sus operaciones debido a la falta de monitoreo en tiempo real durante el transporte; esta limitación le impide tener visibilidad inmediata sobre el estado de las unidades y la trazabilidad de los procesos logísticos, generando dependencia de reportes manuales o comunicación directa con los conductores, lo que incrementa el riesgo de retrasos, errores y una toma de decisiones tardía ante incidencias en ruta; su principal problema radica en la ausencia de un sistema que le permita supervisar de manera continua y centralizada las operaciones, lo cual afecta la eficiencia y el control operativo; por ello, considera que una solución ideal debería incluir monitoreo en tiempo real, geolocalización de vehículos, alertas automáticas ante desviaciones o incidentes, y acceso a información desde dispositivos móviles, ya que una herramienta como ColdTrack podría optimizar la gestión logística, mejorar la capacidad de respuesta y fortalecer el control de las operaciones. |
+| **Resumen** | **Principales respuestas:** Manifestó que la falta de monitoreo centralizado incrementa el riesgo de retrasos y errores, dependiendo enteramente de reportes manuales. Concluyó que una solución ideal debe integrar geolocalización y trazabilidad desde el celular.<br><br>**Características Objetivas:** Hombre, 26 años, Jefe de Operaciones en Lima. Toma decisiones bajo presión y gestiona múltiples flotas.<br><br>**Características Subjetivas:** Estresado por la desconexión con sus unidades, motivado por optimizar procesos y reducir márgenes de error.<br><br>**Personalidad e Influencias:** Líder joven, digitalmente nativo, influenciado por plataformas SaaS de logística y startups de movilidad (ej. Uber Freight, Drivin).<br><br>**Tecnología y Dispositivos:** "Heavy user" de tecnología. Usa múltiples pantallas, Tablet y Smartphone (iOS). Browser principal: Google Chrome/Safari.<br><br>**Canales de interacción:** Redes sociales profesionales (LinkedIn), apps de mensajería corporativa y correo. Estos aportes definen el rasgo de "Búsqueda de eficiencia y trazabilidad" del User Persona 1. |
 
 #### **Segundo Segmento - Personal de Transporte:** <br>
 
@@ -1059,7 +1061,7 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Fin del video** | 20:42 |
 | **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **Foto entrevista** | <img src="images/entrevista1-segmento2.png" alt=""  width="250" /> |
-| **Resumen** | Edri Abanto, conductor de transporte de carga refrigerada de 30 años con 5 años de experiencia, encargado de trasladar productos perecibles como lácteos, embutidos y carnes frescas que requieren una cadena de frío estricta, actualmente monitorea la temperatura mediante un sistema integrado en la cabina que le permite visualizar el estado general sin detenerse, pero que no proporciona datos precisos, ni alertas preventivas, ni información en tiempo real compartible con la central, lo que genera una dependencia de la observación manual y aumenta el riesgo de no detectar fallas a tiempo; su principal problema es la inestabilidad de la temperatura durante la ruta debido a factores externos como el clima o paradas prolongadas, así como la falta de alertas automáticas ante fallas progresivas del sistema de refrigeración, lo que ya ha ocasionado pérdidas de mercadería en el pasado por detección tardía de incidentes; además, enfrenta limitaciones de conectividad en ciertas zonas, lo que dificulta la comunicación y el monitoreo continuo; por ello, considera que la solución ideal debería ofrecer alertas sonoras progresivas, indicadores visuales claros mediante códigos de color, monitoreo en tiempo real y una interfaz intuitiva que no requiera interacción constante, creyendo que una aplicación como ColdTrack podría brindarle mayor seguridad operativa, facilitar la toma de decisiones durante la ruta y reducir significativamente el riesgo de pérdida de productos. |
+| **Resumen** | **Principales respuestas:** Explicó que los sistemas actuales en cabina no le dan alertas preventivas. Señaló que el clima y el tráfico afectan la mercadería. Solicitó explícitamente indicadores de colores y alertas sonoras para no distraerse.<br><br>**Características Objetivas:** Hombre, 30 años, Lima. Conductor de carga con 5 años de experiencia operando rutas exigentes.<br><br>**Características Subjetivas:** Siente presión y temor a ser culpado por mermas debido a fallas que no nota a tiempo. Busca seguridad operativa.<br><br>**Personalidad e Influencias:** Práctico, cuidadoso, acostumbrado al trabajo rudo. Influenciado por marcas automotrices y de transporte pesado (Volvo, Scania).<br><br>**Tecnología y Dispositivos:** Uso funcional de la tecnología. Maneja Smartphone (Android gama media). Browser: Google Chrome (uso básico).<br><br>**Canales de interacción:** Exclusivamente WhatsApp (notas de voz y mensajes rápidos) y llamadas telefónicas directas. Esta información fundamenta directamente el Arquetipo de "Transportista", que exige interfaces intuitivas, de baja fricción y alertas no intrusivas. |
 
 | **ENTREVISTA 2**        |                                                                    |
 |-------------------------|--------------------------------------------------------------------|
@@ -1071,10 +1073,38 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Fin del video**       | 22:53                                                              |
 | **Link del video**      | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                                                               |
 | **Foto entrevista**     | <img src="images/entrevista2_segmento2.png" alt=""  width="250" /> |
-| **Resumen** | El entrevistado Fernando Perez, un transportista de 50 años que trabaja en la ruta Lima, explica que controla la temperatura de la carga revisando el termómetro y haciendo paradas para verificar su estado. Usa principalmente Google Maps y WhatsApp para su trabajo. Señala que los principales problemas son los cambios bruscos de temperatura, el tráfico y la falta de información inmediata ante fallas.|
+| **Resumen** | **Principales respuestas:** Relató que debe hacer paradas manuales para revisar la carga porque carece de información inmediata. Indicó que los cambios bruscos de temperatura y el tráfico son sus mayores retos.<br><br>**Características Objetivas:** Hombre, 51 años, Lima. Transportista con gran experiencia empírica. Se apoya 100% en navegación por GPS de terceros.<br><br>**Características Subjetivas:** Frustrado por las herramientas arcaicas; valora la simplicidad y rechaza aplicaciones complejas que interrumpan su conducción.<br><br>**Personalidad e Influencias:** Tradicional, responsable, rutinario. Confía en marcas clásicas de telefonía y repuestos vehiculares.<br><br>**Tecnología y Dispositivos:** Usuario básico. Usa Smartphone (Android) principalmente para herramientas vitales (Google Maps, Waze).<br><br>**Canales de interacción:** Llamadas telefónicas y WhatsApp (principalmente audio). Esto consolida la necesidad del Arquetipo 2 de contar con una app que opere en segundo plano de manera autónoma y requiera cero curva de aprendizaje. |
 
 ### 2.2.3. Analisis de entrevistas
 
+A continuación, se presenta un análisis detallado por cada segmento objetivo, sustentado estadísticamente en las respuestas de las entrevistas registradas. Se identifican las características objetivas (demográficas y conductuales) y subjetivas (frustraciones y motivaciones) que representan los aspectos más comunes de cada grupo y que son la base directa para la construcción de los arquetipos (User Personas).
+
+#### **Análisis del Segmento 1: Personal de Logística y Operaciones**
+*Total de entrevistados: 3 (Gianelly Vásquez, Gianmarco Palacios, Carlos Ramírez)*
+
+**Características Objetivas:**
+* **Perfil Demográfico:** El **100%** son profesionales jóvenes con cargos de supervisión o jefatura en la cadena de frío. La edad promedio es de **28.6 años**. El **66.6%** (2 personas) opera en Lima y el **33.3%** en Arequipa.
+* **Dependencia de Herramientas Manuales:** El **66.6%** (Gianelly y Carlos) depende actualmente de procesos rudimentarios, empleando termómetros básicos, Excel y reportes manuales. Solo el **33.3%** (Gianmarco) cuenta con algún módulo in-house, el cual presenta fallas técnicas.
+* **Incidencia de Mermas:** El **100%** lidia diariamente con el riesgo de fallas, pero destaca estadísticamente que un **33.3%** (caso Gianmarco) reporta pérdidas tangibles de productos de 1 a 2 veces al mes debido a fallas no detectadas a tiempo.
+
+**Características Subjetivas:**
+* **Frustración Principal (Ceguera Operativa):** El **100%** expresa frustración por la falta de visibilidad y monitoreo en tiempo real. Como se evidencia en los resúmenes de Gianelly y Carlos, esta dependencia ciega de la comunicación con los conductores retrasa la toma de decisiones y genera alta propensión al error humano.
+* **Meta Principal (Automatización y Control Centralizado):** El **100%** persigue implementar una plataforma digital. Como indica explícitamente Gianmarco, tienen como meta obtener alertas automáticas multicanal (incluyendo WhatsApp) para reaccionar oportunamente ante contingencias y geolocalizar a la flota desde dispositivos móviles, lo cual es vital para construir su User Persona centrado en el control.
+
+#### **Análisis del Segmento 2: Personal de Transporte**
+*Total de entrevistados: 2 (Edery Abanto, Fernando Perez)*
+
+**Características Objetivas:**
+* **Perfil Demográfico:** Representan un grupo con mayor rango de edad y experiencia empírica. La edad promedio es de **40.5 años** (30 y 51 años respectivamente), y el **100%** opera rutas partiendo desde Lima.
+* **Dinámica de Monitoreo:** El **100%** monitorea la temperatura directamente en cabina o haciendo paradas en la ruta para revisar el estado del contenedor manualmente. 
+* **Uso de Soluciones de Terceros:** El **100%** emplea herramientas no especializadas en la cadena de frío para comunicarse, como WhatsApp y Google Maps para la navegación.
+
+**Características Subjetivas:**
+* **Frustración Principal (Vulnerabilidad ante Fallas Progresivas):** El **100%** se siente vulnerable y estresado ante las fallas del sistema de refrigeración que no pueden detectar. Como detalla el resumen de Edery Abanto, sufren por la inestabilidad de temperatura frente a factores externos (clima, tráfico, paradas) y la pérdida de mercadería por no notar la avería a tiempo, lo que moldea su arquetipo en torno a la seguridad operativa.
+* **Meta Principal (Seguridad sin Distracción):** A diferencia de logística, el **100%** de los conductores busca la mínima interacción manual. Como se relata en las entrevistas de Edery y Fernando, desean sistemas predictivos que emitan **alertas sonoras progresivas e indicadores visuales claros (códigos de colores)** que les avisen del peligro sin distraerlos de la conducción.
+
+#### **Conclusión: Justificación para la Construcción de Arquetipos**
+Cada punto estadístico recabado de las entrevistas se correlaciona directamente con la estructura de los **User Personas** en la siguiente sección. El arquetipo de "Logística" se construirá en base a su necesidad de **control centralizado, trazabilidad de datos y reducción de pérdidas económicas**, mitigando su frustración de no saber qué ocurre en la ruta. Por su parte, el arquetipo de "Transportista" se diseñará en torno a su necesidad de **alertas preventivas simples y no intrusivas**, solucionando su temor a ser responsabilizado por mercadería dañada a causa de averías indetectables mientras maneja.
 
 ## 2.3. Needfinding
 
@@ -1541,13 +1571,16 @@ Finalmente, se presenta y explica la representación visual de la arquitectura u
 Esta estructura jerárquica nos permite comunicar de manera efectiva la solución a través de tres niveles de detalle: el Software Architecture Context Level Diagram, los Software Architecture Container Level Diagrams y los Software Architecture Component Diagrams.
 
 ### 4.6.1. Design-Level Event Storming
-La sesión se llevó a cabo de manera colaborativa utilizando la herramienta Lucidchart y se estructuró en las siguientes actividades clave: 
+La sesión de Design-Level EventStorming nos permitió transicionar desde los requerimientos de negocio hacia un diseño técnico estructurado y orientado al dominio. Como resultado del análisis colaborativo, identificamos cinco **Bounded Contexts (BC)** principales. Estos contextos no solo aíslan lógicamente las responsabilidades del sistema, sino que guían directamente la **Arquitectura DDD** que hemos implementado, donde cada Bounded Context se traduce en módulos independientes estructurados por capas.
 
-1. Refinamiento de Eventos de Dominio
-2. Identificación de Comandos y Actores
-3. Definición de Agregados (Aggregates)
-4. Delimitación de Bounded Contexts
-5. Integración de Sistemas Externos y Queries
+A continuación, se detalla el modelado técnico extraído para cada Bounded Context a partir de los diagramas generados:
+
+#### 1. Shipment Management
+Encargado de la logística central de la carga, vinculando los sensores físicos con los viajes registrados en el sistema.
+* **Comandos:** `Register Shipment`, `Assign Sensor`, `Finalize Shipment`.
+* **Agregados:** `Shipment`, `Sensor`.
+* **Eventos de Dominio:** `Shipment Registered`, `Sensor Assigned`, `Shipment Finalized`.
+* **Políticas:** `Validation Rules`.
 
 El Design-Level Event Storming permitió analizar el comportamiento del dominio antes de definir componentes técnicos. A partir de los eventos del negocio se identificaron situaciones relevantes como el registro de un envío, la asignación de un sensor, la recepción de una lectura de telemetría, la detección de una condición fuera de rango, la generación de una alerta y la emisión de un reporte. Estos eventos sirvieron para comprender qué información debe conservarse y qué decisiones debe tomar el sistema en cada etapa.
 
@@ -1559,17 +1592,44 @@ Como resultado, el equipo pudo relacionar los flujos de usuario diseñados en la
   <img src="images/event_storming_1.png" alt="Design-Level Event Storming 1" width="100%"/>
 </p>
 
+#### 2. Real-Time IoT Monitoring
+Núcleo de la telemetría. Procesa la ingesta constante de datos ambientales emitidos desde el hardware en ruta.
+* **Comandos:** `Receive Telemetry`, `Update Environmental Data`.
+* **Agregados:** `Telemetry Data`, `Shipment Status`.
+* **Eventos de Dominio:** `Telemetry Received`, `Temperature Updated`, `Humidity Updated`.
+* **Sistemas Externos:** `Hardware IoT Sensors`, `WebSocket Server`.
+
 <p align="center">
   <img src="images/event_storming_2.png" alt="Design-Level Event Storming 2" width="100%"/>
 </p>
+
+#### 3. Alerting Engine
+Motor crítico que evalúa las anomalías climáticas detectadas por los sensores para emitir advertencias tempranas.
+* **Comandos:** `Evaluate Conditions`, `Trigger Alert`, `Send Notification`.
+* **Agregados:** `Alert`.
+* **Eventos de Dominio:** `Anomaly Detected`, `Alert Triggered`, `Driver Notified`.
+* **Políticas / Sistemas Externos:** `Threshold Policies`, `Push Notification Service / SMS API`.
 
 <p align="center">
   <img src="images/event_storming_3.png" alt="Design-Level Event Storming 3" width="100%"/>
 </p>
 
+#### 4. Analytics & Reporting
+Encargado del análisis estadístico post-viaje y la generación de reportes de calidad para la gerencia.
+* **Comandos:** `Filter History`, `Request Report`, `Generate PDF`.
+* **Agregados:** `Historical Log`, `Report`.
+* **Eventos de Dominio:** `History Filtered`, `Report Requested`, `PDF Generated`.
+* **Sistemas Externos:** `PDF Generator Engine`.
+
 <p align="center">
   <img src="images/event_storming_4.png" alt="Design-Level Event Storming 4" width="100%"/>
 </p>
+
+#### 5. Identity & Access
+Gestiona la seguridad, roles y credenciales de los distintos actores del sistema (Logística y Transportistas).
+* **Comandos:** `Register User`, `Authenticate Login`, `Request Password Reset`.
+* **Agregados:** `User Account`.
+* **Eventos de Dominio:** `User Registered`, `Login Successful`, `Recovery Link Sent`.
 
 <p align="center">
   <img src="images/event_storming_5.png" alt="Design-Level Event Storming 5" width="100%"/>
@@ -1581,6 +1641,20 @@ El Context Diagram muestra a ColdTrack como una plataforma que conecta a los pri
 
 En este nivel también se representa la relación con sistemas externos o componentes de soporte, como sensores de temperatura y humedad, servicios de despliegue, base de datos y mecanismos de autenticación. El objetivo del diagrama es mostrar el alcance general de la solución y explicar cómo ColdTrack aporta valor dentro del proceso de transporte refrigerado.
 
+El diagrama de contexto (Context Level) ilustra la visión general de más alto nivel de **ColdTrack**. Su objetivo principal es mostrar cómo nuestro sistema central interactúa con los usuarios (actores) y los sistemas externos necesarios para funcionar, sin entrar en detalles internos.
+
+**Actores Principales (Personas):**
+* **Personal de Logística:** Supervisa los envíos, monitorea las condiciones en tiempo real y analiza los reportes históricos.
+* **Personal de Transporte:** Traslada los alimentos físicos y necesita recibir alertas críticas inmediatas durante su ruta en caso de anomalías climáticas.
+
+**Sistema Principal (Software System):**
+* **ColdTrack System:** La plataforma central desarrollada por nosotros. Su responsabilidad es procesar la telemetría recibida, gestionar los estados de los envíos y disparar alertas automatizadas.
+
+**Sistemas Externos (External Systems):**
+* **Authentication Provider:** Servicio de terceros utilizado para validar credenciales y asegurar los inicios de sesión.
+* **Hardware IoT Sensors:** Dispositivos físicos instalados en los vehículos que proveen los datos en vivo de temperatura y humedad al sistema central.
+* **PDF Generator Service:** Motor externo utilizado para compilar los historiales de viaje y exportarlos en formato PDF.
+
 <p align="center">
   <img src="images/context_diagram.png" alt="Context Diagram" width="100%"/>
 </p>
@@ -1589,6 +1663,18 @@ En este nivel también se representa la relación con sistemas externos o compon
 El Container Diagram detalla los principales contenedores que componen la solución. La Web Application funciona como interfaz principal para los usuarios, permitiendo consultar dashboards, registrar envíos, revisar sensores, visualizar alertas y acceder al historial. El Web API concentra los endpoints REST que exponen las capacidades del backend y orquesta la comunicación con los bounded contexts.
 
 La base de datos almacena usuarios, envíos, sensores, lecturas, alertas e información histórica requerida para reportes. Además, el despliegue separado entre frontend y backend permite que la interfaz pueda evolucionar de manera independiente de los servicios de negocio, siempre que se mantengan los contratos definidos por la API. Esta separación mejora la mantenibilidad y facilita futuras integraciones con sensores físicos o servicios de notificación.
+
+Haciendo un "zoom in" al sistema ColdTrack, el diagrama de contenedores desglosa la solución en piezas ejecutables independientes que interactúan entre sí. Este nivel refleja las decisiones tecnológicas clave tomadas por el equipo.
+
+**Contenedores Internos (Containers):**
+* **Landing Page:** Aplicación web estática encargada de la información comercial y captación de clientes.
+* **Web Application (Vue.js):** La SPA (Single Page Application) donde la logística y los transportistas interactúan con la plataforma. Es la interfaz principal de gestión.
+* **API Application:** Backend central que contiene toda la lógica de negocio, reglas de dominio y motor de alertas. Es consumido directamente por la Web App y la Landing Page.
+* **Database (MySQL):** El almacén persistente de todos los datos transaccionales del sistema.
+
+**Interacciones Clave:**
+* El **Personal de Logística** opera sobre la *Web Application* para gestión y sobre la *Landing Page* para información, mientras que el **Transportista** utiliza la *Web Application* para ver las alertas.
+* La *API Application* actúa como el gran orquestador: interactúa con la *Database* para persistencia, recibe la telemetría de los *Sensors*, utiliza *Auth* externa para validación y desencadena procesos hacia *Reports* y *Notif*.
 
 <p align="center">
   <img src="images/container_diagram.png" alt="Container Diagram" width="100%"/>
