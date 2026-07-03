@@ -1,41 +1,40 @@
 <div align="center">
-   <img src="images/logo_UPC.png" alt="Logo de la UPC" />
+   <br><br>
+   <img src="images/logo_UPC.png" alt="Logo de la UPC" width="58" />
+
+   <p>Universidad Peruana de Ciencias Aplicadas</p>
+   <p>Carrera de Ingeniería de Software</p>
+
+   <br>
+   <p><strong>1ASI0730</strong></p>
+   <p><strong>Aplicaciones Web</strong></p>
+   <p>NRC</p>
+   <p><strong>10215</strong></p>
+   <h3>Informe del Trabajo Final</h3>
+   <p>Docente</p>
+   <p><strong>Velásquez Núñez, Ángel Augusto</strong></p>
+   <p>Equipo</p>
+   <p><strong>FreshGuard</strong></p>
+
+   <br>
+   <p>Proyecto</p>
+   <p><strong>ColdTrack</strong></p>
+
+   <br>
+   <p><strong>Integrantes</strong></p>
+   <p><strong>Código&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apellidos y Nombres</strong></p>
+   <p>U201911249&nbsp;&nbsp;&nbsp;&nbsp;Celis Berrospi, Eslander</p>
+   <p>U202416908&nbsp;&nbsp;&nbsp;&nbsp;Mendoza Palacios, Gabriel</p>
+   <p>U20221G185&nbsp;&nbsp;&nbsp;&nbsp;Oblitas Alcalde, Rodrigo</p>
+   <p>U201823654&nbsp;&nbsp;&nbsp;&nbsp;Avila Palacios, Aarón</p>
+   <p>U202320699&nbsp;&nbsp;&nbsp;&nbsp;Arechaga Saavedra, Mathias</p>
+
+   <br>
+   <p><strong>Período 202610</strong></p>
+
+   <br>
+   <p><strong>Junio 2026</strong></p>
 </div>
-
-<h1 align="center">Universidad Peruana de Ciencias Aplicadas</h1>
-
-<h2 align="center">Carrera de Ingeniería de Software</h2>
-
-<br>
-<h3 align="center">1ASI0730</h3>
-<h3 align="center">Aplicaciones Web</h3>
-<h3 align="center">NRC</h3>
-<h3 align="center">10215</h3>
-<h3 align="center">Informe del Trabajo Final</h3>
-<h3 align="center">Docente</h3>
-<p align="center">Velásquez Núñez, Ángel Augusto</p>
-<h3 align="center">Equipo</h3>
-<p align="center">FreshGuard</p>
-<h3 align="center">Proyecto</h3>
-<p align="center">ColdTrack</p>
-<h3 align="center">Integrantes</h3>
-<div align="center">
-
-
-| **Código** | **Apellidos y Nombres** |
-|------------|--------------------------|
-| U201911249 | Celis Berrospi, Eslander |
-| U202416908 | Mendoza Palacios, Gabriel |
-| U20221G185 | Oblitas Alcalde, Rodrigo |
-| U201823654 | Avila Palacios, Aarón |
-| U202320699 | Arechaga Saavedra, Mathias |
-
-
-
-</div>
-
-<h3 align="center">Período 202610</h3>
-<h3 align="center">Junio 2026</h3>
 
 <div style="page-break-before: always;"></div>
 
@@ -49,9 +48,17 @@
 | 1.5     | 19/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V                               |
 | 1.6     | 21/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capitulo IV: Wireframes                  |
 | 2.1     | 13/05/2026 | Aarón Avila Palacios      | Desarrollo de las evidencias de ejecución y despliegue del Sprint 2, actualización del índice e incorporación de capturas del reporte. |
+| 3.0     | 19/06/2026 | Aarón Avila Palacios      | Incorporación de la estructura base del Sprint 3 y evidencias iniciales de commits para AV2. |
 | 3.1     | 19/06/2026 | Aarón Avila Palacios      | Corrección de la carátula, actualización del Student Outcome para AV2 e incorporación de conclusiones, recomendaciones y referencias bibliográficas de la entrega. |
 | 3.2     | 19/06/2026 | Aarón Avila Palacios      | Desarrollo de las evidencias de ejecución y despliegue del Sprint 3, documentación de los flujos integrados y preparación de la sección Video About-the-Product. |
 | 3.3     | 19/06/2026 | Aarón Avila Palacios      | Ampliación de las evidencias de ejecución y despliegue mediante escenarios verificables, arquitectura productiva, configuración reproducible y criterios de aceptación. |
+| 3.4     | 19/06/2026 | Aarón Avila Palacios      | Actualización de enlaces del Video About-the-Product y soporte técnico del producto. |
+| 3.5     | 19/06/2026 | Aarón Avila Palacios      | Incorporación de la evidencia visual del Video About-the-Product. |
+| 3.6     | 19/06/2026 | Eslander Celis Berrospi   | Registro de evidencias de commits del Sprint 3 en el informe. |
+| 3.7     | 19/06/2026 | Mathias Arechaga Saavedra | Actualización de la documentación de servicios del Sprint 3 y del Sprint Backlog 3. |
+| 3.8     | 19/06/2026 | Gabriel Mendoza Palacios  | Actualización de Aspect Leaders and Collaborators y Team Collaboration Insights del Sprint 3. |
+| 3.9     | 19/06/2026 | Eslander Celis Berrospi   | Incorporación de la sección Video About-the-Team y actualización del Student Outcome. |
+| 3.10    | 19/06/2026 | Rodrigo Oblitas Alcalde   | Desarrollo y cierre de las entrevistas de validación del producto. |
 
 
 
@@ -66,9 +73,25 @@ El informe del proyecto se encuentra alojado en el siguiente repositorio de la o
 A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
 
 ## AV1
-Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, definiendo el índice y distribuyendo las secciones entre los miembros.
+Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, definiendo el índice, la organización del repositorio y la distribución de responsabilidades entre los miembros del equipo. En esta etapa se consolidó la presentación inicial de la startup FreshGuard y del producto ColdTrack, así como la descripción del problema, los segmentos objetivo y los primeros artefactos de análisis requeridos para sustentar la solución.
+
+También se avanzó con el Lean UX Process, la identificación de necesidades de los usuarios, los primeros elementos de Requirements Elicitation & Analysis y la planificación de entregables para las siguientes fases. Esta entrega permitió establecer una base común de trabajo, ordenar el contenido del informe y alinear al equipo sobre el alcance funcional y documental del proyecto.
 
 ![reporteTB1.png](./images/reporteTB1.png)
+
+## TB1
+Para la entrega TB1 se desarrolló el avance correspondiente al Sprint 2, enfocado principalmente en la implementación de la Web Application de ColdTrack. El equipo trabajó en la construcción del frontend con Vue.js, la navegación entre vistas, el registro e inicio de sesión, la gestión de envíos, el dashboard operativo, el módulo de sensores, las alertas, el historial y el soporte de internacionalización.
+
+Asimismo, se documentaron las evidencias de desarrollo, ejecución y despliegue, incluyendo capturas de la aplicación, configuración de entorno, conexión con datos simulados y publicación del producto para su revisión. Esta etapa permitió transformar los artefactos de diseño y requerimientos en una aplicación funcional inicial, preparada para integrarse posteriormente con los Web Services del Sprint 3.
+
+![Participación del Sprint 2](./images/overview-sprint2.png)
+
+## AV2
+Para la segunda entrega (AV2) se completó la integración del producto ColdTrack, consolidando el trabajo realizado en el Sprint 3. Durante esta etapa se documentaron las evidencias de ejecución y despliegue, la conexión entre la Web Application y los Web Services, la persistencia en MySQL, la autenticación, los flujos de envíos, sensores, telemetría, alertas, historial y generación de reportes.
+
+Además, se actualizaron las secciones de Student Outcome, conclusiones, recomendaciones, Video About-the-Product, Video About-the-Team y entrevistas de validación. La participación del equipo quedó reflejada en el historial de Git, donde se registraron contribuciones de los cinco integrantes mediante commits, documentación, capturas, evidencias de despliegue y ajustes finales del informe.
+
+![Participación de Git en AV2](./images/contributors-av2.jpeg)
 
 
 ## Contenido
@@ -96,8 +119,8 @@ Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, 
       * [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   * [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
 
-    * [Segmento Objetivo 1: Estudiantes Universitarios](#segmento-objetivo-1-estudiantes-universitarios)
-    * [Segmento Objetivo 2: Profesores Universitarios](#segmento-objetivo-2-profesores-universitarios)
+    * [Segmento Objetivo 1: Personal de Logística y Operaciones](#segmento-objetivo-1-Personal de Logística y Operaciones)
+    * [Segmento Objetivo 2: Personal de Transporte](#segmento-objetivo-2-Personal de Transporte)
 
 * [Capitulo II: Requirements Elicitation & Analysis](#capitulo-ii-requirements-elicitation--analysis)
 
@@ -117,6 +140,7 @@ Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, 
     * [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     * [2.3.4. Empathy Mapping](#234-empathy-mapping)
     * [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    * [2.3.6. Big Picture EventStorming](#236-big-picture-eventstorming)
   * [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
 * [Capitulo III: Requirements specification](#capitulo-iii-requirements-specification)
@@ -250,21 +274,25 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
          <ul>
            <li><b>AV1:</b> Durante el desarrollo del proyecto, trabajé en equipo aportando ideas y asumiendo un rol activo en la organización de las actividades, contribuyendo al liderazgo compartido dentro del grupo. Participé en la toma de decisiones relacionadas con la definición de la startup, la problemática, los segmentos objetivos y la estructuración de los User Stories, Product Backlog e Impact Map. Además, mantuve una comunicación constante con mis compañeros, apoyando cuando era necesario y asegurando que todos estuviéramos alineados con los objetivos del proyecto.</li>
            <li><b>TB1:</b> En esta fase, asumí un rol activo organizando las tareas de desarrollo frontend. Promoví el liderazgo compartido guiando al equipo en la implementación del entorno de desarrollo y asegurando que las ramas de GitFlow se manejaran adecuadamente para la correcta integración continua de las vistas de la aplicación web.</li>
+           <li><b>AV2:</b> Durante el Sprint 3 participé en el desarrollo del backend del sistema, contribuyendo en la implementación de servicios REST y la integración con la base de datos. Colaboré con el equipo en la validación de endpoints y en la integración con el frontend, asegurando la correcta comunicación entre módulos y apoyando la toma de decisiones técnicas para mantener una arquitectura consistente.</li>
          </ul>
          <b>Gabriel Mendoza Palacios</b>
          <ul>
            <li><b>AV1:</b> Durante el desarrollo del proyecto, asumí un rol proactivo enfocado en el liderazgo compartido, coordinando la ejecución del análisis de requerimientos. Participé activamente en la evaluación del mercado mediante el análisis competitivo, la estructuración de entrevistas y la consolidación del Needfinding de ColdTrack. Promoví el debate constructivo y el intercambio de ideas con mis compañeros para asegurar que nuestra propuesta técnica estuviera perfectamente alineada con las necesidades logísticas de los usuarios.</li>
            <li><b>TB1:</b> Durante el Sprint 2, lideré aspectos clave de la integración del diseño UI en los componentes de Vue.js. Mantuve una actitud proactiva, promoviendo sesiones de revisión de código (Pull Requests) para garantizar la calidad visual y técnica de las vistas antes de su integración a la rama principal.</li>
+           <li><b>AV2:</b> En esta etapa del proyecto, asumí un rol técnico y colaborativo enfocado en el desarrollo del backend. Participé activamente en la implementación de uno de los Bounded Contexts (BC) fundamentales del sistema, encargándome del diseño y programación de sus respectivos endpoints. Promoví la comunicación constante con el resto del equipo de desarrollo para asegurar que la lógica de negocio estuviera correctamente desacoplada, cumpliendo con los estándares de arquitectura y garantizando una integración fluida de nuestras APIs.</li>
          </ul>
          <b>Rodrigo Oblitas</b>
          <ul>
            <li><b>AV1:</b> Durante el desarrollo del proyecto, asumí un rol activo en el trabajo en equipo, participando en la elaboración del Lean UX Process, incluyendo Problem Statement, Assumptions e Hypothesis, así como en el desarrollo de la Landing Page. Contribuí en la toma de decisiones y en la organización de las tareas, promoviendo la colaboración entre los integrantes y asegurando que el equipo avance de manera alineada hacia los objetivos establecidos.</li>
            <li><b>TB1:</b> Mantuve mi compromiso con el trabajo colaborativo asumiendo el liderazgo en la implementación de la autenticación y la gestión de envíos. Facilité la comunicación entre los miembros del equipo para resolver bloqueos técnicos, asegurando un progreso constante hacia el cumplimiento del Sprint Goal de desarrollo frontend.</li>
+           <li><b>AV2:</b> Participé en la validación final del producto mediante el desarrollo y cierre de las entrevistas de validación, organizando la información obtenida de los usuarios y relacionándola con las oportunidades de mejora de la experiencia. Además, contribuí en el diseño y revisión de los flujos principales de la aplicación, asegurando que la presentación del producto, las evidencias y la documentación reflejaran de manera clara las necesidades detectadas durante la entrega.</li>
          </ul>
          <b>Mathias Arechaga</b>
          <ul>
            <li><b>AV1:</b> Durante el proyecto, participé activamente en el desarrollo de artefactos de diseño centrados en el usuario, como User Personas, User Journey Mapping y prototipos de la aplicación. Colaboré en la coordinación de tareas relacionadas con el diseño y la experiencia de usuario, aportando ideas y apoyando al equipo para mantener una organización eficiente y un liderazgo compartido en el desarrollo del proyecto.</li>
            <li><b>TB1:</b> Durante el desarrollo del Sprint 2, aporté liderazgo en el diseño e implementación del dashboard y los componentes interactivos. Coordiné la transformación de nuestros wireframes previos en interfaces funcionales, asegurando que el producto final cumpliera con la experiencia de usuario proyectada.</li>
+           <li><b>AV2:</b> Durante el desarrollo del Sprint 3, Colaboré en el desarrollo del sprint backlog 3 y la implementación de los Services Documentation Evidence for Sprint Review.</li>
          </ul>
         </td>
         <td>
@@ -291,21 +319,25 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
          <ul>
            <li><b>AV1:</b> Contribuí a crear un entorno colaborativo e inclusivo al respetar las ideas de cada integrante y fomentar la participación de todos. Ayudé a establecer metas claras y a planificar las tareas de manera organizada, distribuyendo responsabilidades de forma equitativa. Me aseguré de cumplir con mis entregables en los tiempos acordados, lo que permitió avanzar de manera constante y alcanzar los objetivos planteados como equipo.</li>
            <li><b>TB1:</b> Contribuí a la planificación ágil del Sprint 2 distribuyendo las historias de usuario de forma equitativa. Mantuve un ambiente colaborativo promoviendo reuniones breves de sincronización para identificar bloqueos a tiempo, lo que garantizó que todos lográramos completar nuestras tareas de programación en los plazos acordados.</li>
+           <li><b>AV2:</b> Durante el Sprint 3 contribuí a la planificación y organización de tareas del backend, estableciendo acuerdos con el equipo para la distribución de módulos y objetivos del sprint. Mantuve una comunicación constante para resolver bloqueos, cumplir los plazos establecidos y asegurar la correcta integración de los servicios desarrollados, favoreciendo el cumplimiento de los objetivos del proyecto.</li>
          </ul>
          <b>Gabriel Mendoza Palacios</b>
          <ul>
            <li><b>AV1:</b> Fomenté un ambiente de trabajo integrador al mantener una actitud receptiva frente a las propuestas del equipo y comunicarme de manera clara y constante. Me encargué de estructurar mis responsabilidades con orden, cumpliendo estrictamente con los plazos establecidos para el desarrollo de mis asignaciones. Colaboré activamente en la planificación de nuestras metas a corto plazo, ayudando a resolver bloqueos técnicos y asegurando que avanzáramos en sintonía hacia el objetivo final del proyecto.</li>
            <li><b>TB1:</b> Durante esta fase, cumplí rigurosamente con mis objetivos de desarrollo de componentes visuales. Planifiqué mis commits y revisiones de forma estructurada, colaborando con los demás para integrar nuestras vistas sin generar conflictos en el repositorio, manteniendo siempre una comunicación respetuosa y resolutiva.</li>
+           <li><b>AV2:</b> Durante el desarrollo del backend, me enfoqué en crear un entorno colaborativo e inclusivo, fomentando la participación activa y el intercambio de conocimientos entre todos los miembros del equipo. Para lograrlo, establecí metas claras y planifiqué las tareas necesarias para la implementación técnica de uno de los Bounded Contexts (BC) principales del sistema. Gracias a esta organización, logré desarrollar e integrar los endpoints correspondientes, cumpliendo con éxito los objetivos técnicos trazados para el sprint y asegurando que nuestra arquitectura backend mantuviera los estándares requeridos..</li>
          </ul>
          <b>Rodrigo Oblitas</b>
          <ul>
            <li><b>AV1:</b> Contribuí a mantener un entorno colaborativo al participar activamente en la planificación del Lean UX Process y el desarrollo de la Landing Page. Organicé mis tareas de manera eficiente, cumpliendo con los plazos establecidos y apoyando en la coordinación del equipo para asegurar el cumplimiento de los objetivos propuestos.</li>
            <li><b>TB1:</b> Fomenté la colaboración activa asegurándome de que el trabajo en mis ramas de características (features) estuviera bien documentado y organizado. Cumplí con las metas de desarrollo asignadas y mantuve la disposición para ayudar a otros integrantes a conectar sus módulos, garantizando un avance uniforme del equipo.</li>
+           <li><b>AV2:</b> Apoyé la coordinación de la entrega final mediante la preparación de entrevistas, el registro de hallazgos y la revisión de elementos de diseño relacionados con la validación del producto. Este trabajo permitió conectar la evidencia obtenida con los ajustes documentales del informe y reforzar la coherencia entre la propuesta visual, los flujos de usuario y las conclusiones de la validación.</li>
          </ul>
          <b>Mathias Arechaga</b>
          <ul>
            <li><b>AV1:</b> Apoyé en la creación de un entorno colaborativo mediante el desarrollo organizado de los entregables de diseño, como wireframes, mock-ups y prototipos. Planifiqué mis actividades de manera estructurada y cumplí con los tiempos establecidos, contribuyendo a que el equipo avance de forma constante y alineada con las metas del proyecto.</li>
            <li><b>TB1:</b> Apoyé la colaboración del equipo cumpliendo puntualmente con mis tareas en la creación de las vistas interactivas. Al planificar mis actividades de desarrollo frontend en fases claras, logré no solo alcanzar mis metas individuales sino también facilitar el proceso de integración continua con el resto del equipo, fortaleciendo el cumplimiento del Sprint Goal.</li>
+           <li><b>AV2:</b> Durante el sprint 3, realice mis objetivos de desarrollo del sprint backlog 3 y fomenté la activa colaboración en equipo.</li> 
          </ul>
         </td>
         <td>
@@ -490,78 +522,201 @@ Para el prototipo, el costo será bajo, pero en una implementación real implica
 
 ### 1.2.2. Lean UX Process
 
-El Lean UX Process es una metodologia de trabajo iterativa que permite validar rapidamente las ideas del producto con base en las necesidades reales de los usuarios. Para ColdTrack, este proceso permite comprender los problemas que enfrentan las empresas de distribucion de alimentos durante el transporte, plantear suposiciones sobre sus necesidades y convertirlas en hipotesis que puedan comprobarse mediante pruebas, entrevistas y prototipos. De esta manera, el equipo puede reducir riesgos antes de desarrollar la solucion completa y asegurar que la aplicacion responda a problemas reales relacionados con el monitoreo de temperatura, humedad, alertas y trazabilidad de los envios.
+El Lean UX Process permite formular, validar y ajustar la propuesta de valor del producto a partir de problemas reales de los usuarios. En el caso de ColdTrack, este proceso se utiliza para analizar el modelo de negocio que será soportado por la aplicación web: una solución orientada al monitoreo de la cadena de frío durante el transporte de alimentos y productos sensibles.
+
+La aplicación del proceso Lean UX ayuda a convertir el problema de negocio en aprendizajes accionables. Primero, se define el problema desde el dominio logístico y los segmentos de clientes involucrados. Luego, se plantean supuestos sobre usuarios, negocio, tecnología, mercado y diseño. Finalmente, estos supuestos se transforman en hipótesis que podrán validarse mediante entrevistas, prototipos, pruebas de usabilidad y evidencias de uso del producto.
+
+Para ColdTrack, el objetivo principal es reducir el riesgo operativo asociado a la pérdida de control sobre temperatura y humedad durante el transporte. Por ello, el proceso Lean UX se enfoca en comprobar si una plataforma centralizada con sensores, alertas, historial y reportes puede mejorar la toma de decisiones de supervisores logísticos, responsables de calidad y conductores.
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Nuestro servicio esta disenado para ayudar a las empresas distribuidoras de alimentos, supervisores logisticos, personal de control de calidad y conductores a monitorear en tiempo real las condiciones de temperatura y humedad durante el transporte. Hemos observado que muchas organizaciones no cuentan con una herramienta centralizada que permita detectar variaciones criticas durante la ruta, lo que genera perdida de productos, retrasos en la toma de decisiones y menor control sobre la calidad de los alimentos. Esto esta causando problemas economicos, operativos y de seguridad alimentaria, ya que las fallas pueden ser identificadas demasiado tarde. Como podriamos mejorar el control del transporte de alimentos mediante una plataforma que permita visualizar datos en tiempo real, recibir alertas oportunas y consultar el historial de cada envio, midiendo el exito a traves de la reduccion de perdidas, mayor rapidez de respuesta y mejor trazabilidad logistica?
+Actualmente, las empresas que transportan productos refrigerados o sensibles a cambios ambientales enfrentan dificultades para supervisar en tiempo real las condiciones de temperatura y humedad durante la ruta. En muchos casos, el control se realiza con registros manuales, reportes posteriores o comunicación informal entre conductores y supervisores. Esto impide detectar incidentes en el momento adecuado y reduce la capacidad de reacción ante fallas del sistema de refrigeración, demoras, aperturas no previstas o variaciones fuera del rango permitido.
+
+En este contexto, ColdTrack busca responder a una necesidad concreta dentro del dominio de logística refrigerada: brindar visibilidad, trazabilidad y alertas oportunas sobre el estado de cada envío. La solución se enfoca inicialmente en empresas distribuidoras de alimentos, operadores logísticos, supervisores de calidad y conductores que participan en el traslado de productos que deben conservar condiciones específicas para evitar deterioro, pérdida económica o incumplimiento de estándares de calidad.
+
+##### Domain
+
+El dominio del problema corresponde a la gestión logística de cadena de frío, especialmente durante el transporte de alimentos, insumos perecibles y productos sensibles a temperatura o humedad. Este dominio requiere supervisión constante, trazabilidad de eventos y capacidad de respuesta rápida para proteger la calidad del producto hasta su destino.
+
+##### Customer Segments
+
+- Empresas distribuidoras de alimentos que necesitan reducir pérdidas y mantener la calidad de sus productos durante la entrega.
+- Responsables de logística y operaciones que supervisan rutas, unidades de transporte, estados de envío e incidencias.
+- Personal de control de calidad que requiere evidencia histórica para verificar si el producto mantuvo condiciones adecuadas.
+- Conductores o personal de transporte que necesita recibir instrucciones claras cuando ocurre una alerta durante la ruta.
+
+##### Pain Points
+
+- Falta de monitoreo en tiempo real de temperatura y humedad durante el transporte.
+- Detección tardía de fallas en refrigeración o condiciones fuera de rango.
+- Dependencia de registros manuales, llamadas o reportes posteriores.
+- Dificultad para priorizar incidencias cuando existen varios envíos activos.
+- Poca trazabilidad para explicar cuándo ocurrió una variación y qué acción se tomó.
+- Riesgo de pérdidas económicas, reclamos de clientes y deterioro de productos.
+
+##### Gap
+
+El principal vacío identificado es la ausencia de una plataforma centralizada que conecte los datos de sensores con la gestión operativa de envíos. Las empresas pueden contar con controles aislados, pero no siempre tienen una solución que integre monitoreo, alertas, historial, reportes y visibilidad para diferentes roles. Esta brecha provoca que la información llegue tarde, se fragmente entre responsables o no quede registrada para análisis posterior.
+
+##### Vision / Strategy
+
+La visión de ColdTrack es convertirse en una plataforma web de monitoreo logístico que permita tomar decisiones rápidas y basadas en datos durante el transporte de productos sensibles. La estrategia inicial consiste en entregar una solución mínima viable que permita registrar envíos, asociar sensores, visualizar lecturas de temperatura y humedad, emitir alertas ante condiciones críticas y consultar historial operativo. A partir de la validación con usuarios, la solución podrá evolucionar hacia reportes avanzados, notificaciones en tiempo real, roles de acceso y conexión con sensores reales.
+
+##### Initial Segment
+
+El segmento inicial estará conformado por pequeñas y medianas empresas distribuidoras de alimentos que realizan entregas dentro de Lima Metropolitana y necesitan mejorar el control de sus envíos refrigerados sin implementar una infraestructura compleja. Este segmento permite validar rápidamente el valor del producto porque suele enfrentar problemas de trazabilidad, supervisión manual y reacción tardía ante incidentes.
+
+##### Problem Statement
+
+Hemos observado que las empresas distribuidoras de alimentos y sus equipos de logística no cuentan con una forma centralizada y oportuna de conocer las condiciones ambientales de sus envíos durante la ruta. Esto genera incertidumbre, retrasos en la toma de decisiones, pérdida de trazabilidad y riesgo de deterioro de productos. ¿Cómo podríamos ayudar a supervisores logísticos, responsables de calidad y conductores a monitorear los envíos en tiempo real, detectar alertas críticas y consultar evidencia histórica para reducir pérdidas y mejorar el control operativo de la cadena de frío?
 
 
 #### 1.2.2.2. Lean UX Assumptions
 
-**User Assumptions (Suposiciones de Usuario)**
+En esta sección se registran los supuestos que guían la primera versión de ColdTrack. Estos supuestos deberán validarse con usuarios del segmento objetivo, entrevistas, prototipos y pruebas funcionales. Si los resultados contradicen alguna suposición, el producto deberá ajustarse antes de escalar la solución.
 
-- Quien es el usuario: Los usuarios son empresas distribuidoras de alimentos, supervisores logisticos, personal de control de calidad y conductores encargados de asegurar que los productos lleguen en condiciones adecuadas.
-- Donde encaja nuestro producto en su trabajo o vida: ColdTrack encaja dentro del proceso diario de transporte y supervision de alimentos, especialmente durante el traslado desde centros de distribucion hasta el destino final.
-- Que problemas resuelve nuestro producto: Resuelve la falta de monitoreo en tiempo real, la deteccion tardia de variaciones de temperatura o humedad, la ausencia de alertas oportunas y la poca trazabilidad del estado de los envios.
-- Cuando y como se usa nuestro producto: Se utiliza antes, durante y despues del transporte. Antes del envio permite verificar la unidad y sensores; durante la ruta permite monitorear condiciones y recibir alertas; despues del envio permite revisar el historial registrado.
-- Que caracteristicas son importantes: Las caracteristicas importantes son monitoreo en tiempo real, alertas automaticas, registro historico, visualizacion de temperatura y humedad, gestion de envios y una interfaz clara para supervisores y conductores.
-- Como debe verse y comportarse nuestro producto: Debe ser una aplicacion sencilla, clara y confiable, con informacion facil de interpretar, tiempos de respuesta rapidos y alertas visibles que permitan actuar de inmediato.
+##### Business Outcomes
 
-**Business Assumptions (Suposiciones de Negocio)**
+1. Reducir el riesgo de pérdida de productos durante el transporte.
+   El objetivo principal de ColdTrack es ayudar a las empresas a identificar a tiempo condiciones ambientales fuera de rango. Si la plataforma permite detectar alertas y actuar oportunamente, se espera disminuir la cantidad de productos deteriorados por fallas de refrigeración o falta de control.
 
-- Necesidades y problemas: Creemos que las empresas de distribucion de alimentos necesitan herramientas digitales que reduzcan perdidas y mejoren el control de calidad durante el transporte.
-- Plataforma: Estas necesidades pueden resolverse mediante una aplicacion conectada a sensores de temperatura y humedad instalados en las unidades de transporte.
-- Segmentacion: Los usuarios principales seran empresas del sector alimentario, operadores logisticos, supervisores de calidad y personal de transporte.
-- Comportamientos: El valor principal que un usuario quiere obtener de ColdTrack es mayor control sobre las condiciones del envio y capacidad de reaccionar rapidamente ante incidentes.
-- Beneficios: Los usuarios obtendran reduccion de perdidas, mejor trazabilidad, mayor eficiencia operativa y mayor seguridad en la distribucion de alimentos.
-- Captacion de clientes: Obtendremos usuarios mediante alianzas con empresas distribuidoras, demostraciones del prototipo, recomendaciones del sector logistico y presencia en canales digitales.
-- Modelos de ingresos: Para una implementacion real, el servicio podria funcionar bajo un modelo de suscripcion por empresa o por unidad de transporte monitoreada.
-- Competencia: Nuestra competencia incluye soluciones de monitoreo logistico, sistemas de sensores IoT y plataformas de gestion de transporte.
-- Ventaja competitiva: ColdTrack se diferencia por enfocarse especificamente en el transporte de alimentos, integrando monitoreo ambiental, alertas e historial de envios en una sola plataforma.
+2. Mejorar la trazabilidad de los envíos refrigerados.
+   ColdTrack debe permitir que los supervisores revisen el historial de temperatura, humedad, alertas y estados de cada envío. Esto facilitará la verificación posterior de incidentes y permitirá tomar decisiones basadas en evidencia.
 
-**Technical Assumptions (Suposiciones Tecnicas)**
+3. Disminuir el tiempo de respuesta ante incidencias.
+   Se asume que una alerta visible y centralizada permitirá que supervisores y conductores reaccionen más rápido que con reportes manuales o comunicación tardía. El éxito se reflejará en una respuesta operativa más rápida ante desviaciones críticas.
 
-- Tecnologia utilizada: Se utilizaran tecnologias web modernas para desarrollar la aplicacion y permitir el acceso desde distintos dispositivos.
-- Integraciones: La plataforma se integrara con sensores de temperatura y humedad capaces de enviar datos periodicamente al sistema.
-- Escalabilidad: La solucion debe estar preparada para manejar multiples unidades de transporte, varios envios simultaneos y crecimiento progresivo de usuarios.
-- Disponibilidad: La aplicacion debe mantener disponibilidad constante durante las rutas, ya que las alertas y datos en tiempo real son importantes para la toma de decisiones.
+4. Aumentar la confianza del cliente en el proceso logístico.
+   Si la empresa puede demostrar que sus envíos fueron monitoreados y que las incidencias quedaron registradas, podrá brindar mayor seguridad a sus clientes y reforzar su propuesta de calidad.
 
-**Market Assumptions (Suposiciones de Mercado)**
+##### Users
 
-- Tamano del mercado: El mercado objetivo incluye empresas peruanas y latinoamericanas dedicadas a la distribucion de alimentos que necesitan conservar la calidad de sus productos durante el transporte.
-- Competencia: Existen plataformas de gestion logistica y soluciones IoT, pero no todas estan enfocadas en la cadena de frio y el control especifico de alimentos.
-- Tendencias: Existe una mayor demanda de digitalizacion logistica, trazabilidad y control de calidad en la industria alimentaria.
+Los usuarios principales de ColdTrack se dividen en dos grupos. El primero está compuesto por supervisores logísticos, responsables de operaciones y personal de control de calidad, quienes necesitan información centralizada para tomar decisiones y verificar el cumplimiento de condiciones. El segundo grupo está compuesto por conductores o personal de transporte, quienes requieren alertas simples y acciones claras durante la ruta.
 
-**Design Assumptions (Suposiciones de Diseno)**
+1. Supervisores logísticos y responsables de operaciones.
+   Necesitan revisar varios envíos activos, conocer el estado de cada unidad, priorizar incidencias y coordinar respuestas ante problemas durante el transporte.
 
-- Interaccion del usuario: La plataforma debe permitir que el usuario revise rapidamente el estado de un envio y entienda si existe algun riesgo.
-- Experiencia del usuario: La experiencia debe ser fluida, directa y facil de usar, especialmente para conductores o personal operativo que necesita informacion clara durante la ruta.
-- Colores y tipografia: Los usuarios valoraran una interfaz limpia, profesional y legible, con colores que permitan identificar estados normales, advertencias y alertas criticas.
-- Preferencias visuales: Los usuarios preferiran graficos simples, indicadores de estado y datos resumidos antes que pantallas saturadas de informacion.
-- Prototipos y pruebas: Se validaran las principales funciones mediante prototipos y pruebas de usabilidad con usuarios relacionados al transporte y control de calidad.
+2. Personal de control de calidad.
+   Necesita acceder a registros históricos, verificar si los productos se mantuvieron dentro de los rangos adecuados y contar con evidencia para auditorías internas o reclamos.
+
+3. Conductores y personal de transporte.
+   Necesitan recibir información directa, comprensible y oportuna cuando ocurre una variación crítica, sin depender de pantallas complejas o procesos largos.
+
+##### User Outcomes
+
+Los beneficios esperados para los usuarios son los siguientes:
+
+1. Los supervisores podrán visualizar en una sola plataforma el estado de los envíos activos.
+2. El personal de calidad podrá revisar evidencias históricas de temperatura, humedad y alertas.
+3. Los conductores podrán identificar rápidamente si existe una incidencia y actuar según indicaciones.
+4. Las empresas podrán reducir la dependencia de registros manuales y mejorar la transparencia del proceso.
+5. Los responsables de operación podrán priorizar envíos críticos y reducir tiempos de comunicación interna.
+
+##### Features
+
+1. ¿Qué características son importantes?
+   - Registro y seguimiento de envíos.
+   - Asociación de sensores a envíos.
+   - Visualización de temperatura y humedad.
+   - Alertas automáticas ante valores fuera de rango.
+   - Dashboard con estados operativos.
+   - Historial de envíos, sensores, lecturas y alertas.
+   - Generación de reportes para revisión posterior.
+   - Autenticación para proteger el acceso a la información.
+
+2. ¿Cómo debe verse nuestro producto y comportarse?
+   ColdTrack debe verse como una herramienta operativa, clara y confiable. La interfaz debe priorizar datos críticos, estados visibles y navegación simple. Los colores deben diferenciar condiciones normales, preventivas y críticas. La aplicación debe comportarse de forma rápida, responsiva y consistente, ya que sus usuarios pueden necesitar consultar información durante una operación logística real.
+
+##### User Assumptions
+
+- Creemos que los supervisores logísticos necesitan consultar el estado de los envíos durante la ruta, no solo al finalizar el traslado.
+- Creemos que el personal de control de calidad necesita evidencia histórica para justificar decisiones sobre aceptación, rechazo o revisión de productos.
+- Creemos que los conductores necesitan alertas claras y accionables, no reportes técnicos extensos.
+- Creemos que los usuarios valorarán más una vista resumida con estados críticos que una pantalla saturada con todas las lecturas disponibles.
+- Creemos que los usuarios estarán dispuestos a adoptar ColdTrack si reduce llamadas, registros manuales y verificaciones repetitivas.
+
+##### Business Assumptions
+
+- Creemos que las empresas distribuidoras de alimentos tienen una necesidad real de reducir pérdidas por mala conservación durante el transporte.
+- Creemos que una plataforma web puede generar valor si centraliza monitoreo, alertas, historial y reportes en una sola solución.
+- Creemos que el modelo de negocio podría basarse en suscripciones por empresa, por número de usuarios o por cantidad de unidades monitoreadas.
+- Creemos que la propuesta será más atractiva para empresas que ya reconocen la importancia de la cadena de frío, pero aún dependen de controles manuales o herramientas aisladas.
+- Creemos que ColdTrack puede diferenciarse de sistemas logísticos genéricos al enfocarse en condiciones ambientales y trazabilidad de productos sensibles.
+
+##### Technical Assumptions
+
+- Creemos que una aplicación web permite acceso suficiente para supervisores y personal operativo desde distintos dispositivos.
+- Creemos que los sensores de temperatura y humedad podrán enviar lecturas periódicas al sistema mediante una API o simulador inicial.
+- Creemos que una arquitectura backend con servicios REST y persistencia en base de datos permitirá registrar envíos, sensores, lecturas y alertas.
+- Creemos que la solución debe estar preparada para manejar múltiples envíos activos y crecer progresivamente según la cantidad de unidades monitoreadas.
+- Creemos que la disponibilidad del sistema es importante porque las alertas pierden valor si llegan tarde o no se registran.
+
+##### Market Assumptions
+
+- Creemos que el mercado inicial incluye empresas peruanas de distribución de alimentos, operadores logísticos y negocios que transportan productos sensibles.
+- Creemos que la demanda por trazabilidad y control de calidad seguirá aumentando en operaciones alimentarias y logísticas.
+- Creemos que existen soluciones IoT y plataformas de transporte, pero muchas no se ajustan al flujo específico de empresas pequeñas o medianas que necesitan una solución simple de cadena de frío.
+- Creemos que la validación con usuarios reales permitirá identificar qué funciones son indispensables y cuáles pueden postergarse para futuras versiones.
+
+##### Design Assumptions
+
+- Creemos que el diseño debe priorizar claridad, contraste y lectura rápida de estados.
+- Creemos que los usuarios entenderán mejor el estado de un envío mediante tarjetas, indicadores visuales y alertas diferenciadas por severidad.
+- Creemos que el flujo principal debe permitir crear un envío, asociar sensores, monitorear lecturas y revisar alertas sin pasos innecesarios.
+- Creemos que los reportes e historiales deben organizarse por envío, fecha, sensor y severidad para facilitar el análisis posterior.
+- Creemos que la solución debe ser responsive porque los usuarios podrían revisarla desde laptops, tablets o celulares durante operaciones de campo.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Hypothesis Statement 01:** Creemos que las empresas distribuidoras de alimentos necesitan monitorear en tiempo real la temperatura y humedad durante el transporte. Sabremos que estamos en lo correcto cuando los supervisores consulten frecuentemente el estado de los envios y reporten mayor control sobre sus operaciones.
+Las hipótesis convierten los supuestos anteriores en afirmaciones comprobables. Cada una relaciona un resultado esperado, un segmento de usuario, una necesidad concreta y una funcionalidad del producto. Los porcentajes planteados funcionan como métricas objetivo iniciales para validar si ColdTrack aporta valor al proceso logístico y deberán contrastarse mediante entrevistas, pruebas de uso y futuras mediciones operativas.
 
-**Hypothesis Statement 02:** Creemos que las alertas automaticas ante variaciones criticas permitiran reducir perdidas de productos. Sabremos que estamos en lo correcto cuando los usuarios puedan actuar antes de que las condiciones afecten la calidad de los alimentos.
+##### Business Hypothesis Statement 01
 
-**Hypothesis Statement 03:** Creemos que contar con un historial de cada envio mejorara la trazabilidad y el analisis logistico. Sabremos que estamos en lo correcto cuando las empresas utilicen los registros para revisar incidentes y tomar decisiones de mejora.
+Nosotros creemos que una reducción del 60% en el riesgo de pérdida de productos por condiciones inadecuadas se logrará si los supervisores logísticos monitorean temperatura y humedad durante la ruta con un dashboard que muestre el estado de cada envío en tiempo real.
 
-**Hypothesis Statement 04:** Creemos que una interfaz clara y sencilla facilitara la adopcion de ColdTrack por parte de supervisores y conductores. Sabremos que estamos en lo correcto cuando los usuarios puedan interpretar el estado del envio sin requerir capacitacion extensa.
+Sabremos que estamos en lo correcto cuando al menos el 70% de los usuarios evaluados identifique rápidamente los envíos en riesgo y afirme que la plataforma le permite actuar antes de que el producto se deteriore.
 
-**Hypothesis Statement 05:** Creemos que la integracion con sensores de temperatura y humedad aumentara la confiabilidad del control durante la ruta. Sabremos que estamos en lo correcto cuando los datos registrados permitan identificar cambios ambientales en tiempo real.
+##### Business Hypothesis Statement 02
 
-**Hypothesis Statement 06:** Creemos que los conductores necesitan recibir informacion directa sobre posibles fallas durante el transporte. Sabremos que estamos en lo correcto cuando las alertas ayuden a responder rapidamente ante problemas en la unidad o en el sistema de refrigeracion.
+Nosotros creemos que una disminución del 50% en el tiempo de respuesta ante incidencias se logrará si los supervisores y conductores reciben alertas automáticas cuando las lecturas superen los rangos permitidos.
 
-**Hypothesis Statement 07:** Creemos que ColdTrack ayudara a mejorar la eficiencia operativa de las empresas distribuidoras. Sabremos que estamos en lo correcto cuando se reduzca el tiempo dedicado a revisar manualmente las condiciones del transporte.
+Sabremos que estamos en lo correcto cuando al menos el 75% de los usuarios pueda explicar qué acción tomar ante una alerta y reduzca la dependencia de llamadas o revisiones manuales para detectar problemas.
 
-**Hypothesis Statement 08:** Creemos que la visualizacion centralizada de los envios permitira una mejor supervision logistica. Sabremos que estamos en lo correcto cuando los usuarios puedan revisar varias rutas o unidades desde una sola plataforma.
+##### Business Hypothesis Statement 03
 
-**Hypothesis Statement 09:** Creemos que la digitalizacion del control de calidad durante el transporte aumentara la confianza de las empresas en sus procesos. Sabremos que estamos en lo correcto cuando los usuarios consideren que la informacion registrada respalda mejor sus decisiones.
+Nosotros creemos que una mejora del 70% en la trazabilidad logística se logrará si el personal de calidad puede consultar el historial de envíos, sensores, lecturas y alertas desde una misma plataforma.
 
-**Hypothesis Statement 10:** Creemos que una solucion enfocada en alimentos tendra mayor valor para empresas que requieren preservar la calidad de sus productos. Sabremos que estamos en lo correcto cuando los usuarios identifiquen a ColdTrack como una herramienta mas adecuada que plataformas logisticas genericas.
+Sabremos que estamos en lo correcto cuando al menos el 80% de los usuarios considere que el historial le permite revisar incidentes, justificar decisiones de calidad y proponer mejoras en sus rutas o procesos.
+
+##### Business Hypothesis Statement 04
+
+Nosotros creemos que una adopción inicial del 80% de ColdTrack se logrará si los conductores y supervisores interactúan con una interfaz clara, visual y fácil de usar.
+
+Sabremos que estamos en lo correcto cuando al menos el 80% de los usuarios pueda completar tareas principales, como revisar un envío o interpretar una alerta, sin requerir capacitación extensa.
+
+##### Business Hypothesis Statement 05
+
+Nosotros creemos que una mejora del 65% en el control operativo se logrará si las empresas pueden registrar envíos, asociar sensores y consultar su estado desde un flujo único.
+
+Sabremos que estamos en lo correcto cuando al menos el 70% de los supervisores indique que la plataforma reduce tareas duplicadas y le permite organizar mejor la información de cada transporte.
+
+##### Business Hypothesis Statement 06
+
+Nosotros creemos que un aumento del 60% en la confianza sobre la calidad del servicio se logrará si ColdTrack genera reportes o evidencias consultables después de cada envío.
+
+Sabremos que estamos en lo correcto cuando al menos el 75% del personal de calidad considere que los reportes son útiles para auditorías internas, reclamos, revisiones de desempeño o comunicación con clientes.
+
+##### Business Hypothesis Statement 07
+
+Nosotros creemos que una intención de adopción del 70% en el segmento inicial de pequeñas y medianas distribuidoras se logrará si ColdTrack ofrece una alternativa más simple que sistemas logísticos complejos o controles manuales.
+
+Sabremos que estamos en lo correcto cuando al menos el 70% de los usuarios del segmento inicial reconozca valor en iniciar con un prototipo web que cubra monitoreo, alertas e historial antes de invertir en una solución más amplia.
+
+##### Business Hypothesis Statement 08
+
+Nosotros creemos que un aumento del 80% en la confiabilidad percibida del control ambiental se logrará si la integración futura con sensores reales registra lecturas de forma periódica y las relaciona con cada envío.
+
+Sabremos que estamos en lo correcto cuando al menos el 80% de las empresas evaluadas perciba que los datos automáticos son más confiables que los registros manuales y permiten detectar patrones de riesgo durante el transporte.
 
 
 #### 1.2.2.4. Lean UX Canvas
@@ -868,7 +1023,7 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Fin del video** | 03:58 |
 | **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **Foto entrevista** | <img src="images/entrevista1-segmento1.png" alt=""  width="250" /> |
-| **Resumen** | Gianelly Vásquez, supervisora de control de calidad en transporte de alimentos refrigerados que vive en Jesús María, actualmente gestiona el monitoreo de temperatura de forma manual usando termómetros digitales, dataloggers básicos y registros en Excel, sin contar con un sistema integrado en tiempo real, lo que genera dependencia del conductor y riesgo de errores humanos; su principal problema es la falta de visibilidad durante el trayecto, ya que las fallas en la cadena de frío suelen detectarse tarde, ocasionando pérdidas de productos, especialmente en rutas largas, y dificultando una reacción oportuna ante emergencias; por ello, considera que la solución ideal debería ofrecer monitoreo en tiempo real, alertas automáticas ante variaciones de temperatura, ubicación del vehículo, historial de datos y una interfaz fácil de usar desde el celular, creyendo que una aplicación como ColdTrack podría mejorar el control, reducir pérdidas y optimizar la operación logística. |
+| **Resumen** | **Principales respuestas:** Expresó su frustración por la falta de visibilidad en ruta, dependiendo del conductor para el reporte. Señaló que las fallas se detectan tarde, causando mermas. Sugirió que la solución debe tener alertas automáticas y ubicación del vehículo en tiempo real.<br><br>**Características Objetivas:** Mujer, 27 años, vive en Lima. Trabaja gestionando calidad con procesos manuales (Excel, termómetros digitales).<br><br>**Características Subjetivas:** Orientada al detalle, busca eficiencia y reducir el riesgo de errores humanos. Su mayor frustración es la ceguera operativa.<br><br>**Personalidad e Influencias:** Analítica, proactiva, influenciada por marcas de gestión logística moderna y optimización de procesos (ej. SAP, Microsoft).<br><br>**Tecnología y Dispositivos:** Alta adopción tecnológica. Usa laptop (Windows/Chrome) en oficina y Smartphone (iOS/Android) para comunicación constante.<br><br>**Canales de interacción:** Principalmente WhatsApp, correo corporativo y llamadas. Estos datos fundamentan el arquetipo de "Logística" enfocado en el control y centralización de datos. |
 
 | **ENTREVISTA 2**        |                                                                    |
 |-------------------------|--------------------------------------------------------------------|
@@ -880,7 +1035,7 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Fin del video**       | 09:21                                                              |
 | **Link del video**      | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                                                               |
 | **Foto entrevista**     | <img src="images/entrevista3_segmento3.png" alt=""  width="250" /> |
-| **Resumen** | Gianmarco Palacios, con 5 años de experiencia en logística, gestiona el monitoreo de temperatura y humedad mediante sensores y módulos integrados ("in-house"). Su principal problema es la pérdida de conectividad y la demora en el envío de información en ciertas rutas, lo que dificulta el control total de la cadena de frío. Aunque no ha tenido incidentes críticos recientemente, reporta pérdidas de productos 1 o 2 veces al mes debido a fallas en el sistema o envíos incorrectos. Está abierto a implementar nuevas soluciones tecnológicas siempre que sean eficaces y de baja complejidad de hardware. Considera indispensable que una plataforma ofrezca alertas en tiempo real multicanal (app y mensajería como WhatsApp) para permitir una reacción oportuna ante cualquier contingencia. |
+| **Resumen** | **Principales respuestas:** Indicó que pierde productos 1 o 2 veces al mes por fallas de conectividad en su sistema in-house. Recalcó que es indispensable recibir alertas multicanal (App y WhatsApp) para reaccionar a tiempo y evitar pérdidas.<br><br>**Características Objetivas:** Hombre, 33 años, radicado en Arequipa. 5 años de experiencia, lidiando con rutas interprovinciales y problemas de cobertura.<br><br>**Características Subjetivas:** Pragmático y enfocado en resultados. Su meta es una respuesta rápida a contingencias, y le frustra la pérdida económica por fallas de señal.<br><br>**Personalidad e Influencias:** Resolutivo, adaptable. Influenciado por marcas de hardware robusto e IoT.<br><br>**Tecnología y Dispositivos:** Usuario intermedio-avanzado. Utiliza PC de escritorio (Chrome) en almacén y Smartphone en campo.<br><br>**Canales de interacción:** WhatsApp es su canal primordial para reportes rápidos, seguido de llamadas. Estos datos justifican la necesidad de notificaciones push y alertas multicanal en el arquetipo gerencial. |
 
 | **ENTREVISTA 3** | |
 |------------------|----------------------------|
@@ -890,9 +1045,9 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Departamento** | Lima |
 | **Inicio del video** | 09:22 |
 | **Fin del video** | 15:11 |
-| **Link del video** | ---- |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **Foto entrevista** | <img src="images/entrevista-segmento1-carlos.png" alt=""  width="250" /> |
-| **Resumen** | Carlos Ramírez, jefe de operaciones de logística en la empresa Transportes Valle S.A.C., de 26 años y con base en Lima, actualmente enfrenta dificultades en la gestión de sus operaciones debido a la falta de monitoreo en tiempo real durante el transporte; esta limitación le impide tener visibilidad inmediata sobre el estado de las unidades y la trazabilidad de los procesos logísticos, generando dependencia de reportes manuales o comunicación directa con los conductores, lo que incrementa el riesgo de retrasos, errores y una toma de decisiones tardía ante incidencias en ruta; su principal problema radica en la ausencia de un sistema que le permita supervisar de manera continua y centralizada las operaciones, lo cual afecta la eficiencia y el control operativo; por ello, considera que una solución ideal debería incluir monitoreo en tiempo real, geolocalización de vehículos, alertas automáticas ante desviaciones o incidentes, y acceso a información desde dispositivos móviles, ya que una herramienta como ColdTrack podría optimizar la gestión logística, mejorar la capacidad de respuesta y fortalecer el control de las operaciones. |
+| **Resumen** | **Principales respuestas:** Manifestó que la falta de monitoreo centralizado incrementa el riesgo de retrasos y errores, dependiendo enteramente de reportes manuales. Concluyó que una solución ideal debe integrar geolocalización y trazabilidad desde el celular.<br><br>**Características Objetivas:** Hombre, 26 años, Jefe de Operaciones en Lima. Toma decisiones bajo presión y gestiona múltiples flotas.<br><br>**Características Subjetivas:** Estresado por la desconexión con sus unidades, motivado por optimizar procesos y reducir márgenes de error.<br><br>**Personalidad e Influencias:** Líder joven, digitalmente nativo, influenciado por plataformas SaaS de logística y startups de movilidad (ej. Uber Freight, Drivin).<br><br>**Tecnología y Dispositivos:** "Heavy user" de tecnología. Usa múltiples pantallas, Tablet y Smartphone (iOS). Browser principal: Google Chrome/Safari.<br><br>**Canales de interacción:** Redes sociales profesionales (LinkedIn), apps de mensajería corporativa y correo. Estos aportes definen el rasgo de "Búsqueda de eficiencia y trazabilidad" del User Persona 1. |
 
 #### **Segundo Segmento - Personal de Transporte:** <br>
 
@@ -906,7 +1061,7 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Fin del video** | 20:42 |
 | **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **Foto entrevista** | <img src="images/entrevista1-segmento2.png" alt=""  width="250" /> |
-| **Resumen** | Edri Abanto, conductor de transporte de carga refrigerada de 30 años con 5 años de experiencia, encargado de trasladar productos perecibles como lácteos, embutidos y carnes frescas que requieren una cadena de frío estricta, actualmente monitorea la temperatura mediante un sistema integrado en la cabina que le permite visualizar el estado general sin detenerse, pero que no proporciona datos precisos, ni alertas preventivas, ni información en tiempo real compartible con la central, lo que genera una dependencia de la observación manual y aumenta el riesgo de no detectar fallas a tiempo; su principal problema es la inestabilidad de la temperatura durante la ruta debido a factores externos como el clima o paradas prolongadas, así como la falta de alertas automáticas ante fallas progresivas del sistema de refrigeración, lo que ya ha ocasionado pérdidas de mercadería en el pasado por detección tardía de incidentes; además, enfrenta limitaciones de conectividad en ciertas zonas, lo que dificulta la comunicación y el monitoreo continuo; por ello, considera que la solución ideal debería ofrecer alertas sonoras progresivas, indicadores visuales claros mediante códigos de color, monitoreo en tiempo real y una interfaz intuitiva que no requiera interacción constante, creyendo que una aplicación como ColdTrack podría brindarle mayor seguridad operativa, facilitar la toma de decisiones durante la ruta y reducir significativamente el riesgo de pérdida de productos. |
+| **Resumen** | **Principales respuestas:** Explicó que los sistemas actuales en cabina no le dan alertas preventivas. Señaló que el clima y el tráfico afectan la mercadería. Solicitó explícitamente indicadores de colores y alertas sonoras para no distraerse.<br><br>**Características Objetivas:** Hombre, 30 años, Lima. Conductor de carga con 5 años de experiencia operando rutas exigentes.<br><br>**Características Subjetivas:** Siente presión y temor a ser culpado por mermas debido a fallas que no nota a tiempo. Busca seguridad operativa.<br><br>**Personalidad e Influencias:** Práctico, cuidadoso, acostumbrado al trabajo rudo. Influenciado por marcas automotrices y de transporte pesado (Volvo, Scania).<br><br>**Tecnología y Dispositivos:** Uso funcional de la tecnología. Maneja Smartphone (Android gama media). Browser: Google Chrome (uso básico).<br><br>**Canales de interacción:** Exclusivamente WhatsApp (notas de voz y mensajes rápidos) y llamadas telefónicas directas. Esta información fundamenta directamente el Arquetipo de "Transportista", que exige interfaces intuitivas, de baja fricción y alertas no intrusivas. |
 
 | **ENTREVISTA 2**        |                                                                    |
 |-------------------------|--------------------------------------------------------------------|
@@ -918,20 +1073,48 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Fin del video**       | 22:53                                                              |
 | **Link del video**      | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                                                               |
 | **Foto entrevista**     | <img src="images/entrevista2_segmento2.png" alt=""  width="250" /> |
-| **Resumen** | El entrevistado Fernando Perez, un transportista de 50 años que trabaja en la ruta Lima, explica que controla la temperatura de la carga revisando el termómetro y haciendo paradas para verificar su estado. Usa principalmente Google Maps y WhatsApp para su trabajo. Señala que los principales problemas son los cambios bruscos de temperatura, el tráfico y la falta de información inmediata ante fallas.|
+| **Resumen** | **Principales respuestas:** Relató que debe hacer paradas manuales para revisar la carga porque carece de información inmediata. Indicó que los cambios bruscos de temperatura y el tráfico son sus mayores retos.<br><br>**Características Objetivas:** Hombre, 51 años, Lima. Transportista con gran experiencia empírica. Se apoya 100% en navegación por GPS de terceros.<br><br>**Características Subjetivas:** Frustrado por las herramientas arcaicas; valora la simplicidad y rechaza aplicaciones complejas que interrumpan su conducción.<br><br>**Personalidad e Influencias:** Tradicional, responsable, rutinario. Confía en marcas clásicas de telefonía y repuestos vehiculares.<br><br>**Tecnología y Dispositivos:** Usuario básico. Usa Smartphone (Android) principalmente para herramientas vitales (Google Maps, Waze).<br><br>**Canales de interacción:** Llamadas telefónicas y WhatsApp (principalmente audio). Esto consolida la necesidad del Arquetipo 2 de contar con una app que opere en segundo plano de manera autónoma y requiera cero curva de aprendizaje. |
 
 ### 2.2.3. Analisis de entrevistas
 
+A continuación, se presenta un análisis detallado por cada segmento objetivo, sustentado estadísticamente en las respuestas de las entrevistas registradas. Se identifican las características objetivas (demográficas y conductuales) y subjetivas (frustraciones y motivaciones) que representan los aspectos más comunes de cada grupo y que son la base directa para la construcción de los arquetipos (User Personas).
+
+#### **Análisis del Segmento 1: Personal de Logística y Operaciones**
+*Total de entrevistados: 3 (Gianelly Vásquez, Gianmarco Palacios, Carlos Ramírez)*
+
+**Características Objetivas:**
+* **Perfil Demográfico:** El **100%** son profesionales jóvenes con cargos de supervisión o jefatura en la cadena de frío. La edad promedio es de **28.6 años**. El **66.6%** (2 personas) opera en Lima y el **33.3%** en Arequipa.
+* **Dependencia de Herramientas Manuales:** El **66.6%** (Gianelly y Carlos) depende actualmente de procesos rudimentarios, empleando termómetros básicos, Excel y reportes manuales. Solo el **33.3%** (Gianmarco) cuenta con algún módulo in-house, el cual presenta fallas técnicas.
+* **Incidencia de Mermas:** El **100%** lidia diariamente con el riesgo de fallas, pero destaca estadísticamente que un **33.3%** (caso Gianmarco) reporta pérdidas tangibles de productos de 1 a 2 veces al mes debido a fallas no detectadas a tiempo.
+
+**Características Subjetivas:**
+* **Frustración Principal (Ceguera Operativa):** El **100%** expresa frustración por la falta de visibilidad y monitoreo en tiempo real. Como se evidencia en los resúmenes de Gianelly y Carlos, esta dependencia ciega de la comunicación con los conductores retrasa la toma de decisiones y genera alta propensión al error humano.
+* **Meta Principal (Automatización y Control Centralizado):** El **100%** persigue implementar una plataforma digital. Como indica explícitamente Gianmarco, tienen como meta obtener alertas automáticas multicanal (incluyendo WhatsApp) para reaccionar oportunamente ante contingencias y geolocalizar a la flota desde dispositivos móviles, lo cual es vital para construir su User Persona centrado en el control.
+
+#### **Análisis del Segmento 2: Personal de Transporte**
+*Total de entrevistados: 2 (Edery Abanto, Fernando Perez)*
+
+**Características Objetivas:**
+* **Perfil Demográfico:** Representan un grupo con mayor rango de edad y experiencia empírica. La edad promedio es de **40.5 años** (30 y 51 años respectivamente), y el **100%** opera rutas partiendo desde Lima.
+* **Dinámica de Monitoreo:** El **100%** monitorea la temperatura directamente en cabina o haciendo paradas en la ruta para revisar el estado del contenedor manualmente. 
+* **Uso de Soluciones de Terceros:** El **100%** emplea herramientas no especializadas en la cadena de frío para comunicarse, como WhatsApp y Google Maps para la navegación.
+
+**Características Subjetivas:**
+* **Frustración Principal (Vulnerabilidad ante Fallas Progresivas):** El **100%** se siente vulnerable y estresado ante las fallas del sistema de refrigeración que no pueden detectar. Como detalla el resumen de Edery Abanto, sufren por la inestabilidad de temperatura frente a factores externos (clima, tráfico, paradas) y la pérdida de mercadería por no notar la avería a tiempo, lo que moldea su arquetipo en torno a la seguridad operativa.
+* **Meta Principal (Seguridad sin Distracción):** A diferencia de logística, el **100%** de los conductores busca la mínima interacción manual. Como se relata en las entrevistas de Edery y Fernando, desean sistemas predictivos que emitan **alertas sonoras progresivas e indicadores visuales claros (códigos de colores)** que les avisen del peligro sin distraerlos de la conducción.
+
+#### **Conclusión: Justificación para la Construcción de Arquetipos**
+Cada punto estadístico recabado de las entrevistas se correlaciona directamente con la estructura de los **User Personas** en la siguiente sección. El arquetipo de "Logística" se construirá en base a su necesidad de **control centralizado, trazabilidad de datos y reducción de pérdidas económicas**, mitigando su frustración de no saber qué ocurre en la ruta. Por su parte, el arquetipo de "Transportista" se diseñará en torno a su necesidad de **alertas preventivas simples y no intrusivas**, solucionando su temor a ser responsabilizado por mercadería dañada a causa de averías indetectables mientras maneja.
 
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
 <h5 id="SegUser">Segmento #1: Personal de Logística y Operaciones </h5>
-<img src="./images/user-persona-v2.1.png" alt="userpersona1" width="100%">
+<img src="./images/user_persona_vf1.png" alt="userpersona1" width="100%">
 
 <h5 id="SegUser">Segmento #2: Personal de transporte </h5>
-<img src="./images/user-persona-v2.2.png" alt="userpersona2" width="100%">
+<img src="./images/user_persona_vf2.png" alt="userpersona2" width="100%">
 
 ### 2.3.2. User Task Matrix
 
@@ -963,121 +1146,85 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 
 ### 2.3.5. As-is Scenario Mapping
 
-**USER PERSONA: Raúl Gonzales**
+Los As-is Scenario Mapping muestran cómo los segmentos objetivo atienden actualmente el monitoreo de la cadena de frío antes de incorporar ColdTrack. La actualización diferencia las actividades, pensamientos y emociones de cada segmento para evidenciar los puntos de dolor que justifican la solución.
+
+**USER PERSONA: Raúl Gonzales - Personal de Logística y Operaciones**
+
 ![Scenario Mapping 1](./images/Scenario-Mapping1.jpg)
 
-**USER PERSONA: Andre Montes**
+El personal de logística depende de reportes manuales, llamadas al conductor y registros aislados para confirmar el estado de cada envío. Esto genera incertidumbre durante la ruta, retrasa la toma de decisiones y limita la trazabilidad cuando ocurre una incidencia.
+
+**USER PERSONA: Andre Montes - Personal de Transporte**
+
 ![Scenario Mapping 2](./images/Scenario-Mapping2.jpg)
+
+El personal de transporte revisa indicadores básicos o señales visibles del vehículo, comunica problemas por llamadas o mensajes y suele actuar con información incompleta. Esta situación produce presión operativa porque el conductor no siempre sabe cuándo debe intervenir ni qué acción priorizar.
+
+**Actualización del As-is Scenario Mapping del segmento de transporte**
+
+![Updated As-is Scenario Mapping](./images/as-is-scenario-transport-updated.png)
+
+La actualización enfatiza cinco fases del proceso actual: monitoreo durante ruta, detección de problemas, comunicación, gestión de incidentes y cumplimiento de entrega. En cada fase se evidencian necesidades relacionadas con información en tiempo real, alertas accionables, comunicación con supervisores y reducción de incertidumbre sobre el estado de la carga.
+
+### 2.3.6. Big Picture EventStorming
+
+![Big Picture v1](./images/bigpicture1.png)
+
+![Big Picture v2](./images/bigpicture2.png)
+
+![Big Picture v3](./images/bigpicture3.png)
+
+![Big Picture EventStorming](./images/big_picture_event.png)
 
 ## 2.4. Ubiquitous Language
 
+El Ubiquitous Language de ColdTrack consolida los términos compartidos entre negocio, diseño y desarrollo. Estos conceptos se usan de forma consistente en la landing page, la Web Application, los Web Services, la base de datos y la documentación del producto.
+
 ### Core Domain
 
-- **Shipment (Envío):**  
-  Conjunto de productos alimenticios que se trasladan desde un centro de distribución hasta un destino final.
+- **ColdTrack:** Producto digital de FreshGuard orientado al monitoreo de la cadena de frío durante el transporte de alimentos sensibles.
+- **Cold Chain (Cadena de Frío):** Conjunto de condiciones controladas que permiten conservar productos sensibles dentro de rangos aceptables de temperatura y humedad.
+- **Refrigerated Shipment (Envío Refrigerado):** Traslado de productos alimenticios que requieren control ambiental desde el origen hasta el destino.
+- **Shipment Code (Código de Envío):** Identificador visible para usuarios, por ejemplo `ENV-001`, usado en tablas, alertas e historial.
+- **Shipment Lifecycle (Ciclo de Vida del Envío):** Secuencia de estados de un envío: registered, in transit, completed o cancelled.
+- **Cargo Description (Descripción de Carga):** Información resumida sobre los productos transportados y sus condiciones de conservación.
 
-- **Food Transportation (Transporte de Alimentos):**  
-  Proceso logístico de traslado de alimentos asegurando que mantengan su calidad durante el trayecto.
+### Identity and Access
 
-- **Cold Chain (Cadena de Frío):**  
-  Sistema de control que garantiza que los alimentos se mantengan dentro de condiciones de temperatura adecuadas durante todo el transporte.
+- **User Account (Cuenta de Usuario):** Registro que permite acceder a ColdTrack mediante correo, contraseña y rol.
+- **Role (Rol):** Nivel de responsabilidad del usuario dentro del sistema, como logistics admin o driver.
+- **Authentication (Autenticación):** Proceso de validación de credenciales para ingresar a la Web Application.
+- **JWT (JSON Web Token):** Token emitido por el backend para autorizar solicitudes protegidas desde el frontend.
+- **Protected Route (Ruta Protegida):** Vista de la aplicación que requiere sesión activa para ser utilizada.
 
-- **Distribution Center (Centro de Distribución):**  
-  Instalación donde se almacenan, preparan y despachan los productos para su envío.
+### Shipment Management
 
-- **Delivery Route (Ruta de Entrega):**  
-  Recorrido que realiza la unidad de transporte desde el punto de origen hasta el destino.
+- **Dashboard:** Vista principal que resume envíos, alertas activas e indicadores operativos.
+- **Shipment Detail (Detalle de Envío):** Vista o modal que consolida destino, estado, conductor, carga, fechas, lecturas, sensor asignado y alertas relacionadas.
+- **Driver (Conductor):** Persona responsable del traslado del envío durante la ruta.
+- **Estimated Arrival (Llegada Estimada):** Fecha y hora planificada para completar un envío.
+- **Actual Arrival (Llegada Real):** Fecha y hora registrada cuando el envío se completa.
+- **Shipment History (Historial de Envíos):** Vista que lista envíos completados y sus indicadores de desempeño.
 
----
+### Telemetry and Sensors
 
-### Monitoring and Conditions
+- **Sensor:** Dispositivo IoT asociado a un envío para registrar temperatura y humedad.
+- **Sensor Code (Código de Sensor):** Identificador visible del dispositivo, por ejemplo `SENS-A123`.
+- **Sensor Assignment (Asignación de Sensor):** Vinculación de un sensor disponible con un envío refrigerado.
+- **Telemetry Reading (Lectura de Telemetría):** Registro de temperatura, humedad y fecha capturado por un sensor.
+- **Threshold (Umbral):** Límite de negocio usado para evaluar si una lectura es normal, de advertencia o crítica.
 
-- **Real-Time Monitoring (Monitoreo en Tiempo Real):**  
-  Supervisión continua de las condiciones ambientales de un envío durante todo su trayecto.
+### Alerts, Analytics and Deployment
 
-- **Temperature (Temperatura):**  
-  Nivel de calor dentro de la unidad de transporte que influye en la conservación de los alimentos.
-
-- **Humidity (Humedad):**  
-  Nivel de humedad presente en el ambiente del transporte que puede afectar la calidad del producto.
-
-- **Environmental Conditions (Condiciones Ambientales):**  
-  Conjunto de factores como temperatura y humedad que determinan el estado de los alimentos durante el transporte.
-
-- **Optimal Range (Rango Óptimo):**  
-  Valores adecuados de temperatura y humedad que garantizan la correcta conservación de los alimentos.
-
-- **Condition Status (Estado de Condición):**  
-  Situación actual del envío en función de sus condiciones ambientales (normal, advertencia o crítico).
-
----
-
-### Alerts and Incidents
-
-- **Alert (Alerta):**  
-  Notificación generada cuando las condiciones del envío se alejan del rango óptimo.
-
-- **Critical Alert (Alerta Crítica):**  
-  Aviso que indica una situación grave que requiere acción inmediata para evitar pérdidas.
-
-- **Warning Alert (Alerta de Advertencia):**  
-  Notificación preventiva que indica un posible riesgo antes de llegar a una condición crítica.
-
-- **Incident (Incidente):**  
-  Evento que afecta o puede afectar negativamente el estado del envío.
-
-- **Response Action (Acción de Respuesta):**  
-  Medida tomada para corregir o mitigar un problema detectado durante el transporte.
-
----
-
-### Traceability and Control
-
-- **Traceability (Trazabilidad):**  
-  Capacidad de rastrear y conocer el estado de un envío durante todo su recorrido.
-
-- **Shipment History (Historial de Envío):**  
-  Registro de las condiciones y eventos que ocurrieron durante el transporte de un envío.
-
-- **Condition Check (Verificación de Condición):**  
-  Revisión del estado ambiental del envío en un momento determinado.
-
----
-
-### Stakeholders
-
-- **Logistics Supervisor (Supervisor Logístico):**  
-  Persona encargada de supervisar los envíos y asegurar que se cumplan las condiciones adecuadas.
-
-- **Transport Personnel (Personal de Transporte):**  
-  Persona responsable de trasladar físicamente los productos durante la ruta.
-
-- **Quality Control Staff (Control de Calidad):**  
-  Personal encargado de verificar que los productos cumplan con los estándares de calidad.
-
-- **Distribution Company (Empresa Distribuidora):**  
-  Organización responsable de gestionar el transporte de alimentos.
-
----
-
-### Business Impact
-
-- **Loss Event (Evento de Pérdida):**  
-  Situación en la que los productos se deterioran debido a condiciones inadecuadas durante el transporte.
-
-- **Loss Reduction (Reducción de Pérdidas):**  
-  Disminución de productos dañados gracias a un mejor control de las condiciones.
-
-- **Operational Efficiency (Eficiencia Operativa):**  
-  Mejora en los procesos logísticos que permite optimizar tiempo, costos y recursos.
-
-- **Food Safety (Seguridad Alimentaria):**  
-  Garantía de que los alimentos llegan en condiciones aptas para el consumo.
-
-- **Decision Making (Toma de Decisiones):**  
-  Proceso de elegir acciones basadas en la información disponible sobre los envíos.
-
----
+- **Alert (Alerta):** Incidencia generada cuando una lectura supera los límites permitidos o evidencia un riesgo operativo.
+- **Severity (Severidad):** Nivel de gravedad de una alerta: warning o critical.
+- **Alert Status (Estado de Alerta):** Situación de atención de la alerta: active, acknowledged o resolved.
+- **Threshold Policy (Política de Umbrales):** Regla de dominio que evalúa lecturas de temperatura y humedad para disparar alertas.
+- **PDF Report (Reporte PDF):** Documento descargable con métricas y detalle del período seleccionado.
+- **Web Application:** Aplicación Vue desplegada en Firebase Hosting.
+- **Web Services:** API REST ASP.NET Core desplegada en Render.
+- **Persistence (Persistencia):** Almacenamiento de usuarios, envíos, sensores, telemetría, alertas y reportes en MySQL.
+- **Swagger/OpenAPI:** Documentación interactiva usada para probar y validar contratos REST.
 
 # Capitulo III: Requirements Specification
 
@@ -1089,57 +1236,44 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
  <img src="./images/tobetransportistas.png" alt="tobetransportistas" width="80%">
 
 ## 3.2. User Stories
-En esta sección, estructuraremos nuestro proceso de desarrollo y aseguraremos de cubrir los os necesarios para satisfacer las necesidades del usuario.
 
-A continuación, estableceremos las épicas, para luego detallarlas en historias de usuario. De este modo estableceremos los objetivos y funcionalidades.                                        
+Esta sección organiza las épicas, User Stories y Technical Stories que guían el desarrollo de ColdTrack. Las historias se formularon considerando los tres productos digitales desarrollados por el equipo: Landing Page, Web Application y Web Services. Cada historia mantiene trazabilidad con una épica y expresa criterios de aceptación verificables durante los Sprint Reviews.
 
 | Epic/Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |---|---|---|---|---|
-| EP-001 | Registro y Gestión de Usuarios | Como personal de logística y operaciones y personal de transporte<br>Quiero registrarme, iniciar sesión y gestionar mi cuenta de forma segura<br>Para acceder a las funcionalidades de ColdTrack según mi rol. | N/A | N/A |
-| EP-002 | Gestión de Envíos | Como personal de logística y operaciones<br>Quiero crear, visualizar y gestionar envíos<br>Para mantener el control del transporte de alimentos desde el origen hasta el destino. | N/A | N/A |
-| EP-003 | Monitoreo en Tiempo Real | Como personal de logística y operaciones y personal de transporte<br>Quiero visualizar en tiempo real la temperatura y humedad de los envíos mediante sensores<br>Para asegurar condiciones óptimas durante el transporte. | N/A | N/A |
-| EP-004 | Sistema de Alertas | Como personal de logística y operaciones y personal de transporte<br>Quiero recibir alertas automáticas ante condiciones críticas de temperatura o humedad<br>Para tomar decisiones rápidas y evitar pérdidas de productos. | N/A | N/A |
-| EP-005 | Historial y Reportes | Como personal de logística y operaciones y personal de transporte<br>Quiero acceder al historial de envíos y generar reportes<br>Para analizar el desempeño logístico y mejorar la trazabilidad. | N/A | N/A |
-| EP-006 | Landing Page y Comunicación | Como visitante<br>Quiero acceder a información de la aplicación, conocer sus beneficios, contactar al equipo y visualizar testimonios<br>Para evaluar el uso de ColdTrack y resolver dudas. | N/A | N/A |
-| US-001 | Registro de usuario | Como personal de logística y operaciones y personal de transporte<br>Quiero registrarme seleccionando mi rol<br>Para acceder a las funcionalidades correspondientes de ColdTrack. | Escenario 1: Registro como personal de logística y operaciones<br><br>Dado que el personal de logística y operaciones accede al formulario de registro<br>Cuando completa todos los datos correctamente y selecciona el rol “Logística”<br>Entonces el sistema registra la cuenta exitosamente<br>Y permite acceder a funcionalidades de supervisión.<br><br>Escenario 2: Registro como personal de transporte<br><br>Dado que el personal de transporte accede al formulario de registro<br>Cuando completa todos los datos correctamente y selecciona el rol “Transporte”<br>Entonces el sistema registra la cuenta exitosamente<br>Y permite acceder a funcionalidades en ruta. | EP-001 |
-| US-002 | Inicio de sesión | Como personal de logística y operaciones y personal de transporte<br>Quiero iniciar sesión en el sistema<br>Para acceder de manera segura a mi cuenta y funcionalidades. | Escenario 1: Inicio exitoso<br><br>Dado que el personal de logística y operaciones o el personal de transporte se encuentra registrado en el sistema<br>Cuando ingresa sus credenciales correctamente<br>Entonces el sistema valida la información<br>Y permite el acceso al panel principal.<br><br>Escenario 2: Credenciales incorrectas<br><br>Dado que el personal de logística y operaciones o el personal de transporte ingresa datos inválidos<br>Cuando intenta iniciar sesión<br>Entonces el sistema muestra un mensaje de error<br>Y bloquea el acceso. | EP-001 |
-| US-003 | Recuperar contraseña | Como personal de logística y operaciones y personal de transporte<br>Quiero recuperar mi contraseña<br>Para restablecer el acceso a mi cuenta en caso de olvido. | Escenario 1: Recuperación exitosa<br><br>Dado que el personal de logística y operaciones o el personal de transporte olvidó su contraseña<br>Cuando ingresa el correo registrado<br>Entonces el sistema envía un enlace de recuperación<br>Y permite restablecer la contraseña.<br><br>Escenario 2: Correo inválido<br><br>Dado que el correo ingresado no está registrado<br>Cuando se solicita la recuperación de contraseña<br>Entonces el sistema muestra un mensaje de error. | EP-001 |
-| TS-001 | Crear usuario | Como sistema<br>Quiero registrar usuarios en la base de datos<br>Para permitir el acceso seguro a ColdTrack. | Escenario 1: Creación exitosa<br><br>Dado que el sistema recibe datos válidos de registro<br>Cuando procesa la solicitud<br>Entonces guarda la información del usuario en la base de datos<br>Y retorna una respuesta exitosa.<br><br>Escenario 2: Datos inválidos<br><br>Dado que faltan campos obligatorios en la solicitud<br>Cuando el sistema procesa la información<br>Entonces rechaza la operación<br>Y retorna un error. | EP-001 |
-| TS-002 | Autenticación | Como sistema<br>Quiero validar las credenciales de acceso<br>Para garantizar la seguridad de los usuarios registrados. | Escenario 1: Autenticación válida<br><br>Dado que las credenciales coinciden con un usuario registrado<br>Cuando se realiza la validación<br>Entonces el sistema genera un token de acceso válido.<br><br>Escenario 2: Autenticación inválida<br><br>Dado que las credenciales no coinciden<br>Cuando se intenta autenticar<br>Entonces el sistema retorna un error de acceso. | EP-001 |
-| US-004 | Crear envío | Como personal de logística y operaciones<br>Quiero registrar envíos<br>Para controlar el transporte de productos alimenticios. | Escenario 1: Registro exitoso<br><br>Dado que el personal de logística y operaciones completa todos los campos requeridos<br>Cuando registra el envío<br>Entonces el sistema guarda la información correctamente<br>Y el envío aparece en la lista de envíos activos.<br><br>Escenario 2: Datos incompletos<br><br>Dado que el personal de logística y operaciones deja campos obligatorios vacíos<br>Cuando intenta registrar el envío<br>Entonces el sistema muestra errores de validación<br>Y no permite el registro. | EP-002 |
-| US-005 | Ver envíos activos | Como personal de logística y operaciones y personal de transporte<br>Quiero visualizar los envíos activos<br>Para monitorear el estado actual del transporte. | Escenario 1: Lista disponible<br><br>Dado que el personal de logística y operaciones o el personal de transporte accede a la sección de envíos<br>Y existen envíos registrados<br>Cuando visualiza la información<br>Entonces el sistema muestra la lista completa de envíos activos.<br><br>Escenario 2: Lista vacía<br><br>Dado que el personal de logística y operaciones o el personal de transporte accede a la sección de envíos<br>Y no existen envíos registrados<br>Cuando visualiza la información<br>Entonces el sistema muestra un mensaje indicando que no hay registros. | EP-002 |
-| US-006 | Ver detalle del envío | Como personal de logística y operaciones y personal de transporte<br>Quiero visualizar el detalle de un envío<br>Para revisar temperatura, humedad y estado del transporte. | Escenario 1: Visualización correcta<br><br>Dado que el personal de logística y operaciones o el personal de transporte selecciona un envío<br>Cuando accede al detalle<br>Entonces el sistema muestra temperatura, humedad y estado del envío.<br><br>Escenario 2: Error de carga<br><br>Dado que ocurre un fallo en el sistema<br>Cuando se intenta visualizar el detalle del envío<br>Entonces el sistema muestra un mensaje de error. | EP-002 |
-| TS-003 | CRUD envíos | Como sistema<br>Quiero gestionar operaciones de envíos<br>Para mantener actualizada la información logística. | Escenario 1: Consulta exitosa<br><br>Dado que existen envíos registrados en la base de datos<br>Cuando el sistema realiza una consulta<br>Entonces retorna correctamente la lista de envíos.<br><br>Escenario 2: Error interno<br><br>Dado que ocurre un fallo en el servidor<br>Cuando el sistema realiza la consulta<br>Entonces retorna un error. | EP-002 |
-| US-007 | Asignar sensor a envío | Como personal de logística y operaciones<br>Quiero vincular sensores a los envíos<br>Para monitorear las condiciones del transporte en tiempo real. | Escenario 1: Asignación correcta<br><br>Dado que el personal de logística y operaciones selecciona un sensor válido<br>Cuando lo vincula a un envío<br>Entonces el sistema asocia correctamente el sensor.<br><br>Escenario 2: Sensor inválido<br><br>Dado que el sensor no existe o no está disponible<br>Cuando el personal de logística y operaciones intenta vincularlo<br>Entonces el sistema muestra un error. | EP-002 |
-| US-008 | Finalizar envío | Como personal de logística y operaciones<br>Quiero finalizar un envío<br>Para registrar el cierre del transporte y enviarlo al historial. | Escenario 1: Finalización exitosa<br><br>Dado que el envío ha concluido correctamente<br>Cuando el personal de logística y operaciones lo finaliza<br>Entonces el sistema cambia el estado a “Completado”<br>Y envía el registro al historial.<br><br>Escenario 2: Error en cierre<br><br>Dado que ocurre un fallo durante el proceso<br>Cuando el personal de logística y operaciones intenta finalizar el envío<br>Entonces el sistema no guarda los cambios. | EP-002 |
-| TS-004 | Asignación sensor | Como sistema<br>Quiero vincular sensores válidos a los envíos<br>Para permitir el monitoreo continuo de las condiciones del transporte. | Escenario 1: Asignación válida<br><br>Dado que el sensor existe en el sistema<br>Cuando se realiza la vinculación con un envío<br>Entonces el sistema asocia correctamente el sensor.<br><br>Escenario 2: Error<br><br>Dado que el sensor no es válido<br>Cuando el sistema intenta asignarlo<br>Entonces retorna un error. | EP-002 |
-| US-009 | Ver temperatura en tiempo real | Como personal de logística y operaciones y personal de transporte<br>Quiero visualizar la temperatura en tiempo real<br>Para asegurar que los productos se mantengan en condiciones óptimas. | Escenario 1: Datos en tiempo real<br><br>Dado que el sensor se encuentra activo<br>Cuando el personal de logística y operaciones o el personal de transporte accede al monitoreo<br>Entonces el sistema muestra la temperatura actualizada.<br><br>Escenario 2: Sin conexión<br><br>Dado que el sensor deja de enviar datos<br>Cuando se accede al monitoreo<br>Entonces el sistema muestra una advertencia de conexión. | EP-003 |
-| US-010 | Ver humedad en tiempo real | Como personal de logística y operaciones y personal de transporte<br>Quiero visualizar la humedad del envío<br>Para verificar las condiciones adecuadas de transporte. | Escenario 1: Visualización correcta<br><br>Dado que el sensor funciona correctamente<br>Cuando el personal de logística y operaciones o el personal de transporte accede al monitoreo<br>Entonces el sistema muestra el porcentaje de humedad actualizado.<br><br>Escenario 2: Error de sensor<br><br>Dado que el sensor no envía información<br>Cuando se accede al monitoreo<br>Entonces el sistema muestra una alerta de error. | EP-003 |
-| US-011 | Estado del envío | Como personal de logística y operaciones y personal de transporte<br>Quiero visualizar el estado general del envío<br>Para identificar posibles riesgos durante el transporte. | Escenario 1: Estado normal<br><br>Dado que las condiciones del envío están dentro del rango permitido<br>Cuando el sistema analiza los datos<br>Entonces muestra un estado óptimo.<br><br>Escenario 2: Estado crítico<br><br>Dado que los valores superan los límites establecidos<br>Cuando el sistema evalúa la información<br>Entonces muestra un estado de alerta. | EP-003 |
-| US-012 | Visualizar gráficos históricos | Como personal de logística y operaciones<br>Quiero visualizar gráficos históricos de monitoreo<br>Para analizar el comportamiento de temperatura y humedad. | Escenario 1: Datos disponibles<br><br>Dado que existen registros históricos de monitoreo<br>Cuando el personal de logística y operaciones accede a los gráficos<br>Entonces el sistema muestra la información visual.<br><br>Escenario 2: Sin datos<br><br>Dado que no existen registros históricos<br>Cuando se accede a la sección de gráficos<br>Entonces el sistema muestra un mensaje informativo. | EP-003 |
-| TS-005 | Integración IoT | Como sistema<br>Quiero recibir datos de sensores IoT<br>Para almacenar y procesar información de monitoreo. | Escenario 1: Recepción válida<br><br>Dado que el sensor IoT envía información correctamente<br>Cuando el sistema recibe los datos<br>Entonces los almacena en la base de datos.<br><br>Escenario 2: Datos inválidos<br><br>Dado que los datos recibidos están corruptos<br>Cuando el sistema procesa la información<br>Entonces descarta los datos inválidos. | EP-003 |
-| TS-006 | Tiempo real | Como sistema<br>Quiero utilizar WebSockets para actualizar información en tiempo real<br>Para mantener sincronizados los datos de monitoreo. | Escenario 1: Conexión activa<br><br>Dado que existe una conexión WebSocket establecida<br>Cuando llegan nuevos datos de monitoreo<br>Entonces el sistema actualiza la información en tiempo real.<br><br>Escenario 2: Desconexión<br><br>Dado que la conexión se pierde<br>Cuando el sistema detecta la desconexión<br>Entonces intenta reconectarse automáticamente. | EP-003 |
-| US-013 | Alertas de temperatura | Como personal de logística y operaciones y personal de transporte<br>Quiero recibir alertas automáticas<br>Para actuar rápidamente ante cambios críticos de temperatura. | Escenario 1: Alerta generada<br><br>Dado que el sistema detecta que la temperatura supera los límites establecidos<br>Cuando analiza los datos recibidos por los sensores<br>Entonces genera una alerta<br>Y notifica al personal de logística y operaciones y al personal de transporte.<br><br>Escenario 2: Condición normal<br><br>Dado que las condiciones del envío se mantienen dentro del rango permitido<br>Cuando el sistema monitorea los sensores<br>Entonces no se genera ninguna alerta. | EP-004 |
-| US-014 | Notificación al conductor | Como personal de transporte<br>Quiero recibir notificaciones inmediatas<br>Para responder rápidamente ante incidencias durante la ruta. | Escenario 1: Recepción correcta<br><br>Dado que se genera una alerta crítica<br>Cuando el sistema envía la notificación<br>Entonces el personal de transporte la recibe en su dispositivo.<br><br>Escenario 2: Sin conexión<br><br>Dado que el dispositivo del personal de transporte no tiene conexión<br>Cuando se genera una alerta<br>Entonces el sistema almacena la notificación y la envía posteriormente. | EP-004 |
-| US-015 |  Ver historial de alertas | Como personal de logística y operaciones y personal de transporte<br>Quiero visualizar alertas pasadas<br>Para revisar incidencias registradas anteriormente. | Escenario 1: Registros disponibles<br><br>Dado que existen alertas registradas<br>Cuando el personal de logística y operaciones o el personal de transporte accede al historial<br>Entonces el sistema muestra la lista de alertas.<br><br>Escenario 2: Sin registros<br><br>Dado que no existen alertas registradas<br>Cuando se accede al historial<br>Entonces el sistema muestra un mensaje vacío. | EP-004 |
-| TS-007 | Motor alertas | Como sistema<br>Quiero detectar anomalías automáticamente<br>Para generar alertas cuando los valores estén fuera de rango. | Escenario 1: Detección de error<br><br>Dado que un valor se encuentra fuera del rango permitido<br>Cuando el sistema analiza los datos de monitoreo<br>Entonces genera una alerta automáticamente.<br><br>Escenario 2: Sin anomalías<br><br>Dado que los valores son correctos<br>Cuando el sistema analiza la información<br>Entonces no ejecuta ninguna acción. | EP-004 |
-| TS-008 | Notificaciones | Como sistema<br>Quiero enviar notificaciones automáticas<br>Para informar incidencias a los usuarios correspondientes. | Escenario 1: Envío exitoso<br><br>Dado que existe una alerta generada<br>Cuando el sistema envía la notificación<br>Entonces el destinatario la recibe correctamente.<br><br>Escenario 2: Error de envío<br><br>Dado que ocurre un fallo en el envío<br>Cuando el sistema intenta enviar la notificación<br>Entonces reintenta automáticamente el proceso. | EP-004 |
-| US-016 | Ver historial de envíos | Como personal de logística y operaciones y personal de transporte<br>Quiero revisar el historial de envíos<br>Para consultar información de transportes anteriores. | Escenario 1: Historial disponible<br><br>Dado que existen registros históricos de envíos<br>Cuando el personal de logística y operaciones o el personal de transporte accede al historial<br>Entonces el sistema muestra la lista de envíos.<br><br>Escenario 2: Sin historial<br><br>Dado que no existen registros históricos<br>Cuando se accede al historial<br>Entonces el sistema muestra un mensaje informativo. | EP-005 |
-| US-017 | Descargar reporte | Como personal de logística y operaciones<br>Quiero exportar reportes de envíos<br>Para analizar información logística y compartir resultados. | Escenario 1: Descarga exitosa<br><br>Dado que existen datos disponibles en el sistema<br>Cuando el personal de logística y operaciones solicita un reporte<br>Entonces el sistema genera un archivo descargable correctamente.<br><br>Escenario 2: Error<br><br>Dado que ocurre un fallo durante la generación del reporte<br>Cuando se solicita la descarga<br>Entonces el sistema muestra un mensaje de error. | EP-005 |
-| US-018 | Filtrar historial | Como personal de logística y operaciones y personal de transporte<br>Quiero filtrar registros del historial<br>Para encontrar información específica rápidamente. | Escenario 1: Filtro aplicado<br><br>Dado que el personal de logística y operaciones o el personal de transporte selecciona criterios de búsqueda<br>Cuando aplica el filtro<br>Entonces el sistema muestra resultados filtrados.<br><br>Escenario 2: Sin coincidencias<br><br>Dado que no existen registros que coincidan con los filtros<br>Cuando se aplica la búsqueda<br>Entonces el sistema muestra un mensaje informativo. | EP-005 |
-| TS-009 | Guardar historial | Como sistema<br>Quiero persistir datos históricos<br>Para almacenar información de envíos finalizados. | Escenario 1: Guardado correcto<br><br>Dado que existen datos válidos de un envío finalizado<br>Cuando el sistema almacena la información<br>Entonces guarda correctamente el historial.<br><br>Escenario 2: Error<br><br>Dado que ocurre un fallo durante el almacenamiento<br>Cuando el sistema intenta guardar la información<br>Entonces registra el error correspondiente. | EP-005 |
-| TS-010 | Exportar PDF | Como sistema<br>Quiero generar reportes en PDF<br>Para permitir la descarga y análisis de información logística. | Escenario 1: Generación exitosa<br><br>Dado que existen datos disponibles para exportar<br>Cuando el sistema genera el reporte PDF<br>Entonces crea correctamente el archivo descargable.<br><br>Escenario 2: Error<br><br>Dado que ocurre un fallo en la generación del documento<br>Cuando el sistema intenta exportar el PDF<br>Entonces muestra un mensaje de error. | EP-005 |
-| US-019 | Ver información de la app (Landing) | Como visitante<br>Quiero conocer información sobre ColdTrack<br>Para entender el propósito y beneficios de la aplicación. | Escenario 1: Información visible<br><br>Dado que el visitante accede a la landing page<br>Cuando navega por la plataforma<br>Entonces visualiza información clara sobre ColdTrack.<br><br>Escenario 2: Comprensión<br><br>Dado que el visitante revisa el contenido de la página<br>Cuando analiza la información mostrada<br>Entonces comprende los beneficios del sistema. | EP-006 |
-| US-020 | Ver testimonios | Como visitante<br>Quiero visualizar testimonios de usuarios<br>Para conocer experiencias relacionadas con ColdTrack. | Escenario 1: Visualización<br><br>Dado que existen testimonios registrados<br>Cuando el visitante accede a la sección correspondiente<br>Entonces el sistema muestra los testimonios disponibles.<br><br>Escenario 2: Navegación<br><br>Dado que existen múltiples testimonios<br>Cuando el visitante interactúa con la sección<br>Entonces puede desplazarse entre ellos correctamente. | EP-006 |
-| US-021 | Formulario de contacto | Como visitante<br>Quiero comunicarme con el equipo de ColdTrack<br>Para resolver dudas o solicitar información adicional. | Escenario 1: Envío correcto<br><br>Dado que el visitante completa el formulario de contacto<br>Cuando envía el mensaje<br>Entonces el sistema registra correctamente la información.<br><br>Escenario 2: Error<br><br>Dado que faltan campos obligatorios en el formulario<br>Cuando el visitante intenta enviarlo<br>Entonces el sistema muestra errores de validación. | EP-006 |
-| US-022 | Ver equipo de desarrollo | Como visitante<br>Quiero visualizar a los integrantes del equipo<br>Para generar confianza y credibilidad en el proyecto. | Escenario 1: Visualización<br><br>Dado que el visitante accede a la sección del equipo<br>Cuando la página carga correctamente<br>Entonces el sistema muestra a los integrantes del proyecto.<br><br>Escenario 2: Error<br><br>Dado que ocurre un fallo durante la carga<br>Cuando el visitante accede a la sección<br>Entonces el sistema muestra un mensaje alternativo. | EP-006 |
-| US-023 | Ver funcionalidades del sistema | Como visitante<br>Quiero conocer las funcionalidades principales del sistema<br>Para comprender el valor de ColdTrack. | Escenario 1: Visualización<br><br>Dado que el visitante accede a la sección de funcionalidades<br>Cuando navega por la página<br>Entonces el sistema muestra las principales características de ColdTrack.<br><br>Escenario 2: Comprensión<br><br>Dado que el visitante revisa la información disponible<br>Cuando analiza las funcionalidades mostradas<br>Entonces comprende el valor de la aplicación. | EP-006 |
-| TS-011 | Formulario contacto | Como sistema<br>Quiero almacenar mensajes enviados desde el formulario de contacto<br>Para gestionar consultas de usuarios interesados. | Escenario 1: Guardado correcto<br><br>Dado que el sistema recibe datos válidos desde el formulario<br>Cuando procesa la solicitud<br>Entonces almacena correctamente el mensaje.<br><br>Escenario 2: Error<br><br>Dado que los datos enviados son inválidos<br>Cuando el sistema procesa la información<br>Entonces rechaza la solicitud. | EP-006 |
-| TS-012 | Testimonios API | Como sistema<br>Quiero listar testimonios mediante una API<br>Para mostrar experiencias de usuarios en la landing page. | Escenario 1: Datos disponibles<br><br>Dado que existen testimonios registrados en la base de datos<br>Cuando el sistema consulta la API<br>Entonces retorna correctamente la lista de testimonios.<br><br>Escenario 2: Sin datos<br><br>Dado que no existen testimonios registrados<br>Cuando el sistema consulta la API<br>Entonces retorna una lista vacía. | EP-006 |
-
-
-
-
+| EP-001 | Landing Page y adquisición | Como visitante interesado en soluciones de cadena de frío<br>Quiero conocer la propuesta de valor, beneficios, equipo y acceso a la aplicación<br>Para decidir si ColdTrack responde a mis necesidades operativas. | N/A | N/A |
+| EP-002 | Identidad, acceso y sesión | Como usuario de ColdTrack<br>Quiero registrarme, iniciar sesión, cerrar sesión y mantener una sesión segura<br>Para acceder a las funcionalidades protegidas según mi rol. | N/A | N/A |
+| EP-003 | Gestión de envíos refrigerados | Como personal de logística<br>Quiero registrar, consultar, detallar y actualizar envíos refrigerados<br>Para controlar el ciclo operativo de productos sensibles. | N/A | N/A |
+| EP-004 | Sensores y telemetría | Como personal de logística o transporte<br>Quiero registrar sensores, asignarlos a envíos y registrar lecturas ambientales<br>Para monitorear la temperatura y humedad durante la ruta. | N/A | N/A |
+| EP-005 | Alertas e incidencias | Como usuario responsable del envío<br>Quiero visualizar, filtrar, reconocer y resolver alertas<br>Para actuar frente a variaciones críticas de la cadena de frío. | N/A | N/A |
+| EP-006 | Analítica, historial y reportes | Como personal de logística<br>Quiero revisar indicadores, historial y reportes PDF<br>Para evaluar el desempeño de las operaciones completadas. | N/A | N/A |
+| EP-007 | Plataforma, servicios y despliegue | Como equipo técnico<br>Quiero documentar, desplegar y operar la solución en entornos públicos<br>Para permitir validaciones reales de frontend, backend y base de datos. | N/A | N/A |
+| US-001 | Visualizar propuesta de valor | Como visitante<br>Quiero entender el problema que resuelve ColdTrack y sus beneficios<br>Para evaluar si la solución se ajusta a mi operación. | Escenario 1: Dado que ingreso a la Landing Page, cuando reviso la sección principal, entonces visualizo propuesta de valor, beneficios y CTA.<br><br>Escenario 2: Dado que selecciono un CTA, cuando se ejecuta la acción, entonces soy redirigido a la Web Application desplegada. | EP-001 |
+| US-002 | Navegar secciones informativas | Como visitante<br>Quiero recorrer características, funcionamiento, beneficios y documentación<br>Para comprender el alcance funcional de ColdTrack. | Escenario 1: Dado que uso la barra de navegación, cuando selecciono una sección, entonces el sitio desplaza hacia el contenido correspondiente.<br><br>Escenario 2: Dado que consulto documentación, cuando selecciono el enlace, entonces se abre el repositorio público asociado. | EP-001 |
+| US-003 | Consultar información de empresa y equipo | Como visitante<br>Quiero conocer a FreshGuard y a los integrantes del equipo<br>Para generar confianza sobre la solución presentada. | Escenario 1: Dado que reviso la sección About Us, cuando se carga el contenido, entonces visualizo información de la empresa.<br><br>Escenario 2: Dado que reviso el equipo, cuando se muestran los integrantes, entonces se identifican sus nombres y participación. | EP-001 |
+| US-004 | Cambiar idioma de interfaz | Como usuario o visitante<br>Quiero alternar entre inglés y español<br>Para comprender la información en mi idioma preferido. | Escenario 1: Dado que abro el producto por primera vez, cuando carga la interfaz, entonces los textos se muestran en inglés.<br><br>Escenario 2: Dado que selecciono ES o EN, cuando el sistema aplica el cambio, entonces los textos fijos se actualizan en la interfaz. | EP-001 |
+| US-005 | Crear cuenta | Como usuario nuevo<br>Quiero registrar mis datos, correo, contraseña y rol<br>Para acceder al sistema ColdTrack. | Escenario 1: Dado que completo datos válidos, cuando envío el formulario, entonces el backend crea la cuenta.<br><br>Escenario 2: Dado que faltan campos o el correo ya existe, cuando se procesa la solicitud, entonces el sistema muestra un error claro. | EP-002 |
+| US-006 | Iniciar sesión | Como usuario registrado<br>Quiero autenticarme con correo y contraseña<br>Para acceder al dashboard operativo. | Escenario 1: Dado que ingreso credenciales válidas, cuando inicio sesión, entonces recibo un JWT y accedo a vistas protegidas.<br><br>Escenario 2: Dado que ingreso credenciales inválidas, cuando intento acceder, entonces el sistema rechaza la operación. | EP-002 |
+| US-007 | Mantener sesión segura | Como usuario autenticado<br>Quiero que mis solicitudes incluyan automáticamente el token<br>Para consumir endpoints protegidos sin repetir credenciales. | Escenario 1: Dado que existe sesión válida, cuando consulto recursos protegidos, entonces el cliente envía `Authorization: Bearer`.<br><br>Escenario 2: Dado que no existe token válido, cuando solicito una vista protegida, entonces el sistema redirige a Sign In. | EP-002 |
+| US-008 | Cerrar sesión | Como usuario autenticado<br>Quiero cerrar mi sesión<br>Para proteger mi acceso cuando termino de usar la plataforma. | Escenario 1: Dado que selecciono Sign Out, cuando el sistema procesa la acción, entonces elimina la sesión local.<br><br>Escenario 2: Dado que intento volver a una vista protegida sin token, cuando navego, entonces se me redirige a Sign In. | EP-002 |
+| US-009 | Registrar envío | Como personal de logística<br>Quiero crear un envío con destino, conductor, carga y fechas<br>Para iniciar el seguimiento operativo. | Escenario 1: Dado que completo campos requeridos, cuando registro el envío, entonces queda almacenado en MySQL.<br><br>Escenario 2: Dado que faltan datos, cuando intento guardar, entonces se muestran validaciones. | EP-003 |
+| US-010 | Consultar dashboard de envíos | Como usuario autenticado<br>Quiero consultar indicadores, alertas activas y envíos en curso<br>Para identificar rápidamente el estado de la operación. | Escenario 1: Dado que existen envíos activos, cuando abro el dashboard, entonces veo código, destino, estado y llegada estimada.<br><br>Escenario 2: Dado que no existen envíos, cuando consulto la lista, entonces se muestra un estado vacío. | EP-003 |
+| US-011 | Ver detalle del envío | Como usuario autenticado<br>Quiero revisar el detalle de un envío<br>Para conocer sensor asignado, alertas relacionadas y condiciones registradas. | Escenario 1: Dado que selecciono View details, cuando el sistema consulta el backend, entonces se muestran datos del envío, sensor y alertas.<br><br>Escenario 2: Dado que el envío no existe o la API no responde, cuando se intenta cargar, entonces se informa el problema. | EP-003 |
+| US-012 | Actualizar estado de envío | Como personal de logística<br>Quiero cambiar el estado del envío<br>Para reflejar su avance hasta completarlo. | Escenario 1: Dado que el envío existe, cuando actualizo el estado, entonces el backend persiste el cambio.<br><br>Escenario 2: Dado que la transición no está permitida, cuando solicito el cambio, entonces se devuelve un error de dominio. | EP-003 |
+| US-013 | Consultar historial de envíos | Como personal de logística<br>Quiero revisar envíos completados<br>Para analizar trazabilidad, fechas y resultados de operación. | Escenario 1: Dado que existen envíos completados, cuando abro History, entonces veo fechas, carga, métricas y alertas.<br><br>Escenario 2: Dado que no existen envíos completados, cuando consulto el historial, entonces se muestra un estado vacío. | EP-006 |
+| US-014 | Registrar y consultar sensores | Como personal de logística<br>Quiero visualizar y registrar sensores<br>Para saber cuáles están asignados o disponibles. | Escenario 1: Dado que existen sensores, cuando abro Sensors, entonces veo código, modelo, estado, envío y última lectura.<br><br>Escenario 2: Dado que registro un sensor válido, cuando confirmo la operación, entonces queda disponible para asignación. | EP-004 |
+| US-015 | Asignar sensor a envío | Como personal de logística<br>Quiero vincular un sensor disponible a un envío<br>Para comenzar el monitoreo de la carga. | Escenario 1: Dado que el sensor está disponible y el envío existe, cuando asigno el sensor, entonces ambos quedan vinculados.<br><br>Escenario 2: Dado que el sensor ya está asignado, cuando intento vincularlo, entonces se rechaza la operación. | EP-004 |
+| US-016 | Registrar lectura de telemetría | Como usuario autorizado<br>Quiero registrar temperatura y humedad de un sensor<br>Para mantener actualizado el monitoreo del envío. | Escenario 1: Dado que el sensor está asignado, cuando registro temperatura y humedad, entonces la lectura se guarda.<br><br>Escenario 2: Dado que la lectura supera umbrales, cuando se procesa, entonces se genera una alerta asociada. | EP-004 |
+| US-017 | Consultar lecturas de telemetría | Como usuario autenticado<br>Quiero revisar lecturas asociadas a un envío<br>Para validar la evolución ambiental de la carga. | Escenario 1: Dado que existen lecturas, cuando consulto la telemetría de un envío, entonces se listan temperatura, humedad y fecha.<br><br>Escenario 2: Dado que el envío no tiene lecturas, cuando consulto la telemetría, entonces se muestra una respuesta vacía controlada. | EP-004 |
+| US-018 | Visualizar y filtrar alertas | Como usuario autenticado<br>Quiero ver alertas por severidad y estado<br>Para priorizar incidentes de cadena de frío. | Escenario 1: Dado que existen alertas, cuando filtro por severidad o estado, entonces veo resultados coincidentes.<br><br>Escenario 2: Dado que no existen coincidencias, cuando aplico filtros, entonces el sistema informa que no hay resultados. | EP-005 |
+| US-019 | Reconocer alerta | Como usuario responsable<br>Quiero marcar una alerta como revisada<br>Para indicar que el incidente ya fue atendido inicialmente. | Escenario 1: Dado que una alerta está activa, cuando ejecuto acknowledgment, entonces su estado cambia a reconocido.<br><br>Escenario 2: Dado que la alerta ya fue resuelta, cuando intento reconocerla, entonces el backend rechaza la operación inválida. | EP-005 |
+| US-020 | Resolver alerta | Como usuario responsable<br>Quiero resolver una alerta<br>Para cerrar el incidente luego de tomar acción. | Escenario 1: Dado que una alerta está activa o reconocida, cuando ejecuto resolution, entonces queda resuelta.<br><br>Escenario 2: Dado que la alerta no existe, cuando solicito resolverla, entonces se retorna un error controlado. | EP-005 |
+| US-021 | Consultar analítica del dashboard | Como personal de logística<br>Quiero ver indicadores consolidados<br>Para evaluar el estado general de operaciones, alertas y entregas. | Escenario 1: Dado que la API responde, cuando abro el dashboard, entonces se muestran totales de envíos, activos, completados y alertas.<br><br>Escenario 2: Dado que ocurre un error, cuando se consulta la analítica, entonces se muestra un mensaje de recuperación. | EP-006 |
+| US-022 | Generar reporte PDF | Como personal de logística<br>Quiero generar y descargar un reporte PDF<br>Para compartir resultados de la cadena de frío. | Escenario 1: Dado que existe información del período, cuando presiono Export report, entonces se genera y descarga un PDF.<br><br>Escenario 2: Dado que no hay datos, cuando solicito el reporte, entonces se informa la falta de registros. | EP-006 |
+| TS-001 | Implementar API REST versionada | Como equipo técnico<br>Quiero exponer recursos bajo `/api/v1`<br>Para mantener contratos claros entre frontend y backend. | La API expone endpoints versionados, responde JSON y documenta contratos con Swagger/OpenAPI. | EP-007 |
+| TS-002 | Configurar persistencia MySQL | Como equipo técnico<br>Quiero almacenar entidades en MySQL<br>Para conservar datos entre sesiones y despliegues. | EF Core aplica migraciones, usa TLS y conserva usuarios, envíos, sensores, telemetría, alertas y reportes. | EP-007 |
+| TS-003 | Integrar frontend con backend productivo | Como equipo técnico<br>Quiero reemplazar MockAPI por la API de Render<br>Para ejecutar el flujo completo con persistencia real. | Las variables de entorno de producción apuntan a Render y los servicios axios usan JWT. | EP-007 |
+| TS-004 | Documentar y desplegar servicios | Como equipo técnico<br>Quiero publicar Swagger, Firebase Hosting y Render<br>Para facilitar pruebas, exposición pública y revisión académica. | Swagger está disponible en producción, Firebase sirve la Web Application y Render expone la API conectada a MySQL. | EP-007 |
 
 ## 3.3. Impact Mapping
 <img src="./images/IMPACTMAPP.png" alt="tobetransportistas" width="90%">
@@ -1148,31 +1282,32 @@ A continuación, estableceremos las épicas, para luego detallarlas en historias
 
 | Prioridad | User Story ID | Título HU | Story Points |
 |----------|--------------|----------|-------------|
-| 1 | US-001 | Registro de usuario | 5 |
-| 2 | US-002 | Inicio de sesión | 5 |
-| 3 | US-004 | Crear envío | 8 |
-| 4 | US-007 | Asignar sensor a envío | 8 |
-| 5 | US-009 | Ver temperatura en tiempo real | 8 |
-| 6 | US-010 | Ver humedad en tiempo real | 8 |
-| 7 | US-013 | Alertas de temperatura | 8 |
-| 8 | US-014 | Notificación al conductor | 5 |
-| 9 | US-006 | Ver detalle del envío | 5 |
-| 10 | US-011 | Estado del envío | 5 |
-| 11 | US-005 | Ver envíos activos | 5 |
-| 12 | US-008 | Finalizar envío | 5 |
-| 13 | US-012 | Visualizar gráficos históricos | 8 |
-| 14 | US-015 | Ver historial de alertas | 5 |
-| 15 | US-016 | Ver historial de envíos | 5 |
-| 16 | US-018 | Filtrar historial | 5 |
-| 17 | US-003 | Recuperar contraseña | 3 |
-| 18 | US-017 | Descargar reporte | 8 |
-| 19 | US-019 | Ver información de la app (Landing) | 3 |
-| 20 | US-020 | Ver testimonios | 3 |
-| 21 | US-021 | Formulario de contacto | 3 |
-| 22 | US-022 | Ver equipo de desarrollo | 2 |
-| 23 | US-023 | Ver funcionalidades del sistema | 3 |
-
-
+| 1 | US-001 | Visualizar propuesta de valor | 3 |
+| 2 | US-002 | Navegar secciones informativas | 3 |
+| 3 | US-003 | Consultar información de empresa y equipo | 2 |
+| 4 | US-004 | Cambiar idioma de interfaz | 5 |
+| 5 | US-005 | Crear cuenta | 5 |
+| 6 | US-006 | Iniciar sesión | 5 |
+| 7 | US-007 | Mantener sesión segura | 5 |
+| 8 | US-008 | Cerrar sesión | 3 |
+| 9 | US-009 | Registrar envío | 8 |
+| 10 | US-010 | Consultar dashboard de envíos | 8 |
+| 11 | US-011 | Ver detalle del envío | 5 |
+| 12 | US-012 | Actualizar estado de envío | 5 |
+| 13 | US-013 | Consultar historial de envíos | 5 |
+| 14 | US-014 | Registrar y consultar sensores | 8 |
+| 15 | US-015 | Asignar sensor a envío | 8 |
+| 16 | US-016 | Registrar lectura de telemetría | 8 |
+| 17 | US-017 | Consultar lecturas de telemetría | 5 |
+| 18 | US-018 | Visualizar y filtrar alertas | 8 |
+| 19 | US-019 | Reconocer alerta | 5 |
+| 20 | US-020 | Resolver alerta | 5 |
+| 21 | US-021 | Consultar analítica del dashboard | 8 |
+| 22 | US-022 | Generar reporte PDF | 8 |
+| 23 | TS-001 | Implementar API REST versionada | 8 |
+| 24 | TS-002 | Configurar persistencia MySQL | 8 |
+| 25 | TS-003 | Integrar frontend con backend productivo | 8 |
+| 26 | TS-004 | Documentar y desplegar servicios | 5 |
 
 # Capítulo IV: Product Design
 
@@ -1366,33 +1501,75 @@ El objetivo es realizar una transición desde el entendimiento del negocio hacia
 Este enfoque permite delimitar los Bounded Contexts necesarios para separar responsabilidades críticas, como el monitoreo IoT en tiempo real, la gestión logística de los envíos y el motor automatizado de alertas tempranas. 
 A través de esta metodología, se han identificado los Aggregates, Events, Commands y Queries que garantizan la integridad de la lógica de negocio en cada etapa del transporte de carga refrigerada y la conservación de la cadena de frío.
 
+La arquitectura de ColdTrack responde directamente a los hallazgos definidos en el Lean UX Process y en las entrevistas de validación. Los usuarios necesitan visibilidad del estado de los envíos, alertas comprensibles, historial confiable y reportes que respalden decisiones de calidad. Por ello, el diseño arquitectónico no se limita a organizar componentes técnicos, sino que busca reflejar el lenguaje del negocio: envío, sensor, lectura, alerta, incidencia, conductor, supervisor, reporte y trazabilidad.
+
+Desde la perspectiva DDD, ColdTrack se divide en contextos que permiten evolucionar cada capacidad sin mezclar responsabilidades. Shipment Management se encarga de la planificación y ciclo de vida de los envíos; Telemetry Monitoring administra sensores y lecturas ambientales; Alerting evalúa condiciones fuera de rango y registra incidencias; Reporting consolida evidencias históricas; e Identity and Access protege el acceso de usuarios según su rol. Esta separación facilita que el sistema pueda crecer hacia integraciones con sensores reales, notificaciones en tiempo real y reportes más avanzados sin afectar toda la aplicación.
+
+También se consideraron decisiones arquitectónicas derivadas de la implementación del Sprint 3. La Web Application consume servicios REST publicados por el backend, el backend persiste información operativa en MySQL y los endpoints se documentan mediante Swagger/OpenAPI. Esta arquitectura permite que los flujos del frontend, como registro de envíos, consulta de sensores, revisión de alertas e historial, se conecten con servicios especializados y trazables.
+
 Finalmente, se presenta y explica la representación visual de la arquitectura utilizando el C4 Model. 
 Esta estructura jerárquica nos permite comunicar de manera efectiva la solución a través de tres niveles de detalle: el Software Architecture Context Level Diagram, los Software Architecture Container Level Diagrams y los Software Architecture Component Diagrams.
 
 ### 4.6.1. Design-Level Event Storming
-La sesión se llevó a cabo de manera colaborativa utilizando la herramienta Lucidchart y se estructuró en las siguientes actividades clave: 
+La sesión de Design-Level EventStorming nos permitió transicionar desde los requerimientos de negocio hacia un diseño técnico estructurado y orientado al dominio. Como resultado del análisis colaborativo, identificamos cinco **Bounded Contexts (BC)** principales. Estos contextos no solo aíslan lógicamente las responsabilidades del sistema, sino que guían directamente la **Arquitectura DDD** que hemos implementado, donde cada Bounded Context se traduce en módulos independientes estructurados por capas.
 
-1. Refinamiento de Eventos de Dominio
-2. Identificación de Comandos y Actores
-3. Definición de Agregados (Aggregates)
-4. Delimitación de Bounded Contexts
-5. Integración de Sistemas Externos y Queries
+A continuación, se detalla el modelado técnico extraído para cada Bounded Context a partir de los diagramas generados:
+
+#### 1. Shipment Management
+Encargado de la logística central de la carga, vinculando los sensores físicos con los viajes registrados en el sistema.
+* **Comandos:** `Register Shipment`, `Assign Sensor`, `Finalize Shipment`.
+* **Agregados:** `Shipment`, `Sensor`.
+* **Eventos de Dominio:** `Shipment Registered`, `Sensor Assigned`, `Shipment Finalized`.
+* **Políticas:** `Validation Rules`.
+
+El Design-Level Event Storming permitió analizar el comportamiento del dominio antes de definir componentes técnicos. A partir de los eventos del negocio se identificaron situaciones relevantes como el registro de un envío, la asignación de un sensor, la recepción de una lectura de telemetría, la detección de una condición fuera de rango, la generación de una alerta y la emisión de un reporte. Estos eventos sirvieron para comprender qué información debe conservarse y qué decisiones debe tomar el sistema en cada etapa.
+
+Los comandos representan acciones solicitadas por usuarios o sistemas externos, por ejemplo registrar un envío, iniciar monitoreo, guardar una lectura, reconocer una alerta o generar un reporte. Los aggregates agrupan reglas de consistencia, como evitar que una alerta exista sin un envío asociado o impedir que una lectura quede registrada sin referencia a un sensor. Las queries, por su parte, responden a necesidades de consulta rápida: ver envíos activos, revisar historial, consultar alertas por severidad y obtener evidencias para control de calidad.
+
+Como resultado, el equipo pudo relacionar los flujos de usuario diseñados en la Web Application con los servicios de dominio implementados posteriormente. Esto ayudó a mantener coherencia entre diseño, requerimientos, backend y validación del producto.
 
 <p align="center">
   <img src="images/event_storming_1.png" alt="Design-Level Event Storming 1" width="100%"/>
 </p>
 
+#### 2. Real-Time IoT Monitoring
+Núcleo de la telemetría. Procesa la ingesta constante de datos ambientales emitidos desde el hardware en ruta.
+* **Comandos:** `Receive Telemetry`, `Update Environmental Data`.
+* **Agregados:** `Telemetry Data`, `Shipment Status`.
+* **Eventos de Dominio:** `Telemetry Received`, `Temperature Updated`, `Humidity Updated`.
+* **Sistemas Externos:** `Hardware IoT Sensors`, `WebSocket Server`.
+
 <p align="center">
   <img src="images/event_storming_2.png" alt="Design-Level Event Storming 2" width="100%"/>
 </p>
+
+#### 3. Alerting Engine
+Motor crítico que evalúa las anomalías climáticas detectadas por los sensores para emitir advertencias tempranas.
+* **Comandos:** `Evaluate Conditions`, `Trigger Alert`, `Send Notification`.
+* **Agregados:** `Alert`.
+* **Eventos de Dominio:** `Anomaly Detected`, `Alert Triggered`, `Driver Notified`.
+* **Políticas / Sistemas Externos:** `Threshold Policies`, `Push Notification Service / SMS API`.
 
 <p align="center">
   <img src="images/event_storming_3.png" alt="Design-Level Event Storming 3" width="100%"/>
 </p>
 
+#### 4. Analytics & Reporting
+Encargado del análisis estadístico post-viaje y la generación de reportes de calidad para la gerencia.
+* **Comandos:** `Filter History`, `Request Report`, `Generate PDF`.
+* **Agregados:** `Historical Log`, `Report`.
+* **Eventos de Dominio:** `History Filtered`, `Report Requested`, `PDF Generated`.
+* **Sistemas Externos:** `PDF Generator Engine`.
+
 <p align="center">
   <img src="images/event_storming_4.png" alt="Design-Level Event Storming 4" width="100%"/>
 </p>
+
+#### 5. Identity & Access
+Gestiona la seguridad, roles y credenciales de los distintos actores del sistema (Logística y Transportistas).
+* **Comandos:** `Register User`, `Authenticate Login`, `Request Password Reset`.
+* **Agregados:** `User Account`.
+* **Eventos de Dominio:** `User Registered`, `Login Successful`, `Recovery Link Sent`.
 
 <p align="center">
   <img src="images/event_storming_5.png" alt="Design-Level Event Storming 5" width="100%"/>
@@ -1400,21 +1577,116 @@ La sesión se llevó a cabo de manera colaborativa utilizando la herramienta Luc
 
 
 ### 4.6.2. Software Architecture Context Diagram
+El Context Diagram muestra a ColdTrack como una plataforma que conecta a los principales actores del negocio con los servicios digitales del producto. Los supervisores logísticos y responsables de calidad utilizan la aplicación para monitorear envíos, revisar alertas, consultar historial y generar reportes. Los conductores participan como usuarios operativos que necesitan recibir información clara sobre el estado del envío y posibles incidencias durante la ruta.
+
+En este nivel también se representa la relación con sistemas externos o componentes de soporte, como sensores de temperatura y humedad, servicios de despliegue, base de datos y mecanismos de autenticación. El objetivo del diagrama es mostrar el alcance general de la solución y explicar cómo ColdTrack aporta valor dentro del proceso de transporte refrigerado.
+
+El diagrama de contexto (Context Level) ilustra la visión general de más alto nivel de **ColdTrack**. Su objetivo principal es mostrar cómo nuestro sistema central interactúa con los usuarios (actores) y los sistemas externos necesarios para funcionar, sin entrar en detalles internos.
+
+**Actores Principales (Personas):**
+* **Personal de Logística:** Supervisa los envíos, monitorea las condiciones en tiempo real y analiza los reportes históricos.
+* **Personal de Transporte:** Traslada los alimentos físicos y necesita recibir alertas críticas inmediatas durante su ruta en caso de anomalías climáticas.
+
+**Sistema Principal (Software System):**
+* **ColdTrack System:** La plataforma central desarrollada por nosotros. Su responsabilidad es procesar la telemetría recibida, gestionar los estados de los envíos y disparar alertas automatizadas.
+
+**Sistemas Externos (External Systems):**
+* **Authentication Provider:** Servicio de terceros utilizado para validar credenciales y asegurar los inicios de sesión.
+* **Hardware IoT Sensors:** Dispositivos físicos instalados en los vehículos que proveen los datos en vivo de temperatura y humedad al sistema central.
+* **PDF Generator Service:** Motor externo utilizado para compilar los historiales de viaje y exportarlos en formato PDF.
+
 <p align="center">
   <img src="images/context_diagram.png" alt="Context Diagram" width="100%"/>
 </p>
 
 ### 4.6.3. Software Architecture Container Diagram
+El Container Diagram detalla los principales contenedores que componen la solución. La Web Application funciona como interfaz principal para los usuarios, permitiendo consultar dashboards, registrar envíos, revisar sensores, visualizar alertas y acceder al historial. El Web API concentra los endpoints REST que exponen las capacidades del backend y orquesta la comunicación con los bounded contexts.
+
+La base de datos almacena usuarios, envíos, sensores, lecturas, alertas e información histórica requerida para reportes. Además, el despliegue separado entre frontend y backend permite que la interfaz pueda evolucionar de manera independiente de los servicios de negocio, siempre que se mantengan los contratos definidos por la API. Esta separación mejora la mantenibilidad y facilita futuras integraciones con sensores físicos o servicios de notificación.
+
+Haciendo un "zoom in" al sistema ColdTrack, el diagrama de contenedores desglosa la solución en piezas ejecutables independientes que interactúan entre sí. Este nivel refleja las decisiones tecnológicas clave tomadas por el equipo.
+
+El **Software Architecture Container Diagram** de **ColdTrack** muestra la estructura interna del sistema, identificando los principales contenedores de software, los actores que interactúan con la plataforma y los servicios externos necesarios para su funcionamiento.
+
+En el centro de la arquitectura se encuentra **ColdTrack System**, el cual permite monitorear y gestionar la cadena de frío durante el transporte de productos perecibles. Este sistema procesa la telemetría proveniente de sensores IoT, almacena la información y facilita la supervisión en tiempo real.
+
+#### Actores principales
+
+ColdTrack interactúa con dos actores principales:
+
+- **Logística:** supervisa los envíos, consulta la telemetría y gestiona la operación general del transporte.
+- **Transporte:** monitorea las condiciones del cargamento durante la ruta y revisa alertas generadas por el sistema.
+
+**Contenedores Internos (Containers):**
+* **Landing Page:** Aplicación web estática encargada de la información comercial y captación de clientes.
+* **Web Application (Vue.js):** La SPA (Single Page Application) donde la logística y los transportistas interactúan con la plataforma. Es la interfaz principal de gestión.
+* **API Application:** Backend central que contiene toda la lógica de negocio, reglas de dominio y motor de alertas. Es consumido directamente por la Web App y la Landing Page.
+* **Database (MySQL):** El almacén persistente de todos los datos transaccionales del sistema.
+
+#### Sistemas externos
+
+ColdTrack se integra con servicios externos que complementan su funcionamiento:
+
+- **Sensors:** dispositivos IoT que recopilan datos de temperatura y humedad durante el transporte.
+- **Reports:** servicio encargado de generar reportes en formato PDF.
+- **Auth:** servicio de autenticación que valida credenciales y garantiza acceso seguro.
+
+**Interacciones Clave:**
+* El **Personal de Logística** opera sobre la *Web Application* para gestión y sobre la *Landing Page* para información, mientras que el **Transportista** utiliza la *Web Application* para ver las alertas.
+* La *API Application* actúa como el gran orquestador: interactúa con la *Database* para persistencia, recibe la telemetría de los *Sensors*, utiliza *Auth* externa para validación y desencadena procesos hacia *Reports* y *Notif*.
+
+#### Flujo de interacción
+
+El flujo principal inicia cuando los sensores IoT recopilan datos ambientales y envían la telemetría al API Application. Posteriormente, el backend procesa esta información, la almacena en la base de datos y la pone a disposición de la Web Application, donde puede ser visualizada por los usuarios.
+
+Adicionalmente, el sistema puede generar reportes históricos en PDF y utilizar servicios de autenticación para garantizar la seguridad de acceso a la plataforma. Este diagrama permite comprender cómo se organizan los componentes de ColdTrack y cómo fluye la información dentro del sistema.
 
 <p align="center">
-  <img src="images/container_diagram.png" alt="Container Diagram" width="100%"/>
+  <img src="images/Software-Architecture-Context-Diagram.png" alt="Container Diagram" width="100%"/>
 </p>
 
-### 4.6.3. Software Architecture Components Diagram
+### 4.6.4. Software Architecture Components Diagram
+El Components Diagram describe la organización interna del backend de ColdTrack. Cada componente representa una capacidad del dominio o una responsabilidad técnica necesaria para ejecutar los casos de uso. Los controladores reciben solicitudes HTTP, los servicios de aplicación coordinan los casos de uso, los servicios de dominio contienen reglas de negocio y los repositorios administran la persistencia de los aggregates.
+
+Los componentes más relevantes son los asociados a Shipment Management, Telemetry Monitoring, Alerting, Reporting e Identity and Access. Esta estructura permite mantener una arquitectura modular, donde cada contexto tiene sus propias reglas y evita depender directamente de detalles internos de otros contextos. Por ejemplo, el módulo de alertas puede reaccionar ante lecturas de telemetría sin asumir la lógica completa del envío, mientras que reporting puede consolidar información histórica sin modificar la operación principal.
+
+Esta organización también facilita la trazabilidad entre diseño y construcción. Los flujos validados con usuarios, como consultar el estado de un envío o interpretar una alerta, se reflejan en servicios concretos del backend y en datos persistidos. Así, la arquitectura soporta tanto las necesidades funcionales del producto como los criterios de calidad identificados en las evaluaciones heurísticas: claridad, prevención de errores, historial confiable y acciones oportunas.
 
 <p align="center">
-  <img src="images/components_diagram.png" alt="Context Diagram" width="100%"/>
+  <img src="images/c4_model_component.png" alt="Context Diagram" width="100%"/>
 </p>
+
+### Software Architecture Components Diagram — ColdTrack
+
+El Software Architecture Components Diagram de ColdTrack muestra la estructura interna del sistema, identificando los componentes que conforman el API Application, los sistemas externos con los que se integra y el flujo de información entre ellos.
+En el centro de la arquitectura se encuentra el ColdTrack System, cuyo backend procesa la telemetría proveniente de los sensores IoT, gestiona los envíos refrigerados, evalúa umbrales de temperatura y facilita la supervisión en tiempo real desde la Web Application.
+
+
+### El API Application está compuesto por los siguientes componentes:
+
+- **Telemetry Receiver (WebSocket):** recibe e ingesta en tiempo real los datos de temperatura y humedad enviados por los sensores IoT hacia el sistema.
+- **Auth Middleware (Middleware):** intercepta todas las peticiones entrantes, valida los tokens de seguridad y delega cada petición al componente correspondiente.
+- **Alert Engine (Domain Logic):** evalúa los umbrales de temperatura configurados y genera alertas automáticas cuando se detectan desvíos que pueden comprometer la calidad del producto transportado.
+- **Shipment Controller (REST Controller):** gestiona las rutas y el ciclo de vida de los envíos refrigerados, incluyendo su creación, actualización de estado y trazabilidad.
+- **Report Manager (Service):** orquesta la generación de reportes históricos de desempeño de la cadena de frío, consultando datos del repositorio y solicitando la producción del documento al servicio externo PDF Service.
+- **Data Repository (ORM):** abstrae el acceso a la base de datos MySQL, centralizando todas las operaciones de lectura y escritura del sistema.
+
+### ColdTrack se integra con los siguientes servicios externos:
+
+- **IoT Sensors:** dispositivos de hardware instalados en las unidades de transporte que recopilan y envían datos de temperatura y humedad en tiempo real al Telemetry Receiver.
+- **Auth Provider:** proveedor externo de autenticación que verifica los tokens de seguridad en coordinación con el Auth Middleware.
+- **Notification API:** servicio externo que recibe las alertas disparadas por el Alert Engine y las entrega como notificaciones in-app al personal correspondiente.
+- **PDF Service: generador** externo de documentos utilizado por el Report Manager para producir los reportes de cadena de frío en formato PDF.
+
+### Base de datos
+
+- **Database (MySQL):** contenedor de persistencia responsable de almacenar usuarios, envíos y telemetría de sensores. Recibe todas las operaciones mediante SQL Queries a través del Data Repository.
+
+### Flujo de interacción
+El flujo principal inicia cuando los sensores IoT recopilan datos ambientales y envían la telemetría al Telemetry Receiver. Este componente analiza los datos y los deriva al Alert Engine, que evalúa si existe algún desvío de temperatura. De detectarse una alerta, el sistema la dispara hacia la Notification API, que notifica al personal correspondiente.
+
+Paralelamente, toda la información procesada es persistida en la base de datos MySQL a través del Data Repository.
+La Web Application permite al personal de logística acceder al sistema mediante peticiones seguras validadas por el Auth Middleware, quien verifica los tokens con el Auth Provider externo y delega cada petición al Shipment Controller o al Report Manager según corresponda.
 
 ## 4.7. Software Object-Oriented Design
 
@@ -1520,146 +1792,69 @@ En esta sección se presenta el modelo relacional de la base de datos de ColdTra
 
 ## 5.1. Software Configuration Management
 
-A continuación, se describe el proceso por el cual organizamos, gestionamos y controlamos los cambios de desarrollo de ColdTrack.
+Esta sección describe cómo el equipo gestionó la configuración, versionamiento, convenciones y despliegue de los tres productos digitales que conforman ColdTrack: Landing Page, Web Application y Web Services.
 
 ### 5.1.1. Software Development Environment Configuration.
 
-En esta sección se describen las herramientas utilizadas durante el desarrollo de la landing page de ColdTrack, producto digital de la startup FreshGuard Technologies. El objetivo de esta solución fue presentar de forma clara la propuesta de valor del sistema, mostrar sus principales funcionalidades y ofrecer una experiencia visual moderna, accesible y responsiva.
-
-Las herramientas empleadas en el proyecto se clasifican en el siguiente orden:
-
-- Product UX/UI Design
-- Software Development
-- Software Deployment
-
-**Product UX/UI Design**
-
-- Figma: utilizado como referencia visual para definir la estructura, distribución de secciones y estilo general de la landing page.
-
-**Software Development**
-
-- Visual Studio Code: editor de código utilizado para implementar el proyecto.
-- Git: sistema de control de versiones empleado para registrar y organizar los cambios.
-- GitHub: plataforma utilizada para alojar el repositorio remoto del proyecto.
-- HTML5: lenguaje de marcado usado para estructurar el contenido de la página.
-- CSS3: lenguaje de estilos utilizado para el diseño visual, la responsividad y las animaciones.
-- JavaScript: lenguaje usado para añadir interactividad en la navegación y animaciones visuales.
-- Navegador web moderno: entorno de validación para revisar visualización, comportamiento e interacción.
-
-**Software Deployment**
-
-- GitHub Pages: servicio de despliegue utilizado para publicar la landing page como sitio estático.
+| Categoría | Herramientas | Uso dentro del proyecto |
+|---|---|---|
+| Product UX/UI Design | Figma, Miro, Lucidchart | Diseño de wireframes, mock-ups, user flows, scenario mapping, event storming y diagramas de arquitectura. |
+| Landing Page | HTML5, CSS3, JavaScript | Implementación del sitio informativo, navegación, secciones comerciales, CTA e internacionalización ligera. |
+| Web Application | JavaScript, Vue 3.5, Vite, Composition API, Vue Router, Vue I18n, PrimeVue, axios | Implementación de autenticación, dashboard, envíos, sensores, alertas, historial y reportes. |
+| Web Services | C#, ASP.NET Core, Entity Framework Core, Swashbuckle/OpenAPI, QuestPDF | Implementación de la API REST, seguridad JWT, persistencia, documentación interactiva y generación de PDF. |
+| Persistence | MySQL 8 en Filess.io | Almacenamiento de usuarios, envíos, sensores, telemetría, alertas y reportes. |
+| Deployment | GitHub Pages, Firebase Hosting, Render, Docker | Publicación de Landing Page, Web Application y Web Services. |
+| Collaboration | Git, GitHub, Trello, Discord | Gestión de ramas, commits, tareas, coordinación y evidencias de colaboración. |
 
 ### 5.1.2. Source Code Management
 
-Para la gestión del código fuente se utilizó GitHub como plataforma central de versionamiento y almacenamiento del proyecto. El repositorio principal identificado para la landing page es el siguiente:
+| Producto | Repositorio | Rama estable | Rama de integración | Propósito |
+|---|---|---|---|---|
+| Landing Page | https://github.com/1ASI0730-2610-10215/Landing-Page | `main` | `develop` | Sitio informativo y punto de entrada hacia la aplicación. |
+| Web Application | https://github.com/1ASI0730-2610-10215/ColdTrack-Front | `main` | `develop` | Frontend operativo desplegado en Firebase Hosting. |
+| Web Services | https://github.com/1ASI0730-2610-10215/FreshGuard.ColdTrack.Platform | `main` | `develop` | Backend REST desplegado en Render y conectado a MySQL. |
+| Project Report | https://github.com/1ASI0730-2610-10215/final-report | `main` | `develop` | Documentación académica y evidencias del proyecto. |
 
-Repositorio de la Landing Page: https://github.com/1ASI0730-2610-10215/Landing-Page
+El flujo de trabajo siguió GitFlow. Las ramas `feature/*`, `fix/*` y `hotfix/*` se crean desde `develop`; las versiones estables pasan por `release/*` antes de llegar a `main`; y los commits siguen Conventional Commits para conservar trazabilidad técnica y documental.
 
-El proyecto fue desarrollado mediante una estrategia de trabajo basada en ramas, permitiendo separar mejoras funcionales, optimizaciones visuales y correcciones específicas antes de su integración a la rama principal.
-
-**Modelo de ramificación**
-
-La estructura de ramas encontrada en el repositorio es la siguiente:
-
-- main: rama principal del proyecto, donde se consolida la versión estable.
-- features/dashboard-improvements: rama orientada a mejorar la apariencia y comportamiento del dashboard preview mostrado en la hero section.
-- features/seo-enhancements: rama dedicada a la incorporación de mejoras SEO y etiquetas Open Graph.
-- bugfix/accessibility-improvements: rama destinada a correcciones de accesibilidad, incluyendo estilos de foco y atributos ARIA.
-
-Este enfoque permitió mantener el desarrollo organizado y evidenciar una evolución progresiva del producto.
-
-**Estilo de commits**
-
-El historial del repositorio muestra el uso de mensajes de commit consistentes, alineados con una convención tipo Conventional Commits. Algunos ejemplos reales del proyecto son:
-
-- feat: initial project setup
-- feat: add hero section with title and CTA
-- feat: add responsive CSS styles
-- feat: add JavaScript interactivity
-- fix: improve mobile responsiveness and add mobile-specific styles
-- fix: add ARIA labels for accessibility
-
-Los prefijos observados se interpretan de la siguiente forma:
-
-- feat: incorporación de una nueva funcionalidad o mejora visible.
-- fix: corrección de errores o ajustes sobre funcionalidades existentes.
-  
 ### 5.1.3. Source Code Style Guide & Conventions
 
-Para garantizar coherencia, mantenibilidad y escalabilidad del código, se establecen las siguientes normas de estilo:
+**Landing Page:** HTML semántico, clases CSS en kebab-case, separación entre `index.html`, `css/styles.css` y `js/script.js`, atributos `aria-*`, foco visible y textos preparados para inglés y español.
 
-**HTML**
+**Web Application Vue:** componentes físicos en kebab-case, PrimeVue con prefijo `pv-`, Composition API, organización por bounded contexts de frontend (`iam`, `shipments`, `sensors`, `alerts`, `shared`, `locales`), axios con interceptores JWT y Vue I18n.
 
-- El archivo principal del proyecto es index.html.
-- Se utilizan etiquetas semánticas como header, nav, section y footer.
-- Las secciones de la página están organizadas de forma clara: encabezado, hero, características, cómo funciona, beneficios, CTA y footer.
-- Se añadieron metadatos como description, keywords, author y propiedades Open Graph.
-- Se incorporaron atributos de accesibilidad en elementos clave del documento.
+**Web Services ASP.NET Core:** arquitectura DDD por bounded contexts, separación Domain/Application/Interfaces/Infrastructure, endpoints REST bajo `/api/v1`, seguridad JWT Bearer, Swagger/OpenAPI, EF Core y MySQL configurado por variables de entorno.
 
-**CSS**
-
-- Los estilos están centralizados en el archivo css/styles.css.
-- Se emplean variables CSS en :root para colores, espaciados y transiciones.
-- Las clases siguen nombres semánticos con palabras separadas por guiones, por ejemplo: header-content, nav-menu, feature-card, shipment-card.
-- Se incluyen estilos responsivos para escritorio, tableta y móvil.
-- Se aplican efectos visuales como transiciones, hover states, sombras y focus styles.
-
-**JavaScript**
-
-- La lógica de interacción se implementa en js/script.js.
-- Se usa DOMContentLoaded para iniciar la carga de eventos una vez disponible el DOM.
-- Se utilizan nombres descriptivos en camelCase como navLinks, featureCards, shipmentCards y observerOptions.
-- La funcionalidad incluye smooth scrolling, animaciones de entrada y actualización visual del dashboard preview.
-
-**Vue.js**
-
-Reglas clave:
-
-- Nombres de componentes: PascalCase, por ejemplo, UserProfile.vue.
-- Props: definir tipos y valores por defecto.
-      
 ### 5.1.4. Software Deployment Configuration
 
-La estrategia de despliegue adoptada para ColdTrack corresponde a la publicación de una landing page estática mediante GitHub Pages. Esta decisión fue adecuada debido a que el proyecto está compuesto únicamente por archivos HTML, CSS y JavaScript, sin dependencias de servidor, base de datos o procesamiento backend.
+| Producto | Plataforma | URL pública | Configuración principal |
+|---|---|---|---|
+| Landing Page | GitHub Pages | https://1asi0730-2610-10215.github.io/Landing-Page/ | Publicación de sitio estático desde GitHub. |
+| Web Application | Firebase Hosting | https://coldtrack-front-web.web.app/ | Compilación con Vite y publicación del directorio `dist`. |
+| Web Services | Render Web Service | https://freshguard-coldtrack-platform.onrender.com | Contenedor Docker con ASP.NET Core y puerto dinámico de Render. |
+| Database | Filess.io | MySQL 8.0.29 | Credenciales gestionadas como variables de entorno y conexión TLS. |
 
-**Despliegue de la Landing Page en GitHub Pages**
+La Web Application usa variables de entorno para separar la URL base y las rutas semánticas de los recursos. El backend utiliza variables protegidas para `DATABASE_HOST`, `DATABASE_PORT`, `DATABASE_NAME`, `DATABASE_USER`, `DATABASE_PASSWORD` y `TokenSettings__Secret`; las credenciales no se versionan en GitHub.
 
-GitHub Pages fue seleccionado como mecanismo de publicación por su integración directa con el repositorio, facilidad de configuración y compatibilidad con sitios estáticos. Esto permite que la landing page pueda ser publicada desde la rama principal del proyecto y visualizada mediante una URL pública.
-
-**Consideraciones previas al despliegue**
-
-Antes del despliegue, se consideraron los siguientes aspectos:
-
-- mantener una estructura de archivos estática y ordenada,
-- asegurar rutas relativas correctas entre HTML, CSS y JavaScript,
-- conservar en main la versión estable del proyecto,
-- validar el comportamiento responsivo y la correcta carga visual de la página.
-
-**Pasos de despliegue**
-
-1. Crear o actualizar el repositorio remoto en GitHub.
-2. Subir los archivos principales del proyecto: index.html, css/styles.css y js/script.js.
-3. Ingresar a la configuración del repositorio.
-4. Habilitar GitHub Pages.
-5. Seleccionar la rama main y la carpeta raíz como fuente de publicación.
-6. Esperar la generación de la URL pública del sitio.
-
-Repositorio: https://github.com/1ASI0730-2610-10215/Landing-Page
-
-URL desplegada: https://1asi0730-2610-10215.github.io/Landing-Page
-   
 ## 5.2. Landing Page, Services & Applications Implementation 
 
-La presente implementación corresponde al desarrollo de la landing page de ColdTrack, enfocada en comunicar la propuesta de valor del producto: monitoreo en tiempo real para el transporte de alimentos. La solución fue construida como una página estática, moderna y responsiva, diseñada para presentar de forma clara las capacidades del sistema.
+La presente sección documenta la evolución progresiva de ColdTrack desde una primera presencia digital mediante landing page hasta una solución web integrada con servicios backend, persistencia de datos y despliegue público. El objetivo de esta parte del informe es evidenciar cómo el equipo transformó los hallazgos de análisis, diseño UX/UI y arquitectura en entregables funcionales organizados por sprints.
+
+Durante el desarrollo se trabajó en tres frentes principales. Primero, se implementó la landing page como punto de entrada comercial del producto, orientada a comunicar la propuesta de valor: monitoreo en tiempo real para el transporte de alimentos y productos sensibles. Luego, se construyó la Web Application, enfocada en permitir la interacción operativa con envíos, sensores, alertas e historial. Finalmente, se integraron Web Services desplegados, autenticación, persistencia en MySQL y reportes, permitiendo que la solución deje de depender únicamente de datos simulados.
+
+Cada sprint generó evidencias de planificación, desarrollo, ejecución, documentación de servicios, despliegue y colaboración del equipo. De esta manera, la sección permite observar no solo el resultado final del producto, sino también la forma en que se organizaron las tareas, se integraron los módulos y se validó el avance técnico de ColdTrack a lo largo del ciclo de implementación.
 
 ### 5.2.1. Sprint 1
 
-Dado que la evidencia disponible del proyecto se concentra en el repositorio, el historial de commits y la documentación técnica local, esta sección adapta el desarrollo realizado en un único sprint principal orientado a la implementación progresiva de la landing page.
+El Sprint 1 estuvo orientado a construir la primera versión visible de ColdTrack mediante una landing page funcional. Esta entrega permitió presentar la identidad del producto, explicar el problema de la cadena de frío, comunicar los beneficios de la solución y preparar un punto de contacto inicial para los usuarios interesados. En esta fase, el producto todavía no contaba con una aplicación operativa conectada a servicios, por lo que el énfasis estuvo en la comunicación visual, la estructura informativa y la publicación del sitio.
+
+La landing page fue importante porque conectó los resultados del análisis de negocio con una pieza concreta de comunicación. A través de sus secciones, el equipo pudo expresar la propuesta de valor de FreshGuard, mostrar las funcionalidades esperadas de ColdTrack y establecer una base visual que luego sería coherente con la Web Application. Además, esta entrega permitió practicar el flujo de versionamiento, colaboración y despliegue que se continuaría usando en los sprints posteriores.
 
 #### 5.2.1.1. Sprint Planning 1
 
-El equipo de desarrollo se reunió virtualmente para definir los objetivos, tareas y entregables del primer sprint, el cual tendrá una duración de una semana. El enfoque principal será el desarrollo y despliegue de la landing page del proyecto en GitHub Pages, asegurando que el producto inicial esté operativo y sirva como base sólida para las siguientes iteracciones.
+El equipo de desarrollo se reunió virtualmente para definir los objetivos, tareas y entregables del primer sprint, el cual tuvo una duración de una semana. El enfoque principal fue el desarrollo y despliegue de la landing page del proyecto en GitHub Pages, asegurando que el producto inicial esté operativo y sirva como base sólida para las siguientes iteraciones.
+
+Durante la planificación se priorizaron tareas relacionadas con la estructura HTML, el diseño responsivo, las secciones informativas, la identidad visual, la accesibilidad básica y la preparación del despliegue. También se distribuyeron responsabilidades entre los integrantes para asegurar que cada sección del sitio pudiera avanzar de manera coordinada y ser integrada en una versión estable.
 
 | Sprint                             | Sprint 1                                                                                                                                                                                     |
 | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1678,6 +1873,7 @@ El equipo de desarrollo se reunió virtualmente para definir los objetivos, tare
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
+La organización del Sprint 1 se basó en la asignación de responsabilidades por aspecto. Rodrigo Oblitas asumió el liderazgo de la landing page, mientras que los demás integrantes colaboraron en mejoras visuales, contenido, accesibilidad, optimización y soporte documental. Esta distribución permitió que el trabajo no se concentre únicamente en la implementación técnica, sino también en la claridad del mensaje, la experiencia de navegación y la presentación profesional del producto.
 
 
 | Team Member | Referencia | Landing Page |
@@ -1691,46 +1887,55 @@ El equipo de desarrollo se reunió virtualmente para definir los objetivos, tare
 
 #### 5.2.1.3. Sprint Backlog 1
 
-Tomando como referencia las User Stories definidas en el Product Backlog, las historias trabajadas durante el Sprint 1 para la landing page pueden resumirse de la siguiente manera:
+El Sprint Backlog 1 se enfocó en construir la Landing Page como primer artefacto público de ColdTrack. Las tareas priorizaron comunicación de valor, navegación informativa, presentación de empresa y equipo, accesibilidad, responsividad, soporte EN/ES y preparación para despliegue.
 
-| User Story Id | User Story Title | Task Id | Task Description | Status |
-|---------------|------------------|---------|------------------|--------|
-| US-019 | Ver información de la app (Landing) | T01 | Configurar la estructura inicial del proyecto de landing page. | Done |
-| US-019 | Ver información de la app (Landing) | T02 | Implementar el header con navegación principal e identidad visual del producto. | Done |
-| US-019 | Ver información de la app (Landing) | T03 | Desarrollar la hero section con propuesta de valor y llamada a la acción. | Done |
-| US-023 | Ver funcionalidades del sistema | T04 | Implementar la sección de características principales del sistema. | Done |
-| US-023 | Ver funcionalidades del sistema | T05 | Desarrollar la sección explicativa sobre el funcionamiento de ColdTrack. | Done |
-| US-023 | Ver funcionalidades del sistema | T06 | Implementar la sección de beneficios operativos para los usuarios. | Done |
-| US-021 | Formulario de contacto | T07 | Incorporar el CTA final y el footer con información de contacto. | Done |
-| US-019 | Ver información de la app (Landing) | T08 | Desarrollar estilos responsivos para adaptar la landing page a distintos dispositivos. | Done |
-| US-019 | Ver información de la app (Landing) | T09 | Incorporar animaciones e interacciones mediante JavaScript. | Done |
-| US-023 | Ver funcionalidades del sistema | T10 | Mejorar la vista previa del dashboard para mostrar el valor del monitoreo. | Done |
-| US-019 | Ver información de la app (Landing) | T11 | Agregar meta tags y Open Graph para optimizar la presentación del sitio. | Done |
-| US-019 | Ver información de la app (Landing) | T12 | Realizar ajustes de accesibilidad y navegación por teclado. | Done |
-| US-020 | Ver testimonios | T13 | Incorporar una sección de testimonios para reforzar la confianza en la solución. | Done |
-| US-022 | Ver equipo de desarrollo | T14 | Incorporar una sección para presentar a los integrantes del equipo de desarrollo. | Done |
+| Sprint # | User Story Id | User Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---:|---|---|
+| Sprint 1 | US-001 | Visualizar propuesta de valor | T01 | Configurar estructura base | Crear `index.html`, carpetas de estilos, scripts e imágenes para la Landing Page. | 2 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 1 | US-001 | Visualizar propuesta de valor | T02 | Implementar header y hero | Agregar navegación, logo, propuesta de valor, CTA principal y mensaje inicial. | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 1 | US-001 | Visualizar propuesta de valor | T03 | Desarrollar dashboard preview | Mostrar una vista simulada de monitoreo con envíos, temperatura, humedad y estado. | 3 | Mathias Arechaga Saavedra | Done |
+| Sprint 1 | US-002 | Navegar secciones informativas | T04 | Implementar secciones del sitio | Agregar características, proceso de funcionamiento, beneficios y CTA final. | 4 | Gabriel Mendoza Palacios | Done |
+| Sprint 1 | US-002 | Navegar secciones informativas | T05 | Enlazar documentación | Conectar la sección de documentación con el repositorio público de la Landing Page. | 2 | Eslander Celis Berrospi | Done |
+| Sprint 1 | US-003 | Consultar información de empresa y equipo | T06 | Incorporar empresa y equipo | Presentar información de FreshGuard y miembros del equipo. | 3 | Aarón Avila Palacios | Done |
+| Sprint 1 | US-004 | Cambiar idioma de interfaz | T07 | Agregar selector EN/ES | Implementar cambio de idioma para textos fijos de la Landing Page. | 3 | Aarón Avila Palacios | Done |
+| Sprint 1 | US-002 | Navegar secciones informativas | T08 | Optimizar SEO y accesibilidad | Configurar metadatos, Open Graph, ARIA labels, navegación por teclado y foco visible. | 3 | Eslander Celis Berrospi | Done |
+| Sprint 1 | TS-004 | Documentar y desplegar servicios | T09 | Ajustar responsividad y desplegar | Validar escritorio/móvil y publicar la Landing Page en GitHub Pages. | 3 | Rodrigo Oblitas Alcalde | Done |
 
 Link del Trello: https://trello.com/invite/b/69e82f5d88b7df3fa977adbe/ATTId31bae723ab545af9d3a4c721a1b848443078604/sprint-1-freshguard-coldtrack
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-El desarrollo del producto se realizó de forma incremental. A continuación, se presentan algunos de los commits más representativos del proceso:
+El desarrollo del producto se realizó de forma incremental, partiendo desde la configuración inicial del proyecto hasta la incorporación de secciones visuales, estilos responsivos, interacciones y mejoras de accesibilidad. Cada commit permitió registrar una mejora específica y conservar trazabilidad sobre la evolución de la landing page.
 
-| Repository | Branch | Commit Id | Autor | Commit Message | Fecha |
-|------------|--------|-----------|-------|----------------|-------|
-| Landing-Page | `main` | `5ce9ead` | Rodrigo Oblitas | `feat: initial project setup` | 12/05/2025 |
-| Landing-Page | `main` | `0fd3953` | Rodrigo Oblitas | `feat: add basic HTML structure with header` | 13/05/2025 |
-| Landing-Page | `main` | `b0f9279` | Rodrigo Oblitas | `feat: add hero section with title and CTA` | 13/05/2025 |
-| Landing-Page | `main` | `be25150` | Mariano Vilela | `feat: add features section` | 14/05/2025 |
-| Landing-Page | `main` | `388e262` | Mathias Aréchaga | `feat: add CTA and footer sections` | 14/05/2025 |
-| Landing-Page | `main` | `5a9590e` | Mariano Vilela | `feat: add responsive CSS styles` | 15/05/2025 |
-| Landing-Page | `main` | `a9e7c80` | Eslander Celis | `feat: add JavaScript interactivity` | 15/05/2025 |
-| Landing-Page | `main` | `fea423b` | Gabriel Mendoza | `feat: add icons to feature cards` | 16/05/2025 |
-| Landing-Page | `features/dashboard-improvements` | `d72c4a6` | Mathias Aréchaga | `feat: improve dashboard styling` | 18/05/2025 |
-| Landing-Page | `features/seo-enhancements` | `df123a2` | Aarón Avila | `feat: add SEO meta tags` | 19/05/2025 |
-| Landing-Page | `bugfix/accessibility-improvements` | `0cd942e` | Eslander Celis | `fix: add ARIA labels for accessibility` | 20/05/2025 |
+Esta evidencia demuestra que el equipo trabajó mediante entregas pequeñas, revisables y alineadas con los objetivos del sprint. A continuación, se presentan algunos de los commits más representativos del proceso:
 
-Estas evidencias muestran una evolución progresiva desde la estructura base del sitio hasta una versión más completa, optimizada y accesible.
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| ColdTrack-Landing | `main` | `5ce9ead8` | `feat: initial project setup` | Se realizó la configuración inicial del proyecto y la estructura base del repositorio para comenzar el desarrollo de la landing page. | 12/05/2025 |
+| ColdTrack-Landing | `main` | `0fd39538` | `feat: add basic HTML structure with header` | Se implementó la estructura HTML inicial incluyendo el encabezado principal y navegación base. | 13/05/2025 |
+| ColdTrack-Landing | `main` | `b0f9279b` | `feat: add hero section with title and CTA` | Se añadió la sección principal de bienvenida con título descriptivo y botón de llamada a la acción. | 13/05/2025 |
+| ColdTrack-Landing | `main` | `be251506` | `feat: add features section` | Se desarrolló la sección de funcionalidades principales del sistema para comunicar el valor del producto. | 14/05/2025 |
+| ColdTrack-Landing | `main` | `9da665ca` | `feat: add how it works section` | Se implementó una sección explicativa del funcionamiento general de la plataforma. | 14/05/2025 |
+| ColdTrack-Landing | `main` | `d6e284ea` | `feat: add benefits section` | Se agregó la sección de beneficios destacando ventajas competitivas del producto. | 14/05/2025 |
+| ColdTrack-Landing | `main` | `388e262f` | `feat: add CTA and footer sections` | Se incorporaron secciones de llamada a la acción y pie de página con enlaces relevantes. | 14/05/2025 |
+| ColdTrack-Landing | `main` | `5a9590e7` | `feat: add responsive CSS styles` | Se añadieron estilos responsivos para adaptar la interfaz a distintos tamaños de pantalla. | 15/05/2025 |
+| ColdTrack-Landing | `main` | `4708704c` | `feat: link CSS and JavaScript files` | Se enlazaron archivos de estilos y scripts para estructurar mejor el proyecto frontend. | 15/05/2025 |
+| ColdTrack-Landing | `main` | `a9e7c80b` | `feat: add JavaScript interactivity` | Se implementó interactividad dinámica usando JavaScript para mejorar la experiencia del usuario. | 15/05/2025 |
+| ColdTrack-Landing | `main` | `6b2c0750` | `feat: add SVG icons to header and navigation links` | Se añadieron íconos SVG al encabezado y elementos de navegación para mejorar la estética visual. | 16/05/2025 |
+| ColdTrack-Landing | `main` | `eaaddd96` | `feat: add dashboard preview with shipment cards` | Se incorporó una vista previa del dashboard mostrando tarjetas de monitoreo de envíos. | 16/05/2025 |
+| ColdTrack-Landing | `main` | `fea423b9` | `feat: add icons to feature cards` | Se agregaron íconos visuales en las tarjetas de funcionalidades para mejorar la claridad visual. | 16/05/2025 |
+| ColdTrack-Landing | `main` | `391772c4` | `feat: add icons to benefits section` | Se mejoró la sección de beneficios añadiendo iconografía descriptiva. | 16/05/2025 |
+| ColdTrack-Landing | `main` | `648b6747` | `feat: expand footer with additional navigation links and sections` | Se amplió el footer incluyendo nuevas secciones y enlaces de navegación. | 17/05/2025 |
+| ColdTrack-Landing | `main` | `725c67d6` | `fix: improve mobile responsiveness and add mobile-specific styles` | Se corrigieron problemas de visualización móvil y se añadieron estilos específicos para celulares. | 17/05/2025 |
+| ColdTrack-Landing | `main` | `4bb124b2` | `feat: enhance button interactions with visual effects` | Se añadieron efectos visuales e interacciones a botones para mejorar la usabilidad. | 17/05/2025 |
+| ColdTrack-Landing | `main` | `df123a29` | `feat: add SEO meta tags` | Se incorporaron meta tags SEO para mejorar el posicionamiento en motores de búsqueda. | 19/05/2025 |
+| ColdTrack-Landing | `main` | `bcceae74` | `feat: add OpenGraph meta tags for social sharing` | Se agregaron etiquetas OpenGraph para optimizar la visualización al compartir en redes sociales. | 19/05/2025 |
+| ColdTrack-Landing | `bugfix/accessibility-improvements` | `0cd942ea` | `fix: add ARIA labels for accessibility` | Se añadieron etiquetas ARIA para mejorar la accesibilidad para lectores de pantalla. | 20/05/2025 |
+| ColdTrack-Landing | `bugfix/accessibility-improvements` | `39eb78fc` | `fix: add focus styles for keyboard navigation` | Se implementaron estilos de enfoque para facilitar navegación mediante teclado. | 20/05/2025 |
+| ColdTrack-Landing | `feature/link-app-company-i18n` | `06db9ba1` | `feat: add landing page internationalization` | Se añadió soporte multilenguaje mediante internacionalización (i18n). | 09/05/2026 |
+| ColdTrack-Landing | `feature/link-app-company-i18n` | `c204b7e8` | `fix: set english as default language` | Se configuró inglés como idioma por defecto del sitio. | 09/05/2026 |
+| ColdTrack-Landing | `feature/link-app-company-i18n` | `d302619c` | `feat: link app and add company sections` | Se añadieron enlaces a la aplicación y secciones relacionadas a la empresa. | 13/05/2026 |
+| ColdTrack-Landing | `develop` | `eebdf90` | `docs: correct i18n framework description` | Se corrigió la descripción técnica de internacionalización. | 14/06/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -1778,29 +1983,39 @@ Además, el proyecto incluye una estructura HTML semántica, aproximadamente **5
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-Esta sección no aplica a la presente entrega, ya que el proyecto desarrollado corresponde únicamente a una landing page estática y no incorpora APIs, endpoints ni servicios backend documentados.
+En el Sprint 1 la Landing Page no incorporó un backend propio ni endpoints REST. Sin embargo, sí documentó servicios de navegación y recursos estáticos necesarios para la revisión del producto inicial.
+
+| Recurso o servicio | Tipo | Ubicación | Propósito | Validación |
+|---|---|---|---|---|
+| Página principal | Documento HTML | `/index.html` | Presentar propuesta de valor, beneficios, equipo y CTA. | Carga correctamente desde GitHub Pages. |
+| Estilos globales | Recurso CSS | `/css/styles.css` | Definir layout, responsividad, colores y estados visuales. | Interfaz adaptable a escritorio y móvil. |
+| Interacciones | Recurso JavaScript | `/js/script.js` | Gestionar navegación suave, animaciones y comportamiento del sitio. | Navegación entre secciones sin errores. |
+| CTA hacia Web Application | Enlace externo | Firebase Hosting | Redirigir desde la landing hacia la aplicación operativa. | Redirección hacia `https://coldtrack-front-web.web.app/`. |
+| Documentación del repositorio | Markdown | `/README.md` | Explicar stack, ejecución local y despliegue. | Información disponible para revisión académica. |
+
+La documentación de servicios REST se reservó para los sprints posteriores, cuando la Web Application y los Web Services quedaron implementados.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-La landing page fue preparada para su publicación mediante **GitHub Pages**, utilizando la rama `main` como base del despliegue.
+La Landing Page fue publicada mediante GitHub Pages como sitio estático. Este mecanismo fue adecuado para el Sprint 1 porque no requería servidor propio ni base de datos, y permitía entregar una URL pública para validar la propuesta de valor.
 
-- Plataforma de despliegue: **GitHub Pages**
-- Rama de publicación: **main**
-- Tipo de aplicación: **sitio web estático**
-- Repositorio fuente: https://github.com/1ASI0730-2610-10215/Landing-Page
-- desplegue de la landing page: https://1asi0730-2610-10215.github.io/Landing-Page/
+| Elemento | Detalle |
+|---|---|
+| Plataforma de despliegue | GitHub Pages |
+| Repositorio fuente | https://github.com/1ASI0730-2610-10215/Landing-Page |
+| Rama de publicación | `main` |
+| Tipo de aplicación | Sitio web estático HTML, CSS y JavaScript |
+| URL pública | https://1asi0730-2610-10215.github.io/Landing-Page/ |
+| Validaciones previas | Rutas relativas, carga de imágenes, navegación, CTA, responsive design y accesibilidad básica |
 
-pasos para el despliegue:
+Proceso aplicado para el despliegue: consolidar `main`, verificar `index.html`, configurar GitHub Pages, seleccionar rama/carpeta raíz, esperar la URL pública y validar secciones, estilos, imágenes, CTA y navegación.
 
-1. **Creación del Repositorio en GitHub:** Iniciamos creando un repositorio dedicado en GitHub para nuestro proyecto de landing page.
-2. **Configuración de la Rama de despliegue:** Aseguramos que la rama principal del repositorio se llamara `gh-pages`, ya que GitHub Pages toma esta rama como base para el despliegue automático.
-3. **Generación del Enlace de GitHub Pages:** Navegamos a la sección "Pages" en la configuración del repositorio en GitHub. Configuramos la fuente de GitHub Pages para que tomara el contenido de la rama `gh-pages`.
-4. **Despliegue Automático:** GitHub Pages automáticamente detectó los cambios en la rama `gh-pages` y desplegó la landing page en la URL proporcionada por GitHub Pages.
-   
 ![Despliegue-landing-page](./images/despliegue-landing.png)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
-Durante el Sprint 1, el equipo de desarrollo en implementar todas las funcionalidades de la landing page y la realización del documento.
+Durante el Sprint 1, el equipo se enfocó en implementar las funcionalidades principales de la landing page y en mantener actualizada la documentación del informe. La colaboración se reflejó en la división de tareas, la revisión de avances y la integración progresiva de los cambios en el repositorio.
+
+El trabajo colaborativo permitió que la landing page no solo funcione como una página informativa, sino como una pieza inicial del ecosistema ColdTrack. El equipo coordinó la construcción de secciones, la revisión visual, la incorporación de contenido y la preparación de evidencias para la Sprint Review. Esto permitió consolidar una primera versión presentable y desplegable del producto.
 
 #### Colaboración y Desarrollo de Actividades
 
@@ -1820,7 +2035,7 @@ Repositorio:
 
 ![commits-sprint-1](./images/commits-sprint-1.png)
 
-3. **Evidencia de Nertwork**:
+3. **Evidencia de Network**:
 
 Repositorio:
 
@@ -1830,7 +2045,7 @@ Repositorio:
 
 **Landing Page**
 
-![nerwortk-sprint-1](./images/network-sprint-1.png)
+![network-sprint-1](./images/network-sprint-1.png)
 
 4.**Contributions**
 
@@ -1848,8 +2063,12 @@ Repositorios:
 
 Durante el Sprint 2, el equipo avanzó desde la landing page inicial hacia la integración del ecosistema ColdTrack, incorporando la Web Application desplegada, la conexión con una fake API pública y la actualización de la landing page para redirigir a los usuarios hacia la aplicación operativa. En esta entrega, las evidencias asignadas corresponden a la ejecución funcional de los principales flujos implementados y a la evidencia del despliegue de los productos desarrollados.
 
+Este sprint representó un cambio importante en el alcance del producto, ya que ColdTrack dejó de ser únicamente una propuesta comunicada desde la landing page y pasó a contar con una aplicación web navegable. La Web Application permitió validar flujos esenciales para el negocio, como autenticación, registro de envíos, visualización de sensores, alertas e historial. Aunque los datos aún provenían de una fake API, esta integración fue suficiente para probar la experiencia operativa y preparar la arquitectura de consumo de servicios que se consolidaría en el Sprint 3.
+
 #### 5.2.2.1. Sprint Planning 2. 
-El equipo de desarrollo se reunió virtualmente para definir los objetivos, tareas y entregables del segundo sprint, el cual tendrá una duración de una semana. El enfoque principal será el desarrollo del frontend de la aplicación, implementando las interfaces principales, navegación y componentes necesarios para la interacción del usuario con el sistema.
+El equipo de desarrollo se reunió virtualmente para definir los objetivos, tareas y entregables del segundo sprint, el cual tuvo una duración de una semana. El enfoque principal fue el desarrollo del frontend de la aplicación, implementando las interfaces principales, navegación y componentes necesarios para la interacción del usuario con el sistema.
+
+Durante esta planificación se priorizaron las historias relacionadas con autenticación, registro de envíos, monitoreo desde dashboard, gestión de sensores, alertas e historial. También se acordó utilizar una fake API pública para simular operaciones de lectura y escritura, de modo que el equipo pudiera validar la experiencia de usuario sin esperar la implementación completa del backend. Esta decisión permitió avanzar de manera incremental y reducir riesgos de integración para el siguiente sprint.
 
 | Sprint                             | Sprint 2                                                                                                                                                                                                |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1884,55 +2103,42 @@ La asignación de liderazgo se relaciona con la organización del Sprint Backlog
 
 #### 5.2.2.3. Sprint Backlog 2
 
-El Sprint Backlog 2 se construyó a partir de las User Stories priorizadas en el Product Backlog para la primera versión funcional de la Web Application. El objetivo principal fue habilitar los flujos iniciales de ColdTrack: registro e inicio de sesión, visualización de envíos activos, creación de envíos, monitoreo de temperatura y humedad, gestión de sensores, generación de alertas e historial de eventos.
-
-El tablero de trabajo utilizado para organizar las tareas del Sprint 2 permitió distribuir las actividades por módulo, dar seguimiento al avance y preparar la integración final del frontend desplegado.
-
-- Board URL: pendiente por agregar.
-- Board screenshot: pendiente por agregar en `images/sprint-2-board.png`.
+El Sprint Backlog 2 se enfocó en la construcción de la Web Application con Vue 3 y en la primera integración de datos mediante una fake API pública. En este incremento se priorizaron autenticación visual, navegación protegida, módulos operativos, internacionalización, exportación inicial y despliegue en Firebase Hosting.
 
 | Sprint # | User Story Id | User Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
-|----------|---------------|------------------|---------|------------|------------------|--------------------|-------------|--------|
-| Sprint 2 | US-001 | Registro de usuario | T01 | Implementar vista de registro | Desarrollar la interfaz de creación de cuenta con campos básicos, validación visual y navegación hacia el flujo de acceso. | 3 | Rodrigo Oblitas Alcalde | Done |
-| Sprint 2 | US-001 | Registro de usuario | T02 | Integrar registro con datos simulados | Conectar la vista de registro con la estructura de datos simulada para validar el flujo inicial de creación de usuario. | 2 | Aarón Avila Palacios | Done |
-| Sprint 2 | US-002 | Inicio de sesión | T03 | Implementar vista de inicio de sesión | Construir la pantalla de sign in con formulario, estados visuales y redirección hacia el dashboard principal. | 3 | Rodrigo Oblitas Alcalde | Done |
-| Sprint 2 | US-002 | Inicio de sesión | T04 | Configurar navegación protegida | Definir rutas principales de la aplicación y controlar el acceso inicial a las vistas operativas. | 2 | Aarón Avila Palacios | Done |
-| Sprint 2 | US-004 | Crear envío | T05 | Crear formulario de nuevo envío | Implementar el formulario para registrar un envío con datos de origen, destino, producto, conductor y condiciones requeridas. | 4 | Rodrigo Oblitas Alcalde | Done |
-| Sprint 2 | US-004 | Crear envío | T06 | Registrar envío en fake API | Conectar el formulario de nuevo envío con el recurso simulado para almacenar y consultar información durante la ejecución. | 3 | Gabriel Mendoza Palacios | Done |
-| Sprint 2 | US-005 | Ver envíos activos | T07 | Construir listado de envíos activos | Desarrollar la vista de envíos activos mostrando identificador, estado, temperatura, humedad y datos principales de cada envío. | 3 | Aarón Avila Palacios | Done |
-| Sprint 2 | US-006 | Ver detalle del envío | T08 | Implementar detalle de envío | Agregar una vista de detalle para revisar información operativa y condiciones asociadas a un envío seleccionado. | 3 | Eslander Celis Berrospi | Done |
-| Sprint 2 | US-007 | Asignar sensor a envío | T09 | Implementar módulo de sensores | Crear la interfaz para visualizar sensores disponibles y asociarlos a envíos registrados. | 4 | Rodrigo Oblitas Alcalde | Done |
-| Sprint 2 | US-009 | Ver temperatura en tiempo real | T10 | Mostrar temperatura en dashboard | Presentar datos de temperatura en tarjetas de monitoreo para facilitar la supervisión rápida de la cadena de frío. | 3 | Aarón Avila Palacios | Done |
-| Sprint 2 | US-010 | Ver humedad en tiempo real | T11 | Mostrar humedad en dashboard | Incorporar lectura de humedad dentro del dashboard y relacionarla con cada envío activo. | 3 | Aarón Avila Palacios | Done |
-| Sprint 2 | US-013 | Alertas de temperatura | T12 | Implementar módulo de alertas | Desarrollar una vista de alertas para identificar variaciones críticas de temperatura y humedad. | 4 | Aarón Avila Palacios | Done |
-| Sprint 2 | US-014 | Notificación al conductor | T13 | Definir estados visuales de alerta | Agregar indicadores visuales para comunicar condiciones normales, advertencias o incidencias durante el transporte. | 2 | Mathias Arechaga Saavedra | Done |
-| Sprint 2 | US-015 | Ver historial de alertas | T14 | Crear historial de alertas | Implementar consulta de eventos anteriores para revisar incidencias registradas durante los envíos. | 3 | Aarón Avila Palacios | Done |
-| Sprint 2 | US-016 | Ver historial de envíos | T15 | Crear vista de historial de envíos | Desarrollar la pantalla de historial para consultar envíos finalizados o previamente registrados. | 3 | Eslander Celis Berrospi | Done |
-| Sprint 2 | US-018 | Filtrar historial | T16 | Agregar soporte de búsqueda y filtro | Incorporar filtros básicos para consultar información histórica por estado, envío o criterio operativo. | 2 | Gabriel Mendoza Palacios | Done |
-| Sprint 2 | US-019 | Ver información de la app (Landing) | T17 | Actualizar enlace hacia Web Application | Modificar la landing page para redirigir a los usuarios hacia la aplicación web desplegada. | 2 | Rodrigo Oblitas Alcalde | Done |
-| Sprint 2 | Task adicional | Configuración de despliegue | T18 | Configurar variables y endpoints | Definir endpoints de entorno y preparar la aplicación para consumir la fake API pública durante el despliegue. | 2 | Rodrigo Oblitas Alcalde | Done |
-| Sprint 2 | Task adicional | Integración del frontend | T19 | Integrar ramas feature en develop | Fusionar los módulos desarrollados en ramas de característica y validar que la aplicación funcione como una experiencia unificada. | 3 | Aarón Avila Palacios | Done |
+|---|---|---|---|---|---|---:|---|---|
+| Sprint 2 | US-005 | Crear cuenta | T01 | Implementar vista Sign Up | Crear formulario de registro con rol, validación visual y navegación hacia Sign In. | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-006 | Iniciar sesión | T02 | Implementar vista Sign In | Crear formulario de acceso, credenciales demo y redirección al dashboard. | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-007 | Mantener sesión segura | T03 | Configurar rutas protegidas | Restringir vistas internas hasta contar con sesión activa. | 2 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-008 | Cerrar sesión | T04 | Agregar acción Sign Out | Limpiar sesión local y retornar a la vista de inicio de sesión. | 2 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-009 | Registrar envío | T05 | Crear formulario New Shipment | Capturar destino, conductor, carga, fecha de salida y llegada estimada. | 4 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-010 | Consultar dashboard de envíos | T06 | Construir dashboard | Mostrar tarjetas de indicadores, alertas activas y tabla de envíos. | 4 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-011 | Ver detalle del envío | T07 | Preparar acción View details | Incorporar acción en tabla para abrir detalle de envío en futuras integraciones. | 2 | Mathias Arechaga Saavedra | Done |
+| Sprint 2 | US-013 | Consultar historial de envíos | T08 | Implementar módulo History | Consultar envíos completados y métricas principales desde datos simulados. | 3 | Eslander Celis Berrospi | Done |
+| Sprint 2 | US-014 | Registrar y consultar sensores | T09 | Implementar módulo Sensors | Mostrar sensores, estado, lectura y acciones disponibles. | 4 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 2 | US-018 | Visualizar y filtrar alertas | T10 | Implementar módulo Alerts | Mostrar alertas por severidad y estado con filtros básicos. | 4 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-022 | Generar reporte PDF | T11 | Preparar acción de exportación | Incorporar botones de exportación iniciales para futuras integraciones. | 2 | Aarón Avila Palacios | Done |
+| Sprint 2 | US-004 | Cambiar idioma de interfaz | T12 | Implementar Vue I18n | Traducir navegación, títulos, formularios, tablas y footer. | 4 | Aarón Avila Palacios | Done |
+| Sprint 2 | TS-003 | Integrar frontend con backend productivo | T13 | Configurar MockAPI temporal | Usar `.env.development` y `.env.production` para consumir recursos simulados. | 3 | Gabriel Mendoza Palacios | Done |
+| Sprint 2 | TS-004 | Documentar y desplegar servicios | T14 | Publicar en Firebase Hosting | Compilar con Vite y desplegar la Web Application. | 3 | Rodrigo Oblitas Alcalde | Done |
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
-Durante el Sprint 2, el equipo se enfocó en el desarrollo del frontend de la aplicación ColdTrack, implementando las principales vistas, componentes reutilizables y funcionalidades necesarias para la interacción inicial de los usuarios con el sistema. Asimismo, se trabajó en la organización de rutas, consumo de datos simulados y mejoras visuales orientadas a la experiencia del usuario.
-
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|------------|--------|-----------|----------------|---------------------|--------------------|
-| ColdTrack-Front | `main` | `ba713ca` | `chore: initialize clean Vue project` | Se inicializó el proyecto frontend utilizando Vue y se configuró la estructura base de desarrollo. | 12/05/2026 |
-| ColdTrack-Front | `feature/dashboard-module` | `8ecbb74` | `feat: add fake api and dashboard module` | Se implementó un módulo de dashboard y una API simulada para pruebas iniciales del sistema. | 12/05/2026 |
-| ColdTrack-Front | `feature/sign-in-new-shipment` | `517cd52` | `feat: add sign in and shipment registration views` | Se desarrollaron las vistas de inicio de sesión y registro de envíos para el sistema ColdTrack. | 12/05/2026 |
-| ColdTrack-Front | `feature/sign-up-sensors` | `3ed397f` | `feat: add account creation and sensors module` | Se añadieron funcionalidades de creación de cuentas y gestión de sensores IoT. | 12/05/2026 |
-| ColdTrack-Front | `feature/alerts` | `acd14fd` | `feat: add alerts module` | Se implementó el módulo de alertas para monitorear condiciones críticas de temperatura y humedad. | 12/05/2026 |
-| ColdTrack-Front | `develop/history-module` | `ff63f97` | `feat: add history view, i18n` | Se agregó la vista de historial y soporte de internacionalización para múltiples idiomas. | 13/05/2026 |
-| ColdTrack-Front | `develop` | `8491c05` | `merge: integrate sign-in-new-shipment branch into develop` | Se integró la rama de autenticación y registro de envíos dentro de la rama develop. | 13/05/2026 |
-| ColdTrack-Front | `develop` | `a37a975` | `feat: merge sign-up-sensors branch into develop` | Se realizó la integración del módulo de sensores y creación de cuentas en la rama develop. | 13/05/2026 |
-| ColdTrack-Front | `develop` | `44a026f` | `feat: merge alerts branch into develop` | Se integró el módulo de alertas y monitoreo en tiempo real dentro de develop. | 13/05/2026 |
-| ColdTrack-Front | `develop/history-module` | `6ca885a` | `merge: integrate history i18n shell` | Se integró la configuración de historial e internacionalización en la estructura principal del proyecto. | 13/05/2026 |
-| ColdTrack-Front | `main` | `c6971f6` | `chore: add index.html to the project` | Se añadió el archivo index.html principal para la configuración base de la aplicación frontend. | 13/05/2026 |
-| ColdTrack-Front | `main` | `04d29b7` | `chore: add project root configuration files` | Se agregaron archivos de configuración raíz necesarios para el entorno de desarrollo y compilación. | 13/05/2026 |
-| ColdTrack-Front | `main` | `a5daac9` | `chore: remove vscode settings` | Se eliminaron configuraciones específicas de VSCode para mantener un entorno más limpio y portable. | 13/05/2026 |
-| ColdTrack-Front | `main` | `f8ef8a9` | `chore: configure environment api endpoints` | Se configuraron endpoints de API y variables de entorno para conexión con servicios backend. | 13/05/2026 |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| ColdTrack-Front | `main` | `ba713ca` | `chore: initialize clean Vue project` | Se inicializó el proyecto Vue con Vite. | 12/05/2026 |
+| ColdTrack-Front | `feature/dashboard-module` | `8ecbb74` | `feat: add fake api and dashboard module` | Se agregó la fake API y el dashboard inicial. | 12/05/2026 |
+| ColdTrack-Front | `feature/sign-in-new-shipment` | `517cd52` | `feat: add sign in and shipment registration views` | Se desarrollaron inicio de sesión y registro de envíos. | 12/05/2026 |
+| ColdTrack-Front | `feature/sign-up-sensors` | `3ed397f` | `feat: add account creation and sensors module` | Se implementaron creación de cuenta y sensores. | 12/05/2026 |
+| ColdTrack-Front | `feature/alerts` | `acd14fd` | `feat: add alerts module` | Se agregó la vista de alertas. | 12/05/2026 |
+| ColdTrack-Front | `develop/history-module` | `ff63f97` | `feat: add history view, i18n` | Se añadió historial e internacionalización. | 13/05/2026 |
+| ColdTrack-Front | `main` | `f8ef8a9` | `chore: configure environment api endpoints` | Se configuraron endpoints por variables de entorno. | 13/05/2026 |
+| ColdTrack-Front | `develop` | `4580feb` | `feat(iam): integrate backend JWT authentication` | Se preparó la autenticación para el backend productivo. | 19/06/2026 |
+| ColdTrack-Front | `develop` | `594e46a` | `feat(shipments): integrate backend dashboard and shipment flows` | Se conectaron dashboard y envíos con la API. | 19/06/2026 |
+| ColdTrack-Front | `develop` | `eac32f8` | `feat(sensors): integrate assignments and telemetry workflows` | Se integraron sensores, asignaciones y telemetría. | 19/06/2026 |
+| ColdTrack-Front | `develop` | `9366e3d` | `feat(analytics): integrate alerts history and PDF reports` | Se integraron alertas, historial, analítica y reportes PDF. | 19/06/2026 |
+| ColdTrack-Front | `develop` | `ad9def6` | `feat(shipments): add details status updates and PDF exports` | Se agregó detalle de envíos, actualización de estado y exportación PDF. | 19/06/2026 |
+| ColdTrack-Front | `develop` | `d3911c1` | `feat(iam): strengthen session guard and request interceptors` | Se reforzó el guard de sesión y los interceptores HTTP. | 23/06/2026 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
@@ -2103,13 +2309,101 @@ En conjunto, la evidencia recopilada en el repositorio demuestra que el equipo m
 
 ### 5.2.3. Sprint 3
 
+El Sprint 3 tuvo como objetivo consolidar ColdTrack como una solución integrada de extremo a extremo. A diferencia del Sprint 2, donde la Web Application consumía datos simulados, en esta etapa se implementaron Web Services propios con ASP.NET Core, persistencia en MySQL, autenticación con JWT, documentación mediante Swagger/OpenAPI y despliegue del backend en Render. Esta evolución permitió conectar la interfaz web con servicios reales y conservar la información operativa del sistema.
+
+La prioridad del sprint fue integrar los bounded contexts definidos en la arquitectura: IAM para identidad y acceso, Shipments para gestión de envíos, Telemetry para sensores y lecturas, Alerting para incidencias, y Reporting/Analytics para historial y reportes. Con ello, el equipo pudo validar flujos más cercanos a un escenario productivo, como iniciar sesión, crear envíos, asociar sensores, registrar lecturas, generar alertas, consultar historial y descargar reportes.
+
+Además de la implementación técnica, el Sprint 3 fortaleció la trazabilidad del proyecto mediante evidencias de desarrollo, ejecución, servicios documentados, despliegue y colaboración. Esta etapa fue clave para demostrar que ColdTrack podía funcionar como un ecosistema compuesto por frontend, backend y base de datos, manteniendo una separación clara entre responsabilidades y una base preparada para futuras iteraciones.
+
 #### 5.2.3.1. Sprint Planning 3
+La planificación del Sprint 3 se enfocó en cerrar la brecha entre la Web Application desarrollada en el Sprint 2 y una solución backend funcional. Para ello, el equipo priorizó tareas relacionadas con autenticación, persistencia, servicios REST, despliegue, documentación de endpoints y validación de flujos integrados.
+
+En esta etapa se buscó asegurar que cada módulo técnico respondiera a una necesidad del negocio: gestión de envíos para trazabilidad logística, telemetría para monitoreo ambiental, alertas para reacción oportuna y reportes para control de calidad. La planificación también consideró la coordinación entre repositorios, variables de entorno, despliegue en servicios externos y verificación posterior de disponibilidad.
+
+| Sprint                             | Sprint 3                                                                                                                                                                                                                                                                                                                              |
+| ---------------------------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                    | Sprint Planning Background                                                                                                                                                                                                                                                                                                            |
+| Date                               | 2026/06/01                                                                                                                                                                                                                                                                                                                            |
+| Time                               | 19:30 PM                                                                                                                                                                                                                                                                                                                              |
+| Location                           | El desarrollo de la reunión se hizo virtualmente por medio de Discord                                                                                                                                                                                                                                                                 |
+| Prepared By                        | Eslander Celis Berrospi                                                                                                                                                                                                                                                                                                               |
+| Attendees (to planning meeting)    | Eslander Celis Berrospi, Gabriel Mendoza, Rodrigo Oblitas Alcalde, Aarón Avila Palacios, Mathias Aréchaga Saavedra                                                                                                                                                                                                                    |
+| Sprint n – 1 Review Summary        | En el Sprint 2 se desarrolló exitosamente el frontend de la aplicación, implementando las principales vistas, componentes y mecanismos de navegación necesarios para la interacción de los usuarios con el sistema.                                                                                                                   |
+| Sprint n – 1 Retrospective Summary | Durante la retrospectiva del Sprint 2, el equipo identificó oportunidades de mejora en la integración entre frontend y backend, la organización del código y la distribución de tareas para optimizar el desarrollo del proyecto.                                                                                                     |
+|                                    | Sprint Goal & User Stories                                                                                                                                                                                                                                                                                                            |
+| Sprint 3 Goal                      | Implementar nuevas historias de usuario relacionadas con el backend, iniciar el desarrollo de la API REST, configurar mecanismos de autenticación, establecer procedimientos para el reporte y monitoreo de servicios backend, y continuar con las tareas pendientes del frontend para lograr una integración progresiva del sistema. |
+| Sprint 3 Velocity                  | 14                                                                                                                                                                                                                                                                                                                                    |
+| Sum of Story Points                | 14                                                                                                                                                                                                                                                                                                                                    |
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
+Durante el Sprint 3, el equipo organizó el trabajo tomando como principales aspectos la implementación del backend de ColdTrack utilizando ASP.NET Core, la configuración de la persistencia con MySQL, la construcción de los servicios de dominio (IAM, Shipments, Telemetry, Alerting, Reporting) y la preparación del despliegue en Render y Filess.io. Para asegurar una mejor coordinación, se definieron líderes por aspecto y colaboradores de apoyo según el alcance de las tareas desarrolladas.
+
+En esta matriz, `L` representa al líder del aspecto y `C` representa a los colaboradores que participaron en la implementación, revisión o integración de dicho aspecto.
+
+| Team Member | GitHub Username | Backend Setup & DDD | IAM & Auth | Shipments API | Telemetry & Sensors | Alerting Engine | Analytics & Reports | DB & Deployment |
+|-------------|-----------------|---------------------|------------|---------------|---------------------|-----------------|---------------------|-----------------|
+| Avila Palacios, Aarón | AaronAvilap | C | C | C | C | L | C | C |
+| Oblitas Alcalde, Rodrigo | Darkdren | L | L | C | C | C | C | L |
+| Celis Berrospi, Eslander | Eslander-Celis | C | C | C | L | C | C | C |
+| Mendoza Palacios, Gabriel | Gabriel2349 | C | C | C | C | C | L | C |
+| Arechaga Saavedra, Mathias | MathZell | C | C | L | C | C | C | C |
+
+La asignación de liderazgo se relaciona con la organización del Sprint Backlog 3: Rodrigo lideró los aspectos vinculados con la configuración base del backend en ASP.NET Core, autenticación (IAM) y el despliegue de los Web Services y base de datos. Mathias asumió el liderazgo en la gestión de envíos (Shipments API), Eslander en la integración de sensores y soporte de datos de telemetría, Aarón en la definición de reglas de validación y políticas del motor de alertas, y Gabriel en los reportes analíticos. Todos los integrantes también colaboraron en la revisión, documentación, pruebas funcionales e integración de los módulos del backend.
+
 #### 5.2.3.3. Sprint Backlog 3
 
+El Sprint Backlog 3 consolidó la integración del ecosistema ColdTrack: backend ASP.NET Core, persistencia MySQL, documentación Swagger, conexión del frontend con Render, despliegue productivo y reportes PDF. Las historias seleccionadas corresponden a los flujos de negocio que requerían persistencia real, seguridad JWT y comunicación completa entre Firebase Hosting, Render y Filess.io.
+
+| Sprint # | User Story Id | User Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---:|---|---|
+| Sprint 3 | US-005 | Crear cuenta | T01 | Implementar endpoints de autenticación | Crear sign-up, validaciones de correo, contraseña y persistencia de usuario. | 6 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 3 | US-006 | Iniciar sesión | T02 | Implementar emisión de JWT | Validar credenciales y retornar token con datos del usuario autenticado. | 5 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 3 | US-007 | Mantener sesión segura | T03 | Configurar JWT Bearer y Swagger | Proteger endpoints, agregar interceptores axios y permitir pruebas autorizadas desde Swagger. | 4 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 3 | US-009 | Registrar envío | T04 | Implementar Shipments API | Crear agregado Shipment, persistencia y endpoint POST. | 5 | Mathias Arechaga Saavedra | Done |
+| Sprint 3 | US-010 | Consultar dashboard de envíos | T05 | Integrar dashboard con backend | Exponer consultas de envíos, indicadores y alertas activas para el dashboard. | 5 | Aarón Avila Palacios | Done |
+| Sprint 3 | US-011 | Ver detalle del envío | T06 | Integrar detalle técnico en frontend | Consultar envío por identificador y relacionar sensor asignado y alertas asociadas. | 4 | Aarón Avila Palacios | Done |
+| Sprint 3 | US-012 | Actualizar estado de envío | T07 | Implementar PATCH de estado | Actualizar ciclo de vida del envío y reflejarlo en historial cuando corresponda. | 4 | Mathias Arechaga Saavedra | Done |
+| Sprint 3 | US-013 | Consultar historial de envíos | T08 | Implementar Shipment History | Consultar envíos completados desde Analytics API y mostrarlos en History. | 4 | Gabriel Mendoza Palacios | Done |
+| Sprint 3 | US-014 | Registrar y consultar sensores | T09 | Implementar Sensors API | Registrar y listar sensores con modelo, estado de asignación y última lectura. | 4 | Eslander Celis Berrospi | Done |
+| Sprint 3 | US-015 | Asignar sensor a envío | T10 | Implementar asignación | Vincular sensor disponible con envío existente y evitar asignaciones duplicadas. | 3 | Eslander Celis Berrospi | Done |
+| Sprint 3 | US-016 | Registrar lectura de telemetría | T11 | Implementar Telemetry API | Registrar temperatura, humedad y fecha de lectura. | 5 | Eslander Celis Berrospi | Done |
+| Sprint 3 | US-017 | Consultar lecturas de telemetría | T12 | Exponer historial de telemetría | Listar lecturas registradas para un envío específico. | 3 | Eslander Celis Berrospi | Done |
+| Sprint 3 | US-018 | Visualizar y filtrar alertas | T13 | Implementar Alerting API | Listar alertas por estado y severidad. | 4 | Aarón Avila Palacios | Done |
+| Sprint 3 | US-019 | Reconocer alerta | T14 | Implementar acknowledgment | Marcar alertas activas como reconocidas desde API y frontend. | 3 | Aarón Avila Palacios | Done |
+| Sprint 3 | US-020 | Resolver alerta | T15 | Implementar resolution | Cerrar alertas atendidas y actualizar su estado. | 3 | Aarón Avila Palacios | Done |
+| Sprint 3 | US-021 | Consultar analítica del dashboard | T16 | Implementar Analytics API | Consultar indicadores consolidados de envíos, alertas y desempeño. | 4 | Gabriel Mendoza Palacios | Done |
+| Sprint 3 | US-022 | Generar reporte PDF | T17 | Implementar Reporting API | Generar y descargar PDF mediante QuestPDF desde frontend y Swagger. | 5 | Gabriel Mendoza Palacios | Done |
+| Sprint 3 | TS-002 | Configurar persistencia MySQL | T18 | Configurar Filess.io | Provisionar MySQL, variables de entorno, TLS y migraciones EF Core. | 4 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 3 | TS-001 | Implementar API REST versionada | T19 | Publicar Swagger/OpenAPI | Documentar endpoints en `/swagger/index.html` y aplicar seguridad Bearer. | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 3 | TS-003 | Integrar frontend con backend productivo | T20 | Reemplazar MockAPI | Actualizar variables de entorno y servicios axios hacia Render. | 5 | Aarón Avila Palacios | Done |
+| Sprint 3 | TS-004 | Documentar y desplegar servicios | T21 | Desplegar API y frontend | Publicar backend en Render, frontend en Firebase Hosting y validar URLs públicas. | 5 | Rodrigo Oblitas Alcalde | Done |
+
+Link del Trello: https://trello.com/b/IcxxPY0t/sprint-backlog-3-coldtrack
+
 #### 5.2.3.4. Development Evidence for Sprint Review
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| FreshGuard.ColdTrack.Platform | `feature/iam-authentication` | `00e489f6` | `feat(iam): add email and authentication security tests` | Se agregaron validaciones y pruebas de seguridad para IAM. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/create-shipment` | `c59d4007` | `feat(shipments): add shipment domain errors` | Se incorporaron errores de dominio para envíos. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/get-shipments` | `0fb3b8d3` | `feat(shipments): implement shipment query service` | Se implementaron consultas de envíos. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/update-shipment-status` | `cabbc1a8` | `feat(shipments): implement shipment command service` | Se agregó actualización del ciclo de vida. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/register-sensor` | `cb855649` | `feat(telemetry): add sensor repository contract` | Se preparó persistencia de sensores. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/record-telemetry` | `95cec308` | `feat(telemetry): implement telemetry command service` | Se registraron lecturas de telemetría. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/alerting-api` | `e4ae8e61` | `feat(alerting): add alert lifecycle endpoints` | Se implementó ciclo de vida de alertas. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/analytics-api` | `3283e03` | `feat(analytics): add analytics and reporting endpoints` | Se agregaron endpoints de analítica y reportes. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/pdf-report` | `e5116149` | `feat(reporting): implement QuestPDF report generation` | Se implementó generación de PDF. | 13/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/database-initialization` | `fe7645d` | `feat(shared): add safe database initialization seed` | Se agregó carga inicial controlada para demo. | 16/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/render-deployment` | `343700f` | `chore(deploy): add Render deployment support` | Se preparó despliegue en Render con Docker. | 16/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/allow-mysql-user-variables` | `0211bf3` | `fix(persistence): allow MySQL migration user variables` | Se corrigió compatibilidad de migraciones con Filess.io. | 16/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/fix-swagger-bearer-security` | `1c0a3aa` | `fix(api): apply bearer security to Swagger operations` | Se aplicó seguridad Bearer en Swagger. | 16/06/2026 |
+| ColdTrack-Front | `feature/backend-iam-integration` | `4580feb` | `feat(iam): integrate backend JWT authentication` | Se reemplazó autenticación simulada por JWT del backend. | 19/06/2026 |
+| ColdTrack-Front | `feature/backend-shipments-dashboard` | `594e46a` | `feat(shipments): integrate backend dashboard and shipment flows` | Se conectaron dashboard y envíos con Render. | 19/06/2026 |
+| ColdTrack-Front | `feature/backend-sensors-telemetry` | `eac32f8` | `feat(sensors): integrate assignments and telemetry workflows` | Se integraron sensores y telemetría con API real. | 19/06/2026 |
+| ColdTrack-Front | `feature/backend-alerts-analytics-reports` | `9366e3d` | `feat(analytics): integrate alerts history and PDF reports` | Se conectaron alertas, historial, analítica y reportes PDF. | 19/06/2026 |
+| ColdTrack-Front | `feature/shipment-details-status` | `ad9def6` | `feat(shipments): add details status updates and PDF exports` | Se agregó detalle de envíos, actualización de estado y exportación PDF. | 19/06/2026 |
+| ColdTrack-Front | `feature/iam-session-hardening` | `d3911c1` | `feat(iam): strengthen session guard and request interceptors` | Se reforzó guard de sesión, logs e interceptores HTTP. | 23/06/2026 |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -2133,29 +2427,13 @@ La revisión se concentró en comprobar el flujo de negocio de extremo a extremo
 5. El cambio de estado de un envío debe respetar el ciclo de vida soportado por la API.
 6. Los envíos completados deben aparecer en el historial y poder incluirse en un reporte PDF.
 
-El siguiente diagrama resume la secuencia ejecutada durante la Sprint Review:
+El siguiente gráfico resume la secuencia ejecutada durante la Sprint Review:
 
-```mermaid
-sequenceDiagram
-    actor U as Usuario
-    participant W as Web Application
-    participant A as ASP.NET Core API
-    participant D as MySQL
-    U->>W: Inicia sesión
-    W->>A: POST /api/v1/authentication/sign-in
-    A->>D: Valida credenciales
-    D-->>A: Usuario registrado
-    A-->>W: JWT y datos del usuario
-    U->>W: Registra o consulta un envío
-    W->>A: Solicitud REST + Bearer token
-    A->>D: Persiste o consulta información
-    D-->>A: Resultado de la operación
-    A-->>W: Respuesta JSON
-    U->>W: Registra una lectura del sensor
-    W->>A: POST /api/v1/telemetry
-    A->>D: Guarda lectura y evalúa umbrales
-    A-->>W: Sensor, envío y alertas actualizados
-```
+<p align="center">
+  <img src="images/sprint3-sequence-review.png" alt="Secuencia de ejecución integrada durante la Sprint Review" width="80%"/>
+</p>
+
+<p align="center"><em>Figura. Secuencia de autenticación, operación de envíos y registro de telemetría.</em></p>
 
 ##### API operations included in the review
 
@@ -2285,20 +2563,34 @@ En conjunto, estas evidencias demuestran que el incremento del Sprint 3 funciona
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 3, el equipo concentró sus esfuerzos en la construcción de la capa de backend del sistema, abarcando la implementación de la lógica de dominio, la configuración de persistencia de datos y la exposición de servicios a través de endpoints REST, sentando así las bases funcionales de los principales módulos de la aplicación.
+En lo que respecta al módulo de gestión de identidad y acceso, se llevó a cabo la implementación del agregado UserAccount junto con sus reglas de negocio, el value object Email con validación de formato, y la configuración del repositorio de usuarios sobre MySQL.
+Adicionalmente, se desarrolló el servicio de hashing y verificación segura de contraseñas, los casos de uso correspondientes al registro e inicio de sesión de usuarios con generación de token JWT, y los endpoints REST necesarios para exponer dichas funcionalidades, incluyendo la consulta del perfil del usuario autenticado.
+En cuanto al módulo de gestión de envíos, se implementó el agregado Shipment con sus respectivas reglas de negocio, la capa de persistencia en MySQL, y los casos de uso para el registro y actualización de envíos refrigerados. Asimismo,
+se desarrollaron los endpoints REST bajo los métodos POST, GET y PATCH para permitir el registro, consulta y actualización del estado de los envíos, apoyándose en el value object ShipmentStatus para modelar correctamente el ciclo de vida de cada envío.
+Finalmente, en el módulo de monitoreo de temperatura, se implementaron los endpoints del controlador de alertas de temperatura, así como el servicio encargado de registrar y preservar el historial de alertas generadas por el sistema.
+
+La siguiente tabla recoge la documentación de los servicios web desarrollados durante el sprint, organizados por módulos funcionales del sistema.
+
+| Módulo | Endpoint base | Acciones disponibles | Métodos HTTP | Descripción |
+|---|---|---|---|---|
+| Plataforma | `/health` | Verificar estado del servidor | `GET` | Estado de salud de la plataforma |
+| Autenticación | `/api/v1/authentication` | Registrar cuenta, iniciar sesión | `POST /sign-up`<br>`POST /sign-in` | Registro y autenticación de usuarios ColdTrack |
+| Usuarios | `/api/v1/users` | Obtener perfil del usuario autenticado | `GET /me` | Gestión del perfil de usuario |
+| Envíos | `/api/v1/shipments` | Registrar envío, listar envíos, obtener por ID, actualizar estado | `POST`<br>`GET`<br>`GET /{shipmentId}`<br>`PATCH /{shipmentId}/status` | Gestión del ciclo de vida de envíos refrigerados |
+| Sensores | `/api/v1/sensors` | Registrar sensor, listar sensores, asignar a envío | `POST`<br>`GET`<br>`PATCH /{sensorId}/assignment` | Registro y asignación de sensores de monitoreo |
+| Telemetría | `/api/v1/telemetry` | Registrar lectura de sensor, consultar telemetría por envío | `POST`<br>`GET /shipments/{shipmentId}/telemetry` | Ingesta y consulta de datos de temperatura y humedad en tiempo real |
+| Alertas | `/api/v1/alerts` | Listar alertas, reconocer alerta, resolver alerta | `GET`<br>`PATCH /{alertId}/acknowledgment`<br>`PATCH /{alertId}/resolution` | Gestión de alertas por desvíos de temperatura o humedad |
+| Analítica | `/api/v1/analytics` | Obtener indicadores del dashboard, consultar historial de envíos | `GET /dashboard`<br>`GET /shipment-history` | Indicadores operativos consolidados y análisis histórico de envíos |
+| Reportes | `/api/v1/reports` | Generar reporte, listar reportes, descargar reporte como PDF | `POST`<br>`GET`<br>`GET /{reportId}/file` | Generación y descarga de reportes de desempeño de la cadena de frío |
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 El despliegue del Sprint 3 se organizó en tres servicios independientes: MySQL para la persistencia, Render para los Web Services y Firebase Hosting para la Web Application. Esta separación permite actualizar cada componente de manera controlada y mantener las credenciales de producción fuera de los repositorios.
 
 ##### Deployed architecture
 
-```mermaid
-flowchart LR
-    U[Usuario] -->|HTTPS| F[Vue 3 Web Application<br/>Firebase Hosting]
-    F -->|REST + JSON + JWT| B[ASP.NET Core API<br/>Render Web Service]
-    B -->|EF Core + TLS| D[(MySQL 8<br/>Filess.io)]
-    B --> O[Swagger / OpenAPI]
-    B --> P[QuestPDF reports]
-```
+La arquitectura desplegada separa la interfaz web, los Web Services y la persistencia. Esta separación permite publicar cada componente de forma independiente y mantener las credenciales de producción fuera del repositorio.
 
 | Componente | Tecnología y plataforma | Dirección o configuración principal |
 |---|---|---|
@@ -2451,13 +2743,243 @@ Las tres evidencias confirman que la solución fue desplegada de extremo a extre
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
+<p>
+Durante el Sprint 3, los analíticos de colaboración del repositorio FreshGuard.ColdTrack.Platform evidencian la participación de los integrantes del equipo sobre el código del backend de ColdTrack. A lo largo del sprint se registran commits asociados a la configuración inicial del proyecto con ASP.NET Core, así como a la implementación de los módulos de autenticación, gestión de envíos, telemetría, alertas, analítica y reportes. Esta actividad confirma que la construcción de los Web Services y la persistencia en MySQL se realizó de forma incremental, alineada a los objetivos definidos en el Sprint 3 Goal.
+</p>
+
+<img src="./images/overview-sprint3.png" alt="overview-sprint3">
+
+<p>
+El Network Graph correspondiente al Sprint 3 muestra un uso activo del flujo de trabajo basado en GitFlow, con ramas de características (features como <code>feature/iam-authentication</code>, <code>feature/create-shipment</code>, <code>feature/alerting-api</code>) creadas para los dominios y servicios, que luego son fusionadas a la rama <code>develop</code> y posteriormente integradas tras el desarrollo. Este patrón de ramas indica que los integrantes coordinaron el trabajo de forma estructurada, alineados con las prácticas definidas para el proyecto (feature branches y consolidación en develop), reforzando la trazabilidad y la calidad del código entregado durante el sprint.
+</p>
+
+<img src="./images/network-sprint3.png" alt="network-graph-sprint3">
+
+<p>
+En conjunto, la evidencia recopilada en el repositorio demuestra que el equipo mantuvo una dinámica de trabajo constante conforme avanzaban las fechas de integración de los distintos bounded contexts del backend. La consolidación exitosa de las APIs y servicios sugiere un alto nivel de organización para preparar la Sprint Review. Estos analíticos y la correcta ejecución del GitFlow confirman que, durante el Sprint 3, los miembros del equipo participaron efectivamente en la implementación de la aplicación backend según el alcance establecido, cumpliendo con el principio de trabajo colaborativo.
+</p>
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
 
+En esta sección se describe el diseño de las entrevistas de validación realizadas para ColdTrack durante el Sprint 3. El objetivo de estas sesiones fue comprobar si los usuarios de los segmentos objetivo comprenden la propuesta de valor presentada en el Landing Page y si pueden interactuar con las principales funcionalidades de la Web Application de manera clara, rápida y sin asistencia constante.
+
+Las entrevistas fueron planteadas como sesiones guiadas, donde cada participante primero revisó el Landing Page de ColdTrack y luego ejecutó tareas específicas dentro de la aplicación. Durante la validación se observaron sus comentarios, dudas, tiempos de navegación, facilidad para completar los flujos y apreciaciones sobre la utilidad de la solución.
+
+#### Metodología de la sesión
+
+| **Etapa** | **Actividad realizada** | **Propósito** |
+|-----------|--------------------------|---------------|
+| Presentación del participante | Se solicitaron datos generales como nombre, edad, ocupación y relación con logística, operaciones o transporte. | Caracterizar al usuario y confirmar su pertenencia al segmento objetivo. |
+| Exploración del Landing Page | El participante revisó la propuesta de valor, beneficios y explicación general de ColdTrack. | Validar si el producto web comunica claramente el problema que resuelve. |
+| Ejecución de tareas en la Web Application | El usuario completó flujos relacionados con envíos, monitoreo, alertas e historial. | Evaluar la comprensión de la navegación y la facilidad para completar tareas. |
+| Preguntas de cierre | Se recogieron opiniones sobre utilidad, claridad, alertas, información visible y oportunidades de mejora. | Obtener retroalimentación cualitativa para mejorar la experiencia de usuario. |
+
+#### Objetivos de la validación
+
+| **Objetivo** | **Descripción** |
+|--------------|-----------------|
+| Validar la comprensión del Landing Page | Comprobar si el usuario entiende el problema que resuelve ColdTrack, la propuesta de valor y los beneficios de la solución. |
+| Validar la navegación de la aplicación | Evaluar si el usuario puede desplazarse por las vistas principales sin confundirse. |
+| Validar los flujos principales | Observar si el usuario puede completar tareas relacionadas con envíos, monitoreo, alertas e historial. |
+| Identificar oportunidades de mejora | Recoger comentarios sobre claridad visual, organización de la información, términos usados y elementos que podrían optimizarse. |
+
+#### Segmentos considerados
+
+| **Segmento objetivo** | **Perfil del usuario validado** | **Necesidad principal a validar** |
+|-----------------------|----------------------------------|-----------------------------------|
+| Personal de Logística y Operaciones | Supervisores, jefes de operaciones o personal de control de calidad relacionado con transporte refrigerado. | Supervisar envíos, revisar condiciones de temperatura y humedad, detectar alertas y consultar historial para tomar decisiones. |
+| Personal de Transporte | Conductores o transportistas encargados del traslado de productos refrigerados. | Consultar el estado del envío, interpretar alertas y reaccionar oportunamente ante incidencias durante la ruta. |
+
+#### Elementos evaluados
+
+| **Elemento** | **Aspecto validado** |
+|--------------|----------------------|
+| Landing Page | Claridad del mensaje, comprensión de la propuesta de valor, beneficios percibidos y relación con el problema de cadena de frío. |
+| Dashboard principal | Facilidad para reconocer el estado general de los envíos, métricas principales y alertas visibles. |
+| Gestión de envíos | Comprensión del listado de envíos, estado operativo y detalle de información del transporte. |
+| Alertas | Interpretación de mensajes críticos, severidad y capacidad de reacción ante incidencias. |
+| Historial | Utilidad de la información histórica para trazabilidad, revisión de incidentes y toma de decisiones. |
+
+#### User flows utilizados en la validación
+
+| **Segmento** | **Elemento validado** | **User flow** | **Tarea asignada al entrevistado** |
+|--------------|-----------------------|---------------|------------------------------------|
+| Personal de Logística y Operaciones | Landing Page | Comprensión de propuesta de valor | Revisar el Landing Page e indicar qué problema considera que resuelve ColdTrack. |
+| Personal de Logística y Operaciones | Web Application | Revisar monitoreo en tiempo real | Ingresar al dashboard y ubicar el estado actual de un envío refrigerado. |
+| Personal de Logística y Operaciones | Web Application | Revisar alertas | Identificar si existe una alerta asociada a un envío y explicar qué acción tomaría. |
+| Personal de Logística y Operaciones | Web Application | Consultar historial de envíos | Acceder al historial y revisar información de un envío finalizado. |
+| Personal de Transporte | Landing Page | Comprensión de propuesta de valor | Revisar el Landing Page e indicar para qué sirve la solución. |
+| Personal de Transporte | Web Application | Consultar estado del envío | Ubicar el envío asignado y revisar su estado general. |
+| Personal de Transporte | Web Application | Interpretar alertas | Revisar una alerta de temperatura o humedad e indicar si el mensaje es comprensible. |
+| Personal de Transporte | Web Application | Revisar detalle de ruta o carga | Consultar los detalles principales del envío para identificar información útil durante el transporte. |
+
+#### Guía de preguntas
+
+| **Segmento** | **Preguntas posteriores a la interacción** |
+|--------------|--------------------------------------------|
+| Personal de Logística y Operaciones | ¿Comprendió claramente qué problema resuelve ColdTrack después de revisar el Landing Page?<br>¿Le resultó sencillo encontrar la información necesaria para monitorear un envío?<br>¿Las alertas mostradas le permitieron identificar rápidamente posibles incidencias?<br>¿Considera que la plataforma podría mejorar el control de las operaciones logísticas? ¿Por qué? |
+| Personal de Transporte | ¿Entendió fácilmente para qué sirve la aplicación después de revisar el Landing Page?<br>¿Le resultó sencillo consultar el estado de un envío?<br>¿Las alertas le parecieron claras y fáciles de interpretar durante una ruta?<br>¿Considera que la aplicación le ayudaría a reaccionar más rápido ante problemas de temperatura o humedad? ¿Por qué? |
+
 ### 5.3.2. Registro de Entrevistas
 
+#### **Primer Segmento - Personal de Logística y Operaciones:** <br>
+
+| **ENTREVISTA 1** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Gianelly Vásquez |
+| **Edad** | 27 |
+| **Profesión** | supervisora de control de calidad |
+| **Departamento** | Lima |
+| **Inicio del video** | 0:00 |
+| **Fin del video** | 3:55 |
+| **Link del video** | https://drive.google.com/file/d/1D8FggaAjoaZGn1T6NujB7ZEzi5Wi1Bjq/view?usp=drive_link |
+| **Foto entrevista** | <img src="images/entrevista1-segmento1.png" alt=""  width="250" /> |
+| **Resumen** | Gianelly Vásquez, supervisora de control de calidad en transporte de alimentos refrigerados que vive en Jesús María, actualmente gestiona el monitoreo de temperatura de forma manual usando termómetros digitales, dataloggers básicos y registros en Excel, sin contar con un sistema integrado en tiempo real, lo que genera dependencia del conductor y riesgo de errores humanos; tras interactuar con el Landing Page de ColdTrack, indicó que comprendió claramente el problema que la plataforma busca resolver, relacionado con el monitoreo de la cadena de frío durante el transporte, además señaló que la información presentada fue fácil de encontrar y estuvo bien organizada, lo que facilitó la comprensión de los datos del envío; también destacó que las alertas mostradas son visibles y permiten identificar rápidamente posibles incidencias durante el trayecto; finalmente, considera que la plataforma puede mejorar significativamente el control de las operaciones logísticas al permitir la supervisión en tiempo real y la detección oportuna de problemas, facilitando una mejor toma de decisiones y reduciendo riesgos en la cadena de suministro. |
+
+| **ENTREVISTA 2** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Claudio Castillo |
+| **Edad** | 25 |
+| **Profesión** | Personal relacionado con logística, operaciones o control de calidad |
+| **Departamento** | Lima |
+| **Entrevistador** | Mariano Vilela |
+| **Inicio del video** | 0:00 |
+| **Fin del video** | 3:05 |
+| **Link del video** | https://drive.google.com/file/d/1XwYRweeNHZzyui3-aG7p3ch4PIPFYLEc/view?usp=drive_link |
+| **Foto entrevista** | <img src="images/entrevista2-segmento1-claudio.png" alt=""  width="250" /> |
+| **Resumen** | Claudio Castillo participó en la entrevista de validación del primer segmento, guiada por Mariano Vilela. Durante la sesión revisó el Landing Page y la Web Application de ColdTrack, enfocándose en los flujos de monitoreo de envíos, revisión de alertas y consulta de información operativa. A partir de la interacción, comprendió que la propuesta busca mejorar el control de la cadena de frío durante el transporte de alimentos mediante información centralizada y alertas oportunas. Asimismo, valoró que la plataforma permita visualizar el estado del envío y posibles incidencias en un solo entorno, ya que esto podría reducir la dependencia de reportes manuales o llamadas constantes al conductor. Como oportunidad de mejora, se identificó que los mensajes de alerta deben ser directos y priorizar la acción que debe tomar el responsable logístico. |
+
+| **ENTREVISTA 3** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Madeleine del Carmen |
+| **Edad** | 42 |
+| **Profesión** | Personal de logistica |
+| **Departamento** | Lima |
+| **Inicio del video** | 0:00 |
+| **Fin del video** | 3:15 |
+| **Link del video** | https://drive.google.com/drive/folders/1rANjDqi1zW6pRqvGjqWI6h-k5BQxF-Vp?usp=sharing |
+| **Foto entrevista** | |
+| **Resumen** | Madeleine del Carmen, de 42 años y personal de logística en Lima, participó en la validación del Landing Page y la Web Application de ColdTrack. Durante la entrevista, resaltó que la propuesta de valor es clara y que el dashboard centralizado facilita enormemente la supervisión de la cadena de frío en tiempo real. Mencionó que, en su día a día, consolidar reportes manuales toma mucho tiempo y genera retrasos en la toma de decisiones, por lo que contar con un historial automatizado y alertas instantáneas les permitiría reaccionar proactivamente ante variaciones críticas de temperatura. Como oportunidad de mejora, sugirió que la plataforma permita exportar los reportes de incidentes de manera sencilla para compartirlos directamente con la gerencia o los clientes. |
+
+#### **Segundo Segmento - Personal de Transporte:** <br>
+
+| **ENTREVISTA 1** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Edery Abanto |
+| **Edad** | 30 |
+| **Profesión** | personal de transporte |
+| **Departamento** | Lima |
+| **Inicio del video** | 15:13 |
+| **Fin del video** | 20:40 |
+| **Link del video** | https://1drv.ms/v/c/466c954577703c8e/IQD08OoosNeVTpXvfWKiGIz-ARMSa0vKfloaK4arRjvux34?e=laJkWr |
+| **Foto entrevista** | <img src="images/entrevista1-segmento2.png" alt=""  width="250" /> |
+| **Resumen** | Edery Abanto, conductor de transporte de carga refrigerada de 30 años con 5 años de experiencia, encargado de trasladar productos perecibles como lácteos, embutidos y carnes frescas que requieren una cadena de frío estricta, actualmente monitorea la temperatura mediante un sistema integrado en la cabina que le permite visualizar el estado general sin detenerse, pero que no proporciona datos precisos, ni alertas preventivas, ni información en tiempo real compartible con la central. Considera que ColdTrack podría brindarle mayor seguridad operativa, facilitar la toma de decisiones durante la ruta y reducir significativamente el riesgo de pérdida de productos. |
+
+| **ENTREVISTA 2** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Camila Vega |
+| **Edad** | 28 |
+| **Profesión** | conductora |
+| **Departamento** | Lima |
+| **Entrevistador** | Aarón Avila Palacios |
+| **Inicio del video** | 0:00 |
+| **Fin del video** | 2:18 |
+| **Link del video** | https://drive.google.com/file/d/1qJee7ydMPY_k7aXL2FoFVtS1GJaTjhjl/view?usp=drive_link |
+| **Foto entrevista** | <img src="images/entrvista-usuario-2.png" alt=""  width="250" /> |
+| **Resumen** | Camila Vega, conductora de 28 años, participó en la validación del Landing Page y de la Web Application de ColdTrack. Indicó que comprendió fácilmente el propósito de la aplicación y que la información de los envíos se encuentra organizada, permitiéndole consultar rápidamente su estado. También destacó que las alertas de temperatura y humedad son claras y fáciles de identificar. Finalmente, señaló que recibir notificaciones en tiempo real le ayudaría a detectar variaciones fuera de los rangos permitidos, reaccionar oportunamente y proteger la mercancía durante el transporte. |
+
+| **ENTREVISTA 3** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Fernando Pérez |
+| **Edad** | 51 |
+| **Profesión** | conductor |
+| **Departamento** | Lima |
+| **Inicio del video** | 0:00 |
+| **Fin del video** | 1:28 |
+| **Link del video** | https://drive.google.com/file/d/12zC-XNC_SjH2qDJEn48HsPJ6_leXD-kd/view?usp=drive_link |
+| **Foto entrevista** | <img src="images/entrevista2_segmento2.png" alt=""  width="250" /> |
+| **Resumen** | Fernando Pérez, conductor de 51 años perteneciente al segmento de personal de transporte, evaluó la propuesta de ColdTrack desde la perspectiva de un usuario que necesita información simple y oportuna durante una ruta. Al revisar la solución, identificó la utilidad de consultar el estado del envío y recibir alertas relacionadas con temperatura o humedad, ya que estas señales podrían ayudar a prevenir pérdidas de mercadería y comunicar incidencias a tiempo. También destacó la importancia de que la aplicación sea clara, con indicadores visuales fáciles de interpretar y mensajes concretos, debido a que el conductor no puede dedicar demasiado tiempo a navegar por varias pantallas mientras cumple sus actividades de transporte. |
+
 ### 5.3.3. Evaluaciones según heurísticas
+
+Para complementar las entrevistas de validación del Sprint 3, se aplicó una evaluación basada en heurísticas de experiencia de usuario. Esta evaluación permitió analizar la propuesta de ColdTrack desde tres enfoques principales: usabilidad, arquitectura de información e inclusive design. El objetivo fue identificar riesgos de interacción, claridad, accesibilidad y organización de contenido que pudieran afectar la experiencia de los usuarios durante el uso del Landing Page y la Web Application.
+
+La evaluación se realizó considerando los comentarios obtenidos en las entrevistas, las tareas ejecutadas por los participantes y la revisión de los flujos principales del producto. Se prestó especial atención a los puntos donde un usuario podría confundirse, tardar más de lo necesario o no saber qué acción tomar ante una alerta de temperatura o humedad. Debido a que ColdTrack se orienta a operaciones logísticas, la evaluación priorizó la rapidez de interpretación, la visibilidad del estado del envío y la reducción de errores durante acciones críticas.
+
+#### Alcance de la evaluación
+
+| **Elemento evaluado** | **Aspectos revisados** |
+|-----------------------|------------------------|
+| Landing Page | Claridad de la propuesta de valor, comprensión del problema de cadena de frío, beneficios comunicados y relación con la Web Application. |
+| Dashboard | Visibilidad de envíos activos, lectura rápida de temperatura, humedad, estados operativos e incidencias. |
+| Gestión de envíos | Registro, listado, detalle del envío, información de ruta, producto, conductor y estado. |
+| Sensores y telemetría | Comprensión de lecturas, asociación con envíos y utilidad de la información ambiental. |
+| Alertas | Claridad del mensaje, severidad, causa del problema, impacto y acción recomendada. |
+| Historial y reportes | Trazabilidad, revisión de incidencias pasadas y utilidad para control de calidad. |
+| Accesibilidad e inclusive design | Contraste, legibilidad, tamaño de textos, uso de iconos, lenguaje simple y adaptación a dispositivos. |
+
+#### Escala de severidad utilizada
+
+| **Nivel** | **Severidad** | **Descripción** | **Prioridad sugerida** |
+|-----------|---------------|-----------------|-------------------------|
+| 0 | Sin problema | No se identifican dificultades relevantes. El elemento funciona correctamente para el objetivo evaluado. | Mantener y monitorear. |
+| 1 | Problema menor | Puede generar una pequeña duda, pero no impide completar la tarea. | Corregir en una iteración posterior. |
+| 2 | Problema moderado | Puede retrasar al usuario, requerir orientación adicional o aumentar el riesgo de error. | Corregir en la siguiente iteración. |
+| 3 | Problema crítico | Dificulta significativamente la tarea, puede impedir la acción correcta o afectar una operación sensible. | Corregir con alta prioridad antes de una versión productiva. |
+
+#### Evaluación heurística
+
+| **Criterio heurístico** | **Elemento evaluado** | **Hallazgo** | **Riesgo identificado** | **Severidad** | **Recomendación** |
+|-------------------------|-----------------------|--------------|--------------------------|---------------|-------------------|
+| Visibilidad del estado del sistema | Dashboard y detalle de envíos | La aplicación permite reconocer el estado general de los envíos mediante indicadores de temperatura, humedad y estado operativo. | Si los estados visuales no se mantienen consistentes, el usuario podría no distinguir rápidamente un envío normal de uno crítico. | 1 | Mantener indicadores visibles, usar colores consistentes para estados normales, preventivos y críticos, y agregar etiquetas textuales junto al color. |
+| Correspondencia entre el sistema y el mundo real | Landing Page, dashboard y alertas | Los usuarios comprenden que ColdTrack se relaciona con cadena de frío, transporte y monitoreo de alimentos; sin embargo, algunos términos técnicos pueden resultar menos familiares para conductores. | El usuario podría interpretar una alerta como un dato informativo y no como una acción urgente. | 2 | Usar lenguaje operativo y directo, por ejemplo: "Temperatura fuera de rango", "Revisar refrigeración" o "Contactar supervisor". |
+| Control y libertad del usuario | Navegación de la Web Application | Los flujos principales permiten desplazarse entre dashboard, envíos, alertas e historial, pero en vistas de detalle debe reforzarse la salida o retorno. | El usuario puede sentirse atrapado en una vista de detalle o tardar más en volver al dashboard durante una operación. | 1 | Mantener menú principal visible, agregar botones de retorno claros y conservar breadcrumbs o rutas de navegación cuando el flujo crezca. |
+| Consistencia y estándares | Interfaz general | La aplicación mantiene una estructura visual consistente en tarjetas, tablas, botones y estados, lo que favorece el aprendizaje del sistema. | Si se agregan módulos futuros sin la misma lógica visual, la curva de aprendizaje puede aumentar. | 0 | Conservar patrones de diseño, nombres de acciones y colores de estado en futuras versiones. |
+| Prevención de errores | Registro y actualización de envíos | Para operaciones críticas como registrar, actualizar o finalizar un envío, se requiere evitar datos incompletos o acciones accidentales. | Un error en el registro de rangos, conductor o sensor podría afectar la trazabilidad y generar alertas incorrectas. | 2 | Incorporar validaciones por campo, mensajes de error específicos, confirmaciones antes de finalizar envíos y revisión previa de datos críticos. |
+| Reconocimiento antes que memoria | Alertas e historial | Los usuarios interpretan mejor la información cuando está agrupada por estado, fecha, severidad, envío o sensor. | Si el usuario debe recordar códigos, rutas o eventos previos, aumentan los errores de interpretación. | 1 | Mantener filtros visibles, etiquetas descriptivas, iconos con texto y resúmenes por envío. |
+| Flexibilidad y eficiencia de uso | Flujos de logística y transporte | Los usuarios necesitan encontrar rápidamente envíos activos, incidencias e historial para tomar decisiones. | En escenarios con muchos envíos, la ausencia de búsqueda avanzada podría retrasar la atención de incidentes. | 2 | Agregar filtros por estado, criticidad, fecha, conductor, sensor y ruta; incluir ordenamiento por alertas más recientes o más graves. |
+| Diseño estético y minimalista | Landing Page y Web Application | La información se percibe organizada y orientada al propósito del producto, pero las vistas operativas deben priorizar los datos que impactan la decisión. | Una pantalla saturada puede ocultar información crítica durante una operación real. | 1 | Priorizar temperatura, humedad, estado, ruta, alerta activa y acción sugerida; mover datos secundarios a vistas de detalle. |
+| Ayuda para reconocer y recuperarse de errores | Alertas y mensajes del sistema | Las alertas comunican incidencias, pero deben indicar claramente qué ocurrió, cuál es el impacto y qué acción se recomienda. | El usuario podría reconocer que existe un problema, pero no saber cómo responder. | 2 | Redactar alertas con estructura: causa, severidad, envío afectado y acción sugerida. Ejemplo: "Temperatura alta en envío CT-004. Revisar unidad de refrigeración y avisar a operaciones". |
+| Inclusive design y accesibilidad | Interfaz visual y uso en campo | La solución debe considerar usuarios con distintos niveles de experiencia digital y condiciones de uso en oficina, almacén o ruta. | Bajo contraste, textos pequeños o iconos sin etiqueta pueden dificultar el uso en móviles o ambientes con poca visibilidad. | 2 | Asegurar contraste suficiente, tamaños legibles, botones táctiles amplios, textos simples, iconos acompañados de etiquetas y diseño responsive. |
+| Seguridad y confianza | Autenticación, reportes y datos operativos | La aplicación protege el acceso mediante autenticación y conserva información operativa, pero debe comunicar claramente qué datos son persistentes y qué acciones quedan registradas. | Si el usuario no entiende la persistencia de datos, puede desconfiar del historial o de los reportes generados. | 1 | Mostrar confirmaciones de guardado, fechas de actualización, usuario responsable y estado de generación de reportes. |
+| Ayuda y documentación contextual | Flujos nuevos o poco frecuentes | Los usuarios pueden completar tareas principales, pero algunos conceptos como sensores, telemetría o reportes pueden requerir apoyo inicial. | Usuarios nuevos podrían necesitar asistencia para entender la relación entre envío, sensor, lectura y alerta. | 1 | Agregar microcopy, tooltips o mensajes breves en formularios y vistas de detalle sin saturar la interfaz. |
+
+#### Resumen de severidades
+
+| **Severidad** | **Cantidad de hallazgos** | **Interpretación** |
+|---------------|---------------------------|--------------------|
+| 0 - Sin problema | 1 | La consistencia visual general es adecuada y debe mantenerse como estándar del producto. |
+| 1 - Problema menor | 6 | Existen mejoras de claridad, navegación y documentación contextual que no bloquean el uso, pero pueden optimizar la experiencia. |
+| 2 - Problema moderado | 5 | Los principales riesgos están relacionados con alertas, prevención de errores, accesibilidad, filtros y comprensión de acciones críticas. |
+| 3 - Problema crítico | 0 | No se identificaron bloqueos graves durante la validación, aunque los problemas moderados deben atenderse antes de una versión productiva. |
+
+#### Resultados por segmento
+
+| **Segmento** | **Resultado de la validación** | **Riesgos detectados** | **Principales oportunidades de mejora** |
+|--------------|--------------------------------|-----------------------|------------------------------------------|
+| Personal de Logística y Operaciones | El segmento comprendió que ColdTrack permite centralizar el monitoreo de la cadena de frío y mejorar la visibilidad del estado de los envíos. Se valoró positivamente la posibilidad de detectar incidencias mediante alertas, consultar información en tiempo real y revisar historial operativo. | Puede requerir filtros más avanzados si el número de envíos aumenta. También necesita mensajes de alerta con causa, impacto y acción recomendada para decidir con rapidez. | Reforzar filtros de búsqueda, priorizar alertas por severidad, mostrar indicadores de última actualización y mejorar la explicación de acciones sugeridas ante incidentes. |
+| Personal de Transporte | El segmento identificó la utilidad de consultar el estado del envío y recibir alertas claras durante la ruta. Los participantes destacaron que la aplicación debe ser rápida, simple y fácil de interpretar porque el conductor no puede dedicar demasiado tiempo a navegar. | Puede haber dificultad si las alertas usan lenguaje técnico, si los botones son pequeños en móvil o si la ruta para volver al estado del envío no es inmediata. | Simplificar mensajes de alerta, mantener indicadores visuales grandes, reducir pasos en la consulta del envío, reforzar diseño responsive y usar instrucciones breves orientadas a la acción. |
+
+#### Acciones de mejora priorizadas
+
+| **Prioridad** | **Mejora propuesta** | **Justificación** | **Impacto esperado** |
+|---------------|----------------------|-------------------|----------------------|
+| Alta | Rediseñar los mensajes de alerta con causa, severidad, envío afectado y acción sugerida. | Las alertas son el punto más sensible del producto porque conectan el monitoreo con la reacción operativa. | Mayor rapidez de respuesta y menor ambigüedad ante condiciones críticas. |
+| Alta | Agregar validaciones visibles en registro y actualización de envíos. | Datos incompletos o incorrectos pueden afectar sensores, historial y reportes. | Menor riesgo de errores operativos y mayor confianza en la información registrada. |
+| Media | Incorporar filtros y ordenamiento por criticidad, fecha, estado, conductor y sensor. | Los supervisores necesitan priorizar incidentes cuando existen varios envíos activos. | Mayor eficiencia para encontrar envíos críticos y revisar historial. |
+| Media | Mejorar accesibilidad visual en móvil y condiciones de campo. | Conductores y personal operativo pueden usar la aplicación en rutas o ambientes con poca comodidad visual. | Mejor legibilidad, menor esfuerzo de interacción y uso más inclusivo. |
+| Media | Agregar microcopy y ayuda contextual en sensores, telemetría y reportes. | Algunos conceptos técnicos pueden ser nuevos para usuarios no especializados. | Menor curva de aprendizaje y mayor comprensión de los flujos. |
+| Baja | Mantener consistencia visual en tarjetas, tablas, botones y estados. | La consistencia actual favorece el aprendizaje y debe conservarse al crecer el producto. | Experiencia más coherente en futuras funcionalidades. |
+
+#### Conclusión de la evaluación
+
+La evaluación heurística muestra que ColdTrack presenta una experiencia comprensible para los usuarios de logística, operaciones y transporte, especialmente en la visualización del estado de envíos, la identificación de alertas y la relación entre el problema comunicado en el Landing Page y las funcionalidades disponibles en la Web Application. Los principales aspectos positivos se relacionan con la centralización de información, la consistencia visual, la disponibilidad de historial y la posibilidad de detectar incidencias durante el transporte.
+
+Sin embargo, los hallazgos moderados evidencian que la propuesta debe reforzar elementos críticos antes de una versión productiva. En especial, se recomienda mejorar la redacción de alertas, agregar validaciones en acciones sensibles, ampliar filtros de búsqueda y asegurar criterios de accesibilidad visual. Estas mejoras permitirán que la plataforma sea más efectiva para usuarios que deben tomar decisiones rápidas durante operaciones de transporte refrigerado y que requieren información clara, confiable y accionable.
+
+En conclusión, ColdTrack no presenta problemas críticos que impidan su uso durante la validación, pero sí requiere mejoras de precisión y prevención de errores para aumentar su confiabilidad operativa. La siguiente iteración debe enfocarse en reducir la ambigüedad de las alertas, mejorar la navegación en escenarios con varios envíos y fortalecer la experiencia móvil para conductores y personal en campo.
 
 ## 5.4. Video About-the-Product
 
@@ -2507,7 +3029,69 @@ Como recomendaciones para los siguientes pasos del roadmap, proponemos priorizar
 
 Finalmente, recomendamos ampliar las Validation Interviews con empresas que gestionen productos refrigerados y definir métricas verificables, como tiempo de detección de incidencias, porcentaje de envíos dentro del rango permitido, reducción de registros manuales y facilidad de uso percibida. Estos resultados deberán compararse con los criterios de éxito de Lean UX para priorizar el siguiente incremento y evitar que las decisiones del roadmap se basen únicamente en supuestos técnicos del equipo.
 
+## Video About-the-Team
+
+En esta sección se presenta el video **About-the-Team**, el cual resume el proceso de trabajo colaborativo desarrollado por el equipo durante la construcción del proyecto **ColdTrack**. A lo largo del video se muestran evidencias reales de sesiones de trabajo, reuniones de coordinación, planificación de sprints y desarrollo técnico de los distintos componentes del sistema.
+
+Durante el desarrollo del proyecto, el equipo trabajó de manera organizada aplicando metodologías ágiles, distribuyendo tareas entre frontend, backend, integración de componentes y validación final del producto. Se documentaron reuniones periódicas para la planificación, seguimiento y retrospectiva de cada sprint, permitiendo mantener una comunicación constante y un progreso sostenido.
+
+Entre los principales logros alcanzados por el equipo se encuentran:
+
+- Desarrollo completo de la **Landing Page** corporativa de ColdTrack.
+- Implementación del **frontend** del sistema con interfaces funcionales y responsivas.
+- Construcción del **backend** y conexión con servicios de almacenamiento de datos.
+- Integración de módulos de monitoreo para temperatura y humedad.
+- Desarrollo de dashboards para visualización de datos en tiempo real.
+- Implementación de funcionalidades de alertas y registro histórico.
+- Aplicación de principios de **usabilidad, accesibilidad, SEO e internacionalización (i18n)**.
+
+Asimismo, el video incluye el testimonio individual de cada integrante del equipo, donde explican las actividades realizadas, sus contribuciones al proyecto, los outcomes logrados y las competencias desarrolladas durante el ciclo académico. Esto evidencia no solo el desarrollo del producto, sino también el crecimiento técnico, colaborativo y profesional de cada miembro.
+
+Adicionalmente, este video fue incrustado en la sección **About the Team** del **Landing Page**, permitiendo su visualización directa desde la plataforma principal del proyecto.
+
+### Información del video
+
+**Nombre del archivo:**  
+`upc-pre-202610-1asi0730-coldtrack-aboutthe-team-sprint-3.mp4`
+
+**Formato:**  
+`.mp4`
+
+**Duración total:**  
+`00:09:57`
+
+### Pauta de secuencias del contenido
+
+| Sección | Descripción | Inicio |
+|---------|-------------|--------|
+| Proceso colaborativo y desarrollo del proyecto | Se resume el proceso de trabajo del equipo durante el desarrollo de ColdTrack, mostrando reuniones, planificación de sprints, coordinación entre integrantes, desarrollo del frontend y backend, integración del sistema y despliegue final. | 00:00:00 |
+| Testimonio individual – Eslander Celis | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 00:04:14 |
+| Testimonio individual – Rodrigo Oblitas | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 00:05:15 |
+| Testimonio individual – Mathias Aréchaga | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 00:06:31 |
+| Testimonio individual – Aarón Ávila | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 00:07:25 |
+| Testimonio individual – Gabriel Mendoza | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 00:08:22 |
+
+### Evidencia del video
+
+**Screenshot representativo del video:**
+
+![About-the-Team](./images/About-the-team.png)
+
+### Video publicado en Microsoft Stream
+
+Microsoft Stream URL:  
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQDK3zANe96kTKttTEQVPc51AeFOEgs5dNd1qZa33zZqOjs?e=tx1J4F&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+### Video publicado en YouTube
+
+YouTube URL:  
+
+https://youtu.be/ULdg35MGr-Q
+
 # Bibliografía
+
+Amazon Web Services. (2026). *What is a RESTful API?* Recuperado el 19 de junio de 2026, de https://aws.amazon.com/what-is/restful-api/
 
 Axios. (2026). *Axios documentation*. Recuperado el 13 de mayo de 2026, de https://axios-http.com/
 
@@ -2517,13 +3101,23 @@ Firebase. (2026). *Firebase Hosting documentation*. Recuperado el 13 de mayo de 
 
 Filess.io. (2026). *Managed database hosting*. Recuperado el 19 de junio de 2026, de https://filess.io/
 
+Fowler, M. (2004). *UML distilled: A brief guide to the standard object modeling language* (3rd ed.). Addison-Wesley.
+
+Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design patterns: Elements of reusable object-oriented software*. Addison-Wesley.
+
 GitHub Docs. (2026). *GitHub Pages documentation*. Recuperado el 13 de mayo de 2026, de https://docs.github.com/en/pages
 
 GitHub Docs. (2026). *Managing branches in your repository*. Recuperado el 19 de junio de 2026, de https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository
 
 Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3rd ed.). O'Reilly Media.
 
+International Organization for Standardization. (2018). *ISO 9241-11:2018 Ergonomics of human-system interaction: Usability*. ISO.
+
+Kruchten, P. (1995). The 4+1 view model of architecture. *IEEE Software, 12*(6), 42-50. https://doi.org/10.1109/52.469759
+
 Microsoft. (2026). *ASP.NET Core documentation*. Recuperado el 19 de junio de 2026, de https://learn.microsoft.com/aspnet/core/
+
+Microsoft. (2026). *Authentication and authorization in ASP.NET Core*. Recuperado el 19 de junio de 2026, de https://learn.microsoft.com/aspnet/core/security/
 
 Microsoft. (2026). *Entity Framework Core documentation*. Recuperado el 19 de junio de 2026, de https://learn.microsoft.com/ef/core/
 
@@ -2531,22 +3125,52 @@ MockAPI. (2026). *MockAPI documentation*. Recuperado el 13 de mayo de 2026, de h
 
 MySQL. (2026). *MySQL 8.0 reference manual*. Recuperado el 19 de junio de 2026, de https://dev.mysql.com/doc/refman/8.0/en/
 
+Nielsen, J. (1994). *10 usability heuristics for user interface design*. Nielsen Norman Group. https://www.nngroup.com/articles/ten-usability-heuristics/
+
 OpenAPI Initiative. (2026). *OpenAPI Specification*. Recuperado el 19 de junio de 2026, de https://spec.openapis.org/oas/latest.html
 
 PrimeTek. (2026). *PrimeVue documentation*. Recuperado el 13 de mayo de 2026, de https://primevue.org/
+
+QuestPDF. (2026). *QuestPDF documentation*. Recuperado el 19 de junio de 2026, de https://www.questpdf.com/
 
 Render. (2026). *Render documentation*. Recuperado el 19 de junio de 2026, de https://render.com/docs
 
 Trello. (2026). *Trello guide*. Recuperado el 19 de junio de 2026, de https://trello.com/guide
 
-Vue.js. (2026). *Vue.js documentation*. Recuperado el 13 de mayo de 2026, de https://vuejs.org/
+Vernon, V. (2013). *Implementing domain-driven design*. Addison-Wesley.
 
 Vue I18n. (2026). *Vue I18n documentation*. Recuperado el 13 de mayo de 2026, de https://vue-i18n.intlify.dev/
+
+Vue.js. (2026). *Vue.js documentation*. Recuperado el 13 de mayo de 2026, de https://vuejs.org/
 
 Vite. (2026). *Vite documentation*. Recuperado el 13 de mayo de 2026, de https://vite.dev/
 
 # Anexos
 
-## Exposición grupal
+## Videos de Exposiciones
 
-Video de exposición grupal del proyecto ColdTrack: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBzHTo9GCR1RpI0WITzlzTLAdLiHay8hkvnxDjYvTBgo5E?e=RgyzPP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+En esta sección se incluyen los videos de las exposiciones realizadas durante las diferentes entregas del proyecto **ColdTrack**. Cada video evidencia el progreso del equipo en las distintas fases del desarrollo, mostrando la evolución del producto, las decisiones técnicas tomadas y los avances alcanzados en cada evaluación.
+
+### AV1 (Avance 1)
+
+Video correspondiente a la primera exposición del proyecto, donde se presentó la idea de negocio, problemática identificada, propuesta de solución y primeros avances en el diseño del sistema.
+
+Microsoft Stream URL:  
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQD2U2NEzg8xSLo8XOF1COuCAWLFyQgeSYzqyomeXHynISo?e=Iq89WY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+### TB1 (Trabajo Parcial / Trabajo Final Intermedio)
+
+Video correspondiente a la exposición intermedia del proyecto, donde se presentaron los avances en el desarrollo de la Landing Page, frontend del sistema y validaciones funcionales del producto.
+
+Microsoft Stream URL:  
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBzHTo9GCR1RpI0WITzlzTLAdLiHay8hkvnxDjYvTBgo5E?e=3ZaFCc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+### AV2 (Avance 2)
+
+Video correspondiente a la exposición del segundo avance, donde se evidenció principalmente el desarrollo del backend, integración de servicios, persistencia de datos y conexión entre frontend y backend.
+
+Microsoft Stream URL:  
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQDhwhrZnP6XTYKLr4AJchVxAe2WkJG6o9PUKwTbrZbFmC8?e=4rlZG5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
