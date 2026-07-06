@@ -59,7 +59,7 @@
 | 3.8     | 19/06/2026 | Gabriel Mendoza Palacios  | Actualización de Aspect Leaders and Collaborators y Team Collaboration Insights del Sprint 3. |
 | 3.9     | 19/06/2026 | Eslander Celis Berrospi   | Incorporación de la sección Video About-the-Team y actualización del Student Outcome. |
 | 3.10    | 19/06/2026 | Rodrigo Oblitas Alcalde   | Desarrollo y cierre de las entrevistas de validación del producto. |
-| 3.11    | 06/07/2026 | Aarón Avila Palacios      | Corrección del informe para la entrega TB2, actualización del registro de versiones, incorporación de evidencia de colaboración, ajuste del Student Outcome y alineación de secciones técnicas con el estado actual del proyecto. |
+| 4.1     | 06/07/2026 | Aarón Avila Palacios      | Corrección del informe para la entrega TB2, actualización del registro de versiones, incorporación de evidencia de colaboración, ajuste del Student Outcome y alineación de secciones técnicas con el estado actual del proyecto. |
 
 
 
@@ -110,7 +110,7 @@ La contribución del equipo se evidencia en la actividad del repositorio durante
 
 * [Student Outcome](#student-outcome)
 
-* [Capitulo I: Introducción](#capitulo-i-introducción)
+* [Capítulo I: Introducción](#capítulo-i-introducción)
 
   * [1.1. Startup Profile](#11-startup-profile)
 
@@ -130,12 +130,12 @@ La contribución del equipo se evidencia en la actividad del repositorio durante
     * [Segmento Objetivo 1: Personal de Logística y Operaciones](#segmento-objetivo-1-personal-de-logística-y-operaciones)
     * [Segmento Objetivo 2: Personal de Transporte](#segmento-objetivo-2-personal-de-transporte)
 
-* [Capitulo II: Requirements Elicitation & Analysis](#capitulo-ii-requirements-elicitation--analysis)
+* [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
 
   * [2.1. Competidores](#21-competidores)
 
     * [2.1.1. Analisis competitivo](#211-analisis-competitivo)
-    * [2.1.2. Estrategias y tacticas frente a competidores](#212-estrategias-y-tacticas-frente-a-competidores)
+    * [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   * [2.2. Entrevistas](#22-entrevistas)
 
     * [2.2.1. Diseno de entrevistas](#221-diseno-de-entrevistas)
@@ -151,14 +151,14 @@ La contribución del equipo se evidencia en la actividad del repositorio durante
     * [2.3.6. Big Picture EventStorming](#236-big-picture-eventstorming)
   * [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
-* [Capitulo III: Requirements specification](#capitulo-iii-requirements-specification)
+* [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
 
   * [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   * [3.2. User Stories](#32-user-stories)
   * [3.3. Impact Mapping](#33-impact-mapping)
   * [3.4. Product Backlog](#34-product-backlog)
 
-* [Capitulo IV: Product Design](#capitulo-iv-product-design)
+* [Capítulo IV: Product Design](#capítulo-iv-product-design)
 
   * [4.1. Style Guidelines](#41-style-guidelines)
 
@@ -179,8 +179,8 @@ La contribución del equipo se evidencia en la actividad del repositorio durante
 
     * [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
     * [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    * [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
-    * [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
+    * [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    * [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
   * [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
   * [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
 
@@ -196,7 +196,7 @@ La contribución del equipo se evidencia en la actividad del repositorio durante
 
     * [4.8.1. Database Diagram](#481-database-diagram)
 
-* [Capitulo V: Product Implementation, Validation & Deployment](#capitulo-v-product-implementation-validation--deployment)
+* [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
 
   * [5.1. Software Configuration Management](#51-software-configuration-management)
 
@@ -262,6 +262,7 @@ La contribución del equipo se evidencia en la actividad del repositorio durante
 * [Conclusiones](#conclusiones)
 
   * [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+  * [Video About-the-Team](#video-about-the-team)
 
 * [Bibliografía](#bibliografía)
 
@@ -374,7 +375,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
 </table>
 
 # Project: 
-# Capitulo I: Introduccion
+# Capítulo I: Introducción
 
 ## 1.1. Startup Profile
 
@@ -831,7 +832,9 @@ Este segmento está compuesto por las personas encargadas de trasladar los alime
 - Mayor seguridad en el transporte.  
 - Facilidad de uso durante el trabajo.
 
-# Capitulo II: Requirements Elicitation & Analysis
+<a id="capítulo-ii-requirements-elicitation--analysis"></a>
+
+# Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
 
@@ -1249,7 +1252,7 @@ El Ubiquitous Language de ColdTrack consolida los términos compartidos entre ne
 - **Persistence (Persistencia):** Almacenamiento de usuarios, envíos, sensores, telemetría, alertas y reportes en MySQL.
 - **Swagger/OpenAPI:** Documentación interactiva usada para probar y validar contratos REST.
 
-# Capitulo III: Requirements Specification
+# Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
 1. Segmento 1: Personal de Logística y Operaciones.
@@ -1533,7 +1536,7 @@ También se consideraron decisiones arquitectónicas derivadas de la implementac
 Finalmente, se presenta y explica la representación visual de la arquitectura utilizando el C4 Model. 
 Esta estructura jerárquica nos permite comunicar de manera efectiva la solución a través de tres niveles de detalle: el Software Architecture Context Level Diagram, los Software Architecture Container Level Diagrams y los Software Architecture Component Diagrams.
 
-### 4.6.1. Design-Level Event Storming
+### 4.6.1. Design-Level EventStorming
 La sesión de Design-Level EventStorming nos permitió transicionar desde los requerimientos de negocio hacia un diseño técnico estructurado y orientado al dominio. Como resultado del análisis colaborativo, identificamos cinco **Bounded Contexts (BC)** principales. Estos contextos no solo aíslan lógicamente las responsabilidades del sistema, sino que guían directamente la **Arquitectura DDD** que hemos implementado, donde cada Bounded Context se traduce en módulos independientes estructurados por capas.
 
 A continuación, se detalla el modelado técnico extraído para cada Bounded Context a partir de los diagramas generados:
@@ -1622,7 +1625,7 @@ El diagrama de contexto (Context Level) ilustra la visión general de más alto 
   <img src="images/context_diagram.png" alt="Context Diagram" width="100%"/>
 </p>
 
-### 4.6.3. Software Architecture Container Diagram
+### 4.6.3. Software Architecture Container Diagrams
 El Container Diagram detalla los principales contenedores que componen la solución. La Web Application funciona como interfaz principal para los usuarios, permitiendo consultar dashboards, registrar envíos, revisar sensores, visualizar alertas y acceder al historial. El Web API concentra los endpoints REST que exponen las capacidades del backend y orquesta la comunicación con los bounded contexts.
 
 La base de datos almacena usuarios, envíos, sensores, lecturas, alertas e información histórica requerida para reportes. Además, el despliegue separado entre frontend y backend permite que la interfaz pueda evolucionar de manera independiente de los servicios de negocio, siempre que se mantengan los contratos definidos por la API. Esta separación mejora la mantenibilidad y facilita futuras integraciones con sensores físicos o servicios de notificación.
@@ -1668,7 +1671,7 @@ Adicionalmente, el sistema puede generar reportes históricos en PDF y utilizar 
   <img src="images/Software-Architecture-Context-Diagram.png" alt="Container Diagram" width="100%"/>
 </p>
 
-### 4.6.4. Software Architecture Components Diagram
+### 4.6.4. Software Architecture Components Diagrams
 El Components Diagram describe la organización interna del backend de ColdTrack. Cada componente representa una capacidad del dominio o una responsabilidad técnica necesaria para ejecutar los casos de uso. Los controladores reciben solicitudes HTTP, los servicios de aplicación coordinan los casos de uso, los servicios de dominio contienen reglas de negocio y los repositorios administran la persistencia de los aggregates.
 
 Los componentes más relevantes son los asociados a Shipment Management, Telemetry Monitoring, Alerting, Reporting e Identity and Access. Esta estructura permite mantener una arquitectura modular, donde cada contexto tiene sus propias reglas y evita depender directamente de detalles internos de otros contextos. Por ejemplo, el módulo de alertas puede reaccionar ante lecturas de telemetría sin asumir la lógica completa del envío, mientras que reporting puede consolidar información histórica sin modificar la operación principal.
@@ -1811,7 +1814,9 @@ En esta sección se presenta el modelo relacional de la base de datos de ColdTra
 </p>
 
 
-# Capitulo V: Product Implementation, Validation & Deployment
+<a id="capítulo-v-product-implementation-validation--deployment"></a>
+
+# Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
 
@@ -1840,6 +1845,8 @@ Esta sección describe cómo el equipo gestionó la configuración, versionamien
 
 El flujo de trabajo siguió GitFlow. Las ramas `feature/*`, `fix/*` y `hotfix/*` se crean desde `develop`; las versiones estables pasan por `release/*` antes de llegar a `main`; y los commits siguen Conventional Commits para conservar trazabilidad técnica y documental.
 
+<a id="513-source-code-style-guide--conventions"></a>
+
 ### 5.1.3. Source Code Style Guide & Conventions
 
 **Landing Page:** HTML semántico, clases CSS en kebab-case, separación entre `index.html`, `css/styles.css` y `js/script.js`, atributos `aria-*`, foco visible y textos preparados para inglés y español.
@@ -1858,6 +1865,8 @@ El flujo de trabajo siguió GitFlow. Las ramas `feature/*`, `fix/*` y `hotfix/*`
 | Database | Filess.io | MySQL 8.0.29 | Credenciales gestionadas como variables de entorno y conexión TLS. |
 
 La Web Application usa variables de entorno para separar la URL base y las rutas semánticas de los recursos. El backend utiliza variables protegidas para `DATABASE_HOST`, `DATABASE_PORT`, `DATABASE_NAME`, `DATABASE_USER`, `DATABASE_PASSWORD` y `TokenSettings__Secret`; las credenciales no se versionan en GitHub.
+
+<a id="52-landing-page-services--applications-implementation"></a>
 
 ## 5.2. Landing Page, Services & Applications Implementation 
 
