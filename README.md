@@ -59,6 +59,7 @@
 | 3.8     | 19/06/2026 | Gabriel Mendoza Palacios  | Actualización de Aspect Leaders and Collaborators y Team Collaboration Insights del Sprint 3. |
 | 3.9     | 19/06/2026 | Eslander Celis Berrospi   | Incorporación de la sección Video About-the-Team y actualización del Student Outcome. |
 | 3.10    | 19/06/2026 | Rodrigo Oblitas Alcalde   | Desarrollo y cierre de las entrevistas de validación del producto. |
+| 3.11    | 06/07/2026 | Aarón Avila Palacios      | Corrección del informe para la entrega TB2, actualización del registro de versiones, incorporación de evidencia de colaboración, ajuste del Student Outcome y alineación de secciones técnicas con el estado actual del proyecto. |
 
 
 
@@ -92,6 +93,13 @@ Para la segunda entrega (AV2) se completó la integración del producto ColdTrac
 Además, se actualizaron las secciones de Student Outcome, conclusiones, recomendaciones, Video About-the-Product, Video About-the-Team y entrevistas de validación. La participación del equipo quedó reflejada en el historial de Git, donde se registraron contribuciones de los cinco integrantes mediante commits, documentación, capturas, evidencias de despliegue y ajustes finales del informe.
 
 ![Participación de Git en AV2](./images/contributors-av2.jpeg)
+
+## TB2
+Para la entrega TB2 se revisó el informe completo con el objetivo de alinearlo con la rúbrica final del curso y con el estado actualizado de los artefactos desarrollados por el equipo. En esta etapa se consolidaron las correcciones documentales, la trazabilidad de versiones, la evidencia de colaboración y la consistencia entre la Landing Page, la Web Application, los Web Services y los despliegues realizados en Firebase, Render y Filess.io.
+
+La contribución del equipo se evidencia en la actividad del repositorio durante los últimos meses. Aarón Avila Palacios participó activamente en la revisión final del informe, actualización de evidencias técnicas, integración de cambios documentales y validación de la correspondencia entre el reporte y los productos digitales implementados. Esta evidencia permite sustentar la colaboración distribuida del equipo y el uso de control de versiones durante el cierre del proyecto.
+
+![Participación de Git en TB2](./images/contributors-tb2.png)
 
 
 ## Contenido
@@ -280,6 +288,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
            <li><b>AV1:</b> Durante el desarrollo del proyecto, trabajé de manera autónoma asumiendo un rol activo en la organización de las actividades y la gestión del proyecto, ejerciendo liderazgo en la planificación y ejecución de cada etapa. Participé en la toma de decisiones relacionadas con la definición de la startup, la identificación de la problemática, la segmentación de usuarios y la elaboración de artefactos como User Personas, Empathy Maps, As-Is Scenario Mapping y Ubiquitous Language, demostrando capacidad para dirigir el proyecto de manera integral.</li>
            <li><b>TB1:</b> Durante el Sprint 2 (TB1), ejercí liderazgo en la estructuración técnica del proyecto frontend y la configuración de variables de entorno. Coordiné con el equipo la adopción de Vue.js y apoyé en la toma de decisiones arquitectónicas, asegurando que el desarrollo de los módulos principales estuviera alineado con los requerimientos técnicos y de diseño.</li>
            <li><b>AV2:</b> Durante el Sprint 3 lideré la integración entre la Web Application y los Web Services de ColdTrack. Coordiné la sustitución de la API simulada por el backend desplegado, la validación de los flujos de autenticación, envíos, sensores, telemetría, alertas e historial, y la preparación de releases trazables mediante GitFlow. Este trabajo permitió al equipo consolidar una solución integrada y demostrable para la Sprint Review.</li>
+           <li><b>TB2:</b> Para la entrega final, lideré la revisión de consistencia del informe frente a la rúbrica, actualicé las evidencias de colaboración y reforcé la trazabilidad entre los artefactos documentados y los productos implementados. También verifiqué que el reporte refleje correctamente la integración entre frontend, backend, base de datos, despliegues y releases del proyecto.</li>
          </ul>
          <b>Eslander Celis</b>
          <ul>
@@ -311,6 +320,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
              <li><b>AV1:</b> El equipo logró trabajar de manera conjunta, compartiendo responsabilidades y asumiendo un liderazgo distribuido que permitió organizar mejor las actividades y tomar decisiones de forma eficiente. La participación activa de todos los integrantes facilitó la coordinación en el desarrollo de entregables como los User Stories, el Product Backlog y el Impact Map, generando un ambiente de confianza y compromiso. Esto contribuyó a mantener al equipo alineado y enfocado en los objetivos del proyecto.</li>
              <li><b>TB1:</b> Durante el Sprint 2, el equipo demostró madurez al aplicar un liderazgo técnico y organizativo conjunto. La implementación de la aplicación en Vue.js exigió una alta coordinación mediante GitFlow, donde cada integrante lideró el desarrollo de módulos específicos (dashboard, alertas, envíos) mientras se apoyaban mutuamente en las revisiones de código, logrando consolidar la Web Application con éxito.</li>
              <li><b>AV2:</b> En el Sprint 3, el liderazgo compartido permitió integrar frontend, backend y base de datos sin perder la separación entre bounded contexts. La coordinación de despliegues, pruebas de endpoints y releases facilitó que cada integrante aportara desde su responsabilidad técnica y que el equipo presentara una solución consistente, trazable y disponible públicamente.</li>
+             <li><b>TB2:</b> En el cierre del proyecto, el equipo fortaleció el liderazgo compartido mediante la revisión final de entregables, la actualización de evidencias y la verificación de coherencia entre documentación, repositorios y despliegues. Esta dinámica permitió preparar una entrega más consistente y sustentada en evidencia verificable.</li>
           </ul>
         </td>
     </tr>
@@ -325,6 +335,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
            <li><b>AV1:</b> Durante el desarrollo del proyecto, mantuve un enfoque basado en la autoevaluación y la mejora continua, considerando diferentes perspectivas en la toma de decisiones y asegurando la coherencia del trabajo realizado. Esto me permitió simular un entorno colaborativo mediante la revisión constante de los avances, organizando las tareas de manera eficiente y garantizando el cumplimiento de los objetivos y entregables dentro de los plazos establecidos.</li>
            <li><b>TB1:</b> Para el Sprint 2, ayudé a establecer metas de desarrollo claras, dividiendo los requerimientos en tareas manejables. Fomenté un entorno inclusivo al apoyar a mis compañeros con dudas sobre el nuevo stack tecnológico (Vue.js, Vite), asegurando que todos cumpliéramos con los entregables dentro de los tiempos estipulados para el despliegue.</li>
            <li><b>AV2:</b> Organicé las correcciones y validaciones de la entrega en ramas funcionales creadas desde <code>develop</code>, documenté los pasos de integración y despliegue, y apoyé al equipo en el uso de Swagger, MySQL y los servicios publicados. La planificación por incrementos y la revisión previa a cada merge ayudaron a reducir conflictos y a cumplir las metas técnicas y documentales de AV2.</li>
+           <li><b>TB2:</b> Organicé las correcciones finales del reporte en una rama de mantenimiento creada desde <code>develop</code>, incorporé evidencia de colaboración, actualicé el registro de versiones y reforcé el Student Outcome con la participación correspondiente a la entrega final. Estas acciones ayudaron a mantener la trazabilidad del trabajo y a preparar el informe para su revisión final.</li>
          </ul>
          <b>Eslander Celis</b>
          <ul>
@@ -356,6 +367,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
              <li><b>AV1:</b> Se consolidó un entorno colaborativo e inclusivo donde se respetaron las ideas de cada integrante y se promovió la participación equitativa. El equipo estableció metas claras, planificó las tareas de manera organizada y cumplió con los plazos establecidos, lo que permitió avanzar de forma constante. Esta dinámica de trabajo favoreció la calidad de los resultados y aseguró el cumplimiento de los objetivos propuestos.</li>
              <li><b>TB1:</b> El equipo logró mantener un entorno altamente colaborativo bajo la presión del desarrollo técnico del Sprint 2. Las metas fueron claramente divididas a través de un tablero de gestión ágil, permitiendo a cada integrante planificar y ejecutar tareas de programación específicas. El cumplimiento estricto de estos objetivos individuales se reflejó en la exitosa integración y despliegue final de la Web Application frontend.</li>
              <li><b>AV2:</b> El equipo mantuvo un entorno colaborativo al distribuir el trabajo entre bounded contexts y ramas de característica, establecer criterios comunes de integración y revisar los cambios antes de incorporarlos. La sincronización entre desarrollo, despliegue y documentación permitió cumplir los objetivos del Sprint 3 y dejó una base compartida para continuar las validaciones con usuarios.</li>
+             <li><b>TB2:</b> El equipo mantuvo una coordinación final orientada a la calidad del informe, revisando la correspondencia entre rúbrica, evidencias, repositorios y despliegues. La planificación de correcciones permitió conservar un entorno colaborativo, ordenado y trazable, reforzando el cumplimiento de los objetivos finales del proyecto.</li>
           </ul>
         </td>
     </tr>
@@ -1510,7 +1522,7 @@ En esta sección, el equipo profundiza en la arquitectura de software para la so
 El objetivo es realizar una transición desde el entendimiento del negocio hacia un modelo técnico riguroso bajo la perspectiva de Domain-Driven Design (DDD).
 
 Este enfoque permite delimitar los Bounded Contexts necesarios para separar responsabilidades críticas, como el monitoreo IoT en tiempo real, la gestión logística de los envíos y el motor automatizado de alertas tempranas. 
-A través de esta metodología, se han identificado los Aggregates, Events, Commands y Queries que garantizan la integridad de la lógica de negocio en cada etapa del transporte de carga refrigerada y la conservación de la cadena de frío.
+A través de esta técnica de modelado colaborativo, se han identificado los Aggregates, Events, Commands y Queries que garantizan la integridad de la lógica de negocio en cada etapa del transporte de carga refrigerada y la conservación de la cadena de frío.
 
 La arquitectura de ColdTrack responde directamente a los hallazgos definidos en el Lean UX Process y en las entrevistas de validación. Los usuarios necesitan visibilidad del estado de los envíos, alertas comprensibles, historial confiable y reportes que respalden decisiones de calidad. Por ello, el diseño arquitectónico no se limita a organizar componentes técnicos, sino que busca reflejar el lenguaje del negocio: envío, sensor, lectura, alerta, incidencia, conductor, supervisor, reporte y trazabilidad.
 
@@ -2748,7 +2760,7 @@ La disponibilidad pública se volvió a comprobar el 19 de junio de 2026. Fireba
 | MySQL conserva la información entre solicitudes | Conforme |
 | El reporte PDF se genera y descarga correctamente | Conforme |
 
-Como aspecto de seguridad pendiente, la política CORS del backend se encuentra configurada actualmente para aceptar cualquier origen durante la demostración. Para una siguiente versión productiva se recomienda restringirla a los dominios autorizados de Firebase y a los entornos locales de desarrollo.
+La política CORS del backend fue ajustada para permitir únicamente los orígenes autorizados del frontend desplegado en Firebase y los entornos locales de desarrollo requeridos para pruebas. Esta configuración reduce la exposición innecesaria del API y mantiene la compatibilidad con la Web Application durante la demostración.
 
 Las tres evidencias confirman que la solución fue desplegada de extremo a extremo: Firebase entrega la interfaz, Render procesa las solicitudes de negocio y Filess.io conserva la información en MySQL. Los secretos de conexión y autenticación se administran mediante variables de entorno y no forman parte de los archivos versionados.
 
@@ -3051,9 +3063,9 @@ En conclusión, ColdTrack no presenta problemas críticos que impidan su uso dur
 
 ## 5.4. Video About-the-Product
 
-Esta sección presentará el Video About-the-Product de ColdTrack. Su propósito será comunicar de manera breve el problema de la cadena de frío, los segmentos objetivo, la propuesta de valor y el funcionamiento del producto digital integrado. El contenido estará dirigido a responsables de logística, control de calidad, transportistas y organizaciones que necesitan supervisar productos sensibles durante su traslado.
+Esta sección presenta el Video About-the-Product de ColdTrack. Su propósito es comunicar de manera breve el problema de la cadena de frío, los segmentos objetivo, la propuesta de valor y el funcionamiento del producto digital integrado. El contenido está dirigido a responsables de logística, control de calidad, transportistas y organizaciones que necesitan supervisar productos sensibles durante su traslado.
 
-El video deberá mostrar el vínculo entre la propuesta comunicada en la Landing Page y las capacidades disponibles en la Web Application. El recorrido incluirá el inicio de sesión, dashboard, registro y seguimiento de envíos, gestión de sensores, telemetría, alertas, historial y exportación de reportes. También explicará que la solución utiliza Web Services desplegados y persistencia MySQL para conservar la información operativa.
+El video muestra el vínculo entre la propuesta comunicada en la Landing Page y las capacidades disponibles en la Web Application. El recorrido incluye el inicio de sesión, dashboard, registro y seguimiento de envíos, gestión de sensores, telemetría, alertas, historial y exportación de reportes. También explica que la solución utiliza Web Services desplegados y persistencia MySQL para conservar la información operativa.
 
 ### Planned video structure
 
@@ -3101,7 +3113,7 @@ Finalmente, recomendamos ampliar las Validation Interviews con empresas que gest
 
 En esta sección se presenta el video **About-the-Team**, el cual resume el proceso de trabajo colaborativo desarrollado por el equipo durante la construcción del proyecto **ColdTrack**. A lo largo del video se muestran evidencias reales de sesiones de trabajo, reuniones de coordinación, planificación de sprints y desarrollo técnico de los distintos componentes del sistema.
 
-Durante el desarrollo del proyecto, el equipo trabajó de manera organizada aplicando metodologías ágiles, distribuyendo tareas entre frontend, backend, integración de componentes y validación final del producto. Se documentaron reuniones periódicas para la planificación, seguimiento y retrospectiva de cada sprint, permitiendo mantener una comunicación constante y un progreso sostenido.
+Durante el desarrollo del proyecto, el equipo trabajó de manera organizada aplicando prácticas ágiles, distribuyendo tareas entre frontend, backend, integración de componentes y validación final del producto. Se documentaron reuniones periódicas para la planificación, seguimiento y retrospectiva de cada sprint, permitiendo mantener una comunicación constante y un progreso sostenido.
 
 Entre los principales logros alcanzados por el equipo se encuentran:
 
