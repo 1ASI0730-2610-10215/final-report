@@ -147,16 +147,14 @@ La contribución del equipo se evidencia en la actividad del repositorio durante
     * [2.3.2. User Task Matrix](#232-user-task-matrix)
     * [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     * [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    * [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-    * [2.3.6. Big Picture EventStorming](#236-big-picture-eventstorming)
-  * [2.4. Ubiquitous Language](#24-ubiquitous-language)
+  * [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+  * [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
 * [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
 
-  * [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  * [3.2. User Stories](#32-user-stories)
-  * [3.3. Impact Mapping](#33-impact-mapping)
-  * [3.4. Product Backlog](#34-product-backlog)
+  * [3.1. User Stories](#31-user-stories)
+  * [3.2. Impact Mapping](#32-impact-mapping)
+  * [3.3. Product Backlog](#33-product-backlog)
 
 * [Capítulo IV: Product Design](#capítulo-iv-product-design)
 
@@ -1170,7 +1168,7 @@ Cada punto estadístico recabado de las entrevistas se correlaciona directamente
 **USER PERSONA: Andre Montes**
 ![Empathy Map 2](./images/Empathy-Mapping-ANDRE-MONTES.png)
 
-### 2.3.5. As-is Scenario Mapping
+#### As-is Scenario Mapping
 
 Los As-is Scenario Mapping muestran cómo los segmentos objetivo atienden actualmente el monitoreo de la cadena de frío antes de incorporar ColdTrack. La actualización diferencia las actividades, pensamientos y emociones de cada segmento para evidenciar los puntos de dolor que justifican la solución.
 
@@ -1192,7 +1190,7 @@ El personal de transporte revisa indicadores básicos o señales visibles del ve
 
 La actualización enfatiza cinco fases del proceso actual: monitoreo durante ruta, detección de problemas, comunicación, gestión de incidentes y cumplimiento de entrega. En cada fase se evidencian necesidades relacionadas con información en tiempo real, alertas accionables, comunicación con supervisores y reducción de incertidumbre sobre el estado de la carga.
 
-### 2.3.6. Big Picture EventStorming
+## 2.4. Big Picture EventStorming
 
 ![Big Picture v1](./images/bigpicture1.png)
 
@@ -1202,7 +1200,7 @@ La actualización enfatiza cinco fases del proceso actual: monitoreo durante rut
 
 ![Big Picture EventStorming](./images/big_picture_event.png)
 
-## 2.4. Ubiquitous Language
+## 2.5. Ubiquitous Language
 
 El Ubiquitous Language de ColdTrack consolida los términos compartidos entre negocio, diseño y desarrollo. Estos conceptos se usan de forma consistente en la landing page, la Web Application, los Web Services, la base de datos y la documentación del producto.
 
@@ -1254,14 +1252,14 @@ El Ubiquitous Language de ColdTrack consolida los términos compartidos entre ne
 
 # Capítulo III: Requirements Specification
 
-## 3.1. To-Be Scenario Mapping
+**Complementary To-Be Scenario Mapping**
 1. Segmento 1: Personal de Logística y Operaciones.
  <img src="./images/tobepersonaldelogisticayoperaciones.jpg" alt="tobepersonal" width="80%">
  
 2. Segmento 2: Personal de Transporte.
  <img src="./images/tobetransportistas.png" alt="tobetransportistas" width="80%">
 
-## 3.2. User Stories
+## 3.1. User Stories
 
 Esta sección organiza las épicas, User Stories y Technical Stories que guían el desarrollo de ColdTrack. Las historias se formularon considerando los tres productos digitales desarrollados por el equipo: Landing Page, Web Application y Web Services. Cada historia mantiene trazabilidad con una épica y expresa criterios de aceptación verificables durante los Sprint Reviews.
 
@@ -1301,10 +1299,10 @@ Esta sección organiza las épicas, User Stories y Technical Stories que guían 
 | TS-003 | Integrar frontend con backend productivo | Como equipo técnico<br>Quiero reemplazar MockAPI por la API de Render<br>Para ejecutar el flujo completo con persistencia real. | Las variables de entorno de producción apuntan a Render y los servicios axios usan JWT. | EP-007 |
 | TS-004 | Documentar y desplegar servicios | Como equipo técnico<br>Quiero publicar Swagger, Firebase Hosting y Render<br>Para facilitar pruebas, exposición pública y revisión académica. | Swagger está disponible en producción, Firebase sirve la Web Application y Render expone la API conectada a MySQL. | EP-007 |
 
-## 3.3. Impact Mapping
+## 3.2. Impact Mapping
 <img src="./images/IMPACTMAPP.png" alt="tobetransportistas" width="90%">
 
-## 3.4. Product Backlog
+## 3.3. Product Backlog
 
 | Prioridad | User Story ID | Título HU | Story Points |
 |----------|--------------|----------|-------------|
