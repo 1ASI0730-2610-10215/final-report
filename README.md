@@ -2775,7 +2775,20 @@ En conjunto, la evidencia recopilada en el repositorio demuestra que el equipo m
 En esta sección se documentará el trabajo correspondiente al Sprint 4 de ColdTrack. El apartado queda preparado para registrar la planificación, responsables, backlog, evidencias de desarrollo, ejecución, documentación de servicios, despliegue y colaboración del equipo durante la iteración.
 
 #### 5.2.4.1. Sprint Planning 4
-
+| Sprint | Sprint 4 |
+| ---------------------------------- | -------- |
+| | Sprint Planning Background |
+| Date | 2026/07/02 |
+| Time | 19:30 PM |
+| Location | El desarrollo de la reunión se realizó virtualmente mediante Discord. |
+| Prepared By | Eslander Celis Berrospi |
+| Attendees (to planning meeting) | Eslander Celis Berrospi, Rodrigo Oblitas Alcalde, Aarón Avila Palacios, Gabriel Mendoza, Mathias Aréchaga |
+| Sprint n – 1 Review Summary | Durante el Sprint 3 se desarrolló exitosamente la plataforma backend de ColdTrack, implementando los principales servicios, entidades de dominio, mecanismos de autenticación, APIs REST y la integración inicial con el frontend. Asimismo, se avanzó en la documentación técnica y la configuración de la infraestructura necesaria para el funcionamiento del sistema. |
+| Sprint n – 1 Retrospective Summary | Durante la retrospectiva del Sprint 3, el equipo concluyó que la comunicación y distribución de tareas permitió avanzar de forma constante en el desarrollo del backend. Sin embargo, se identificó la necesidad de fortalecer las pruebas de integración, optimizar algunos componentes del frontend, completar la documentación del proyecto y preparar la versión final para su entrega. |
+| | Sprint Goal & User Stories |
+| Sprint 4 Goal | Completar la integración entre el frontend y backend de ColdTrack, finalizar las funcionalidades pendientes del sistema, realizar pruebas funcionales y de integración, corregir incidencias detectadas durante las validaciones, optimizar la experiencia de usuario, completar la documentación técnica y preparar el despliegue de la versión final del proyecto para su presentación y entrega. |
+| Sprint 4 Velocity | 21 |
+| Sum of Story Points | 21 |
 
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
@@ -2785,7 +2798,40 @@ En esta sección se documentará el trabajo correspondiente al Sprint 4 de ColdT
 
 
 #### 5.2.4.4. Development Evidence for Sprint Review
+- Report Repository
 
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| Final-Report | `hotfix/update-project-documentation` | `303645ec` | `docs: improve sprint evidence, about-the-team and annex sections` | Se actualizaron las evidencias de los sprints, la sección About-the-Team y los anexos del informe para alinearlos con la rúbrica del proyecto. | 30/06/2026 |
+| Final-Report | `hotfix/outcome-userpersonas-bigpicture` | `9855e471` | `docs: add AV2 student outcome` | Se incorporó la evidencia correspondiente al Student Outcome del segundo avance. | 30/06/2026 |
+| Final-Report | `hotfix/outcome-userpersonas-bigpicture` | `8bfab6e1` | `docs: fix student outcome` | Se realizaron correcciones en la documentación de los Student Outcomes. | 30/06/2026 |
+| Final-Report | `hotfix/outcome-userpersonas-bigpicture` | `fe457f7` | `docs: update user personas and add Big Picture EventStorming` | Se actualizaron las User Personas y se añadió el diagrama Big Picture EventStorming. | 30/06/2026 |
+| Final-Report | `hotfix/outcome-userpersonas-bigpicture` | `b0b4ebff` | `fix: fixing content and 2.3.6` | Se corrigieron contenidos del informe y la sección 2.3.6. | 30/06/2026 |
+| Final-Report | `hotfix/report-cover-leanux-heuristics` | `55bcc7fb` | `docs(report): expand architecture and implementation sections` | Se ampliaron las secciones de arquitectura e implementación del informe técnico. | 30/06/2026 |
+| Final-Report | `hotfix/update-interview-analysis` | `7a5914dd` | `docs: add descriptions for C4 context and container diagrams` | Se añadieron descripciones para los diagramas C4 Context y Container. | 30/06/2026 |
+| Final-Report | `hotfix/rubric-alignment-sprint-evidence` | `dc51bb04` | `docs(report): remove sprint 3 deployment diagram` | Se eliminó el diagrama de despliegue del Sprint 3 para adecuar el informe a la rúbrica. | 30/06/2026 |
+| Final-Report | `hotfix/update-container-diagram` | `5949a9e5` | `docs: add Components Diagram image and documentation` | Se añadió el diagrama de componentes y su documentación correspondiente. | 01/07/2026 |
+| Final-Report | `hotfix/lean-ux-canvas-alignment` | `e3a6d0b0` | `docs(lean-ux): align canvas with Lean UX model` | Se alineó el Lean UX Canvas con la metodología Lean UX establecida para el proyecto. | 02/07/2026 |
+| Final-Report | `hotfix/final-report-leanux-conclusions` | `5624215c` | `docs(report): align lean ux canvas and conclusions` | Se actualizaron las conclusiones y el Lean UX Canvas para la versión final del informe. | 05/07/2026 |
+
+- Backend Repository
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| FreshGuard.ColdTrack.Platform | `feature/allow-mysql-user-variables` | `0211bf32` | `fix(persistence): allow MySQL migration user variables` | Se habilitó el uso de variables durante las migraciones de MySQL para mejorar la compatibilidad del sistema. | 16/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/fix-swagger-bearer-security` | `1c0a3aac` | `fix(api): apply bearer security to Swagger operations` | Se aplicó autenticación Bearer a la documentación Swagger de la API REST. | 16/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/backend-architecture-alignment` | `bd013cc8` | `fix(api): align CORS and OpenAPI dependency with production frontend` | Se ajustó la configuración de CORS y OpenAPI para garantizar la correcta integración con el frontend desplegado en producción. | 05/07/2026 |
+| FreshGuard.ColdTrack.Platform | `main` | `ff403db0` | `merge: backend architecture release` | Se integraron los cambios finales de arquitectura backend en la rama principal para la versión estable del sistema. | 05/07/2026 |
+
+
+- Frontend Repository
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| ColdTrack-Front | `feature/iam-session-hardening` | `d3911c14` | `feat(iam): strengthen session guard and request interceptors` | Se reforzó la seguridad de autenticación mediante mejoras en los interceptores de peticiones y control de sesiones. | 23/06/2026 |
+| ColdTrack-Front | `main` | `c6af355f` | `docs: update source authorship to FreshGuard` | Se actualizó la información de autoría del proyecto conforme a la identidad final de FreshGuard. | 23/06/2026 |
+| ColdTrack-Front | `feature/frontend-architecture-alignment` | `578e6921` | `docs(frontend): align architecture documentation with course guidelines` | Se adecuó la documentación de arquitectura frontend de acuerdo con los lineamientos establecidos para el curso. | 05/07/2026 |
+| ColdTrack-Front | `main` | `cd7e0c25` | `merge: frontend architecture release` | Se integraron los cambios finales de arquitectura frontend en la rama principal como parte de la versión definitiva del sistema. | 05/07/2026 |
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
