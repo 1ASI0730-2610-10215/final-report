@@ -232,6 +232,17 @@ Además, se actualizaron las secciones de Student Outcome, conclusiones, recomen
       * [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       * [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
 
+    * [5.2.4. Sprint 4](#524-sprint-4)
+
+      * [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      * [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      * [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+      * [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      * [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      * [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      * [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      * [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+
   * [5.3. Validation Interviews](#53-validation-interviews)
 
     * [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
@@ -2758,6 +2769,36 @@ El Network Graph correspondiente al Sprint 3 muestra un uso activo del flujo de 
 <p>
 En conjunto, la evidencia recopilada en el repositorio demuestra que el equipo mantuvo una dinámica de trabajo constante conforme avanzaban las fechas de integración de los distintos bounded contexts del backend. La consolidación exitosa de las APIs y servicios sugiere un alto nivel de organización para preparar la Sprint Review. Estos analíticos y la correcta ejecución del GitFlow confirman que, durante el Sprint 3, los miembros del equipo participaron efectivamente en la implementación de la aplicación backend según el alcance establecido, cumpliendo con el principio de trabajo colaborativo.
 </p>
+
+### 5.2.4. Sprint 4
+
+En esta sección se documentará el trabajo correspondiente al Sprint 4 de ColdTrack. El apartado queda preparado para registrar la planificación, responsables, backlog, evidencias de desarrollo, ejecución, documentación de servicios, despliegue y colaboración del equipo durante la iteración.
+
+#### 5.2.4.1. Sprint Planning 4
+
+
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+
+#### 5.2.4.3. Sprint Backlog 4
+
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+
 
 ## 5.3. Validation Interviews
 
