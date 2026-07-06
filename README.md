@@ -119,8 +119,8 @@ Además, se actualizaron las secciones de Student Outcome, conclusiones, recomen
       * [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   * [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
 
-    * [Segmento Objetivo 1: Personal de Logística y Operaciones](#segmento-objetivo-1-Personal de Logística y Operaciones)
-    * [Segmento Objetivo 2: Personal de Transporte](#segmento-objetivo-2-Personal de Transporte)
+    * [Segmento Objetivo 1: Personal de Logística y Operaciones](#segmento-objetivo-1-personal-de-logística-y-operaciones)
+    * [Segmento Objetivo 2: Personal de Transporte](#segmento-objetivo-2-personal-de-transporte)
 
 * [Capitulo II: Requirements Elicitation & Analysis](#capitulo-ii-requirements-elicitation--analysis)
 
@@ -231,6 +231,17 @@ Además, se actualizaron las secciones de Student Outcome, conclusiones, recomen
       * [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
       * [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       * [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+
+    * [5.2.4. Sprint 4](#524-sprint-4)
+
+      * [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      * [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      * [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+      * [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      * [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      * [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      * [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      * [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
 
   * [5.3. Validation Interviews](#53-validation-interviews)
 
@@ -2757,6 +2768,63 @@ El Network Graph correspondiente al Sprint 3 muestra un uso activo del flujo de 
 
 <p>
 En conjunto, la evidencia recopilada en el repositorio demuestra que el equipo mantuvo una dinámica de trabajo constante conforme avanzaban las fechas de integración de los distintos bounded contexts del backend. La consolidación exitosa de las APIs y servicios sugiere un alto nivel de organización para preparar la Sprint Review. Estos analíticos y la correcta ejecución del GitFlow confirman que, durante el Sprint 3, los miembros del equipo participaron efectivamente en la implementación de la aplicación backend según el alcance establecido, cumpliendo con el principio de trabajo colaborativo.
+</p>
+
+### 5.2.4. Sprint 4
+
+En esta sección se documentará el trabajo correspondiente al Sprint 4 de ColdTrack. El apartado queda preparado para registrar la planificación, responsables, backlog, evidencias de desarrollo, ejecución, documentación de servicios, despliegue y colaboración del equipo durante la iteración.
+
+#### 5.2.4.1. Sprint Planning 4
+
+
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 4, el equipo organizó el trabajo enfocándose de lleno en la documentación final del proyecto, las correcciones (hotfixes) y la alineación del reporte con la rúbrica de evaluación. Los aspectos principales abarcaron la actualización de la arquitectura de software (Modelo C4), refinamiento de Domain-Driven Design (EventStorming), evaluación de la experiencia de usuario (Lean UX, heurísticas, entrevistas) y la trazabilidad de historias de usuario y Student Outcomes.
+
+En esta matriz, `L` representa al líder del aspecto y `C` representa a los colaboradores que participaron en la implementación, revisión o integración de dicho aspecto.
+
+| Team Member | GitHub Username | Report Integration & Hotfixes | Software Architecture (C4) & Annexes | DDD & EventStorming | UX Evaluation & Interviews | Traceability, Evidence & Outcomes |
+|-------------|-----------------|-------------------------------|--------------------------------------|---------------------|----------------------------|-----------------------------------|
+| Avila Palacios, Aarón | AaronAvilap | C | C | C | C | L |
+| Oblitas Alcalde, Rodrigo | Darkdren | L | C | C | C | C |
+| Celis Berrospi, Eslander | Eslander-Celis | C | L | C | C | C |
+| Mendoza Palacios, Gabriel | Gabriel2349 | C | C | C | L | C |
+| Arechaga Saavedra, Mathias | MathZell | C | C | L | C | C |
+
+La asignación de liderazgo refleja la actividad del repositorio en esta etapa de cierre documental: Rodrigo lideró la integración general del reporte, la resolución de hotfixes mediante merges y ajustes en Lean UX y heurísticas. Eslander asumió el liderazgo en la documentación de la arquitectura de software (diagramas de contenedores) y secciones de anexos. Mathias lideró el refinamiento de los artefactos de Domain-Driven Design (Big Picture EventStorming, diagrama de componentes). Gabriel se enfocó en el análisis de entrevistas y la actualización de contextos, mientras que Aarón lideró la trazabilidad de historias de usuario y la alineación de las evidencias del sprint con la rúbrica final. Todos colaboraron aportando al cumplimiento de los Student Outcomes.
+
+#### 5.2.4.3. Sprint Backlog 4
+
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+<p>
+Durante el Sprint 4, los analíticos de colaboración evidencian la participación activa de todos los integrantes del equipo enfocados en el cierre documental y la estabilización del proyecto ColdTrack. A lo largo del sprint, se registran numerosos commits orientados a la actualización de la arquitectura de software (Modelo C4), refinamiento del Domain-Driven Design (EventStorming), integración del reporte final, trazabilidad de historias de usuario y corrección de observaciones (hotfixes). Esta actividad confirma que la consolidación de los entregables se realizó de forma colaborativa, asegurando la alineación con los requerimientos finales.
+</p>
+
+<img src="./images/overview-sprint4.png" alt="overview-sprint4">
+
+<p>
+El Network Graph correspondiente al Sprint 4 muestra un flujo de trabajo enfocado en la corrección e integración de documentos finales. Se puede observar el uso de ramas específicas (como <code>docs/c4-model</code>, <code>hotfix/lean-ux-evaluation</code>, <code>docs/sprint-evidence</code>) para organizar las aportaciones individuales antes de fusionarlas a la rama principal. Este patrón demuestra que, incluso en etapas de actualización de reporte y ajustes, el equipo mantuvo las buenas prácticas de versionado y revisión, garantizando una entrega ordenada y libre de conflictos.
+</p>
+
+<img src="./images/network-sprint4.png" alt="network-graph-sprint4">
+
+<p>
+En conjunto, la evidencia recopilada demuestra que el equipo mantuvo una dinámica de trabajo constante y bien distribuida para cumplir con las fechas de entrega del último sprint. La consolidación exitosa de los diagramas, anexos y evidencias del proyecto sugiere un alto nivel de madurez en la organización para preparar la presentación de cierre. Estos analíticos confirman que, durante el Sprint 4, los miembros del equipo participaron efectivamente cumpliendo con el principio de trabajo colaborativo.
 </p>
 
 ## 5.3. Validation Interviews
