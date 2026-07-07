@@ -39,26 +39,27 @@
 <div style="page-break-before: always;"></div>
 
 # Registro de Versiones del Informe
-| Versión | Fecha      | Autor(es)                 | Descripción                                             |
-|---------|------------|---------------------------|---------------------------------------------------------|
-| 1.1     | 12/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo I: Introducción                 |
-| 1.2     | 30/04/2026 | Gabriel Mendoza Palacios  | Desarrollo del capítulo II: Requirements Elicitation & Analysis   |
-| 1.3     | 18/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo III: Requirements specification |
-| 1.4     | 19/04/2026 | Rodrigo Oblitas Alcalde   | Desarrollo del capítulo VI: Landing Page                |
-| 1.5     | 19/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V                               |
-| 1.6     | 21/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capitulo IV: Wireframes                  |
-| 2.1     | 13/05/2026 | Aarón Avila Palacios      | Desarrollo de las evidencias de ejecución y despliegue del Sprint 2, actualización del índice e incorporación de capturas del reporte. |
-| 3.0     | 19/06/2026 | Aarón Avila Palacios      | Incorporación de la estructura base del Sprint 3 y evidencias iniciales de commits para AV2. |
-| 3.1     | 19/06/2026 | Aarón Avila Palacios      | Corrección de la carátula, actualización del Student Outcome para AV2 e incorporación de conclusiones, recomendaciones y referencias bibliográficas de la entrega. |
-| 3.2     | 19/06/2026 | Aarón Avila Palacios      | Desarrollo de las evidencias de ejecución y despliegue del Sprint 3, documentación de los flujos integrados y preparación de la sección Video About-the-Product. |
+| Versión | Fecha      | Autor(es)                 | Descripción                                                                                                                                                             |
+|---------|------------|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.1     | 12/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo I: Introducción                                                                                                                                 |
+| 1.2     | 30/04/2026 | Gabriel Mendoza Palacios  | Desarrollo del capítulo II: Requirements Elicitation & Analysis                                                                                                         |
+| 1.3     | 18/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo III: Requirements specification                                                                                                                 |
+| 1.4     | 19/04/2026 | Rodrigo Oblitas Alcalde   | Desarrollo del capítulo VI: Landing Page                                                                                                                                |
+| 1.5     | 19/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V                                                                                                                                               |
+| 1.6     | 21/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capitulo IV: Wireframes                                                                                                                                  |
+| 2.1     | 13/05/2026 | Aarón Avila Palacios      | Desarrollo de las evidencias de ejecución y despliegue del Sprint 2, actualización del índice e incorporación de capturas del reporte.                                  |
+| 3.0     | 19/06/2026 | Aarón Avila Palacios      | Incorporación de la estructura base del Sprint 3 y evidencias iniciales de commits para AV2.                                                                            |
+| 3.1     | 19/06/2026 | Aarón Avila Palacios      | Corrección de la carátula, actualización del Student Outcome para AV2 e incorporación de conclusiones, recomendaciones y referencias bibliográficas de la entrega.      |
+| 3.2     | 19/06/2026 | Aarón Avila Palacios      | Desarrollo de las evidencias de ejecución y despliegue del Sprint 3, documentación de los flujos integrados y preparación de la sección Video About-the-Product.        |
 | 3.3     | 19/06/2026 | Aarón Avila Palacios      | Ampliación de las evidencias de ejecución y despliegue mediante escenarios verificables, arquitectura productiva, configuración reproducible y criterios de aceptación. |
-| 3.4     | 19/06/2026 | Aarón Avila Palacios      | Actualización de enlaces del Video About-the-Product y soporte técnico del producto. |
-| 3.5     | 19/06/2026 | Aarón Avila Palacios      | Incorporación de la evidencia visual del Video About-the-Product. |
-| 3.6     | 19/06/2026 | Eslander Celis Berrospi   | Registro de evidencias de commits del Sprint 3 en el informe. |
-| 3.7     | 19/06/2026 | Mathias Arechaga Saavedra | Actualización de la documentación de servicios del Sprint 3 y del Sprint Backlog 3. |
-| 3.8     | 19/06/2026 | Gabriel Mendoza Palacios  | Actualización de Aspect Leaders and Collaborators y Team Collaboration Insights del Sprint 3. |
-| 3.9     | 19/06/2026 | Eslander Celis Berrospi   | Incorporación de la sección Video About-the-Team y actualización del Student Outcome. |
-| 3.10    | 19/06/2026 | Rodrigo Oblitas Alcalde   | Desarrollo y cierre de las entrevistas de validación del producto. |
+| 3.4     | 19/06/2026 | Aarón Avila Palacios      | Actualización de enlaces del Video About-the-Product y soporte técnico del producto.                                                                                    |
+| 3.5     | 19/06/2026 | Aarón Avila Palacios      | Incorporación de la evidencia visual del Video About-the-Product.                                                                                                       |
+| 3.6     | 19/06/2026 | Eslander Celis Berrospi   | Registro de evidencias de commits del Sprint 3 en el informe.                                                                                                           |
+| 3.7     | 19/06/2026 | Mathias Arechaga Saavedra | Actualización de la documentación de servicios del Sprint 3 y del Sprint Backlog 3.                                                                                     |
+| 3.8     | 19/06/2026 | Gabriel Mendoza Palacios  | Actualización de Aspect Leaders and Collaborators y Team Collaboration Insights del Sprint 3.                                                                           |
+| 3.9     | 19/06/2026 | Eslander Celis Berrospi   | Incorporación de la sección Video About-the-Team y actualización del Student Outcome.                                                                                   |
+| 3.10    | 19/06/2026 | Rodrigo Oblitas Alcalde   | Desarrollo y cierre de las entrevistas de validación del producto.                                                                                                      |
+| 3.11    | 6/07/2026  | Mathias Arechaga Saavedra | Desarrollo de la documentación de servicios del Sprint4 y del Sprint Backlog 4.                                                                                         |
 
 
 
@@ -2793,10 +2794,6 @@ En esta matriz, `L` representa al líder del aspecto y `C` representa a los cola
 | Arechaga Saavedra, Mathias | MathZell | C | C | L | C | C |
 
 La asignación de liderazgo refleja la actividad del repositorio en esta etapa de cierre documental: Rodrigo lideró la integración general del reporte, la resolución de hotfixes mediante merges y ajustes en Lean UX y heurísticas. Eslander asumió el liderazgo en la documentación de la arquitectura de software (diagramas de contenedores) y secciones de anexos. Mathias lideró el refinamiento de los artefactos de Domain-Driven Design (Big Picture EventStorming, diagrama de componentes). Gabriel se enfocó en el análisis de entrevistas y la actualización de contextos, mientras que Aarón lideró la trazabilidad de historias de usuario y la alineación de las evidencias del sprint con la rúbrica final. Todos colaboraron aportando al cumplimiento de los Student Outcomes.
-
-#### 5.2.4.3. Sprint Backlog 4
-
-##### En este item se detalla el Sprint Backlog del cuarto sprint de desarrollo del proyecto.
 
 #### 5.2.4.3. Sprint Backlog 4
 
