@@ -59,7 +59,7 @@
 | 3.8     | 19/06/2026 | Gabriel Mendoza Palacios  | Actualización de Aspect Leaders and Collaborators y Team Collaboration Insights del Sprint 3.                                                                           |
 | 3.9     | 19/06/2026 | Eslander Celis Berrospi   | Incorporación de la sección Video About-the-Team y actualización del Student Outcome.                                                                                   |
 | 3.10    | 19/06/2026 | Rodrigo Oblitas Alcalde   | Desarrollo y cierre de las entrevistas de validación del producto.                                                                                                      |
-| 3.11    | 6/07/2026  | Mathias Arechaga Saavedra | Desarrollo de la documentación de servicios del Sprint4 y del Sprint Backlog 4.                                                                                         |
+| 4.3      | 6/07/2026  | Mathias Arechaga Saavedra | Desarrollo de la documentación de servicios del Sprint4 y del Sprint Backlog 4.                                                                                         |
 
 
 
