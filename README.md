@@ -2796,6 +2796,54 @@ La asignación de liderazgo refleja la actividad del repositorio en esta etapa d
 
 #### 5.2.4.3. Sprint Backlog 4
 
+##### En este item se detalla el Sprint Backlog del cuarto sprint de desarrollo del proyecto.
+
+#### 5.2.4.3. Sprint Backlog 4
+
+El Sprint Backlog 4 se enfocó en el cierre y estabilización del ecosistema ColdTrack: optimización de formularios y vistas del frontend, endurecimiento de servicios backend, pruebas de integración, documentación OpenAPI y despliegue final de ambos componentes en producción.
+
+| Sprint # | User Story Id | User Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---:|---|---|
+| Sprint 4 | US-001 | Registro de usuario | FE-001 | Optimizar formulario de registro | Optimizar el formulario de registro con validaciones en tiempo real | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 4 | US-002 | Inicio de sesión | FE-002 | Mejorar interfaz de login | Mejorar la interfaz de inicio de sesión y manejo de errores de autenticación | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 4 | US-004 | Crear envío | FE-003 | Refinar formulario de creación de envíos | Validar y refinar el formulario de creación de envíos en el frontend | 3 | Mathias Arechaga Saavedra | Done |
+| Sprint 4 | US-005 | Ver envíos activos | FE-004 | Optimizar tabla de envíos y filtros | Optimizar la visualización de la tabla de envíos y agregar filtros avanzados | 4 | Mathias Arechaga Saavedra | Done |
+| Sprint 4 | US-006 | Ver detalle del envío | FE-005 | Mejorar vista de detalle del envío | Mejorar la vista de detalle del envío con información consolidada de monitoreo | 3 | Mathias Arechaga Saavedra | Done |
+| Sprint 4 | US-009 | Ver temperatura en tiempo real | FE-006 | Actualización en tiempo real de temperatura | Implementar actualización en tiempo real de temperatura mediante WebSocket | 4 | Eslander Celis Berrospi | Done |
+| Sprint 4 | US-010 | Ver humedad en tiempo real | FE-007 | Actualización en tiempo real de humedad | Implementar actualización en tiempo real de humedad mediante WebSocket | 4 | Eslander Celis Berrospi | Done |
+| Sprint 4 | US-013 | Alertas de temperatura | FE-008 | Mejorar visualización de alertas | Mejorar visualización de alertas con indicadores visuales y sonoros | 3 | Aarón Avila Palacios | Done |
+| Sprint 4 | US-015 | Historial de alertas | FE-009 | Optimizar tabla de historial de alertas | Optimizar la tabla de historial de alertas con filtros y exportación | 4 | Aarón Avila Palacios | Done |
+| Sprint 4 | US-016 | Ver historial de envíos | FE-010 | Refinar historial de envíos completados | Refinar la visualización del historial de envíos completados | 3 | Gabriel Mendoza Palacios | Done |
+| Sprint 4 | US-017 | Descargar reporte | FE-011 | Exportar reportes CSV/PDF (frontend) | Implementar exportación de reportes en formatos CSV y PDF desde el frontend | 4 | Gabriel Mendoza Palacios | Done |
+| Sprint 4 | US-019 | Ver información de la app (Landing) | FE-012 | Validar responsividad y SEO del Landing | Validar responsividad y SEO del Landing Page en todos los dispositivos | 3 | Eslander Celis Berrospi | Done |
+| Sprint 4 | TS-001 | Crear usuario | BE-001 | Optimizar persistencia de usuarios | Optimizar el servicio de persistencia de usuarios en MySQL | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 4 | TS-002 | Autenticación | BE-002 | Refinar generación de tokens JWT | Validar y refinar la generación de tokens JWT con expiración correcta | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 4 | TS-003 | CRUD envíos | BE-003 | Optimizar operaciones CRUD de envíos | Optimizar las operaciones de lectura y escritura de envíos en la base de datos | 4 | Mathias Arechaga Saavedra | Done |
+| Sprint 4 | TS-004 | Asignación sensor | BE-004 | Refinar validaciones de asignación de sensores | Refinar la lógica de asignación de sensores a envíos con validaciones de negocio | 3 | Eslander Celis Berrospi | Done |
+| Sprint 4 | TS-005 | Integración IoT | BE-005 | Validar recepción de datos IoT | Validar la recepción de datos IoT desde sensores y almacenamiento en telemetría | 4 | Eslander Celis Berrospi | Done |
+| Sprint 4 | TS-006 | Tiempo real | BE-006 | Implementar WebSocket en backend | Implementar WebSocket para actualización de datos en tiempo real en frontend | 4 | Eslander Celis Berrospi | Done |
+| Sprint 4 | TS-007 | Motor alertas | BE-007 | Refinar detección de anomalías | Refinar la lógica de detección de anomalías y generación automática de alertas | 4 | Aarón Avila Palacios | Done |
+| Sprint 4 | TS-008 | Notificaciones | BE-008 | Notificaciones vía Firebase Cloud Messaging | Implementar notificaciones automáticas mediante Firebase Cloud Messaging | 3 | Aarón Avila Palacios | Done |
+| Sprint 4 | TS-009 | Guardar historial | BE-009 | Validar persistencia de historial | Validar persistencia correcta del historial de envíos y alertas en MySQL | 3 | Gabriel Mendoza Palacios | Done |
+| Sprint 4 | TS-010 | Exportar PDF | BE-010 | Generar reportes PDF dinámicos | Implementar generación dinámica de reportes en PDF desde el backend | 4 | Aarón Avila Palacios | Done |
+| Sprint 4 | US-002 | Inicio de sesión | BE-011 | Endpoint de validación/renovación JWT | Implementar endpoint de validación y renovación de tokens JWT | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 4 | US-007 | Asignar sensor a envío | FE-013 | Interfaz para vincular sensores | Implementar interfaz gráfica para vincular sensores disponibles a envíos | 3 | Eslander Celis Berrospi | Done |
+| Sprint 4 | US-008 | Finalizar envío | BE-013 | Endpoint de finalización de envío | Implementar endpoint para finalizar envío y generar reporte automático | 4 | Mathias Arechaga Saavedra | Done |
+| Sprint 4 | US-011 | Estado del envío | FE-014 | Estado consolidado con indicadores | Visualizar estado consolidado del envío con indicadores de color | 2 | Mathias Arechaga Saavedra | Done |
+| Sprint 4 | US-012 | Visualizar gráficos históricos | FE-015 | Gráficos interactivos de temp/humedad | Implementar gráficos interactivos de temperatura y humedad en tiempo histórico | 4 | Gabriel Mendoza Palacios | Done |
+| Sprint 4 | US-014 | Notificación al conductor | FE-016 | Notificaciones push en navegador | Integrar notificaciones push en el navegador para alertas críticas | 3 | Aarón Avila Palacios | Done |
+| Sprint 4 | US-018 | Filtrar historial | FE-017 | Filtros avanzados de historial | Implementar filtros avanzados para búsqueda en historial de envíos y alertas | 3 | Gabriel Mendoza Palacios | Done |
+| Sprint 4 | TS-011 | CORS Configuration | BE-014 | Configurar CORS para Firebase Hosting | Configurar CORS para permitir solicitudes desde Firebase Hosting | 2 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 4 | TS-012 | OpenAPI/Swagger Documentation | BE-015 | Actualizar documentación OpenAPI | Actualizar documentación OpenAPI a versión 1.0.0 y validar todos los endpoints | 3 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 4 | TS-013 | Unit Tests | BE-017 | Ejecutar pruebas unitarias backend | Ejecutar pruebas unitarias del backend y validar cobertura de reglas de negocio | 4 | Mathias Arechaga Saavedra | Done |
+| Sprint 4 | TS-014 | Integration Tests | FE-018 | Pruebas de integración FE-BE | Realizar pruebas de integración frontend-backend en ambiente de staging | 4 | Aarón Avila Palacios | Done |
+| Sprint 4 | TS-015 | Firebase Hosting Deployment | FE-019 | Desplegar frontend en producción | Desplegar versión final del frontend en Firebase Hosting | 2 | Aarón Avila Palacios | Done |
+| Sprint 4 | TS-016 | Render Web Service Deployment | BE-018 | Desplegar backend en producción | Desplegar versión final del backend en Render Web Service con Docker | 3 | Aarón Avila Palacios| Done |
+| Sprint 4 | TS-017 | GitHub Release Frontend | FE-020 | Publicar release v1.0.0 frontend | Crear y publicar release v1.0.0 del frontend en GitHub | 2 | Rodrigo Oblitas Alcalde | Done |
+| Sprint 4 | TS-018 | GitHub Release Backend | BE-020 | Publicar release v1.0.0 backend | Crear y publicar release v1.0.0 del backend en GitHub | 2 | Rodrigo Oblitas Alcalde | Done |
+
+Link del Trello: https://trello.com/b/hD8QYP0u/sprint-backlog-4-coldtrack
+
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
@@ -2804,6 +2852,28 @@ La asignación de liderazgo refleja la actividad del repositorio en esta etapa d
 
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 4, el equipo no incorporó nuevos módulos de negocio, sino que se enfocó en endurecer, optimizar y cerrar los servicios ya construidos en los Sprints 2 y 3. El trabajo incluyó la validación de reglas de negocio existentes, la incorporación de un canal de comunicación en tiempo real, la finalización del ciclo de vida de los envíos con generación automática de reportes, y la actualización de la documentación OpenAPI a su versión mas estable.
+
+Entre las novedades puntuales de este sprint se encuentran: el endpoint de renovación de tokens JWT, el endpoint de finalización de envío con generación automática de reporte, y el canal WebSocket para la transmisión de datos de telemetría en tiempo real hacia el frontend.
+
+La siguiente tabla recoge el estado consolidado de los servicios web al cierre del Sprint 4, organizados por módulo funcional del sistema.
+
+| Módulo | Endpoint base | Acciones disponibles | Métodos HTTP | Descripción |
+|---|---|---|---|---|
+| Plataforma | `/health` | Verificar estado del servidor | `GET` | Estado de salud de la plataforma, validado como parte del checklist de despliegue final |
+| Autenticación | `/api/v1/authentication` | Registrar cuenta, iniciar sesión, renovar token  | `POST /sign-up`<br>`POST /sign-in`<br>`POST /refresh` | Registro, autenticación y renovación de sesión mediante JWT con expiración validada |
+| Usuarios | `/api/v1/users` | Obtener perfil del usuario autenticado | `GET /me` | Gestión del perfil de usuario |
+| Envíos | `/api/v1/shipments` | Registrar envío, listar envíos, obtener por ID, actualizar estado, finalizar envío  | `POST`<br>`GET`<br>`GET /{shipmentId}`<br>`PATCH /{shipmentId}/status`<br>`PATCH /{shipmentId}/finalize` | Gestión completa del ciclo de vida del envío, incluyendo cierre con generación automática de reporte |
+| Sensores | `/api/v1/sensors` | Registrar sensor, listar sensores, asignar a envío | `POST`<br>`GET`<br>`PATCH /{sensorId}/assignment` | Registro y asignación de sensores, con validaciones de negocio reforzadas en Sprint 4 |
+| Telemetría | `/api/v1/telemetry` | Registrar lectura de sensor, consultar telemetría por envío, transmitir datos en tiempo real  | `POST`<br>`GET /shipments/{shipmentId}/telemetry`<br>`WS /ws/telemetry` | Ingesta, consulta y transmisión en tiempo real de datos de temperatura y humedad mediante WebSocket |
+| Alertas | `/api/v1/alerts` | Listar alertas, reconocer alerta, resolver alerta | `GET`<br>`PATCH /{alertId}/acknowledgment`<br>`PATCH /{alertId}/resolution` | Gestión de alertas, con lógica de detección de anomalías refinada y notificaciones push vía Firebase Cloud Messaging |
+| Analítica | `/api/v1/analytics` | Obtener indicadores del dashboard, consultar historial de envíos | `GET /dashboard`<br>`GET /shipment-history` | Indicadores operativos consolidados y análisis histórico de envíos |
+| Reportes | `/api/v1/reports` | Generar reporte, listar reportes, descargar reporte como PDF | `POST`<br>`GET`<br>`GET /{reportId}/file` | Generación y descarga de reportes de desempeño, ahora también disparada automáticamente al finalizar un envío |
+
+Adicionalmente, se actualizó la documentación OpenAPI/Swagger a la versión **1.0.0**, validando todos los endpoints listados en la tabla, y se configuró CORS en el backend para aceptar solicitudes desde el origen de producción de Firebase Hosting.
 
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
