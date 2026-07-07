@@ -3560,19 +3560,8 @@ Video correspondiente a la exposición final del proyecto, donde se debe present
 
 Microsoft Stream URL:
 
-Pendiente de incorporar el enlace final publicado por el equipo.
+[Video de exposición TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBljDYMotJESZfGklfQ3Bj_AffmEVFsXQfBTDpARpvpMBQ?e=EddtNf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Archivo esperado:
 
 `upc-pre-202610-1asi0730-10215-freshguard-expo-tb2.mp4`
-
-Contenido mínimo esperado para la exposición TB2:
-
-| Bloque | Contenido |
-|---|---|
-| Presentación del equipo | Integrantes, startup FreshGuard y producto ColdTrack. |
-| Problema y propuesta | Dolor de la cadena de frío, segmentos objetivo y propuesta de valor. |
-| Correcciones del ciclo de vida | Mejoras aplicadas sobre Lean UX, requirements, diseño, arquitectura, implementación y validación. |
-| Producto en operación | Demostración de Landing Page, Web Application, API en Render, Swagger y base de datos MySQL. |
-| Colaboración | Evidencia de commits, ramas, releases y participación de los integrantes. |
-| Cierre | Conclusiones, recomendaciones y roadmap del producto. |
