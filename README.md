@@ -3008,20 +3008,39 @@ Como resultado, el Sprint 4 dejó comprobado que el sistema puede ejecutarse en 
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
+Durante el Sprint 4, los analíticos de colaboración evidencian la participación activa de todos los integrantes del equipo, enfocados plenamente en el cierre documental y la estabilización del ecosistema integral ColdTrack. A diferencia de sprints anteriores centrados en la construcción de características nuevas (features), este sprint se caracterizó por una fuerte actividad de refinamiento. A lo largo de la iteración, se registró actividad en los cuatro repositorios del proyecto, garantizando que las actualizaciones arquitectónicas, trazabilidad, y la corrección de errores (hotfixes) se aplicaran de manera consistente en la versión final de cada componente.
+
+A continuación, se detalla la evidencia de colaboración (commits y network graphs) junto con una explicación de las dinámicas de trabajo para cada uno de los repositorios que conforman el proyecto:
+
+#### 1. Documentación y Reporte Final
 <p>
-Durante el Sprint 4, los analíticos de colaboración evidencian la participación activa de todos los integrantes del equipo enfocados en el cierre documental y la estabilización del proyecto ColdTrack. A lo largo del sprint, se registran numerosos commits orientados a la actualización de la arquitectura de software (Modelo C4), refinamiento del Domain-Driven Design (EventStorming), integración del reporte final, trazabilidad de historias de usuario y corrección de observaciones (hotfixes). Esta actividad confirma que la consolidación de los entregables se realizó de forma colaborativa, asegurando la alineación con los requerimientos finales.
+El flujo de trabajo en el repositorio del informe exigió un alto grado de coordinación para evitar conflictos (merge conflicts) dado que múltiples miembros redactaban y actualizaban secciones en paralelo. Se utilizaron ramas específicas (como <code>docs/c4-model</code>, <code>hotfix/lean-ux-evaluation</code> y <code>docs/sprint-evidence</code>) para organizar las contribuciones individuales. Los analíticos muestran cómo cada integrante se hizo cargo de un aspecto (arquitectura, trazabilidad, validación), realizando revisiones cruzadas antes de integrar de forma segura el trabajo a la rama principal.
 </p>
 
-<img src="./images/overview-sprint4.png" alt="overview-sprint4">
+**Evidencia de Commits y Network:**
+<img src="./images/overview-sprint4-report.png" alt="overview-sprint4-report">
+<img src="./images/network-sprint4-report.png" alt="network-sprint4-report">
 
+#### 2. Web Application (Frontend)
 <p>
-El Network Graph correspondiente al Sprint 4 muestra un flujo de trabajo enfocado en la corrección e integración de documentos finales. Se puede observar el uso de ramas específicas (como <code>docs/c4-model</code>, <code>hotfix/lean-ux-evaluation</code>, <code>docs/sprint-evidence</code>) para organizar las aportaciones individuales antes de fusionarlas a la rama principal. Este patrón demuestra que, incluso en etapas de actualización de reporte y ajustes, el equipo mantuvo las buenas prácticas de versionado y revisión, garantizando una entrega ordenada y libre de conflictos.
+En el repositorio del Frontend, el equipo priorizó la resolución de deuda técnica y la estabilización de los flujos visuales para el usuario final. Los analíticos de colaboración muestran la integración constante de <code>hotfixes</code> dirigidos a pulir la experiencia de usuario (UX) e interfaces (UI). La refactorización de componentes específicos y el manejo de casos borde (edge cases) descubiertos en las pruebas de validación fueron encapsulados en ramas de corrección y promovidos ordenadamente hacia la rama <code>main</code>, manteniendo la integridad de la aplicación.
 </p>
 
-<img src="./images/network-sprint4.png" alt="network-graph-sprint4">
+**Evidencia de Commits y Network:**
+<img src="./images/overview-sprint4-frontend.png" alt="overview-sprint4-frontend">
+<img src="./images/network-sprint4-frontend.png" alt="network-sprint4-frontend">
+
+#### 3. Web Services (Backend & API)
+<p>
+La actividad en el repositorio del backend estuvo fuertemente orientada a garantizar la confiabilidad y seguridad para el entorno de producción. La colaboración del equipo se centró en optimizaciones de rendimiento, ajustes definitivos de políticas de seguridad en los endpoints, y resoluciones puntuales en la lógica de dominio. El Network Graph demuestra que, a pesar de la presión por el cierre, los integrantes respetaron el flujo de trabajo establecido, aislando los ajustes críticos en ramas temporales antes de unificar la versión estable.
+</p>
+
+**Evidencia de Commits y Network:**
+<img src="./images/overview-sprint4-backend.png" alt="overview-sprint4-backend">
+<img src="./images/network-sprint4-backend.png" alt="network-sprint4-backend">
 
 <p>
-En conjunto, la evidencia recopilada demuestra que el equipo mantuvo una dinámica de trabajo constante y bien distribuida para cumplir con las fechas de entrega del último sprint. La consolidación exitosa de los diagramas, anexos y evidencias del proyecto sugiere un alto nivel de madurez en la organización para preparar la presentación de cierre. Estos analíticos confirman que, durante el Sprint 4, los miembros del equipo participaron efectivamente cumpliendo con el principio de trabajo colaborativo.
+En conjunto, la consolidación exitosa en los cuatro repositorios del proyecto demuestra que el equipo alcanzó un alto nivel de madurez y organización. Manteniendo el uso estructurado de GitFlow en múltiples frentes simultáneos, se controlaron los riesgos técnicos y se garantizó la preparación exitosa de la presentación de cierre, cumpliendo firmemente con el principio de trabajo colaborativo.
 </p>
 
 Durante el cierre de TB2 se aplicó el mismo criterio de control de versiones utilizado durante el desarrollo del producto: cada corrección se aisló en una rama funcional o de mantenimiento, se validó localmente y luego se integró a `develop`. Esta práctica permitió mantener un historial verificable de cambios, separar responsabilidades y reducir el riesgo de sobrescribir aportes de otros integrantes. La actividad del repositorio también evidencia la relación directa entre las acciones realizadas, los releases publicados y las secciones actualizadas del informe.
