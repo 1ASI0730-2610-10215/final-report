@@ -3560,4 +3560,4 @@ Video correspondiente a la exposición final del proyecto, donde se debe present
 
 Microsoft Stream URL:
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBljDYMotJESZfGklfQ3Bj_AffmEVFsXQfBTDpARpvpMBQ?e=EddtNf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBljDYMotJESZfGklfQ3Bj_AffmEVFsXQfBTDpARpvpMBQ?e=EddtNf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
