@@ -2821,12 +2821,143 @@ La asignación de liderazgo refleja la actividad del repositorio en esta etapa d
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
+Durante el Sprint 4 se ejecutó la solución ColdTrack en su entorno desplegado, verificando que la Web Application publicada en Firebase Hosting consumiera los servicios reales del backend desplegado en Render. La revisión se enfocó en comprobar los flujos críticos asociados al seguimiento de envíos refrigerados: autenticación, consulta del dashboard, visualización de detalle de envío, identificación del sensor asignado, revisión de alertas relacionadas, actualización del estado del envío, consulta del historial y generación de información exportable.
+
+La ejecución se realizó sobre la URL productiva de la Web Application, utilizando una cuenta registrada en el backend. A diferencia de los primeros incrementos, en esta revisión no se utilizó una fake API ni datos locales; la información mostrada por la interfaz fue recuperada desde los Web Services conectados a MySQL en Filess.io.
+
+| ID | Escenario ejecutado | Evidencia revisada | Resultado |
+|---|---|---|---|
+| EX-S4-01 | Iniciar sesión en la Web Application desplegada | Pantalla de autenticación conectada al backend productivo | Conforme |
+| EX-S4-02 | Consultar el dashboard de envíos | Indicadores, alertas activas y lista de envíos recuperados desde la API | Conforme |
+| EX-S4-03 | Abrir el detalle de un envío | Información de destino, estado, conductor, carga, sensor asignado y alertas relacionadas | Conforme |
+| EX-S4-04 | Cambiar el estado de un envío | Actualización del ciclo de vida del envío desde la interfaz | Conforme |
+| EX-S4-05 | Consultar historial de envíos completados | Historial con envíos finalizados y métricas de temperatura, humedad y alertas | Conforme |
+| EX-S4-06 | Consultar sensores registrados | Sensores asociados a envíos y última lectura registrada | Conforme |
+| EX-S4-07 | Consultar alertas generadas | Alertas filtrables por severidad y estado | Conforme |
+| EX-S4-08 | Registrar un nuevo envío | Formulario de creación disponible y conectado al flujo de envíos | Conforme |
+
+La siguiente evidencia muestra la pantalla de inicio de sesión de ColdTrack en el entorno desplegado. Esta vista permite autenticar al usuario y habilita el acceso a las rutas protegidas de la aplicación.
+
+<p align="center">
+  <img src="images/sprint4-execution-01-frontend-sign-in.png" alt="Inicio de sesión de ColdTrack en producción" width="80%"/>
+</p>
+
+<p align="center"><em>Figura. Inicio de sesión de la Web Application desplegada en Firebase Hosting.</em></p>
+
+Después de autenticar al usuario, el dashboard presentó la información consolidada de envíos. Se verificó que los indicadores de total, activos y completados se actualizaran con los datos entregados por la API y que las alertas activas se mostraran en la sección superior.
+
+<p align="center">
+  <img src="images/sprint4-execution-02-frontend-dashboard.png" alt="Dashboard de envíos de ColdTrack conectado al backend" width="90%"/>
+</p>
+
+<p align="center"><em>Figura. Dashboard de envíos consumiendo datos del backend desplegado.</em></p>
+
+La acción <em>View details</em> permitió inspeccionar el detalle de un envío. En la revisión se comprobó que la vista muestra el destino, estado, conductor, descripción de carga, fechas, temperatura, humedad, sensor asignado y alertas relacionadas. Esta evidencia confirma la integración entre los módulos de shipments, sensors y alerts.
+
+<p align="center">
+  <img src="images/sprint4-execution-03-shipment-details.png" alt="Detalle de envío con sensor asignado y alertas relacionadas" width="80%"/>
+</p>
+
+<p align="center"><em>Figura. Detalle del envío, sensor asignado y alertas relacionadas.</em></p>
+
+Durante la revisión también se validó el cambio de estado del envío. La interfaz permitió seleccionar un nuevo estado, registrar una observación y enviar la actualización al backend mediante la operación protegida correspondiente. Luego de guardar el cambio, el dashboard reflejó el envío como completado.
+
+<p align="center">
+  <img src="images/sprint4-execution-04-status-update-ready.png" alt="Actualización del estado de un envío desde la Web Application" width="80%"/>
+</p>
+
+<p align="center"><em>Figura. Preparación de la actualización de estado del envío desde la interfaz.</em></p>
+
+<p align="center">
+  <img src="images/sprint4-execution-10-dashboard-after-status-update.png" alt="Dashboard después de completar los envíos" width="90%"/>
+</p>
+
+<p align="center"><em>Figura. Dashboard actualizado después del cambio de estado del envío.</em></p>
+
+El módulo de historial confirmó que los envíos completados pasan a formar parte de la consulta histórica. La vista mostró dos envíos completados, el promedio de temperatura del período y el número total de alertas generadas.
+
+<p align="center">
+  <img src="images/sprint4-execution-11-history-with-completed-shipments.png" alt="Historial de envíos completados en producción" width="90%"/>
+</p>
+
+<p align="center"><em>Figura. Historial de envíos completados recuperado desde los servicios de analítica.</em></p>
+
+La gestión de sensores permitió revisar los dispositivos registrados, su estado de asignación y las lecturas disponibles. Este flujo es relevante porque las lecturas de temperatura y humedad alimentan las alertas operativas y el historial del envío.
+
+<p align="center">
+  <img src="images/sprint4-execution-07-frontend-sensors.png" alt="Gestión de sensores de ColdTrack en producción" width="90%"/>
+</p>
+
+<p align="center"><em>Figura. Sensores registrados y asociados a envíos.</em></p>
+
+El sistema de alertas mostró los eventos generados por desviaciones en temperatura o humedad. Se verificó que la interfaz permitiera revisar alertas activas y resueltas, junto con severidad, valor registrado y envío relacionado.
+
+<p align="center">
+  <img src="images/sprint4-execution-08-frontend-alerts.png" alt="Sistema de alertas de ColdTrack en producción" width="90%"/>
+</p>
+
+<p align="center"><em>Figura. Alertas generadas por condiciones fuera de rango.</em></p>
+
+Finalmente, se revisó que el formulario de nuevo envío se mantuviera disponible dentro de la aplicación desplegada. Este formulario permite registrar destino, conductor asignado, descripción de carga y fechas operativas.
+
+<p align="center">
+  <img src="images/sprint4-execution-09-frontend-new-shipment.png" alt="Formulario de registro de nuevo envío" width="80%"/>
+</p>
+
+<p align="center"><em>Figura. Formulario de registro de un nuevo envío refrigerado.</em></p>
+
+En conjunto, estas evidencias demuestran que durante el Sprint 4 la aplicación no solo estaba publicada, sino que ejecutaba los flujos principales contra servicios reales: autenticación JWT, consulta de datos persistidos, actualización de estado, visualización de historial, revisión de sensores y monitoreo de alertas.
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
+El despliegue revisado para el Sprint 4 mantiene una arquitectura distribuida compuesta por tres elementos principales: la Web Application desplegada en Firebase Hosting, los Web Services desplegados en Render y la base de datos MySQL administrada en Filess.io. Esta configuración permite que el frontend consuma servicios HTTPS reales y que la información del sistema se conserve en una base de datos remota.
+
+| Componente | Plataforma | URL o configuración revisada | Estado |
+|---|---|---|---|
+| Web Application | Firebase Hosting | https://coldtrack-front-web.web.app/ | Activo |
+| Backend API | Render Web Service | https://freshguard-coldtrack-platform.onrender.com | Activo |
+| Swagger/OpenAPI | Render | https://freshguard-coldtrack-platform.onrender.com/swagger/index.html | Activo |
+| Health check | ASP.NET Core | https://freshguard-coldtrack-platform.onrender.com/health | Healthy |
+| Persistencia | Filess.io MySQL | MySQL 8.0.29 con conexión segura desde Render | Activo |
+
+La primera evidencia corresponde a la documentación Swagger publicada en producción. En ella se observa la API <em>FreshGuard.ColdTrack.Platform</em> con los módulos de alertas, analítica, autenticación y demás recursos disponibles para la revisión. Swagger permaneció habilitado en producción con fines académicos para permitir la verificación de contratos REST.
+
+<p align="center">
+  <img src="images/sprint4-deployment-01-backend-swagger-overview.png" alt="Swagger de FreshGuard ColdTrack Platform desplegado en Render" width="90%"/>
+</p>
+
+<p align="center"><em>Figura. Swagger/OpenAPI del backend desplegado en Render.</em></p>
+
+La segunda evidencia muestra la respuesta del endpoint de salud. Esta verificación confirma que el proceso del backend se encuentra disponible y que Render puede atender solicitudes HTTP en el entorno productivo.
+
+<p align="center">
+  <img src="images/sprint4-deployment-02-backend-health.png" alt="Endpoint health del backend respondiendo Healthy" width="90%"/>
+</p>
+
+<p align="center"><em>Figura. Endpoint <code>/health</code> respondiendo correctamente en producción.</em></p>
+
+Además de comprobar disponibilidad, se ejecutó una verificación funcional de la API desplegada. La prueba autenticó un usuario, consultó envíos, obtuvo historial analítico y revisó alertas. El resultado confirmó que el backend de producción estaba conectado a la persistencia remota y devolvía datos consistentes para el frontend.
+
+<p align="center">
+  <img src="images/sprint4-deployment-03-backend-api-verification.png" alt="Verificación del backend de producción con datos reales" width="90%"/>
+</p>
+
+<p align="center"><em>Figura. Verificación del API productiva con autenticación, envíos, historial y alertas.</em></p>
+
+La configuración de despliegue conserva las credenciales sensibles fuera del repositorio. En Render se utilizan variables de entorno para la cadena de conexión a MySQL, la configuración de JWT y los parámetros del entorno productivo. De esta forma, el código fuente mantiene la estructura necesaria para operar, mientras que los secretos permanecen administrados por la plataforma de despliegue.
+
+| Variable o grupo de configuración | Propósito |
+|---|---|
+| `DATABASE_HOST`, `DATABASE_PORT`, `DATABASE_NAME`, `DATABASE_USER`, `DATABASE_PASSWORD` | Construcción de la cadena de conexión a MySQL en Filess.io. |
+| `TokenSettings__Secret`, `TokenSettings__Issuer`, `TokenSettings__Audience` | Firma y validación de tokens JWT. |
+| `ASPNETCORE_ENVIRONMENT` | Ejecución del backend en modo Production. |
+| `PORT` | Puerto dinámico asignado por Render al servicio web. |
+| `VITE_API_BASE_URL` | URL productiva del backend consumida por la Web Application. |
+
+Como resultado, el Sprint 4 dejó comprobado que el sistema puede ejecutarse en un entorno productivo académico: Firebase sirve la aplicación Vue, Render aloja la API ASP.NET Core, Swagger expone la documentación de servicios, el endpoint de salud responde correctamente y MySQL en Filess.io conserva los datos utilizados por los flujos de negocio.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
