@@ -3560,8 +3560,4 @@ Video correspondiente a la exposición final del proyecto, donde se debe present
 
 Microsoft Stream URL:
 
-[Video de exposición TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBljDYMotJESZfGklfQ3Bj_AffmEVFsXQfBTDpARpvpMBQ?e=EddtNf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
-Archivo esperado:
-
-`upc-pre-202610-1asi0730-10215-freshguard-expo-tb2.mp4`
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBljDYMotJESZfGklfQ3Bj_AffmEVFsXQfBTDpARpvpMBQ?e=EddtNf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
