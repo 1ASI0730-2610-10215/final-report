@@ -557,51 +557,25 @@ Para el prototipo, el costo será bajo, pero en una implementación real implica
 
 El Lean UX Process permite formular, validar y ajustar la propuesta de valor del producto a partir de problemas reales de los usuarios. En el caso de ColdTrack, este proceso se utiliza para analizar el modelo de negocio que será soportado por la aplicación web: una solución orientada al monitoreo de la cadena de frío durante el transporte de alimentos y productos sensibles.
 
-La aplicación del proceso Lean UX ayuda a convertir el problema de negocio en aprendizajes accionables. Primero, se define el problema desde el dominio logístico y los segmentos de clientes involucrados. Luego, se plantean supuestos sobre usuarios, negocio, tecnología, mercado y diseño. Finalmente, estos supuestos se transforman en hipótesis que podrán validarse mediante entrevistas, prototipos, pruebas de usabilidad y evidencias de uso del producto.
+Tomando como referencia el modelo de Lean UX Canvas propuesto por Gothelf y Seiden, el proceso se organiza alrededor de ocho bloques principales: Business Problem, Business Outcomes, Users, User Outcomes & Benefits, Solutions, Hypotheses, What is the most important thing we need to learn first? y What is the least amount of work we need to do to learn it? Esta estructura ayuda a evitar que el equipo piense únicamente en funcionalidades y lo obliga a conectar cada decisión con un aprendizaje verificable.
 
-Para ColdTrack, el objetivo principal es reducir el riesgo operativo asociado a la pérdida de control sobre temperatura y humedad durante el transporte. Por ello, el proceso Lean UX se enfoca en comprobar si una plataforma centralizada con sensores, alertas, historial y reportes puede mejorar la toma de decisiones de supervisores logísticos, responsables de calidad y conductores.
+Para ColdTrack, el objetivo principal es reducir el riesgo operativo asociado a la pérdida de control sobre temperatura y humedad durante el transporte. Por ello, el proceso Lean UX se enfoca en comprobar si los usuarios pueden detectar más rápido un envío en riesgo, interpretar una alerta sin ayuda, reducir la dependencia de registros manuales y usar el historial para sustentar decisiones de calidad.
+
+La aplicación de Lean UX se conectó con el trabajo ágil del equipo. En el Sprint 1 se validó la propuesta de valor mediante la Landing Page. En el Sprint 2 se validó la experiencia operativa inicial mediante la Web Application y datos simulados. En el Sprint 3 se validó la integración real entre frontend, backend, base de datos, Swagger, Firebase Hosting y Render. De esta manera, el equipo no solo construyó entregables, sino que aprendió progresivamente sobre el problema, los usuarios y la viabilidad de la solución.
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Actualmente, las empresas que transportan productos refrigerados o sensibles a cambios ambientales enfrentan dificultades para supervisar en tiempo real las condiciones de temperatura y humedad durante la ruta. En muchos casos, el control se realiza con registros manuales, reportes posteriores o comunicación informal entre conductores y supervisores. Esto impide detectar incidentes en el momento adecuado y reduce la capacidad de reacción ante fallas del sistema de refrigeración, demoras, aperturas no previstas o variaciones fuera del rango permitido.
+Según Lean UX, el Problem Statement debe expresar el problema de negocio de forma clara y abierta, evitando convertirlo en una lista de funcionalidades predeterminadas. Su propósito es orientar al equipo hacia el descubrimiento, la experimentación y la validación con usuarios reales. Por ello, el enunciado debe describir la situación actual, explicar por qué representa un problema, señalar a quién afecta y establecer cómo se sabrá si el problema fue resuelto.
 
-En este contexto, ColdTrack busca responder a una necesidad concreta dentro del dominio de logística refrigerada: brindar visibilidad, trazabilidad y alertas oportunas sobre el estado de cada envío. La solución se enfoca inicialmente en empresas distribuidoras de alimentos, operadores logísticos, supervisores de calidad y conductores que participan en el traslado de productos que deben conservar condiciones específicas para evitar deterioro, pérdida económica o incumplimiento de estándares de calidad.
+En el caso de ColdTrack, hemos observado que las empresas que transportan alimentos refrigerados o productos sensibles a temperatura y humedad no siempre cuentan con información oportuna durante el traslado. Actualmente, gran parte del control de la cadena de frío depende de revisiones manuales, comunicación por llamadas o mensajes, reportes posteriores y registros que no siempre se encuentran centralizados. Como consecuencia, los supervisores logísticos, responsables de control de calidad y conductores pueden enterarse tarde de una variación crítica, tener dificultades para reconstruir lo ocurrido y tomar decisiones con información incompleta.
 
-##### Domain
+Este problema genera incertidumbre operativa durante la ruta, aumenta el riesgo de pérdida de productos, dificulta la trazabilidad de incidentes y reduce la confianza en el proceso de distribución. Para una empresa distribuidora, no basta con saber que un envío llegó a destino; también necesita conocer si las condiciones de conservación fueron adecuadas, si ocurrió alguna incidencia, cuándo sucedió y qué acción tomó el equipo responsable.
 
-El dominio del problema corresponde a la gestión logística de cadena de frío, especialmente durante el transporte de alimentos, insumos perecibles y productos sensibles a temperatura o humedad. Este dominio requiere supervisión constante, trazabilidad de eventos y capacidad de respuesta rápida para proteger la calidad del producto hasta su destino.
+El equipo considera que resolver este problema permitirá que los usuarios actúen con mayor rapidez ante condiciones fuera de rango, reduzcan la dependencia de registros manuales y utilicen información histórica para sustentar decisiones de calidad. Sabremos que avanzamos en la dirección correcta si los supervisores revisan el estado de los envíos durante la ruta, los conductores comprenden cuándo deben responder ante una alerta y el personal de calidad utiliza el historial del sistema para analizar incidencias y mejorar sus protocolos.
 
-##### Customer Segments
+Por lo tanto, el Problem Statement de ColdTrack se formula de la siguiente manera:
 
-- Empresas distribuidoras de alimentos que necesitan reducir pérdidas y mantener la calidad de sus productos durante la entrega.
-- Responsables de logística y operaciones que supervisan rutas, unidades de transporte, estados de envío e incidencias.
-- Personal de control de calidad que requiere evidencia histórica para verificar si el producto mantuvo condiciones adecuadas.
-- Conductores o personal de transporte que necesita recibir instrucciones claras cuando ocurre una alerta durante la ruta.
-
-##### Pain Points
-
-- Falta de monitoreo en tiempo real de temperatura y humedad durante el transporte.
-- Detección tardía de fallas en refrigeración o condiciones fuera de rango.
-- Dependencia de registros manuales, llamadas o reportes posteriores.
-- Dificultad para priorizar incidencias cuando existen varios envíos activos.
-- Poca trazabilidad para explicar cuándo ocurrió una variación y qué acción se tomó.
-- Riesgo de pérdidas económicas, reclamos de clientes y deterioro de productos.
-
-##### Gap
-
-El principal vacío identificado es la ausencia de una plataforma centralizada que conecte los datos de sensores con la gestión operativa de envíos. Las empresas pueden contar con controles aislados, pero no siempre tienen una solución que integre monitoreo, alertas, historial, reportes y visibilidad para diferentes roles. Esta brecha provoca que la información llegue tarde, se fragmente entre responsables o no quede registrada para análisis posterior.
-
-##### Vision / Strategy
-
-La visión de ColdTrack es convertirse en una plataforma web de monitoreo logístico que permita tomar decisiones rápidas y basadas en datos durante el transporte de productos sensibles. La estrategia inicial consiste en entregar una solución mínima viable que permita registrar envíos, asociar sensores, visualizar lecturas de temperatura y humedad, emitir alertas ante condiciones críticas y consultar historial operativo. A partir de la validación con usuarios, la solución podrá evolucionar hacia reportes avanzados, notificaciones en tiempo real, roles de acceso y conexión con sensores reales.
-
-##### Initial Segment
-
-El segmento inicial estará conformado por pequeñas y medianas empresas distribuidoras de alimentos que realizan entregas dentro de Lima Metropolitana y necesitan mejorar el control de sus envíos refrigerados sin implementar una infraestructura compleja. Este segmento permite validar rápidamente el valor del producto porque suele enfrentar problemas de trazabilidad, supervisión manual y reacción tardía ante incidentes.
-
-##### Problem Statement
-
-Hemos observado que las empresas distribuidoras de alimentos y sus equipos de logística no cuentan con una forma centralizada y oportuna de conocer las condiciones ambientales de sus envíos durante la ruta. Esto genera incertidumbre, retrasos en la toma de decisiones, pérdida de trazabilidad y riesgo de deterioro de productos. ¿Cómo podríamos ayudar a supervisores logísticos, responsables de calidad y conductores a monitorear los envíos en tiempo real, detectar alertas críticas y consultar evidencia histórica para reducir pérdidas y mejorar el control operativo de la cadena de frío?
+**Las empresas distribuidoras de alimentos que realizan transporte refrigerado necesitan mejorar la visibilidad y trazabilidad de las condiciones de sus envíos durante la ruta, porque los controles manuales y la comunicación posterior no siempre permiten detectar a tiempo variaciones críticas de temperatura o humedad. Esto afecta a supervisores logísticos, responsables de calidad y conductores, quienes necesitan tomar decisiones rápidas para proteger la carga y reducir pérdidas. ¿Cómo podríamos ayudar a estos usuarios a detectar oportunamente incidencias, interpretar la información del envío y conservar evidencia útil para mejorar el control de la cadena de frío?**
 
 
 #### 1.2.2.2. Lean UX Assumptions
@@ -637,7 +611,7 @@ Los usuarios principales de ColdTrack se dividen en dos grupos. El primero está
 
 ##### User Outcomes
 
-Los beneficios esperados para los usuarios son los siguientes:
+Los User Outcomes representan cambios esperados en el comportamiento, confianza o capacidad de decisión de los usuarios. No son pantallas ni funcionalidades, sino resultados que indican que ColdTrack está generando valor en la operación logística.
 
 1. Los supervisores podrán visualizar en una sola plataforma el estado de los envíos activos.
 2. El personal de calidad podrá revisar evidencias históricas de temperatura, humedad y alertas.
@@ -645,9 +619,11 @@ Los beneficios esperados para los usuarios son los siguientes:
 4. Las empresas podrán reducir la dependencia de registros manuales y mejorar la transparencia del proceso.
 5. Los responsables de operación podrán priorizar envíos críticos y reducir tiempos de comunicación interna.
 
-##### Features
+##### Solutions / Outputs
 
-1. ¿Qué características son importantes?
+Las soluciones u outputs son los elementos que el equipo construye para intentar generar los outcomes anteriores. En Lean UX, estos outputs deben validarse mediante experimentos, ya que construir una funcionalidad no garantiza por sí mismo que el comportamiento del usuario cambie.
+
+1. ¿Qué características son importantes para probar la propuesta?
    - Registro y seguimiento de envíos.
    - Asociación de sensores a envíos.
    - Visualización de temperatura y humedad.
@@ -659,6 +635,25 @@ Los beneficios esperados para los usuarios son los siguientes:
 
 2. ¿Cómo debe verse nuestro producto y comportarse?
    ColdTrack debe verse como una herramienta operativa, clara y confiable. La interfaz debe priorizar datos críticos, estados visibles y navegación simple. Los colores deben diferenciar condiciones normales, preventivas y críticas. La aplicación debe comportarse de forma rápida, responsiva y consistente, ya que sus usuarios pueden necesitar consultar información durante una operación logística real.
+
+##### MVP de ColdTrack
+
+El MVP actual de ColdTrack consiste en una Web Application conectada a Web Services que permite autenticar usuarios, registrar envíos, asociar sensores, registrar lecturas de temperatura y humedad, generar alertas, consultar historial y exportar reportes PDF. Esta versión permite validar el flujo principal del producto sin depender todavía de una integración completa con sensores físicos reales.
+
+La conexión con sensores reales, notificaciones en tiempo real avanzadas, roles más detallados y analítica predictiva se consideran parte de una evolución futura del producto. Para esta etapa, el aprendizaje principal se centra en comprobar si los usuarios comprenden el estado del envío, interpretan alertas y consideran útil la evidencia histórica para tomar decisiones.
+
+##### Experimentos Lean UX
+
+| **Experimento** | **Qué se busca aprender** | **Evidencia esperada** |
+|-----------------|----------------------------|-------------------------|
+| Validación de interés mediante Landing Page | Si los usuarios comprenden el problema de la cadena de frío y la propuesta de valor de ColdTrack. | Comentarios de usuarios y claridad al explicar para qué sirve el producto. |
+| Entrevistas de validación | Si los segmentos objetivo reconocen el problema como relevante en su contexto operativo. | Respuestas de personal de logística, control de calidad y transporte. |
+| Prueba de prototipo navegable | Si los usuarios pueden desplazarse por las vistas principales sin asistencia constante. | Finalización de tareas asignadas y observación de dudas durante la navegación. |
+| Prueba del flujo de registro de envío | Si el usuario puede registrar un envío con datos suficientes para monitoreo. | Registro completado sin errores críticos o campos omitidos. |
+| Prueba de interpretación de alertas | Si el usuario entiende qué ocurrió y qué acción debe tomar ante una alerta. | Explicación correcta de la alerta por parte del usuario. |
+| Prueba de consulta de historial | Si el historial ayuda a justificar decisiones de calidad o revisar incidencias. | Usuario identifica eventos relevantes en un envío finalizado. |
+| Prueba de generación de reporte PDF | Si el reporte exportable resulta útil como evidencia posterior. | Usuario descarga el reporte y reconoce su utilidad para revisión o auditoría. |
+| Prueba del flujo frontend-backend | Si la integración técnica permite completar el flujo operativo sin depender de datos simulados. | Autenticación, registro, consulta, alerta, historial y reporte funcionando con servicios desplegados. |
 
 ##### User Assumptions
 
@@ -701,69 +696,62 @@ Los beneficios esperados para los usuarios son los siguientes:
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Las hipótesis convierten los supuestos anteriores en afirmaciones comprobables. Cada una relaciona un resultado esperado, un segmento de usuario, una necesidad concreta y una funcionalidad del producto. Los porcentajes planteados funcionan como métricas objetivo iniciales para validar si ColdTrack aporta valor al proceso logístico y deberán contrastarse mediante entrevistas, pruebas de uso y futuras mediciones operativas.
+Las hipótesis convierten los supuestos anteriores en afirmaciones comprobables. Cada una relaciona un resultado esperado, un segmento de usuario, una necesidad concreta y una funcionalidad del producto. Para alinearse con Lean UX, cada hipótesis incluye un criterio verificable que puede comprobarse mediante entrevistas, tareas guiadas, pruebas de prototipo o validación funcional del MVP.
 
 ##### Business Hypothesis Statement 01
 
-Nosotros creemos que una reducción del 60% en el riesgo de pérdida de productos por condiciones inadecuadas se logrará si los supervisores logísticos monitorean temperatura y humedad durante la ruta con un dashboard que muestre el estado de cada envío en tiempo real.
+Nosotros creemos que una reducción del riesgo de pérdida de productos por condiciones inadecuadas se logrará si los supervisores logísticos pueden identificar rápidamente qué envío presenta temperatura o humedad fuera de rango.
 
-Sabremos que estamos en lo correcto cuando al menos el 70% de los usuarios evaluados identifique rápidamente los envíos en riesgo y afirme que la plataforma le permite actuar antes de que el producto se deteriore.
+Sabremos que estamos en lo correcto cuando 4 de 5 usuarios puedan identificar un envío en riesgo desde el dashboard en menos de 2 minutos y expliquen qué acción operativa tomarían.
 
 ##### Business Hypothesis Statement 02
 
-Nosotros creemos que una disminución del 50% en el tiempo de respuesta ante incidencias se logrará si los supervisores y conductores reciben alertas automáticas cuando las lecturas superen los rangos permitidos.
+Nosotros creemos que una disminución del tiempo de respuesta ante incidencias se logrará si los supervisores y conductores reciben alertas claras cuando las lecturas superen los rangos permitidos.
 
-Sabremos que estamos en lo correcto cuando al menos el 75% de los usuarios pueda explicar qué acción tomar ante una alerta y reduzca la dependencia de llamadas o revisiones manuales para detectar problemas.
+Sabremos que estamos en lo correcto cuando 4 de 5 usuarios puedan leer una alerta, explicar qué ocurrió y mencionar una acción de respuesta sin ayuda del entrevistador.
 
 ##### Business Hypothesis Statement 03
 
-Nosotros creemos que una mejora del 70% en la trazabilidad logística se logrará si el personal de calidad puede consultar el historial de envíos, sensores, lecturas y alertas desde una misma plataforma.
+Nosotros creemos que una mejora en la trazabilidad logística se logrará si el personal de calidad puede consultar el historial de envíos, sensores, lecturas y alertas desde una misma plataforma.
 
-Sabremos que estamos en lo correcto cuando al menos el 80% de los usuarios considere que el historial le permite revisar incidentes, justificar decisiones de calidad y proponer mejoras en sus rutas o procesos.
+Sabremos que estamos en lo correcto cuando 4 de 5 usuarios puedan ubicar una incidencia pasada en el historial y explicar cómo usarían esa evidencia para justificar una decisión de calidad.
 
 ##### Business Hypothesis Statement 04
 
-Nosotros creemos que una adopción inicial del 80% de ColdTrack se logrará si los conductores y supervisores interactúan con una interfaz clara, visual y fácil de usar.
+Nosotros creemos que la adopción inicial de ColdTrack aumentará si los conductores y supervisores interactúan con una interfaz clara, visual y fácil de usar.
 
-Sabremos que estamos en lo correcto cuando al menos el 80% de los usuarios pueda completar tareas principales, como revisar un envío o interpretar una alerta, sin requerir capacitación extensa.
+Sabremos que estamos en lo correcto cuando 4 de 5 usuarios completen las tareas principales de revisar un envío, interpretar una alerta y consultar historial sin capacitación previa extensa.
 
 ##### Business Hypothesis Statement 05
 
-Nosotros creemos que una mejora del 65% en el control operativo se logrará si las empresas pueden registrar envíos, asociar sensores y consultar su estado desde un flujo único.
+Nosotros creemos que el control operativo mejorará si las empresas pueden registrar envíos, asociar sensores y consultar su estado desde un flujo único.
 
-Sabremos que estamos en lo correcto cuando al menos el 70% de los supervisores indique que la plataforma reduce tareas duplicadas y le permite organizar mejor la información de cada transporte.
+Sabremos que estamos en lo correcto cuando 4 de 5 usuarios puedan registrar un envío completo en menos de 5 minutos y sin omitir datos críticos como destino, conductor, carga o sensor asociado.
 
 ##### Business Hypothesis Statement 06
 
-Nosotros creemos que un aumento del 60% en la confianza sobre la calidad del servicio se logrará si ColdTrack genera reportes o evidencias consultables después de cada envío.
+Nosotros creemos que la confianza sobre la calidad del servicio aumentará si ColdTrack genera reportes o evidencias consultables después de cada envío.
 
-Sabremos que estamos en lo correcto cuando al menos el 75% del personal de calidad considere que los reportes son útiles para auditorías internas, reclamos, revisiones de desempeño o comunicación con clientes.
+Sabremos que estamos en lo correcto cuando 3 de 4 usuarios de logística o calidad indiquen que el reporte PDF sería útil para auditorías internas, reclamos, revisiones de desempeño o comunicación con clientes.
 
 ##### Business Hypothesis Statement 07
 
-Nosotros creemos que una intención de adopción del 70% en el segmento inicial de pequeñas y medianas distribuidoras se logrará si ColdTrack ofrece una alternativa más simple que sistemas logísticos complejos o controles manuales.
+Nosotros creemos que la intención de adopción en pequeñas y medianas distribuidoras aumentará si ColdTrack ofrece una alternativa más simple que sistemas logísticos complejos o controles manuales.
 
-Sabremos que estamos en lo correcto cuando al menos el 70% de los usuarios del segmento inicial reconozca valor en iniciar con un prototipo web que cubra monitoreo, alertas e historial antes de invertir en una solución más amplia.
+Sabremos que estamos en lo correcto cuando 4 de 5 usuarios del segmento inicial indiquen que usarían una versión piloto para monitorear al menos un envío refrigerado real o simulado.
 
 ##### Business Hypothesis Statement 08
 
-Nosotros creemos que un aumento del 80% en la confiabilidad percibida del control ambiental se logrará si la integración futura con sensores reales registra lecturas de forma periódica y las relaciona con cada envío.
+Nosotros creemos que la confiabilidad percibida del control ambiental aumentará si las lecturas se registran de forma periódica y se relacionan con cada envío.
 
-Sabremos que estamos en lo correcto cuando al menos el 80% de las empresas evaluadas perciba que los datos automáticos son más confiables que los registros manuales y permiten detectar patrones de riesgo durante el transporte.
+Sabremos que estamos en lo correcto cuando 4 de 5 usuarios indiquen que las lecturas automáticas o simuladas les generan mayor confianza que un registro manual aislado y les ayudan a detectar patrones de riesgo durante el transporte.
 
 
 #### 1.2.2.4. Lean UX Canvas
 
-| Seccion | Descripcion |
-| --- | --- |
-| Business Problem | Las empresas distribuidoras de alimentos tienen dificultades para controlar en tiempo real las condiciones de temperatura y humedad durante el transporte, lo que puede ocasionar perdidas economicas, deterioro de productos y problemas de calidad. |
-| Business Outcomes | Reducir perdidas de alimentos, mejorar la eficiencia logistica, aumentar la trazabilidad de los envios y fortalecer el control de calidad durante el transporte. |
-| Users | Empresas distribuidoras de alimentos, supervisores logisticos, personal de control de calidad y conductores encargados del traslado de productos. |
-| User Outcomes & Benefits | Los usuarios podran conocer el estado de los envios en tiempo real, recibir alertas ante condiciones criticas, actuar rapidamente y revisar historiales para mejorar sus procesos. |
-| Solutions | Aplicacion web ColdTrack conectada a sensores de temperatura y humedad, con monitoreo en tiempo real, alertas automaticas, visualizacion de datos e historial de envios. |
-| Hypotheses | Si las empresas utilizan ColdTrack para monitorear sus envios, entonces podran reducir riesgos de deterioro y tomar decisiones mas rapidas durante el transporte. |
-| What is the most important thing we need to learn first? | Validar si los usuarios consideran critico recibir alertas en tiempo real y si el historial de datos aporta valor para la supervision y control de calidad. |
-| What is the least amount of work we need to do to learn the next most important thing? | Crear un prototipo funcional con visualizacion de temperatura y humedad, alertas basicas y registro de un envio para probarlo con usuarios del sector logistico. |
+<p align="center">
+  <img src="images/LeanUXCanvas.png" alt="Lean UX Canvas v2 de ColdTrack" width="100%">
+</p>
 
 
 ## 1.3. Segmentos Objetivo
