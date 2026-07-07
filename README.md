@@ -1046,7 +1046,7 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Departamento** | Lima |
 | **Inicio del video** | 00:00 |
 | **Fin del video** | 03:58 |
-| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Link del video** | <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D> |
 | **Foto entrevista** | <img src="images/entrevista1-segmento1.png" alt=""  width="250" /> |
 | **Resumen** | **Principales respuestas:** Expresó su frustración por la falta de visibilidad en ruta, dependiendo del conductor para el reporte. Señaló que las fallas se detectan tarde, causando mermas. Sugirió que la solución debe tener alertas automáticas y ubicación del vehículo en tiempo real.<br><br>**Características Objetivas:** Mujer, 27 años, vive en Lima. Trabaja gestionando calidad con procesos manuales (Excel, termómetros digitales).<br><br>**Características Subjetivas:** Orientada al detalle, busca eficiencia y reducir el riesgo de errores humanos. Su mayor frustración es la ceguera operativa.<br><br>**Personalidad e Influencias:** Analítica, proactiva, influenciada por marcas de gestión logística moderna y optimización de procesos (ej. SAP, Microsoft).<br><br>**Tecnología y Dispositivos:** Alta adopción tecnológica. Usa laptop (Windows/Chrome) en oficina y Smartphone (iOS/Android) para comunicación constante.<br><br>**Canales de interacción:** Principalmente WhatsApp, correo corporativo y llamadas. Estos datos fundamentan el arquetipo de "Logística" enfocado en el control y centralización de datos. |
 
@@ -1058,7 +1058,7 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Departamento**        | Arequipa                                                           |
 | **Inicio del video**    | 03:59                                                              |
 | **Fin del video**       | 09:21                                                              |
-| **Link del video**      | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                                                               |
+| **Link del video**      | <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>                                                               |
 | **Foto entrevista**     | <img src="images/entrevista3_segmento3.png" alt=""  width="250" /> |
 | **Resumen** | **Principales respuestas:** Indicó que pierde productos 1 o 2 veces al mes por fallas de conectividad en su sistema in-house. Recalcó que es indispensable recibir alertas multicanal (App y WhatsApp) para reaccionar a tiempo y evitar pérdidas.<br><br>**Características Objetivas:** Hombre, 33 años, radicado en Arequipa. 5 años de experiencia, lidiando con rutas interprovinciales y problemas de cobertura.<br><br>**Características Subjetivas:** Pragmático y enfocado en resultados. Su meta es una respuesta rápida a contingencias, y le frustra la pérdida económica por fallas de señal.<br><br>**Personalidad e Influencias:** Resolutivo, adaptable. Influenciado por marcas de hardware robusto e IoT.<br><br>**Tecnología y Dispositivos:** Usuario intermedio-avanzado. Utiliza PC de escritorio (Chrome) en almacén y Smartphone en campo.<br><br>**Canales de interacción:** WhatsApp es su canal primordial para reportes rápidos, seguido de llamadas. Estos datos justifican la necesidad de notificaciones push y alertas multicanal en el arquetipo gerencial. |
 
@@ -1070,7 +1070,7 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Departamento** | Lima |
 | **Inicio del video** | 09:22 |
 | **Fin del video** | 15:11 |
-| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Link del video** | <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D> |
 | **Foto entrevista** | <img src="images/entrevista-segmento1-carlos.png" alt=""  width="250" /> |
 | **Resumen** | **Principales respuestas:** Manifestó que la falta de monitoreo centralizado incrementa el riesgo de retrasos y errores, dependiendo enteramente de reportes manuales. Concluyó que una solución ideal debe integrar geolocalización y trazabilidad desde el celular.<br><br>**Características Objetivas:** Hombre, 26 años, Jefe de Operaciones en Lima. Toma decisiones bajo presión y gestiona múltiples flotas.<br><br>**Características Subjetivas:** Estresado por la desconexión con sus unidades, motivado por optimizar procesos y reducir márgenes de error.<br><br>**Personalidad e Influencias:** Líder joven, digitalmente nativo, influenciado por plataformas SaaS de logística y startups de movilidad (ej. Uber Freight, Drivin).<br><br>**Tecnología y Dispositivos:** "Heavy user" de tecnología. Usa múltiples pantallas, Tablet y Smartphone (iOS). Browser principal: Google Chrome/Safari.<br><br>**Canales de interacción:** Redes sociales profesionales (LinkedIn), apps de mensajería corporativa y correo. Estos aportes definen el rasgo de "Búsqueda de eficiencia y trazabilidad" del User Persona 1. |
 
@@ -1084,7 +1084,7 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Departamento** | Lima |
 | **Inicio del video** | 15:12 |
 | **Fin del video** | 20:42 |
-| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Link del video** | <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D> |
 | **Foto entrevista** | <img src="images/entrevista1-segmento2.png" alt=""  width="250" /> |
 | **Resumen** | **Principales respuestas:** Explicó que los sistemas actuales en cabina no le dan alertas preventivas. Señaló que el clima y el tráfico afectan la mercadería. Solicitó explícitamente indicadores de colores y alertas sonoras para no distraerse.<br><br>**Características Objetivas:** Hombre, 30 años, Lima. Conductor de carga con 5 años de experiencia operando rutas exigentes.<br><br>**Características Subjetivas:** Siente presión y temor a ser culpado por mermas debido a fallas que no nota a tiempo. Busca seguridad operativa.<br><br>**Personalidad e Influencias:** Práctico, cuidadoso, acostumbrado al trabajo rudo. Influenciado por marcas automotrices y de transporte pesado (Volvo, Scania).<br><br>**Tecnología y Dispositivos:** Uso funcional de la tecnología. Maneja Smartphone (Android gama media). Browser: Google Chrome (uso básico).<br><br>**Canales de interacción:** Exclusivamente WhatsApp (notas de voz y mensajes rápidos) y llamadas telefónicas directas. Esta información fundamenta directamente el Arquetipo de "Transportista", que exige interfaces intuitivas, de baja fricción y alertas no intrusivas. |
 
@@ -1096,7 +1096,7 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Departamento**        | Lima                                                               |
 | **Inicio del video**    | 20:43                                                              |
 | **Fin del video**       | 22:53                                                              |
-| **Link del video**      | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                                                               |
+| **Link del video**      | <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>                                                               |
 | **Foto entrevista**     | <img src="images/entrevista2_segmento2.png" alt=""  width="250" /> |
 | **Resumen** | **Principales respuestas:** Relató que debe hacer paradas manuales para revisar la carga porque carece de información inmediata. Indicó que los cambios bruscos de temperatura y el tráfico son sus mayores retos.<br><br>**Características Objetivas:** Hombre, 51 años, Lima. Transportista con gran experiencia empírica. Se apoya 100% en navegación por GPS de terceros.<br><br>**Características Subjetivas:** Frustrado por las herramientas arcaicas; valora la simplicidad y rechaza aplicaciones complejas que interrumpan su conducción.<br><br>**Personalidad e Influencias:** Tradicional, responsable, rutinario. Confía en marcas clásicas de telefonía y repuestos vehiculares.<br><br>**Tecnología y Dispositivos:** Usuario básico. Usa Smartphone (Android) principalmente para herramientas vitales (Google Maps, Waze).<br><br>**Canales de interacción:** Llamadas telefónicas y WhatsApp (principalmente audio). Esto consolida la necesidad del Arquetipo 2 de contar con una app que opere en segundo plano de manera autónoma y requiera cero curva de aprendizaje. |
 
@@ -1517,7 +1517,7 @@ Sección de impacto operativo y enlaces de navegación secundaria.
   <img src="images/prototype_ss.jpg" alt="prototype-ss" width="85%"/>
 </p>
 
-#### Link del video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320699_upc_edu_pe/IQACBR9pDoCKSIpvd7NcFc3CAcul48K88RqMf49wIC2AbMA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ji22ya
+#### Link del video explicativo: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320699_upc_edu_pe/IQACBR9pDoCKSIpvd7NcFc3CAcul48K88RqMf49wIC2AbMA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ji22ya>
 
 ## 4.6. Domain-Driven Software Architecture
 En esta sección, el equipo profundiza en la arquitectura de software para la solución ColdTrack, tomando como base los hitos alcanzados durante el Big Picture Event Storming. 
@@ -3223,7 +3223,7 @@ Las entrevistas fueron planteadas como sesiones guiadas, donde cada participante
 | **Departamento** | Lima |
 | **Inicio del video** | 15:13 |
 | **Fin del video** | 20:40 |
-| **Link del video** | https://1drv.ms/v/c/466c954577703c8e/IQD08OoosNeVTpXvfWKiGIz-ARMSa0vKfloaK4arRjvux34?e=laJkWr |
+| **Link del video** | <https://1drv.ms/v/c/466c954577703c8e/IQD08OoosNeVTpXvfWKiGIz-ARMSa0vKfloaK4arRjvux34?e=laJkWr> |
 | **Foto entrevista** | <img src="images/entrevista1-segmento2.png" alt=""  width="250" /> |
 | **Resumen** | Edery Abanto, conductor de transporte de carga refrigerada de 30 años con 5 años de experiencia, encargado de trasladar productos perecibles como lácteos, embutidos y carnes frescas que requieren una cadena de frío estricta, actualmente monitorea la temperatura mediante un sistema integrado en la cabina que le permite visualizar el estado general sin detenerse, pero que no proporciona datos precisos, ni alertas preventivas, ni información en tiempo real compartible con la central. Considera que ColdTrack podría brindarle mayor seguridad operativa, facilitar la toma de decisiones durante la ruta y reducir significativamente el riesgo de pérdida de productos. |
 
@@ -3355,7 +3355,7 @@ La versión publicada del video mantiene coherencia con el tono del producto: co
 ### Video evidence
 
 **Microsoft Stream o SharePoint URL:**
-https://1drv.ms/v/c/466c954577703c8e/IQDBRgrAHfY5SZuIpmjrplS_AfoB8JxUMlgs1fC9S-F4XKc?e=4ikZuD
+<https://1drv.ms/v/c/466c954577703c8e/IQDBRgrAHfY5SZuIpmjrplS_AfoB8JxUMlgs1fC9S-F4XKc?e=4ikZuD>
 
 **YouTube URL:**
 https://youtu.be/uSd4PrDiAcs
@@ -3440,7 +3440,7 @@ Adicionalmente, este video fue incrustado en la sección **About the Team** del 
 
 Microsoft Stream URL:
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQDK3zANe96kTKttTEQVPc51AeFOEgs5dNd1qZa33zZqOjs?e=tx1J4F&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQDK3zANe96kTKttTEQVPc51AeFOEgs5dNd1qZa33zZqOjs?e=tx1J4F&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 ### Video publicado en YouTube
 
@@ -3536,7 +3536,7 @@ Video correspondiente a la primera exposición del proyecto, donde se presentó 
 
 Microsoft Stream URL:
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQD2U2NEzg8xSLo8XOF1COuCAWLFyQgeSYzqyomeXHynISo?e=Iq89WY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQD2U2NEzg8xSLo8XOF1COuCAWLFyQgeSYzqyomeXHynISo?e=Iq89WY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 ### TB1 (Trabajo Parcial / Trabajo Final Intermedio)
 
@@ -3544,7 +3544,7 @@ Video correspondiente a la exposición intermedia del proyecto, donde se present
 
 Microsoft Stream URL:
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBzHTo9GCR1RpI0WITzlzTLAdLiHay8hkvnxDjYvTBgo5E?e=3ZaFCc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBzHTo9GCR1RpI0WITzlzTLAdLiHay8hkvnxDjYvTBgo5E?e=3ZaFCc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 ### AV2 (Avance 2)
 
@@ -3552,7 +3552,7 @@ Video correspondiente a la exposición del segundo avance, donde se evidenció p
 
 Microsoft Stream URL:
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQDhwhrZnP6XTYKLr4AJchVxAe2WkJG6o9PUKwTbrZbFmC8?e=4rlZG5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQDhwhrZnP6XTYKLr4AJchVxAe2WkJG6o9PUKwTbrZbFmC8?e=4rlZG5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 ### TB2 (Trabajo Final / Release Review)
 
