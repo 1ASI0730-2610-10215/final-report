@@ -60,6 +60,7 @@
 | 3.9     | 19/06/2026 | Eslander Celis Berrospi   | Incorporación de la sección Video About-the-Team y actualización del Student Outcome. |
 | 3.10    | 19/06/2026 | Rodrigo Oblitas Alcalde   | Desarrollo y cierre de las entrevistas de validación del producto. |
 | 4.1     | 06/07/2026 | Aarón Avila Palacios      | Corrección del informe para la entrega TB2, actualización del registro de versiones, incorporación de evidencia de colaboración, ajuste del Student Outcome y alineación de secciones técnicas con el estado actual del proyecto. |
+| 4.2     | 07/07/2026 | Aarón Avila Palacios      | Finalización de secciones permitidas para TB2, actualización del Student Outcome, conclusiones, bibliografía, anexos y evidencias de cierre del Sprint 4. |
 
 
 
@@ -98,6 +99,8 @@ Además, se actualizaron las secciones de Student Outcome, conclusiones, recomen
 Para la entrega TB2 se revisó el informe completo con el objetivo de alinearlo con la rúbrica final del curso y con el estado actualizado de los artefactos desarrollados por el equipo. En esta etapa se consolidaron las correcciones documentales, la trazabilidad de versiones, la evidencia de colaboración y la consistencia entre la Landing Page, la Web Application, los Web Services y los despliegues realizados en Firebase, Render y Filess.io.
 
 La contribución del equipo se evidencia en la actividad del repositorio durante los últimos meses. Aarón Avila Palacios participó activamente en la revisión final del informe, actualización de evidencias técnicas, integración de cambios documentales y validación de la correspondencia entre el reporte y los productos digitales implementados. Esta evidencia permite sustentar la colaboración distribuida del equipo y el uso de control de versiones durante el cierre del proyecto.
+
+En esta entrega también se integraron correcciones de cierre relacionadas con la estructura del índice, el registro de versiones, el Student Outcome, las evidencias del Sprint 4, las conclusiones, la bibliografía y los anexos de exposición. El equipo mantuvo un flujo de trabajo basado en ramas de corrección, merges hacia `develop` y releases versionados para preservar trazabilidad. Las evidencias de colaboración muestran que el trabajo no se concentró en una sola intervención, sino que fue consolidado mediante aportes progresivos orientados a dejar el informe preparado para la revisión final de TB2.
 
 ![Participación de Git en TB2](./images/contributors-tb2.png)
 
@@ -294,24 +297,28 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
            <li><b>AV1:</b> Durante el desarrollo del proyecto, trabajé en equipo aportando ideas y asumiendo un rol activo en la organización de las actividades, contribuyendo al liderazgo compartido dentro del grupo. Participé en la toma de decisiones relacionadas con la definición de la startup, la problemática, los segmentos objetivos y la estructuración de los User Stories, Product Backlog e Impact Map. Además, mantuve una comunicación constante con mis compañeros, apoyando cuando era necesario y asegurando que todos estuviéramos alineados con los objetivos del proyecto.</li>
            <li><b>TB1:</b> En esta fase, asumí un rol activo organizando las tareas de desarrollo frontend. Promoví el liderazgo compartido guiando al equipo en la implementación del entorno de desarrollo y asegurando que las ramas de GitFlow se manejaran adecuadamente para la correcta integración continua de las vistas de la aplicación web.</li>
            <li><b>AV2:</b> Durante el Sprint 3 participé en el desarrollo del backend del sistema, contribuyendo en la implementación de servicios REST y la integración con la base de datos. Colaboré con el equipo en la validación de endpoints y en la integración con el frontend, asegurando la correcta comunicación entre módulos y apoyando la toma de decisiones técnicas para mantener una arquitectura consistente.</li>
+           <li><b>TB2:</b> Durante la entrega final contribuí en la revisión de la arquitectura documentada, la validación de los diagramas técnicos y la coherencia entre bounded contexts, componentes y servicios desplegados. También apoyé en la consolidación de evidencias técnicas para demostrar que la solución final mantiene separación de responsabilidades y trazabilidad entre diseño e implementación.</li>
          </ul>
          <b>Gabriel Mendoza Palacios</b>
          <ul>
            <li><b>AV1:</b> Durante el desarrollo del proyecto, asumí un rol proactivo enfocado en el liderazgo compartido, coordinando la ejecución del análisis de requerimientos. Participé activamente en la evaluación del mercado mediante el análisis competitivo, la estructuración de entrevistas y la consolidación del Needfinding de ColdTrack. Promoví el debate constructivo y el intercambio de ideas con mis compañeros para asegurar que nuestra propuesta técnica estuviera perfectamente alineada con las necesidades logísticas de los usuarios.</li>
            <li><b>TB1:</b> Durante el Sprint 2, lideré aspectos clave de la integración del diseño UI en los componentes de Vue.js. Mantuve una actitud proactiva, promoviendo sesiones de revisión de código (Pull Requests) para garantizar la calidad visual y técnica de las vistas antes de su integración a la rama principal.</li>
            <li><b>AV2:</b> En esta etapa del proyecto, asumí un rol técnico y colaborativo enfocado en el desarrollo del backend. Participé activamente en la implementación de uno de los Bounded Contexts (BC) fundamentales del sistema, encargándome del diseño y programación de sus respectivos endpoints. Promoví la comunicación constante con el resto del equipo de desarrollo para asegurar que la lógica de negocio estuviera correctamente desacoplada, cumpliendo con los estándares de arquitectura y garantizando una integración fluida de nuestras APIs.</li>
+           <li><b>TB2:</b> Para la entrega final participé en la revisión de entrevistas, validaciones y hallazgos de usuario, conectando la evidencia obtenida con las conclusiones del producto. Asimismo, colaboré en la revisión de secciones de análisis y en la alineación de recomendaciones finales con los resultados observados durante la validación.</li>
          </ul>
          <b>Rodrigo Oblitas</b>
          <ul>
            <li><b>AV1:</b> Durante el desarrollo del proyecto, asumí un rol activo en el trabajo en equipo, participando en la elaboración del Lean UX Process, incluyendo Problem Statement, Assumptions e Hypothesis, así como en el desarrollo de la Landing Page. Contribuí en la toma de decisiones y en la organización de las tareas, promoviendo la colaboración entre los integrantes y asegurando que el equipo avance de manera alineada hacia los objetivos establecidos.</li>
            <li><b>TB1:</b> Mantuve mi compromiso con el trabajo colaborativo asumiendo el liderazgo en la implementación de la autenticación y la gestión de envíos. Facilité la comunicación entre los miembros del equipo para resolver bloqueos técnicos, asegurando un progreso constante hacia el cumplimiento del Sprint Goal de desarrollo frontend.</li>
            <li><b>AV2:</b> Participé en la validación final del producto mediante el desarrollo y cierre de las entrevistas de validación, organizando la información obtenida de los usuarios y relacionándola con las oportunidades de mejora de la experiencia. Además, contribuí en el diseño y revisión de los flujos principales de la aplicación, asegurando que la presentación del producto, las evidencias y la documentación reflejaran de manera clara las necesidades detectadas durante la entrega.</li>
+           <li><b>TB2:</b> Durante la entrega final lideré la revisión de consistencia del informe, apoyé la corrección de secciones previamente observadas y colaboré en la preparación de la sustentación final. Mi participación permitió organizar las correcciones del reporte y mantener una visión integrada entre producto, documentación y evidencias de despliegue.</li>
          </ul>
          <b>Mathias Arechaga</b>
          <ul>
            <li><b>AV1:</b> Durante el proyecto, participé activamente en el desarrollo de artefactos de diseño centrados en el usuario, como User Personas, User Journey Mapping y prototipos de la aplicación. Colaboré en la coordinación de tareas relacionadas con el diseño y la experiencia de usuario, aportando ideas y apoyando al equipo para mantener una organización eficiente y un liderazgo compartido en el desarrollo del proyecto.</li>
            <li><b>TB1:</b> Durante el desarrollo del Sprint 2, aporté liderazgo en el diseño e implementación del dashboard y los componentes interactivos. Coordiné la transformación de nuestros wireframes previos en interfaces funcionales, asegurando que el producto final cumpliera con la experiencia de usuario proyectada.</li>
            <li><b>AV2:</b> Durante el desarrollo del Sprint 3, Colaboré en el desarrollo del sprint backlog 3 y la implementación de los Services Documentation Evidence for Sprint Review.</li>
+           <li><b>TB2:</b> Para el cierre del proyecto contribuí en la revisión de artefactos de diseño, diagramas y evidencias visuales del producto. Además, colaboré en la verificación de que las capturas incluidas en el informe representen correctamente los flujos finales de la aplicación y su relación con el diseño planteado.</li>
          </ul>
         </td>
         <td>
@@ -341,24 +348,28 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
            <li><b>AV1:</b> Contribuí a crear un entorno colaborativo e inclusivo al respetar las ideas de cada integrante y fomentar la participación de todos. Ayudé a establecer metas claras y a planificar las tareas de manera organizada, distribuyendo responsabilidades de forma equitativa. Me aseguré de cumplir con mis entregables en los tiempos acordados, lo que permitió avanzar de manera constante y alcanzar los objetivos planteados como equipo.</li>
            <li><b>TB1:</b> Contribuí a la planificación ágil del Sprint 2 distribuyendo las historias de usuario de forma equitativa. Mantuve un ambiente colaborativo promoviendo reuniones breves de sincronización para identificar bloqueos a tiempo, lo que garantizó que todos lográramos completar nuestras tareas de programación en los plazos acordados.</li>
            <li><b>AV2:</b> Durante el Sprint 3 contribuí a la planificación y organización de tareas del backend, estableciendo acuerdos con el equipo para la distribución de módulos y objetivos del sprint. Mantuve una comunicación constante para resolver bloqueos, cumplir los plazos establecidos y asegurar la correcta integración de los servicios desarrollados, favoreciendo el cumplimiento de los objetivos del proyecto.</li>
+           <li><b>TB2:</b> En la entrega final participé en la coordinación de correcciones técnicas y documentales, revisando que los componentes de arquitectura y despliegue estuvieran descritos de forma consistente. Esta colaboración ayudó a mantener el orden del informe y a preparar evidencias alineadas con el producto final.</li>
          </ul>
          <b>Gabriel Mendoza Palacios</b>
          <ul>
            <li><b>AV1:</b> Fomenté un ambiente de trabajo integrador al mantener una actitud receptiva frente a las propuestas del equipo y comunicarme de manera clara y constante. Me encargué de estructurar mis responsabilidades con orden, cumpliendo estrictamente con los plazos establecidos para el desarrollo de mis asignaciones. Colaboré activamente en la planificación de nuestras metas a corto plazo, ayudando a resolver bloqueos técnicos y asegurando que avanzáramos en sintonía hacia el objetivo final del proyecto.</li>
            <li><b>TB1:</b> Durante esta fase, cumplí rigurosamente con mis objetivos de desarrollo de componentes visuales. Planifiqué mis commits y revisiones de forma estructurada, colaborando con los demás para integrar nuestras vistas sin generar conflictos en el repositorio, manteniendo siempre una comunicación respetuosa y resolutiva.</li>
            <li><b>AV2:</b> Durante el desarrollo del backend, me enfoqué en crear un entorno colaborativo e inclusivo, fomentando la participación activa y el intercambio de conocimientos entre todos los miembros del equipo. Para lograrlo, establecí metas claras y planifiqué las tareas necesarias para la implementación técnica de uno de los Bounded Contexts (BC) principales del sistema. Gracias a esta organización, logré desarrollar e integrar los endpoints correspondientes, cumpliendo con éxito los objetivos técnicos trazados para el sprint y asegurando que nuestra arquitectura backend mantuviera los estándares requeridos..</li>
+           <li><b>TB2:</b> Para TB2 colaboré con la revisión de hallazgos de validación y con la organización de conclusiones relacionadas con la experiencia de usuario. Mi participación permitió que el equipo conectara los resultados de entrevistas y heurísticas con recomendaciones concretas para el roadmap del producto.</li>
          </ul>
          <b>Rodrigo Oblitas</b>
          <ul>
            <li><b>AV1:</b> Contribuí a mantener un entorno colaborativo al participar activamente en la planificación del Lean UX Process y el desarrollo de la Landing Page. Organicé mis tareas de manera eficiente, cumpliendo con los plazos establecidos y apoyando en la coordinación del equipo para asegurar el cumplimiento de los objetivos propuestos.</li>
            <li><b>TB1:</b> Fomenté la colaboración activa asegurándome de que el trabajo en mis ramas de características (features) estuviera bien documentado y organizado. Cumplí con las metas de desarrollo asignadas y mantuve la disposición para ayudar a otros integrantes a conectar sus módulos, garantizando un avance uniforme del equipo.</li>
            <li><b>AV2:</b> Apoyé la coordinación de la entrega final mediante la preparación de entrevistas, el registro de hallazgos y la revisión de elementos de diseño relacionados con la validación del producto. Este trabajo permitió conectar la evidencia obtenida con los ajustes documentales del informe y reforzar la coherencia entre la propuesta visual, los flujos de usuario y las conclusiones de la validación.</li>
+           <li><b>TB2:</b> En la entrega final apoyé la planificación de tareas de cierre, la revisión de secciones corregidas y la validación de que el informe mantenga una estructura coherente con la rúbrica. También colaboré en la coordinación de evidencias necesarias para sustentar los productos digitales durante la exposición.</li>
          </ul>
          <b>Mathias Arechaga</b>
          <ul>
            <li><b>AV1:</b> Apoyé en la creación de un entorno colaborativo mediante el desarrollo organizado de los entregables de diseño, como wireframes, mock-ups y prototipos. Planifiqué mis actividades de manera estructurada y cumplí con los tiempos establecidos, contribuyendo a que el equipo avance de forma constante y alineada con las metas del proyecto.</li>
            <li><b>TB1:</b> Apoyé la colaboración del equipo cumpliendo puntualmente con mis tareas en la creación de las vistas interactivas. Al planificar mis actividades de desarrollo frontend en fases claras, logré no solo alcanzar mis metas individuales sino también facilitar el proceso de integración continua con el resto del equipo, fortaleciendo el cumplimiento del Sprint Goal.</li>
            <li><b>AV2:</b> Durante el sprint 3, realice mis objetivos de desarrollo del sprint backlog 3 y fomenté la activa colaboración en equipo.</li> 
+           <li><b>TB2:</b> Durante TB2 apoyé en la revisión visual y técnica de evidencias finales, verificando que los artefactos de diseño, capturas y diagramas se relacionen con los flujos implementados. Esta participación contribuyó a presentar una documentación más clara y coherente para la entrega final.</li>
          </ul>
         </td>
         <td>
@@ -2791,7 +2802,7 @@ En conjunto, la evidencia recopilada en el repositorio demuestra que el equipo m
 
 ### 5.2.4. Sprint 4
 
-En esta sección se documentará el trabajo correspondiente al Sprint 4 de ColdTrack. El apartado queda preparado para registrar la planificación, responsables, backlog, evidencias de desarrollo, ejecución, documentación de servicios, despliegue y colaboración del equipo durante la iteración.
+En esta sección se documenta el trabajo correspondiente al Sprint 4 de ColdTrack, orientado al cierre de la entrega final TB2. Durante esta iteración el equipo concentró sus esfuerzos en la estabilización del producto, la verificación de despliegues, la organización de evidencias finales, la corrección de secciones del informe y la alineación de los artefactos con la rúbrica del curso. El Sprint 4 no incorporó un cambio mayor de alcance funcional, sino que consolidó la solución integrada como producto final demostrable.
 
 #### 5.2.4.1. Sprint Planning 4
 
@@ -2812,6 +2823,8 @@ En esta matriz, `L` representa al líder del aspecto y `C` representa a los cola
 | Arechaga Saavedra, Mathias | MathZell | C | C | L | C | C |
 
 La asignación de liderazgo refleja la actividad del repositorio en esta etapa de cierre documental: Rodrigo lideró la integración general del reporte, la resolución de hotfixes mediante merges y ajustes en Lean UX y heurísticas. Eslander asumió el liderazgo en la documentación de la arquitectura de software (diagramas de contenedores) y secciones de anexos. Mathias lideró el refinamiento de los artefactos de Domain-Driven Design (Big Picture EventStorming, diagrama de componentes). Gabriel se enfocó en el análisis de entrevistas y la actualización de contextos, mientras que Aarón lideró la trazabilidad de historias de usuario y la alineación de las evidencias del sprint con la rúbrica final. Todos colaboraron aportando al cumplimiento de los Student Outcomes.
+
+Para mantener la responsabilidad compartida, las correcciones se organizaron en ramas específicas y fueron revisadas antes de integrarse a `develop`. Esta dinámica permitió que los líderes de cada aspecto validaran su contenido sin bloquear el avance de los demás, reforzando el enfoque colaborativo requerido para la entrega final.
 
 #### 5.2.4.3. Sprint Backlog 4
 
@@ -2976,6 +2989,8 @@ El Network Graph correspondiente al Sprint 4 muestra un flujo de trabajo enfocad
 <p>
 En conjunto, la evidencia recopilada demuestra que el equipo mantuvo una dinámica de trabajo constante y bien distribuida para cumplir con las fechas de entrega del último sprint. La consolidación exitosa de los diagramas, anexos y evidencias del proyecto sugiere un alto nivel de madurez en la organización para preparar la presentación de cierre. Estos analíticos confirman que, durante el Sprint 4, los miembros del equipo participaron efectivamente cumpliendo con el principio de trabajo colaborativo.
 </p>
+
+Durante el cierre de TB2 se aplicó el mismo criterio de control de versiones utilizado durante el desarrollo del producto: cada corrección se aisló en una rama funcional o de mantenimiento, se validó localmente y luego se integró a `develop`. Esta práctica permitió mantener un historial verificable de cambios, separar responsabilidades y reducir el riesgo de sobrescribir aportes de otros integrantes. La actividad del repositorio también evidencia la relación directa entre las acciones realizadas, los releases publicados y las secciones actualizadas del informe.
 
 ## 5.3. Validation Interviews
 
@@ -3214,6 +3229,11 @@ El video muestra el vínculo entre la propuesta comunicada en la Landing Page y 
 | Value proposition | Monitoreo centralizado, alertas oportunas, trazabilidad e historial de envíos. |
 | Landing Page | Presentación de la startup, beneficios y acceso a la aplicación. |
 | Web Application | Demostración de envíos, sensores, lecturas, alertas, historial y reportes. |
+| Positive user testimony | Comentario de validación que destaca la utilidad del monitoreo centralizado y la reducción de registros manuales. |
+
+El testimonio positivo considerado para el video se relaciona con la validación del producto realizada con usuarios de los segmentos objetivo. En las entrevistas se resaltó que ColdTrack aporta valor porque concentra en una sola plataforma la información de envíos, sensores, alertas e historial, reduciendo la dependencia de verificaciones manuales y facilitando la toma de decisiones frente a desviaciones de temperatura o humedad.
+
+La versión publicada del video mantiene coherencia con el tono del producto: comunicación clara, orientada a logística y enfocada en beneficios operativos. Además, vincula la Landing Page con la Web Application y muestra la solución desplegada como parte de un ecosistema compuesto por frontend, backend y persistencia remota.
 
 ### Video evidence
 
@@ -3235,17 +3255,21 @@ https://youtu.be/uSd4PrDiAcs
 
 Como equipo, concluimos que ColdTrack responde a una problemática real dentro de la cadena de frío: la falta de visibilidad oportuna sobre las condiciones de temperatura y humedad durante el transporte de productos sensibles. A partir de los Problem Statements definidos en Lean UX, confirmamos que los usuarios vinculados a logística, control de calidad y transporte necesitan una herramienta centralizada que reduzca la dependencia de controles manuales, permita reaccionar ante incidencias y facilite la trazabilidad de cada envío.
 
-En relación con los assumptions planteados, validamos que los segmentos objetivo valoran especialmente la supervisión en tiempo real, el registro histórico de envíos y las alertas visibles ante condiciones fuera de rango. Si bien inicialmente asumimos que la principal necesidad era solo registrar datos de temperatura, el desarrollo del producto nos permitió observar que el valor percibido aumenta cuando el sistema también organiza conductores, sensores, estados de envío, historial y evidencias operativas en una sola interfaz. Esto refuerza la importancia de diseñar ColdTrack como una plataforma de gestión y no únicamente como un panel de lectura de sensores.
+En relación con los assumptions planteados, validamos que los segmentos objetivo valoran especialmente la supervisión centralizada, el registro histórico de envíos, la disponibilidad de alertas visibles y la posibilidad de conservar evidencia operativa. Inicialmente asumimos que el problema principal se concentraba en registrar datos de temperatura; sin embargo, el desarrollo y las validaciones mostraron que el valor percibido aumenta cuando el sistema integra conductores, sensores, estados de envío, alertas, historial y reportes en una sola experiencia. Esto confirmó que ColdTrack debía construirse como una plataforma de gestión de cadena de frío y no únicamente como un visor de lecturas.
 
-Respecto a los Hypothesis Statements, consideramos que los avances de los Sprints 2 y 3 respaldan la hipótesis de que una aplicación web con autenticación, dashboard, registro de envíos, gestión de sensores, telemetría, alertas e historial puede mejorar el control operativo de la cadena de frío. Los criterios de éxito definidos en el proceso Lean UX se contrastaron mediante la implementación y validación funcional de los flujos principales: ingreso a la aplicación, creación y seguimiento de envíos, consulta de sensores y lecturas, actualización de estados, generación de alertas y revisión del historial. Aunque todavía se requiere una validación más profunda con usuarios reales, la evidencia obtenida demuestra que el producto ya cuenta con una base funcional e integrada para futuras iteraciones.
+Respecto a los Hypothesis Statements, la implementación de los productos digitales permitió contrastar varias hipótesis del proceso Lean UX. La Landing Page comunicó la propuesta de valor y dirigió a los usuarios hacia la Web Application; el frontend permitió ejecutar los flujos principales de operación; y el backend aportó persistencia, autenticación, reglas de negocio y documentación de servicios. Los criterios de éxito se verificaron mediante el inicio de sesión, creación y consulta de envíos, gestión de sensores, registro de telemetría, generación de alertas, actualización de estado, historial de envíos completados y exportación de reportes.
 
-También concluimos que la integración entre landing page, Web Application y Web Services fue clave para presentar una experiencia completa del modelo de negocio digital. La landing page comunica la propuesta de valor, mientras que la aplicación desplegada en Firebase evidencia el funcionamiento operativo de ColdTrack. En AV2 se reemplazó la dependencia principal de MockAPI por una API REST desarrollada con ASP.NET Core, protegida con autenticación JWT y desplegada en Render. La persistencia en MySQL permitió conservar usuarios, envíos, sensores, lecturas y alertas, con lo cual la solución dejó de depender de datos exclusivamente simulados y se aproximó a un escenario operativo real.
+El desarrollo por sprints permitió madurar progresivamente la solución. En el Sprint 1 se presentó la Landing Page y la base comunicacional del modelo de negocio. En el Sprint 2 se construyó la primera Web Application funcional con vistas principales e internacionalización. En el Sprint 3 se integró el backend RESTful con MySQL, Swagger, autenticación JWT, alertas, telemetría y reportes. Finalmente, en el Sprint 4 se consolidaron evidencias finales, despliegues, releases y correcciones documentales para dejar la solución preparada para la entrega TB2.
 
-La integración alcanzada en el Sprint 3 también permitió comprobar que la separación del backend en bounded contexts facilita distribuir responsabilidades y evolucionar las capacidades de negocio sin concentrar toda la lógica en un solo módulo. El uso de Swagger/OpenAPI hizo posible verificar los contratos de los endpoints antes de conectarlos al frontend, mientras que GitFlow y los releases versionados aportaron trazabilidad sobre los incrementos incorporados. Como equipo, reconocemos que estas decisiones redujeron el riesgo de integración y facilitaron que todos los integrantes comprendieran y probaran el flujo completo del producto.
+También concluimos que la separación entre Landing Page, Web Application y Web Services fue fundamental para presentar una solución distribuida y coherente con el curso. La Landing Page comunica el valor de FreshGuard y ColdTrack; la aplicación desplegada en Firebase evidencia la operación del sistema; y la API desplegada en Render, conectada a MySQL en Filess.io, demuestra que la solución ya no depende de datos puramente simulados. Esta arquitectura facilita la evolución independiente de cada producto digital y permite sostener futuras mejoras sin romper los contratos existentes.
 
-Como recomendaciones para los siguientes pasos del roadmap, proponemos priorizar la conexión con sensores reales o simuladores más cercanos al contexto operativo, completar la autorización por roles, incorporar comunicación en tiempo real para telemetría y alertas, y mejorar los reportes exportables para supervisores. También recomendamos automatizar pruebas y despliegues mediante integración continua, incorporar observabilidad y copias de seguridad, y ejecutar pruebas de seguridad, rendimiento y resiliencia sobre el backend y la base de datos.
+La aplicación de Domain-Driven Design aportó claridad para organizar el backend en bounded contexts relacionados con identidad y acceso, gestión de envíos, telemetría, alertas, analítica y reportes. Esta separación ayudó a distribuir responsabilidades entre integrantes, mejorar la trazabilidad de servicios y evitar que la lógica de negocio quedara concentrada en un único módulo. A nivel de gestión del proyecto, GitFlow, Conventional Commits y los releases versionados permitieron mantener evidencia verificable del trabajo colaborativo.
 
-Finalmente, recomendamos ampliar las Validation Interviews con empresas que gestionen productos refrigerados y definir métricas verificables, como tiempo de detección de incidencias, porcentaje de envíos dentro del rango permitido, reducción de registros manuales y facilidad de uso percibida. Estos resultados deberán compararse con los criterios de éxito de Lean UX para priorizar el siguiente incremento y evitar que las decisiones del roadmap se basen únicamente en supuestos técnicos del equipo.
+Como recomendaciones para el roadmap, proponemos priorizar la conexión con sensores reales o simuladores IoT más cercanos al contexto operativo, implementar autorización por roles con mayor granularidad, incorporar comunicación en tiempo real para telemetría y alertas, mejorar la visualización analítica con gráficos, y fortalecer la generación de reportes PDF con filtros por período, cliente, conductor o tipo de carga. También recomendamos incorporar notificaciones por correo o mensajería, copias de seguridad automáticas y observabilidad del backend.
+
+Desde la perspectiva de calidad, recomendamos automatizar pruebas unitarias, pruebas de integración y validaciones end-to-end sobre los flujos principales. Asimismo, sería conveniente incorporar integración continua para build, test y despliegue, pruebas de rendimiento sobre la API, revisión de seguridad de credenciales y validación de accesibilidad en la interfaz. Estas acciones permitirían preparar ColdTrack para un entorno operativo más exigente.
+
+Finalmente, recomendamos ampliar las Validation Interviews con empresas que gestionen productos refrigerados y definir métricas verificables, como tiempo de detección de incidencias, porcentaje de envíos dentro del rango permitido, reducción de registros manuales, tiempo de reacción ante alertas y facilidad de uso percibida. Estos indicadores deberán compararse con los criterios de éxito de Lean UX para priorizar los siguientes incrementos y evitar que el roadmap dependa únicamente de supuestos internos del equipo.
 
 ## Video About-the-Team
 
@@ -3297,7 +3321,7 @@ Adicionalmente, este video fue incrustado en la sección **About the Team** del 
 
 ### Video publicado en Microsoft Stream
 
-Microsoft Stream URL:  
+Microsoft Stream URL:
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQDK3zANe96kTKttTEQVPc51AeFOEgs5dNd1qZa33zZqOjs?e=tx1J4F&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
@@ -3313,6 +3337,8 @@ Amazon Web Services. (2026). *What is a RESTful API?* Recuperado el 19 de junio 
 
 Axios. (2026). *Axios documentation*. Recuperado el 13 de mayo de 2026, de https://axios-http.com/
 
+Driessen, V. (2010). *A successful Git branching model*. Recuperado el 7 de julio de 2026, de https://nvie.com/posts/a-successful-git-branching-model/
+
 Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley.
 
 Firebase. (2026). *Firebase Hosting documentation*. Recuperado el 13 de mayo de 2026, de https://firebase.google.com/docs/hosting
@@ -3321,11 +3347,15 @@ Filess.io. (2026). *Managed database hosting*. Recuperado el 19 de junio de 2026
 
 Fowler, M. (2004). *UML distilled: A brief guide to the standard object modeling language* (3rd ed.). Addison-Wesley.
 
+Fowler, M. (2014). *BoundedContext*. Recuperado el 7 de julio de 2026, de https://martinfowler.com/bliki/BoundedContext.html
+
 Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design patterns: Elements of reusable object-oriented software*. Addison-Wesley.
 
 GitHub Docs. (2026). *GitHub Pages documentation*. Recuperado el 13 de mayo de 2026, de https://docs.github.com/en/pages
 
 GitHub Docs. (2026). *Managing branches in your repository*. Recuperado el 19 de junio de 2026, de https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository
+
+Google. (2026). *Google HTML/CSS Style Guide*. Recuperado el 7 de julio de 2026, de https://google.github.io/styleguide/htmlcssguide.html
 
 Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3rd ed.). O'Reilly Media.
 
@@ -3337,7 +3367,11 @@ Microsoft. (2026). *ASP.NET Core documentation*. Recuperado el 19 de junio de 20
 
 Microsoft. (2026). *Authentication and authorization in ASP.NET Core*. Recuperado el 19 de junio de 2026, de https://learn.microsoft.com/aspnet/core/security/
 
+Microsoft. (2026). *C# coding conventions*. Recuperado el 7 de julio de 2026, de https://learn.microsoft.com/dotnet/csharp/fundamentals/coding-style/coding-conventions
+
 Microsoft. (2026). *Entity Framework Core documentation*. Recuperado el 19 de junio de 2026, de https://learn.microsoft.com/ef/core/
+
+Mozilla Developer Network. (2026). *JavaScript coding style guide*. Recuperado el 7 de julio de 2026, de https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript
 
 MockAPI. (2026). *MockAPI documentation*. Recuperado el 13 de mayo de 2026, de https://mockapi.io/docs
 
@@ -3353,15 +3387,25 @@ QuestPDF. (2026). *QuestPDF documentation*. Recuperado el 19 de junio de 2026, d
 
 Render. (2026). *Render documentation*. Recuperado el 19 de junio de 2026, de https://render.com/docs
 
+Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide*. Recuperado el 7 de julio de 2026, de https://scrumguides.org/scrum-guide.html
+
+SemVer. (2026). *Semantic Versioning 2.0.0*. Recuperado el 7 de julio de 2026, de https://semver.org/
+
+SmartBear. (2026). *Swagger documentation*. Recuperado el 7 de julio de 2026, de https://swagger.io/docs/
+
 Trello. (2026). *Trello guide*. Recuperado el 19 de junio de 2026, de https://trello.com/guide
 
 Vernon, V. (2013). *Implementing domain-driven design*. Addison-Wesley.
+
+Vue.js. (2026). *Style guide*. Recuperado el 7 de julio de 2026, de https://vuejs.org/style-guide/
 
 Vue I18n. (2026). *Vue I18n documentation*. Recuperado el 13 de mayo de 2026, de https://vue-i18n.intlify.dev/
 
 Vue.js. (2026). *Vue.js documentation*. Recuperado el 13 de mayo de 2026, de https://vuejs.org/
 
 Vite. (2026). *Vite documentation*. Recuperado el 13 de mayo de 2026, de https://vite.dev/
+
+W3C. (2026). *Web Content Accessibility Guidelines (WCAG) 2.2*. Recuperado el 7 de julio de 2026, de https://www.w3.org/TR/WCAG22/
 
 # Anexos
 
@@ -3373,7 +3417,7 @@ En esta sección se incluyen los videos de las exposiciones realizadas durante l
 
 Video correspondiente a la primera exposición del proyecto, donde se presentó la idea de negocio, problemática identificada, propuesta de solución y primeros avances en el diseño del sistema.
 
-Microsoft Stream URL:  
+Microsoft Stream URL:
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQD2U2NEzg8xSLo8XOF1COuCAWLFyQgeSYzqyomeXHynISo?e=Iq89WY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
@@ -3381,7 +3425,7 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQD2U2NE
 
 Video correspondiente a la exposición intermedia del proyecto, donde se presentaron los avances en el desarrollo de la Landing Page, frontend del sistema y validaciones funcionales del producto.
 
-Microsoft Stream URL:  
+Microsoft Stream URL:
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBzHTo9GCR1RpI0WITzlzTLAdLiHay8hkvnxDjYvTBgo5E?e=3ZaFCc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
@@ -3389,6 +3433,29 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBzHTo9
 
 Video correspondiente a la exposición del segundo avance, donde se evidenció principalmente el desarrollo del backend, integración de servicios, persistencia de datos y conexión entre frontend y backend.
 
-Microsoft Stream URL:  
+Microsoft Stream URL:
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQDhwhrZnP6XTYKLr4AJchVxAe2WkJG6o9PUKwTbrZbFmC8?e=4rlZG5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+### TB2 (Trabajo Final / Release Review)
+
+Video correspondiente a la exposición final del proyecto, donde se debe presentar la versión final de ColdTrack, las correcciones realizadas sobre los artefactos previos, la demostración de los productos desplegados y la evidencia de colaboración del equipo. Para esta entrega, el video debe cubrir la Landing Page, la Web Application, los Web Services, la persistencia en MySQL, los releases finales y los principales escenarios funcionales ejecutados sobre el entorno productivo.
+
+Microsoft Stream URL:
+
+Pendiente de incorporar el enlace final publicado por el equipo.
+
+Archivo esperado:
+
+`upc-pre-202610-1asi0730-10215-freshguard-expo-tb2.mp4`
+
+Contenido mínimo esperado para la exposición TB2:
+
+| Bloque | Contenido |
+|---|---|
+| Presentación del equipo | Integrantes, startup FreshGuard y producto ColdTrack. |
+| Problema y propuesta | Dolor de la cadena de frío, segmentos objetivo y propuesta de valor. |
+| Correcciones del ciclo de vida | Mejoras aplicadas sobre Lean UX, requirements, diseño, arquitectura, implementación y validación. |
+| Producto en operación | Demostración de Landing Page, Web Application, API en Render, Swagger y base de datos MySQL. |
+| Colaboración | Evidencia de commits, ramas, releases y participación de los integrantes. |
+| Cierre | Conclusiones, recomendaciones y roadmap del producto. |
